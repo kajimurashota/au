@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+.mgb8{margin-bottom:8px;}
+.v-m{vertical-align:middle;}
+.v-t{vertical-align:top;}
+/*########### キャンペーンページ専用 ###########*/
+body#campaign{
+	border-top:none;
+	padding:20px 0 ;
+}
+div#contents{
+	width:990px;
+	margin:0 auto;
+}
+#campaign div#contents div#mainContens{
+	background:#fff;
+	text-align:center;
+	padding-bottom:10px;
+}
+
+#campaign p.singer{width:640px;margin:5px auto 0;text-align:right;}
+#campaign div.movieArea{
+	width:786px;
+	margin:0 auto;
+	text-align:center;
+}
+#campaign div.movieArea h2{
+	font-size:200%;
+	font-weight:bold;
+	color:#d26ca0;
+	margin-bottom:20px;
+	text-align:center;
+	background:url(../cm_img/h2_bg.png) no-repeat;
+	width:786px;
+	height:42px;
+	padding:8px 0 0;
+	margin-top:40px;
+}
+#campaign div.movieArea div.cmBt{
+	width:660px;
+	margin:20px auto;
+}
+#campaign div.infoArea{
+	border:1px solid #d36ca1;
+	padding:20px 0;
+}
+#campaign div.infoArea div.bt{
+	padding:0 20px;
+}
+#campaign div.infoArea div.intentArea{
+	width:780px;
+	margin-top:20px;
+}
+#campaign div.infoArea div.intentArea div{
+	background:url(../cm_img/intent_box_body.png) no-repeat bottom;
+	padding:0 50px 50px;
+	text-align:left;
+}
+
+#campaign div.infoArea div.performerArea{
+	width:740px;
+	margin:30px auto;
+	text-align:left;
+}
+#campaign div.infoArea div.performerArea h3{
+	font-size:200%;
+	font-weight:bold;
+	color:#d26ca0;
+}
+#campaign div.infoArea div.performerArea div.txt{
+	width:446px;
+	padding:20px;
+	background:#fbf0f5;
+	float:right;
+	font-size:95%;
+}
+#campaign div.infoArea div.performerArea div.performerBox{
+	width:214px;
+}
+#campaign div.infoArea div.performerArea div.soroPerformerBox{
+	width:500px;
+}
+
+#campaign div.infoArea div.performerArea div.txt02{
+	margin-top:30px;
+	padding:20px;
+	background:#fbf0f5;
+	font-size:95%;
+}
+#campaign div.infoArea div.performerArea div.soroPerformerBox div.txt02{
+	margin-top:0;
+	margin-left:10px;
+	padding:20px;
+	background:#fbf0f5;
+	font-size:95%;
+}
+#campaign div.infoArea div.performerArea div.txt02 span.fs85{
+	font-size:85%;
+}
+#campaign div.infoArea div.performerArea p.name{
+	font-weight:bold;
+	font-size:115%;
+}
+
+#campaign div.infoArea div.makingArea{
+	width:740px;
+	margin:30px auto;
+	text-align:left;
+}
+#campaign div.infoArea div.makingArea h3{
+	font-size:200%;
+	font-weight:bold;
+	color:#d26ca0;
+}
+#campaign div.infoArea div.makingArea p{
+	margin:20px auto;
+	text-align:left;
+}
+
+#campaign div.bycleBt{
+	margin:50px auto;
+}
+
+div.originalBt{
+	margin:20px auto 0px;
+}
+
+div.originalBt2{
+	margin-bottom: 40px;
+}
+
+#campaign div.detail_box{
+	width:770px;
+	height:339px;
+	background:url(../cm_img/detail_box_bg.png) no-repeat;
+	margin:0 auto;
+	padding:25px 25px 5px;
+}
+#campaign div.detail_box p{
+	text-align:right;
+	margin-top:5px;
+}
+
+#campaign div.foot{
+	width:900px;
+	margin:0 auto;
+}
+
+#campaign div#footer{
+	padding:0;
+	background:none;
+}
+
+
+#snsBt{
+	width:430px;
+	margin:0 auto;
+	padding:50px 0;
+}

@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, 
+fieldset, input, textarea, p, blockquote, th, td{
+    margin: 0; 
+    padding: 0;
+}
+
+ol, ul{
+    list-style:none;
+}
+a img{border-style:none;}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	font-size:0;   
+	clear: both;
+	visibility:hidden;
+}
+.clearfix{
+	display: inline-block;
+}
+/* Hides from IE Mac */
+* html .clearfix{
+	height: 1%;
+}
+.clearfix{
+	display:block;
+}
+.fs12{
+	font-size:80%;
+}
+.fs14{
+	font-size:14px;
+}
+.fs16{
+	font-size:16px;
+}
+.fs18{
+	font-size:16px;
+}
+.fs20{
+	font-size:20px;
+}
+.fs24{
+	font-size:1.4em;
+}
+.fs30{
+	font-size:1.4em;
+}
+.orange{
+	color:#eb5505;
+}
+.orange2{
+	color:#eb5505;
+}
+.gray{
+	color:#858585;
+}
+.bold{
+	font-weight:bold;
+}
+.border-bottom{
+	border-bottom:2px solid #ea5504;
+}
+.mt10{
+	margin-top:10px;
+}
+.mb10{
+	margin-bottom:10px;
+}
+.text_center{
+	text-align:center;
+}
+.sp_nav_menu{
+	display:block;
+}
+body{
+	background-color:#FFFFFF!important;
+}
+#header_new{
+	display:none!important;
+}
+#header_low{
+	display:none!important;	
+}
+#footer {
+	display: inherit;
+}
+#contents_wrapper{
+	
+  margin-top:100px;	
+	}
+h1{
+	width:980px;
+	margin:0 auto;
+	font-size:10px;
+	color:#858585;	
+	display:none;
+}
+.pankuzu{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-left:10px;
+	padding-right:10px;	
+	display:none;
+}
+.bread_crumb{
+	margin-top:50px;
+}
+#page_contents{
+	color:#000000;
+}
+#page_contents .maintitle_bg{
+	display:none;
+}
+#page_contents .main_sp{
+	width:100%;
+	display:block;
+	margin-top:-100px;
+}
+#page_contents .main_sp img{
+	width:100%;
+}
+#page_contents .main_sp .present{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#page_contents .main_sp .text{
+	font-size:1.2em;
+	font-weight:bold;
+	background-color:#FFF!important;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:15px;
+	margin-top:15px;
+	padding-left:1em;
+	padding-right:1em;
+	border:solid 2px ;
+	color:#ea5504!important;
+}
+#page_contents .main_sp ul{
+	width:95%;
+	margin:0 auto;
+	margin-bottom:10px;
+	padding-top:10px;
+}
+#page_contents .main_sp li{
+	margin-bottom:10px;
+}
+#page_contents .main_sp li a{
+	color:#000000;
+	text-decoration:underline;
+}
+
+.block_case.wide ul li.pc_width_308{
+	width:auto;
+	margin-bottom:5px;
+}
+.point_4,
+.point_4 li{
+	font-size:13px;
+}
+
+.approvalInsurance {
+	font-size:10px;
+}
+
+.block_agreement {
+	padding-bottom:15px;
+}
+
+ul.bread_crumb {
+	margin-bottom:10px;
+}
+#sports_point4 {
+	margin-left:0;
+}
+
+.block_top_text {
+	padding:0;
+	margin:10px;
+}
+
+.block_top_text .top_info li a:hover {
+	text-decoration:underline;
+}
+
+.service_leisure_title {
+	margin-top:60px;
+}
+
+.marginL_8{
+margin-left:8px;
+}
+
+#header_new{
+	display:none!important;
+}
+h1{
+	width:980px;
+	margin:0 auto;
+	font-size:10px;
+	color:#858585;	
+	display:none;
+}
+
+#page_contents .maintitle_bg{
+	display:none;
+}
+
+#page_contents .main_sp{
+	width:100%;
+	display:block;
+	margin-top:-100px;
+}
+#page_contents .main_sp img{
+	width:100%;
+}
+#page_contents .main_sp .present{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#page_contents .main_sp .text{
+	font-size:1.2em;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	background-color:#ea5504;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:1px;
+	padding-left:1em;
+	padding-right:1em;
+}
+#page_contents .main_sp ul{
+	width:95%;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+#page_contents .main_sp li{
+	margin-bottom:10px;
+}
+#page_contents .main_sp li a{
+	color:#000000;
+	text-decoration:underline;
+}
+
+#page_contents .hoshou #hoshou3 .left{
+	float:none;
+	width:100%;
+	text-align:center;
+}
+#page_contents .hoshou #hoshou3 .left img{
+	width:70%;
+}
+#page_contents .hoshou #hoshou3 .right{
+	float:none;
+	width:100%;
+	margin-bottom:30px;
+	margin-top:20px;
+}
+#page_contents .hoshou #hoshou3 .right .check{
+	margin-top:10px;
+	clear:both;
+}
+#page_contents .hoshou #hoshou3 .right .check img{
+	float:left;
+	margin-bottom:1em;
+	margin-right:0.8em;
+	margin-top:0.5em;
+}
+
+.point_flow_text{
+	
+	margin: 0 auto 10px auto;
+text-align:left;
+	
+	}
+	
+.block_lower_narrow_space a{
+	
+text-decoration:underline;
+	
+} 
+
+
+.itemSports .block_number_bx dd{
+	
+padding:5px 0 5px 0;
+height:auto;
+	}
+	
+.itemSports	.point4 .block_number_bx dd{
+	
+padding:5px 0 0 0;	
+	
+	}
+	
+.itemSports .point_lower_block{
+	
+	padding-top:20px!important;
+	
+	}
+	
+.itemSports .service_leisure_title{
+	
+	margin-top:20px!important;	
+	
+	}
+	
+.itemSports	.block_flow {padding:20px 0px 0px;}
+.br_sp{
+	display:block;
+}
+.br_pc{
+	display:none;
+}

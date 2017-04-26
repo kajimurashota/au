@@ -1,0 +1,91 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+ol, ul { list-style: none; }
+a img { border-style: none; }
+.clearfix:after { content: "."; display: block; height: 0; font-size: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+/* Hides from IE Mac */
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+.fs12 { font-size: 12px; }
+.fs14 { font-size: 14px; }
+.fs16 { font-size: 16px; }
+.fs18 { font-size: 18px; }
+.fs20 { font-size: 20px; }
+.fs24 { font-size: 1.4em; }
+.fs30 { font-size: 1.4em; }
+.orange { color: #ea5504; }
+.orange2 { color: #ea5504; }
+.gray { color: #858585; }
+.bold { font-weight: bold; }
+.border-bottom { border-bottom: 2px solid #ea5504; }
+.mt10 { margin-top: 10px; }
+.mb10 { margin-bottom: 10px; }
+.text_center { text-align: center; }
+.sp_nav_menu { display: block; }
+body { background-color: #FFFFFF!important; }
+#header_new { display: none!important; }
+#header_low { display: none!important; }
+h1 { width: 980px; margin: 0 auto; font-size: 10px; color: #858585; display: none; }
+.pankuzu { max-width: 980px; margin: 0px auto; padding-left: 10px; padding-right: 10px; display: none; }
+.bread_crumb { margin-top: 50px; }
+#page_contents { color: #000000; }
+#page_contents .maintitle_bg { display: none; }
+.sp-br { display: block; }
+.pc-br { display: inline; }
+#contents_wrapper{
+	
+  margin-top:100px;	
+	}
+.pc{display:none;}
+.sp{display:block;}
+/*********************
+タグライン
+*********************/
+/* mainVis */
+#page_contents .maintitle_bg { display: none; }
+#page_contents .main_sp { width: 100%; display: block; margin-top: -100px; position: relative; border-left: #ea5504 solid 2px; border-right: #ea5504 solid 2px; box-sizing:border-box;}
+#page_contents .main_sp img { width: 100%; }
+#page_contents .main_sp h2 { width: 50%; position: absolute; top: 20%; left: 0px; }
+/* box01 */
+#page_contents #box01 { max-width: 900px; margin: 0 auto; border: #ea5504 solid 2px; border-top:none; position: relative; padding: 10px 0px; text-align: center !important; }
+#page_contents #box01 .title { color: #ea5504; font-size: 15px; margin-bottom: 20px; line-height: 32px; letter-spacing: 0.5px; font-family: 'Noto Sans Japanese', sans-serif; font-weight: 500; }
+/* box02 */
+#page_contents #box02 { width: 100%; background-color: #fef5ed; position: relative; margin-top: 20px; padding: 30px 0px 50px; text-align: center !important; }
+#page_contents #box02 .title { max-width: 980px; font-size: 18px; letter-spacing: 0.5px; margin: 0px; padding: 5px 0px; border-top: #ea5504 solid 2px; border-bottom: #ea5504 solid 2px; font-family: 'Noto Sans Japanese', sans-serif; font-weight: 600; }
+#page_contents #box02 .text01 { width: 90%; font-size: 16px; line-height: 26px; letter-spacing: 2px; margin: 20px auto 30px; text-align: center; }
+#page_contents #box02 .text02 { width: 90%; font-size: 16px; line-height: 26px; letter-spacing: 2px; margin: 20px auto; text-align: left; }
+#page_contents #box02 .img01 { width: 85%; margin: 0 auto; }
+/* box02 inlineBox */
+#page_contents #box02 .inlineBox { width: 90%; margin: 0px auto; }
+#page_contents #box02 .inlineBox .inlineBoxInner { width: 100%; height: auto!important; float: none; margin-top: -2px; background-color: #fff; border: #ea5504 solid 2px; }
+#page_contents #box02 .inlineBox .inlineBoxInner04{padding-top:5%; padding-bottom:8%;}
+#page_contents #box02 .inlineBox .inlineBoxInner .ibiTitle { font-size: 16px; font-weight: bold; color: #e9561e; padding: 20px 0px; }
+#page_contents #box02 .inlineBox .inlineBoxInner .ibiImg { width: 40%; height: auto!important; margin: 0px auto; }
+#page_contents #box02 .inlineBox .inlineBoxInner .ibiImg02 { width: 55%; height: auto; margin: 0px auto; }
+#page_contents #box02 .inlineBox .inlineBoxInner .ibiText { padding: 8%; font-size: 14px; text-align: left; }
+#page_contents #box02 .inlineBox .inlineBoxInner04 .ibiText { padding-bottom:4%;}
+/* box03 */
+#page_contents #box03 { width: 100%; position: relative; margin: 30px auto 30px; text-align: center !important; }
+#page_contents #box03 .title { max-width: 980px; margin: 0px auto; font-size: 18px; letter-spacing: 0px; margin-bottom: 0px; padding: 10px 0px; border-top: #ea5504 solid 2px; border-bottom: #ea5504 solid 2px; font-family: 'Noto Sans Japanese', sans-serif; font-weight: 600; }
+/* box03 jitensya */
+#page_contents #box03 .jitensya { max-width: 900px; margin: 15px auto 10px; padding: 10px; border: #ea5504 solid 1px; }
+#page_contents #box03 .jitensya .img01 { width: 100%; margin: 0px auto; float: none; vertical-align: middle; }
+#page_contents #box03 .jitensya .text01 { width: 100%; margin-left: 0%; padding: 20px 0px; float: none; font-size: 14px; font-weight: bold; color: #ea5504; text-align: left; }
+/* box03 jitensyaGps */
+#page_contents #box03 .jitensyaGps { max-width: 900px; margin: 0px auto; padding: 20px 15px; position: relative; background-color: #f8f8f9; }
+#page_contents #box03 .jitensyaGps .img01 { width: 100%; margin: 0px auto; float: none; vertical-align: middle; }
+#page_contents #box03 .jitensyaGps .text01 { width: 100%; margin: 30px 0px 10px; float: none; font-size: 16px; font-weight: bold; color: #000; text-align: left; }
+#page_contents #box03 .jitensyaGps .text02 { width: 100%; margin: 0%; float: none; font-size: 14px; text-align: left; }
+/* box03 jitensyaCap */
+#page_contents #box03 .jitensyaCap { width: 90%; margin: 0px auto; }
+#page_contents #box03 .jitensyaCap .text01 { margin: 30px auto 10px; font-size: 14px; text-align: left; }
+#page_contents #box03 .jitensyaCap .text02 { clear: both; padding: 30px 0px 0px; font-size: 16px; text-align: center; letter-spacing: 3px; text-align: center; font-family: 'Noto Sans Japanese', sans-serif; font-weight: 500; }
+/* box03 jitensyaCapS */
+#page_contents #box03 .text03 { display: block; width: 100%; margin: 2% 0%; float: left; font-size: 12px; text-align: left; }
+#page_contents #box03 .text03 .text03cap { width: 10%; display: block; float: left; font-size: 12px; }
+#page_contents #box03 .text03 .text03capTxt { width: 88%; display: block; float: left; font-size: 12px; }
+/* btn */
+#page_contents .btn { width: 100%; text-align: center; float: right; padding-top: 20px; padding-bottom: 10px; }
+#page_contents .btn a { width: 85%; text-align: center; background-color: #000; border-radius: 5px; padding: 0.5em 1em 0.5em 2em; color: #FFFFFF; font-size: 14px; display: inline-block; text-decoration: none; font-weight: bold; }
+#page_contents .btn a:hover { filter: alpha(opacity=70); opacity: 0.7; -moz-opacity: 0.7; }

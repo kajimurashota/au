@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document for SP*/
+
+/*ALL*************************/
+body{background-color:#141414;font-size:100%;line-height:140%;}
+
+.section{margin:0;}
+.contact{margin:1em 0;}
+.totop{text-align:right;margin:1em 3%;}
+.copy{color:#666;margin-top:1em;text-align:center;font-size:85%;}
+#main{margin:0;}
+
+/*SECTION*************************/
+
+/*header*/
+#header{
+	padding:0;
+	background-color:#141414;
+}
+
+#header h1{
+	margin:0 0 1.5em;
+}
+
+#header h1 img{
+	width:auto;
+	max-width:100%;
+	display:block;
+	margin:40px auto 0;
+}
+
+/*section*/
+
+.section p{
+	margin:0;
+}
+
+#sec1,#sec2,#sec3,#sec4{
+	position:relative;
+}
+
+.btn_reason{
+	background-color:#fff;
+	position:absolute;
+	bottom:10.5%;
+	width:87.5%;
+	left:6.25%;
+}
+
+.btn_detail{
+	background-color:#fff;	
+	position:absolute;
+	left:6.25%;
+	width:87.5%;
+	margin:0 auto;
+}
+
+.btn_reason a:hover img,.btn_detail a:hover img{
+	opacity:0.7;
+}
+
+#sec2 .btn_detail{
+	bottom:8.5%;
+}
+
+#sec3 .btn_detail{
+	bottom:15%;
+}
+
+.totop a img{
+	width:30%;
+	margin:2em 0 2em auto;
+}
+
+#sec1 .totop a img,#sec3 .totop a img{
+	width:30%;
+	margin:0 0 2em auto;
+}
+
+
+/*footer*/
+#footer{
+	padding:1em 3%;
+	background-color:#000;
+}
+#footer p{
+	margin-bottom:0;
+	color:#fff;
+	font-weight:normal;
+	clear:both;
+}
+
+#footer_logo {
+	float: right;
+margin: 1em 0px 1em 0px !important;;
+font-size: 80%;
+text-align: right;
+line-height: 80%;
+}
+
+#footer_logo img {
+	width:60%;	
+	display:inline !important;
+	/*margin-bottom:0.5em;*/
+}
+
+
+/*popup*/
+#POPUPWIN {
+	background-color:#221815;
+}
+#POPUPWIN img{
+	width:100%;
+}
+#POPUPWIN p{
+	margin:0;
+}
+#POPUPWIN .popclose{
+	text-align:center;
+	padding:0em 6% 2em 6%;
+}

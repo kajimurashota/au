@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+/*----------------------------------------
+	Popup
+----------------------------------------*/
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:#202020;
+	filter:alpha(opacity=75);
+	opacity: 0.75;
+}
+* html div#glayLayer{
+	position:absolute;
+}
+* html #overLayerWD{
+	position: absolute;
+}
+#overLayerWD{
+	display:none;
+}
+/*.layerTypeL {
+	overflow: auto;
+}*/
+/* overLayerLayout */
+@media only screen and (max-width: 640px) {
+#overLayerWD{
+	display: none;
+	width: 100%;
+	/*padding: 10%;*/
+	position: relative;
+}
+
+#layerWrapperMob {
+	color: #000000;
+	/*font-size: 90%;*/
+	width: 100%;
+	position: relative;
+	margin-top: 40px;
+	
+}
+.layerTypeL {
+	width: 100%;
+	background-color: #FFFFFF;
+	/*font-size: 1.1em;*/
+}
+.layerTypeL p {
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 12%;
+	padding-bottom: 2%;
+}
+.layerTypeR {
+	width: 100%;
+	position: relative;
+}
+#layerWrapperMob a:link,#layerWrapperMob a:visited {
+	color: #000000;
+		text-decoration: none;
+}
+#layerWrapperMob a:hover {
+	color: #000000;
+		text-decoration: none;
+}
+img.closeMOB {
+	width: 40px;
+	position:absolute;
+	top:-45px;
+	right:0px;
+	cursor:pointer;
+}
+.clickImgA {
+	position: absolute;
+	left: 85%;
+	top: -70%;
+	width: 17%;
+		/*z-index: 1;*/
+}
+}
+
+@media only screen and (min-width: 641px) {
+#overLayerWD{
+	display: none;
+	width: 100%;
+	/*padding: 10%;*/
+	position: relative;
+}
+#layerWrapperMob {
+	color: #000000;
+	/*font-size: 90%;*/
+	width: 100%;
+	position: relative;
+	margin-top: 40px;
+}
+.layerTypeL {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.layerTypeL p {
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 12%;
+	padding-bottom: 2%;
+}
+
+.layerTypeR {
+	width: 100%;
+	position: relative;
+}
+#layerWrapperMob a:link,#layerWrapperMob a:visited {
+	color: #000000;
+		text-decoration: none;
+}
+#layerWrapperMob a:hover {
+	color: #000000;
+		text-decoration: none;
+}
+img.closeMOB {
+	width: 40px;
+	position:absolute;
+	top:-45px;
+	right:0px;
+	cursor:pointer;
+}
+.clickImgA {
+	position: absolute;
+	left: 85%;
+	top: -70%;
+	width: 17%;
+		/*z-index: 1;*/
+}
+}
+
+@media only screen and (min-width: 917px) {
+#overLayerWD{
+	display:none;
+	width:760px;
+	position: fixed;
+	top:50%;
+	left:50%;
+}
+#PopCloseBtn,#PopCloseDBtn{
+	position: absolute;
+	top: -20px;
+	left: 660px;
+}
+/*#layerWrapperMob {
+	color: #000000;
+	font-size: 90%;
+	position:relative;
+	margin-top: 0px;
+}*/
+#tranomaki a:link,#tranomaki a:visited {
+	color: #000000;
+		text-decoration: none;
+}
+#tranomaki a:hover {
+	color: #000000;
+		text-decoration: none;
+}
+.layerTypeL {
+	float: left;
+	width: 505px;
+	height: 80px;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 8px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	line-height: 1.4em;
+	font-size: 0.8em;
+	
+}
+.layerTypeL p {
+	padding: 0%;
+}
+.layerTypeR {
+	float: left;
+	width: 230px;
+	height: 100px;
+}
+#layerTypeWrapperMob {
+	position: absolute;
+	/*height: 400px;*/
+}
+
+#layerThumb {
+	width: 742px;
+	margin-left: 18px;
+	margin-top: 10px;
+}
+#layerThumb li {
+	float: left;
+	margin-right: 5px;
+}
+.close{
+	position:absolute;
+	width: 27px;
+	top:-25px;
+	left: 755px;
+	cursor:pointer;
+}
+#layerTypeAMask {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+}
+.clickImgA {
+	position: absolute;
+	left: 740px;
+	top: 260px;
+	width: 80px;
+		z-index: 1;
+}
+}

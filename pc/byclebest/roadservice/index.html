@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr" xmlns:og="http://ogp.me/ns#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="noindex">
+<title>自転車ロードサービス｜au損保</title>
+<meta name="description" content="自転車ロードサービスは、24時間365日トラブル現場にかけつけます。事故・故障等で自力走行不能になった場合も最大50Kmまで無料搬送。ブルベやロングライドも安心の自転車ロードサービス。" />
+<meta name="keywords" content="自転車ロードサービス,自転車事故,au損保" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<link rel="stylesheet" href="/common/css/ie8.css" type="text/css" media="all">
+<![endif]-->
+
+<script type="text/javascript" src="../../common/js/campcd.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="../../common/js/checkCookie.js"></script>
+<script type="text/javascript" src="../../common/js/jquery.aute.extend.js"></script>
+<script type="text/javascript" src="../../common/js/switchview.js"></script>
+<script type="text/javascript" src="../../common/js/scrollshift.js"></script>
+<script type="text/javascript" src="../../common/js/slider.js"></script>
+<script type="text/javascript" src="../../common/js/header.js"></script>
+<script type="text/javascript" src="../../common/js/back_top.js"></script>
+<script type="text/javascript" src="../../common/js/rollover.js"></script>
+<script type="text/javascript" src="../../common/js/header-footer_include.js"></script>
+<script type="text/javascript">
+$.SwitchView();
+</script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../../common_aute/js/PIE_IE678_20150706.js"></script>
+<![endif]-->
+
+<!--[webfonts]-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<!--[CSS]-->
+<link type="text/css" href="../../common/css/reset.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/module.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/base.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/layout.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/parts.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/page.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/bycle.css" rel="stylesheet" />
+
+<!--スマホ・PC 切り替え-->
+<script type="text/javascript" src="../../common/js/sp_switch.js"></script>
+<script>
+
+    //読み込みCSS 設定
+    var sp_css_1 = "../../common/css/style.css";
+    var sp_css_2 = "../../common/css/layout_sp.css";
+    var sp_css_3 = "../../common/css/base_sp.css";
+    var sp_css_4 = "../../common/css/parts_sp.css";
+    var sp_css_5 = "../../common/css/page_sp.css";
+    var sp_css_6 = "../../common/css/bycle_sp.css";
+
+    //SPに変更
+    function change_script_sp(){
+        if(mode == "PC"){
+            //JS
+            $.getScript("../../common/js/script_sp.js");
+            //CSS
+            $("#sp_css_1").attr("href",sp_css_1);
+            $("#sp_css_2").attr("href",sp_css_2);
+            $("#sp_css_3").attr("href",sp_css_3);
+            $("#sp_css_4").attr("href",sp_css_4);
+            $("#sp_css_5").attr("href",sp_css_5);
+            $("#sp_css_6").attr("href",sp_css_6);
+            mode = "SP";
+        }
+    }
+    //PCに変更
+    function change_script_pc(){
+        if(mode == "SP"){
+            //CSS
+            $("#sp_css_1").attr("href","");
+            $("#sp_css_2").attr("href","");
+            $("#sp_css_3").attr("href","");
+            $("#sp_css_4").attr("href","");
+            $("#sp_css_5").attr("href","");
+            $("#sp_css_6").attr("href","");
+            mode = "PC";
+        }
+    }
+</script>
+<!--CSS スマホ用（JSで読み込み・初期値はNULL）　-->
+<link id="sp_css_1" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_2" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_3" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_4" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_5" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_6" type="text/css" href="" rel="stylesheet" />
+<link rel="shortcut icon" type="image/x-icon" href="/pc/common/img/share/favicon/favicon.ico" />
+
+
+<!-- bycle 専用JS　読込み -->
+<script type="text/javascript" src="../../bycle/common/js/bycle.js"></script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function openWin1(){
+ご連絡フォーム = window.open("https://www.au-sonpo.co.jp/pca/MBP_1_6_1.do","ご連絡フォーム","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+ご連絡フォーム.focus();
+}
+//-->
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32568740-1']);
+</script>
+
+<!-- Google Tag Analytics -->
+<script type="text/javascript">
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- Google Tag Analytics -->
+</head>
+<body onLoad="javascript:sbSetCAMPCookie();javascript:loadRiyouQrcode();javascript:checkUserAgent();javascript:checkCookie();" id="roadservice" style="overflow:hidden;">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WG9V33"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WG9V33');</script>
+<!-- End Google Tag Manager -->
+
+<div>
+	<h1>自転車ロードサービス｜au損保</h1>
+<script type="text/javascript">
+
+
+    writeHeader("/pc/common/inc/"); //ヘッダー読み込み
+
+
+</script>
+
+	<div id="contents_wrapper">
+		<div id="page_contents">
+			<div class="pankuzu">
+				<ul class="bread_crumb">
+					<li><a href="/pc/">au損保TOP</a></li>
+					<li><a href="/pc/byclebest/">自転車向け保険 Bycle Best</a></li>
+					<li>自転車ロードサービス</li>
+				</ul>
+			</div>
+
+
+    		<div class="maintitle_wrap">
+            	<div class="maintitle">
+            		<h2><img style="max-width: 173px;" src="../../common/img_20160128/pc/bycle/roadservice/maintitle.gif" alt="自転車向け保険"/></h2>
+                </div><!--/maintitle-->
+            </div><!--/maintitle_wrap-->
+
+        <div id="service" class="service clearfix">
+        	<p class="top_title2"><img src="../../common/img_20160128/pc/bycle/jikotaiou/title_left.gif" alt=""/>　自転車ロードサービス(プレミアム)　<img src="../../common/img_20160128/pc/bycle/jikotaiou/title_right.gif" alt=""/></p>
+            <div class="top clearfix">
+            <div class="only clearfix orange">
+            	<p class="img1"><img src="../../common/img_20160128/pc/bycle/roadservice/banner01.gif" alt="自転車向け保険Bycle"/></p>
+                <p class="img2"><img src="../../common/img_20160128/pc/bycle/roadservice/banner02.gif" alt="自転車向け保険Bycle Best"/></p>
+                <p class="img3"><img src="../../common/img_20160128/pc/bycle/roadservice/banner03.gif" alt="自転車向け保険Bycle S" /></p>
+                <p class="text">だけのサービス！</p>
+            </div><!--/only-->
+            <div class="sp_img">
+        		<p class="left"><img src="../../common/img_20160128/pc/bycle/img06.gif" alt="車"/></p>
+            	<p class="right"><img src="../../common/img_20160128/pc/bycle/img07.gif" alt="自転車"/></p>
+            </div><!--/sp_img-->
+            <p class="text01">自転車が事故や故障等により自力で走行できなくなってしまった場合に、<span class="orange fs24">｢自転車ロードサービスカー｣</span>で<br class="br-sp">ご希望の場所まで<span class="orange fs24">搬送</span>します。<span class="orange fs24">24時間365日</span>トラブル現場に駆けつけます。</p>
+        	<p class="left"><img src="../../common/img_20160128/pc/bycle/img06.gif" alt="車"/></p>
+        	<div class="center">
+            	<p class="fs20 orange mb10 text02">例えばこんな時に自転車を搬送するサービスです！</p>
+                <p class="check gray"><img src="../../common/img_20160128/pc/bycle/check.gif" alt="アイコン"/>サイクリングに出かけたら、突然タイヤがパンクし走行不能に。</p>
+                <p class="check gray"><img src="../../common/img_20160128/pc/bycle/check.gif" alt="アイコン"/>買い物中にチェーンが外れて走行不能に。</p>
+            </div><!--/center-->
+            <p class="right"><img src="../../common/img_20160128/pc/bycle/img07.gif" alt="自転車"/></p>
+            </div><!--/top-->
+
+
+                        <div class="point">
+            	<ul class="clearfix">
+                  <div class="title2 orange" style="margin-bottom:20px;">
+                              <p>自転車ロードサービス4つのポイント！</p></div>
+                	<li class="box height clearfix">
+                    	<p class="title">POINT <span>1</span></p>
+                       	<p class="text">いつでも力になります<br />
+                       	夜間も休日も<br />
+                       	24時間365日対応！</p>
+                      	<p class="img"><img src="../../common/img_20160128/pc/bycle/point1_img2.gif" alt="イメージ"/></p>
+                    </li>
+                 	<li class="box height clearfix">
+                    	<p class="title">POINT <span>2</span></p>
+                      	<p class="text">遠出も、ご近所も<br />50kmまで無料搬送！<span class="fs12">※</span></p><p class="img"><img src="../../common/img_20160128/pc/bycle/point2_img2.gif" alt="イメージ"/></p>
+
+                        <div class="notice clearfix">
+                    	<ul>
+                        	<li>※自走不能となった場所がご自宅から1kmを超えていれば、ご利用可能！</li>
+                        </ul>
+                        </div>
+                    </li>
+                   	<li class="box height clearfix">
+                    	<p class="title">POINT <span>3</span></p>
+                      	<p class="text">全国、ほとんどの地域で<br />安心の全国ネット！</p>
+                      	<p class="img text_center_pc"><img src="../../common/img_20160128/pc/bycle/point3_img2.png" alt="イメージ"/></p>
+                        <div class="notice clearfix">
+                    	<ul>
+                        	<li><br />
+<p style="text-align:center;">（2016年11月4日現在）</p>
+</li>
+                        </ul>
+                        </div>
+
+                    </li>
+                    <li class="box height clearfix">
+                    	<p class="title">POINT <span>4</span></p>
+                      	<p class="text">家族タイプでも安心の回数<br />年4回まで利用可能！<span class="fs12">※</span></p>
+                      	<p class="img"><img src="../../common/img_20160128/pc/bycle/point4_img2.gif" alt="イメージ"/></p>
+                    	<div class="notice notice2 clearfix">
+                        <ul>
+                        	<li>※保険期間が2年のご契約の場合は、1年目・2年目それぞれ4回までとなります。</li>
+                        </ul>
+                        </div>
+                    </li>
+
+                </ul>
+            </div><!--/point-->
+            <div class="bottom">
+            	<ul>
+            	  <li class="fs12">注）「ケガの保険 交通事故」「ケガの保険 日常の事故」 あうて「スポーツ・レジャー＋ゴルフ」にセットされている<br />
+           	      自転車ロードサービス「ベーシック」の内容については、<a href="javascript:void(0);" onclick="openWin2()">こちら</a></li></ul>
+           
+           
+           	<script language="JavaScript" type="text/javascript">
+<!--
+function openWin2(){
+bycle_roadservice_content = window.open("/pc/common/popup/PU_C_41.html","bycle_roadservice_content","width=600,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+bycle_roadservice_content.focus();
+}
+//-->
+</script>
+        </div><!--/pdf-->
+           
+            </div><!--/bottom-->
+
+        </div><!--/service-->
+
+
+  <div class="use clearfix">
+            <div class="title2 orange"><p>ご利用方法</p></div>
+            <p class="text01 orange">お電話またはスマホアプリ「自転車の日」から、簡単に要請できます！</p>
+            <div class="left">
+            	<div class="title">
+                	<ul>
+                    	<li>自転車ロードサービス<br class="br-sp">デスクへ連絡</li>
+                    </ul>
+                </div><!--/title-->
+                    <p class="img" style="text-align:center"><img src="../../common/img_20160128/pc/bycle/roadservice/img01.jpg" alt="自転車ロードサービス"/></p>
+       		  <p class="text">自転車ロードサービスデスク<br /><span>0077-78-8365</span><br />受付時間24時間365日 </p>
+      		</div><!--/left-->
+            <!--<p class="arrow"><img src="../../common/img_20160128/pc/bycle/roadservice/arrow.gif" alt="矢印"/></p>-->
+<div class="right" style="float:right; padding-bottom: 20px">
+            	<div class="title clearfix">
+               	  	<p class="text">スマホアプリ「自転車の日」から要請</p>
+                    <p class="img"><img src="../../common/img_20160128/pc/bycle/roadservice/bycle_day.gif" alt="自転車の日"/></p>
+                </div><!--/title-->
+      			<p class="text2">かんたんステップ！到着時間も分かるから安心です</p>
+                <p class="img2"><img src="../../common/img_20160128/pc/bycle/roadservice/img02.jpg" alt="スマートフォン"/></p>
+            	<ul class="clerafix">
+                	<li>TOP画面から<br class="br-sp">ロードサービスを<br class="br-sp">タップ</li>
+                	<li class="text_center">要請をタップ</li>
+                	<li>現在地をGPSで<br class="br-sp">確認し、要請</li>
+                	<li>到着までの時間が<br class="br-sp">
+                	分かるスグレモノ！<span class="fs12">※</span><br />
+																	<span class="notice clearfix">※対応するロードサービスカーに限ります</span>
+                	</li>
+                </ul>
+                <p class="btn"><a id="app_bnr" style="margin-top:-10px" target="_blank">スマホアプリの詳細はこちら　＞</a></p>
+            </div><!--/right-->
+            <p class="arrow2"><img src="../../common/img_20160128/pc/bycle/arrow02.png" alt="矢印"/></p>
+        	<p class="bottom"><img src="../../common/img_20160128/pc/bycle/img06_01.gif" alt="自転車ロードサービス"/>自転車ロードサービスカー到着</p>
+        </div><!--/use-->
+
+        <div class="voice clearfix">
+            <div class="title2 orange"><p>自転車ロードサービスご利用者の声</p></div>
+            	<p class="text01">～感謝の声が続々届いています～</p>
+                <div class="box_wrap clearfix">
+                <div class="box box_left clearfix">
+                	<p class="img"><img src="../../common/img_20160128/pc/bycle/roadservice/icon1.png" alt="アイコン"/></p>
+                    <p class="text">通勤中に自転車がパンクしてしまい搬送してもらいました。駆けつけたスタッフの対応も大変親切でした。ロードサービスがあることが「自転車向け保険 Bycle」の加入の決め手だったので、加入して本当に良かったです。 </p>
+                </div><!--/box_left-->
+                <div class="box box_right clearfix">
+                	<p class="img"><img src="../../common/img_20160128/pc/bycle/roadservice/icon2.png" alt="アイコン"/></p>
+                    <p class="text">走行中にギアが故障し、アプリからロードサービスを要請し利用させていただきました。<br />スタッフの対応もよく大変感謝しています。  </p>
+                </div><!--/box_right-->
+                <div class="box box_left clearfix">
+                	<p class="img"><img src="../../common/img_20160128/pc/bycle/roadservice/icon3.png" alt="アイコン"/></p>
+                    <p class="text">ロードサービスに魅力を感じて、「自転車向け保険 Bycle」に加入したので、何かあったら連絡することは頭に入っていました。自転車がパンクし利用しました。自分で自転車を運ぶ必要がないので、大変便利でした。 </p>
+                </div><!--/box_left-->
+                <div class="box box_right clearfix">
+                	<p class="img"><img src="../../common/img_20160128/pc/bycle/roadservice/icon4.png" alt="アイコン"/></p>
+                    <p class="text">自転車が故障した場所が自宅から遠かったので、ロードサービスがなかったら途方にくれていたと思います。本当にありがとうございました。 </p>
+                </div><!--/box_right-->
+                </div><!--/box_wrap-->
+        </div><!--/voice-->
+
+      <div class="map clearfix">
+            <div class="title2 orange"><p>サービス提供地域</p></div>
+      		<div class="text1 clearfix">
+            	<ul>
+                	<li>■全国722拠点で対応。(2016年11月4日現在）</li>
+                    <li>■一部離島などは対象外です。</li>
+                </ul>
+            <p class="japan"><img src="../../common/img_20160128/pc/bycle/roadservice/map.png" alt="日本地図"/></p>
+            <p class="text2">「自転車ロードサービス」は、株式会社プレステージ・インターナショナルとの連携により運営されています。</p>
+        </div><!--/map-->
+
+      <div class="pdf">
+            <div class="title2 orange"><p>ご利用規約</p></div>
+            <p class="text1">自転車ロードサービスに関する内容が記載されています。ご利用の前に必ずご確認下さい。</p>
+            <p class="text2"><a  href="javascript:void(0);" onclick="openWin3()"><img src="../../common/img_20160128/pc/bycle/icon_pdf.gif" alt="アイコン"/>自転車ロードサービスご利用規約</a></p>
+          		          		<script language="JavaScript" type="text/javascript">
+<!--
+function openWin3(){
+road_service_kiyaku_pdf = window.open("/pc/common/pdf/standard_shogai/road_service_kiyaku.pdf","road_service_kiyaku_pdf","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+road_service_kiyaku_pdf.focus();
+}
+//-->
+</script>
+        </div><!--/pdf-->
+        
+        <p class="btn_return"><a href="#">前のページに戻る　></a></p>
+        <script>
+		$(".btn_return").click(function() {
+			if(location.hash=="#roadservice1"){
+				 window.location.href = '../index.html#point2';
+			}
+			if(location.hash=="#roadservice2"){
+				 window.location.href = '../index.html#service';
+			}
+		});
+		</script>
+
+      <div class="caption">
+            <p class="text01">[注意事項]</p>
+            <p class="text02">・本サービスは、事故または故障により自転車が自力走行不能（自転車が物理的もしくは機能的に走行できない状態、または法令により走行が禁じられている状態）となった場合が対象です。搬送距離等には限度があります。サービスの提供条件など、詳細は「自転車ロードサービスご利用規約」をご確認ください。<br>
+<br>
+
+・本サービスをご利用できる方は、対象となる保険契約の補償の対象となる方（被保険者）です。 <br><br>
+・サービス利用者が未成年の場合は、親権者の同意確認が必要となります。<br><br>
+・弊社は事前に通知することにより、本サービスの提供を中止または終了することがございます。また弊社は本サービスの内容を、予告なく変更することがございます。あらかじめご了承ください。<br><br>
+注）上記は概要をご説明したものです。詳しくは「自転車ロードサービスご利用規約」をご確認ください。</p>
+        </div><!--/caption-->
+        
+			<div class="pankuzu_bottom pankuzu">
+				<ul class="bread_crumb">
+					<li><a href="/pc/">au損保TOP</a></li>
+					<li><a href="/pc/byclebest/">自転車向け保険 Bycle Best</a></li>
+					<li>自転車ロードサービス</li>
+				</ul>
+	</div>
+            <p class="cap_number">B16D310429[1612]</p>
+
+		</div><!--end page_contents-->
+<script type="text/javascript">
+
+
+    writeFooter("/pc/common/inc/"); //フッター読み込み
+
+</script>
+</div>
+
+
+</div>
+<script type="text/javascript">
+(function(w,d,S,P,s,t,u) {
+  u = ('https:' == d.location.protocol ? 'https://ssl.socdm.com' : 'http://tg.socdm.com') + '/so-async.js?' + 'siteid=' + s;
+  t=(t=d.getElementsByTagName(S))[t.length-1];
+  (w[P]=w[P]||{})[s]=t.id=[P,s].join('-');
+  s=d.createElement(S);s.async=!0;s.src=u;
+  t.parentNode.insertBefore(s,t);
+})(window,document,'script','scaleout-tagmanagement','31828');
+</script>
+<!-- END TAG MGMT -->
+</body>
+</html>

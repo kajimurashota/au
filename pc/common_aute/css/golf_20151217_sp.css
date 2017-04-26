@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, 
+fieldset, input, textarea, p, blockquote, th, td{
+    margin: 0; 
+    padding: 0;
+}
+
+ol, ul{
+    list-style:none;
+}
+a img{border-style:none;}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	font-size:0;   
+	clear: both;
+	visibility:hidden;
+}
+.clearfix{
+	display: inline-block;
+}
+/* Hides from IE Mac */
+* html .clearfix{
+	height: 1%;
+}
+.clearfix{
+	display:block;
+}
+.fs12{
+	font-size:80%;
+}
+.fs14{
+	font-size:14px;
+}
+.fs16{
+	font-size:16px;
+}
+.fs18{
+	font-size:16px;
+}
+.fs20{
+	font-size:20px;
+}
+.fs24{
+	font-size:1.4em;
+}
+.fs30{
+	font-size:1.4em;
+}
+.orange{
+	color:#eb5505;
+}
+.orange2{
+	color:#eb5505;
+}
+.gray{
+	color:#858585;
+}
+.bold{
+	font-weight:bold;
+}
+.border-bottom{
+	border-bottom:2px solid #EA541C;
+}
+.mt10{
+	margin-top:10px;
+}
+.mb10{
+	margin-bottom:10px;
+}
+.text_center{
+	text-align:center;
+}
+.sp_nav_menu{
+	display:block;
+}
+body{
+	background-color:#FFFFFF!important;
+}
+#header_new{
+	display:none!important;
+}
+#header_low{
+	display:none!important;	
+}
+h1{
+	width:980px;
+	margin:0 auto;
+	font-size:10px;
+	color:#858585;	
+	display:none;
+}
+.pankuzu{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-left:10px;
+	padding-right:10px;	
+	display:none;
+}
+.bread_crumb{
+	margin-top:50px;
+}
+#page_contents{
+	color:#000000;
+}
+#page_contents .maintitle_bg{
+	display:none;
+}
+#page_contents .main_sp{
+	width:100%;
+	display:block;
+	margin-top:-100px;
+}
+#page_contents .main_sp img{
+	width:100%;
+}
+#page_contents .main_sp .present{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#page_contents .main_sp .text{
+	font-size:1.2em;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	background-color:#EB541C;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:1px;
+	padding-left:1em;
+	padding-right:1em;
+}
+#page_contents .main_sp ul{
+	width:95%;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+#page_contents .main_sp li{
+	margin-bottom:10px;
+}
+#page_contents .main_sp li a{
+	color:#000000;
+	text-decoration:underline;
+}
+
+.golf_in{
+	display:block;
+}
+.domestic_case_body.golf > div h3 div {
+	width: 300px;
+	font-size: 15px;
+}
+.domestic_case_body.golf > div h3 div.golf_block1{
+	width:70%;
+}
+.domestic_case_body.golf > div h3 div.golf_block2{
+	width:25%;
+	margin-left:0;
+}
+.domestic_case_body.golf > div h3 div.golf_case_ex {
+	padding-bottom: 0px;
+}
+#application_2.old_page_red_btn img {
+	width: 270px;
+	height: 37px;
+}
+#header_new{
+	display:none!important;
+}
+
+h1{
+	width:980px;
+	margin:0 auto;
+	font-size:10px;
+	color:#858585;	
+	display:none;
+}
+
+#page_contents .maintitle_bg{
+	display:none;
+}
+
+#page_contents .main_sp{
+	width:100%;
+	display:block;
+	margin-top:-100px;
+}
+#page_contents .main_sp img{
+	width:100%;
+}
+#page_contents .main_sp .present{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#page_contents .main_sp .text{
+	font-size:1.2em;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	background-color:#EB541C;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:1px;
+	padding-left:1em;
+	padding-right:1em;
+}
+#page_contents .main_sp ul{
+	width:95%;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+#page_contents .main_sp li{
+	margin-bottom:10px;
+}
+#page_contents .main_sp li a{
+	color:#000000;
+	text-decoration:underline;
+}
+
+.point_flow_text {
+	position:relative;
+	padding-left: 40px;
+}
+.point_flow_text::before {
+	position: relative;
+	left: 0px;
+	top: -2px;
+}
+.block_domestic_title {
+	margin-bottom: 10px;
+}
+.block_domestic_text {
+	margin-bottom: 15px;
+	padding:0;
+}
+.point_flow_text {
+	text-align: center;
+}
+.block_agreement {
+	padding-bottom: 20px;
+}
+.block_agreement ul {
+	margin-bottom: 20px;
+}
+.block_agreement ul li {
+	padding-left: 0;
+}
+.block_application p a {
+	font-size: 13px;
+}
+.domestic_case_body.golf > div ul {
+	font-size: 13px;
+}
+.block_top_text p {
+	font-size: 13px;
+}
+.block_application {
+	margin-top: 15px;
+	padding: 0px 0px 10px;
+}
+
+.approvalInsurance{
+	font-size: 10px;
+}
+
+.bread_crumb {
+	margin-bottom:10px;
+}
+
+.block_top_text .top_info li a:hover {
+	text-decoration:underline;
+}
+
+.block_domestic_title span::before {
+	margin-left:10px;
+	margin-right:5px;
+}
+
+.marginL_8{
+margin-left:8px;
+}
+

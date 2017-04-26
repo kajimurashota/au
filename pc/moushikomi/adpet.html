@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr" xmlns:og="http://ogp.me/ns#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="format-detection" content="telephone=no">
+<title>お申込みについて｜au損保</title>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<link rel="stylesheet" href="/common/css/ie8.css" type="text/css" media="all">
+<![endif]-->
+<script type="text/javascript" src="../common/js/campcd.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="../common/js/checkCookie.js"></script>
+<script type="text/javascript" src="../common/js/jquery.aute.extend.js"></script>
+<script type="text/javascript" src="../common/js/switchview.js"></script>
+<script type="text/javascript" src="../common/js/scrollshift.js"></script>
+<script type="text/javascript" src="../common/js/slider.js"></script>
+<script type="text/javascript" src="../common/js/header.js"></script>
+<script type="text/javascript" src="../common/js/back_top.js"></script>
+<script type="text/javascript" src="../common/js/rollover.js"></script>
+<script type="text/javascript" src="/pc/common/js/header-footer_include.js"></script>
+<script type="text/javascript" src="../pet/common/js/subpage_control.js"></script>
+
+<script type="text/javascript">
+$.SwitchView();
+</script>
+
+
+<!--[CSS]-->
+<link type="text/css" href="../common/css/reset.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/module.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/base.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/layout_adpet.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/parts.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/page.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/moshikomi.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/adpet.css" rel="stylesheet" />
+
+<!--[webfonts]-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<!--スマホ・PC 切り替え-->
+<script type="text/javascript" src="../common/js/sp_switch.js"></script>
+<script>
+    //読み込みCSS 設定
+    var sp_css_1 = "../common/css/style.css";
+    var sp_css_2 = "../common/css/layout_adpet_sp.css";
+    var sp_css_3 = "../common/css/base_sp.css";
+    var sp_css_4 = "../common/css/parts_sp.css";
+    var sp_css_5 = "../common/css/page_sp.css";
+    var sp_css_6 = "../common/css/moshikomi_sp.css";
+
+    //SPに変更
+    function change_script_sp(){
+        if(mode == "PC"){
+            //JS
+            $.getScript("../common/js/script_sp.js");
+            //CSS
+            $("#sp_css_1").attr("href",sp_css_1);
+            $("#sp_css_2").attr("href",sp_css_2);
+            $("#sp_css_3").attr("href",sp_css_3);
+            $("#sp_css_4").attr("href",sp_css_4);
+            $("#sp_css_5").attr("href",sp_css_5);
+            $("#sp_css_6").attr("href",sp_css_6);
+            mode = "SP";
+        }
+    }
+    //PCに変更
+    function change_script_pc(){
+        if(mode == "SP"){
+            //JS
+            // $.getScript("../common_aute/js/kairyo.js");
+            // $.getScript("../common_aute/js/yuga.js");
+            //CSS
+            $("#sp_css_1").attr("href","");
+            $("#sp_css_2").attr("href","");
+            $("#sp_css_3").attr("href","");
+            $("#sp_css_4").attr("href","");
+            $("#sp_css_5").attr("href","");
+            $("#sp_css_6").attr("href","");
+            mode = "PC";
+        }
+    }
+</script>
+<!--CSS スマホ用（JSで読み込み・初期値はNULL）　-->
+<link id="sp_css_1" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_2" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_3" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_4" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_5" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_6" type="text/css" href="" rel="stylesheet" />
+<link rel="shortcut icon" type="image/x-icon" href="/pc/common/img/share/favicon/favicon.ico" />
+
+<link rel="canonical" href="http://www.au-sonpo.co.jp/pc/moushikomi/" />
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32568740-1']);
+</script>
+
+<!-- Google Tag Analytics -->
+<script type="text/javascript">
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- Google Tag Analytics -->
+
+<style type="text/css"> 
+	.point_mark{
+		color:#606060;
+	}
+	.point_mark2{
+		color:#BDBDBD;
+	}
+</style>
+
+</head>
+<body onload="javascript:sbSetCAMPCookie();javascript:loadRiyouQrcode();javascript:checkUserAgent();javascript:checkCookie();" id="index" style="overflow:hidden;">
+
+<!-- Google Tag Manager -->
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-WG9V33"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WG9V33');</script>
+<!-- End Google Tag Manager -->
+
+<div>
+	<h1></h1>
+	<script type="text/javascript">
+        writeHeader("/pc/common/inc/", {page:"header_adpet.html"}); //ヘッダー読み込み
+	</script>
+	<div id="contents_wrapper">
+		<div id="page_contents">
+			<div class="pankuzu">
+				<ul class="bread_crumb">
+				</ul>
+			</div>
+			<div class="maintitle_wrap">
+				<div class="maintitle">
+					<h2><img src="../common/img_20160128/pc/moshikomi/moushikomi_03.png" alt="お申込みについて"/></h2>
+				</div>
+				<!--/maintitle-->
+			</div>
+			<!--/maintitle_wrap-->
+
+			<div class="contents_inner clearfix">
+				<!--/text01-->
+
+				<div class="box box1 clearfix">
+					<div class="title clearfix">
+						<p class="text">すべてのスマートフォンから、カンタンにお申込みOK ！</p>
+					</div>
+					<!--/title-->
+					<div class="box_inner clearfix">
+						<p class="box_inner_img01"><img src="../common/img_20160128/pc/moshikomi/moushikomi_07.png" alt="イメージ"/></p>
+						<p class="box_inner_img02"><img src="../common/img_20160128/pc/moshikomi/moushikomi_10.png" alt="イメージ"/></p>
+					</div>
+					<!--/right-->
+				</div>
+				<!--/box1-->
+
+				<div class="box box2 clearfix">
+					<div class="title clearfix">
+						<p class="text">au ID を使えば、もっと便利にお申込みできる！</p>
+					</div>
+					<!--/title-->
+					<div class="box_inner clearfix">
+					<div class="box_inner_left"><span><img src="../common/img_20160128/pc/moshikomi/moushikomi_14.png" alt="イメージ"/></span></div>
+					<div class="box_inner_right">
+						<p class="tel fs14 orange">auユーザーなら！！</p>
+						<p class="fs16">au ID  を使うと、au にご登録のお客さま情報が自動的にセットされるので、<br />
+							入力する手間が省けて、ラクラクお申込み！！</p>
+
+						<!--text-->
+						<p class="link"><a href="https://id.auone.jp/id/pc/guide/service/idm/pc/index.html" target="_blank">au ID 連携の詳細はこちら（KDDIのページへ）＞</a></p>
+						<!--text-->
+						</div>
+						<!--/notice-->
+					</div>
+					<!--/right-->
+				</div>
+				<!--/box2-->
+
+				<div class="box box3 clearfix">
+					<div class="title clearfix">
+						<p class="text">保険料のお支払い方法も選べてラクラク！</p>
+					</div>
+					<!--/title-->
+					<div class="box_inner clearfix">
+					<div class="box_inner_left02"><img src="../common/img_20160128/pc/moshikomi/moushikomi_18.png" alt="イメージ"/></div>
+					<div class="box_inner_right02">
+						<p class="fs16">クレジットカード・コンビニでのお支払いはもちろん、<br />
+au かんたん決済でのお支払いができます。<br />
+<br />
+						</p>
+
+                      <ul class="notice">
+                        <li><span class="f12">注）｢海外旅行の保険｣｢国内旅行の保険｣｢ゴルフの保険｣は、コンビニ払をご利用いただけません。</span></li>
+                        </ul>
+					</div>
+					<!--/right--><!--/right2-->
+					</div>
+				</div>
+				<!--/box3--><!--/box3-->
+
+				<p class="box_bottom fs12">注）<span class="text_head">お申込みにおける注意事項は、各商品ごとに異なります。詳しくは、各商品ページでご確認ください。</span></p>
+
+				<div class="title01 title02 orange">
+					<p>動作確認済み環境（2016年10月6日現在）</p>
+				</div>
+				<div class="customer">
+
+					<!--/text-->
+					<div class="text clearfix">
+						<p class="title02 orange bold">スマートフォン</p>
+						<p class="img_moushikomi_left"><img src="../common/img_20160128/pc/moshikomi/moushikomi_21.png" alt="イメージ"/></p>
+						<ul class="txt_moushikomi_left">
+							<li>au、NTTドコモ、ソフトバンクモバイルおよびワイモバイル等のスマートフォンからお申込みいただけます。</li>
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark">●</span>Android　4.0 , 4.1 , 4.3, 4.4　の各最新版</li>
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark">●</span>iOS　10　の最新版</li>
+							<li style="text-indent:-1em;margin-left:1em;margin-top:1em;"><span class="point_mark2">●</span>ご利用の機種やブラウザによっては、ご利用いただけない場合がございます。</li>
+						</ul>
+					</div>
+					<!--/text-->
+
+					<!--/text-->
+					<div class="text clearfix">
+						<p class="title02 orange bold">タブレット</p>
+						<p class="img_moushikomi_left"><img src="../common/img_20160128/pc/moshikomi/moushikomi_21_2.png" alt="イメージ"/></p>
+						<ul class="txt_moushikomi_left">
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark">●</span>Android　4.4　の最新版</li>
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark">●</span>iOS　10　の最新版</li>
+							<li style="text-indent:-1em;margin-left:1em;margin-top:1em;"><span class="point_mark2">●</span>ご利用の機種やブラウザによっては、ご利用いただけない場合がございます。</li>
+						</ul>
+					</div>
+					<!--/text-->
+
+					<!--/text-->
+					<div class="text clearfix">
+						<p class="title02 orange bold">パソコン</p>
+						<p class="img_moushikomi_left"><img src="../common/img_20160128/pc/moshikomi/moushikomi_25.png" alt="イメージ"/></p>
+						<ul class="txt_moushikomi_left">
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark">●</span>Internet Explorer 　11.0　の最新版</li>
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark">●</span>Internet Explorer 　9.0(Windows Vista)の最新版</li>
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark">●</span>Google Chrome　の最新版</li>
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark">●</span>Firefox　の最新版</li>
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark">●</span>Safari　の最新版</li>
+							<li style="text-indent:-1em;margin-left:1em;margin-top:1em;"><span class="point_mark2">●</span>ご利用の機種やブラウザによっては、ご利用いただけない場合がございます。</li>
+						</ul>
+					</div>
+					<!--/text-->
+
+					<!--/text-->
+					<div class="text clearfix" style="margin-bottom: 50px">
+						<p class="title02 orange bold">フィーチャーフォン（ガラケー）</p>
+						<p class="img_moushikomi_left02"><img src="../common/img_20160128/pc/moshikomi/moushikomi_29.png" width="40%" alt="イメージ"/></p>
+						<ul class="txt_moushikomi_left">
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark">●</span>対応しておりません。<br />
+								2013年12月17日をもちまして、フィーチャーフォン(ガラケー)からの保険申込み受付を終了させていただきました。</li>
+							<li style="text-indent:-1em;margin-left:1em;margin-top:1em;"><span class="point_mark2">●</span>OSにAndroidを搭載したケータイ（ガラホ）からはお申込みいただけます。</li>
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark2">●</span>「Android」、「Google Chrome」は、Google Inc. の商標または登録商標です。</li>
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark2">●</span>iOS商標は、米国Ciscoのライセンスに基づき使用されています。</li>
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark2">●</span>「Microsoft<sup>&reg;</sup> Internet Explorer<sup>&reg;</sup>」、「Windows Vista<sup>&reg;</sup>」は、Microsoft Corporationの商標または登録商標です。</li>
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark2">●</span>「Firefox<sup>&reg;</sup>」は、Mozilla Foundationの米国およびその他の国における商標または登録商標です。</li>
+							<li style="text-indent:-1em;margin-left:1em;"><span class="point_mark2">●</span>「Safari」は、米国および他の国々で登録されたApple Inc.の商標です。</li>
+						</ul>
+					</div>
+					<!--/text-->
+
+			</div>
+				<!--/customer-->
+
+			</div>
+			<!--/contents_inner-->
+
+		<div id="product_id">　</div>
+		</div>
+		<!--end page_contents-->
+		<script type="text/javascript">
+            writeFooter("/pc/common/inc/", {page:"footer_adpet.html"}); //フッター読み込み
+		</script>
+</div>
+
+<script type="text/javascript">
+(function(w,d,S,P,s,t,u) {
+  u = ('https:' == d.location.protocol ? 'https://ssl.socdm.com' : 'http://tg.socdm.com') + '/so-async.js?' + 'siteid=' + s;
+  t=(t=d.getElementsByTagName(S))[t.length-1];
+  (w[P]=w[P]||{})[s]=t.id=[P,s].join('-');
+  s=d.createElement(S);s.async=!0;s.src=u;
+  t.parentNode.insertBefore(s,t);
+})(window,document,'script','scaleout-tagmanagement','31828');
+</script>
+<!-- END TAG MGMT -->
+</body>
+</html>

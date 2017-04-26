@@ -1,0 +1,31 @@
+@charset "utf-8";
+body{
+	background-color: #FFFFF4;
+}
+.block_case.wide ul li.pc_width_308{
+	width:308px;
+}
+.point_4,
+.point_4 li{
+	font-size:16px;
+}
+
+#pc_top_margin {
+	margin-top:1em;
+}
+#sports_point4 {
+	margin-left:-74px;
+}
+
+.service_settlement {
+	padding-bottom:45px;
+}
+
+.service_leisure_title {
+	margin-top:30px;
+}
+
+#pc_top_margin.block_bread_crumb.PaddingB5_Wi930{
+	padding-bottom: 5px;
+	width: 930px;
+}

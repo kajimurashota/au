@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+#page_contents .hoshou .frame{
+	border:solid 1px #ea5504;
+	background-color:#FFFFFF;
+	padding-top:40px;
+	padding-bottom:30px;
+	margin-top:25px;
+	margin-bottom:100px;
+}
+
+.sarani_platina_course .container_new{
+	width:auto;
+}
+
+.sarani_platina_course .check_list{
+	margin-left:300px;
+}
+.sarani_platina_course .check_list .check{
+	font-size:16px;
+	clear:both;
+}
+.sarani_platina_course .check_list .check img {
+	float: left;
+	margin-bottom: 1em;
+	margin-right: 0.8em;
+	margin-top: 0.5em;
+}
+/* --- Override --- */
+#contents_wrapper{
+	margin-top: 0;
+}
+#header_new_wrapper{
+	display:none;
+}
+#header_low{
+	padding-top: 0;
+}
+#header_s{
+	padding: 0;
+}
+#header_tab_wrapper{
+	margin-top: 0;
+}
+#page_contents .maintitle{
+	padding: 0 10px 30px;
+}
+#page_contents .maintitle_bg{
+	background:none;
+}
+#footer{
+	display:none;
+}

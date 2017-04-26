@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* ############################################################################
+ *
+ * PC表示用（ペットトップ以外） [body#top]2014/12/25 修正分
+ *
+ * ######################################################################### */
+div#main {
+}
+#floatingNavi{
+	display:none;
+}
+.display_sp {
+	display:none;
+}
+.display_block_sp {
+	display:none;
+}
+
+
+#qa div.benefits .benefitsHeader {
+	width:660px;
+}
+#qa div.benefits .benefitsHeader_sp {
+	display:none;
+}
+
+
+#qa div.benefits div.txtArea p.setindent{
+	margin:0.5em auto auto 2.5em;
+	text-indent:-2em;
+}
+#qa .indent1{
+	margin-left:3.5em;
+	text-indent:-1em;
+}
+#qa .indent3{
+	margin-left:5em;
+	text-indent:-3em;
+}
+#qa .ml2em{
+	margin-left:2.5em;
+}
+.flogo{
+	margin-top:10px;
+}
+.foot_btns{
+	float:left;
+}
+.foot_btns li{
+	float:left;
+}
+.foot_btns li img{
+	vertical-align:top;
+}
+.au_foot_logo{
+	float:right;
+}

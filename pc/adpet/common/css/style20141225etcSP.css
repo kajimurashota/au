@@ -1,0 +1,351 @@
+@charset "UTF-8";
+	div#main {
+		padding: 0 10px 10px;
+	}
+	div#main {
+		padding-top:5px;
+	}
+	#mainContent {
+		background-color:#FFF;
+	}
+
+	.display_sp{
+		display:inline;
+	}
+	.display_block_sp{
+		display:block;
+	}
+	.display_pc{
+		display:none;
+	}
+	div#contents {
+		margin: 0;
+	}
+	#floatingNavi{
+		display:block;
+	}
+
+	#footer,
+	#header,
+	#leftWrap {
+		display:none;
+	}
+	div#contents {
+		width:100%;
+	}
+	div#mainContent {
+		float:none;
+		width:100%;
+		max-width:756px;
+		margin:0 auto;
+	}
+	#top_image_ul {
+		padding-top:40%;
+	}
+	#pcbobun {
+		display:none;
+	}
+	#indexInfo {
+		text-align:left;
+	}
+	#indexInfo img{
+		width:100%;
+	}
+	#contentsFooter {
+		display:none;
+	}
+	.sp_img_40p {
+		width:40%;
+	}
+	.sp_img_45p {
+		width:45%;
+	}
+	.sp_img_50p {
+		width:50%;
+	}
+	.sp_img_60p {
+		width:60%;
+	}
+	.sp_img_70p {
+		width:70%;
+	}
+	.sp_img_80p {
+		width:80%;
+	}
+	.sp_img_90p {
+		width:90%;
+	}
+	.sp_img_98p {
+		width:98%;
+	}
+	.sp_img_100p {
+		width:100%;
+	}
+	.sp_center {
+		margin:0 auto;
+	}
+	
+	.sp_m_0{
+		margin:0 auto !important;
+	}
+	.sp_mt_0{
+		margin-top:0px !important;
+	}
+	.sp_mt_5{
+		margin-top:5px !important;
+	}
+	.sp_mt_15{
+		margin-top:15px !important;
+	}
+	.sp_ml_0{
+		margin-left:0px !important;
+	}
+	.sp_ml_5{
+		margin-left:5px !important;
+	}
+	.sp_ml_15{
+		margin-left:15px !important;
+	}
+	.sp_mr_0{
+		margin-right:0px !important;
+	}
+	.sp_mr_5{
+		margin-right:5px !important;
+	}
+	.sp_mr_15{
+		margin-right:15px !important;
+	}
+	
+	#kokuchi div.kokuchiTxt,
+	#kokuchi div.kokuchiTxt2{
+		margin:0 0.25em 0;
+	}
+	#kokuchi dt,
+	#kokuchi .sp_indent_1{
+		margin-left:1em !important;
+		text-indent:-1em !important;
+	}
+	
+	.menuList img {
+		width:100%;
+	}
+	#sp_header_aute {
+		cursor:pointer;
+		width:60%;
+		background-color:#FFF;
+		background-image:url("../../../common/spimg3/images_pet/title.png");
+		background-size:contain;
+		background-repeat:no-repeat;
+		background-position: center center; 
+	}
+	#sp_header_login {
+		cursor:pointer;
+		width:20%;
+		background-color:#FFF;
+		background-image:url("../../../common/spimg3/images_pet/login.png");
+		background-size:contain;
+		background-repeat:no-repeat;
+		background-position: center center; 
+	}
+	#sp_header_showNavi {
+		width:20%;
+		background-color:#FFF;
+	}
+	.naviChild li {
+		text-align:left;
+	}
+	.sp_10pt_txt {
+		font-size: 10pt !important;
+	}
+
+	#why01png,
+	#why02png,
+	#why03png {
+		width:98%;
+		max-width:351px;
+	}
+ 	#why p.fnote01{
+		position:relative;
+		font-size:10pt;
+		bottom:0;
+		right:0;
+		width: 80%;
+		margin: 0 auto;
+	}
+	#why div.benefits{
+		width:98%;
+	}
+	
+	#why div.benefits div.txtArea {
+		width:100%;
+	}
+	#merit p.fnote01{
+		position:relative;
+		font-size:10pt;
+		bottom:0;
+		right:0;
+ 		width: 220px;
+ 	}
+
+	div#mainContent #merit p.fnote02 {
+		text-align:left;
+ 		width: 220px;
+	}
+	.careCase{
+		width:80%;
+	}
+	.careCase .f-r {
+		margin: 0 auto;
+		float:none !important;
+	}
+	.careCase .f-l {
+		margin: 0 auto;
+		float:none !important;
+	}
+	.careCase .careBox{
+		font-size:10pt;
+		width:auto;
+		height:auto;
+		background-size:100% 100%;
+	}
+	.backToTop{
+		display:none;
+	}
+	body#top .purpleArea,
+	.purpleArea{
+		width:95%;
+	}
+	#insurance .insList td {
+		font-size: 10pt !important;
+	}
+	#qa div.benefits {
+		width:100%;
+	}
+	#qa div.benefits div.benefitsBox {
+    	padding: 0 10px 2px;
+	}
+	#qa div.benefits .benefitsHeader {
+		display:none;
+	}
+	#qa div.benefits .benefitsHeader_sp {
+		border-radius:5px 5px 0 0;
+		display:block;
+		background-color:#e0a58c;
+		color:#FFFFFF;
+		width:100%;
+		padding-top:4px;
+	}
+
+	#qa div.benefits div.txtArea {
+		width:100%;
+	}
+	#toiawase .toiawase_header {
+		border-radius:5px ;
+		display:block;
+		background-color:#e0a58c;
+		color:#FFFFFF;
+		width:100%;
+		padding-top:4px;
+	}
+	div#desTxtsp{
+		text-align: left;
+	}
+	div#desTxtsp span{
+		font-weight:bold;
+		color:#e0a55b;
+	}
+	div#desTxtsp h3{
+		color:#e0a58c;
+		font-weight:bold;
+	}
+	div#desTxtsp div.des01{
+		margin-bottom:20px;
+	}
+	div#desTxtsp div.des01 h3{
+		margin-bottom:5px;
+	}
+	div#desTxtsp div.des01  div{
+	}
+	div#desTxtsp div.des02{
+		margin-bottom:20px;
+	}
+	div#desTxtsp div.des02 h3{
+		margin-bottom:5px;
+	}
+	div#desTxtsp div.des02  div{
+	}
+	div#desTxtsp div.des03 h3{
+		margin-bottom:5px;
+	}
+	div#desTxtsp div.des03 div{
+	}
+	div#case div.details {
+		border:solid 1px #E7E7E7;
+		background-color:white;
+
+	}
+	div#case div.detailsWrap {
+		width:100%;
+		
+	}
+	div#case div.detailsWrap div.details {
+		width:100%;
+		max-width:382px;
+		float: none;
+		margin: 0 auto;
+	}
+	div#case div.detailsWrap div.details p.note {
+		width:80%;
+	}
+
+	div#case div.detailsWrap div.details div.detailsList {
+		width:98%;
+		max-width:362px;
+		background:none;
+	}
+	div#case div.detailsWrap div.details table {
+		width:95%;
+		max-width:300px;
+		background:none;
+	}
+	
+	div#case div.detailsWrap div.details div.detailsList div.inner {
+		background:none;
+	}
+	
+	div#case div.detailsWrap div.details div.detailsList div.innerWrap {
+		background:none;
+	}
+	div#case div.detailsWrap div.details .sonnani  {
+		top:0px;
+	}
+	
+	#qa div.benefits div.txtArea p.dashinner {
+		padding-left:2em;
+		text-indent:-2em;
+	}
+
+	#qa div.benefits div.txtArea p.dashindent {
+		padding-left:2em;
+		text-indent:-2em;
+	}
+	#qa div.benefits div.txtArea p.dashinnernext {
+	    border: 1px dashed #dc9632;
+	    color: #dc9632;
+	    margin-bottom: 5px;
+    }
+
+
+	#qa div.benefits div.txtArea p.setindent{
+		margin:0.5em auto auto 2.5em;
+		text-indent:-2em;
+	}
+	#qa .ml2em{
+		margin-left:2.5em;
+	}
+
+	a.btn_orange{
+		font-size:18px;
+		width:100%;
+		margin-bottom:10px;
+	}

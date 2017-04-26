@@ -1,0 +1,922 @@
+@charset "UTF-8";
+body{
+	font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+	margin:0;
+	padding:0;
+	letter-spacing: 0.05em;
+	background-color:#fffff4;
+}
+p{
+	padding:0;
+	margin:0;
+}
+ul{
+	padding:0;
+}
+li{
+	list-style:none;
+}
+td{
+	padding:0;
+}
+
+/******ページインナー******/
+.pagelayer_inner,.pagelayer_inner_97{
+	max-width: 770px;
+	width: 100%;
+	margin: 0px auto;
+}
+/******ヘッダー画像******/
+#first_view img{
+	width:100%;
+}
+.main_image {
+	text-align:center;
+}
+
+/******インデント＆テキスト位置******/
+.indent1{
+	text-indent:-1em;
+	margin-left:1em;
+}
+.text_left_center{
+	text-align:center;
+	padding:10px;
+}
+.margin_l20{
+	margin-left:20px;
+}
+.margin_l30{
+	margin-left:30px;
+}
+.margin_l40{
+	margin-left:40px;
+}
+.margin_l18{
+	margin-left:18px;
+}
+/******文字サイズ・色******/
+/* 一番大きい文字 */
+.title_mega{
+	font-size: 19px;
+	font-weight: bold;
+	color: #001E60;
+}
+/* 真ん中サイズの文字（太字） */
+.title_big{
+	font-size:15px;
+	font-weight:bold;
+	color: #001E60;
+}
+/* 真ん中サイズの文字（細字） */
+.title_middle{
+	font-size:15px;
+	font-weight:normal;
+	color:#001E60;
+}
+/* 一番小さいサイズの文字 */
+.title_small{
+	font-size:13px;
+	font-weight:normal;
+	color:#001E60;
+}
+.red_p{
+	color:#E47373;
+}
+.orange_p{
+	color:#E55602;
+}
+.navy_p{
+	color:#001E60;
+}
+/******背景******/
+.gray_news{
+	padding:20px 0;
+	background-color:#f2f2f2;
+}
+/******タイトル＆数字の箱******/
+.title_box {
+	background-color: #DAE2F2;
+	text-align: center;
+	padding: 8px 0px;
+}.number_box{
+	background-color: #001E60;
+	width: 2.5em;
+	height: 2.5em;
+	text-align: center;
+	display: inline-block;
+	margin-right: 10px;
+}
+.number_title{
+	display: inline-block;
+}
+.number_box p{
+	color: #FFF;
+	padding-top: 2px;
+	display: inline-block;
+}
+/******ボタン******/
+.kuwashiku_green{
+	width:120px;
+	height:33px;
+	padding-top:8px;
+}
+.kuwashiku_hover:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
+
+/******Bycle＆Bycle Best文字だけロゴ******/
+.bycle_label_icon{
+	display:inline-block;
+	border:solid 2px #E55602;
+	padding:0 2px;
+	background-color:white;
+	color:#E55602;
+	font-weight:bold;
+	text-indent:0em;
+}
+.bycle_label_icon_wrapper{
+	margin:0 auto;
+	color:#E55602;
+	width:10em;
+	position:relative;
+	font-size:17px;
+	font-weight:bold;
+}
+.bycle_label_icon_wrapper > div{
+	position:absolute;
+	left:10.3em;
+	top:0px;
+	display:inline-block;
+	width:20em;
+}
+.bycle_label_icon_wrapper > div.pc_left11{
+	left:10em;
+}
+.bycle_label_icon_wrapper > div.pc_left15{
+	left:14em;
+}
+/******お知らせ******/
+a.newslink:link:hover{
+	color: #E47373;
+}
+a.newslink:link{
+	color: #001E60;
+	text-decoration: underline;
+}
+/******４つのポイント******/
+/*共通*/
+.title_big.point_gray{
+	margin-top:2px;
+}
+.point_gray{
+	font-size:97%;
+}
+/*４つのポイント*/
+.point_table_blue_wrap{
+	height:13em;
+}
+.top_message{
+	text-align:center;
+	color:#E55602;
+	padding-top: 8px;
+}
+.blue_allow_r {
+	width: 12px;
+	height: 12px;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+.konna_orange {
+	margin: 20px auto 5px;;
+	padding: 5px;
+	width: 98%;
+	max-width: 24em;
+	text-align: center;
+	font-weight: bold;
+}
+/******補償内容******/
+/**共通**/
+.check_box{
+	padding-right: 2px;
+}
+.li_nbsp{
+	margin-right:0.5em;
+}
+.li_indent{
+	text-indent:-1.5em;
+	margin-left:1.5em;
+}
+.blue_line{
+	border-radius:3px;
+	border:solid 2px #AAAAFF;
+	text-align:center;
+	background-color:#fff;
+}
+.each_title{
+	padding-left: 20px;
+}
+.each_title_sentence{
+	padding-left:42px;
+}
+.hosyounaiyou_matome{
+	background-color:#fffff4;
+	padding:10px 0px;
+}
+/**[1]ケガの補償**/
+.nibai_icon_orange{
+	height: 23px;
+	width: 111px;
+	vertical-align: top;
+	padding: 0 0 0 10px;
+}
+.bycle_marubatsu_txt{
+	text-align:left;
+	padding:20px 0 5px;
+	margin-left:65px;
+}
+.yellow_line{
+	border:2px solid #F5BB1C;
+	text-align:center;
+	border-radius:3px;
+	background-color:#fff;
+	padding:5px;
+}
+.hosyo_tbl_marubatsu{
+	width: 97%;
+	margin: 0px auto;
+	border-collapse: separate;
+	border-spacing: 7px;
+}
+.judge_txt_maru{
+	font-size: 500%;
+}
+.judge_txt_batsu{
+	font-size:360%;
+}
+.marubatsu_list{
+	display:inline-block;
+	padding: 5px 0px 0px 20px; 
+	text-align:left;
+ 	max-width:262px;
+ 	width:100%;
+}
+.hosyo_tbl_marubatsu_sp{
+	display:none;
+}
+.marubatsu_tbl{
+	border: 3px solid #ADADAD;
+	background-color: #FFF;
+	border-radius: 3px;
+	padding: 10px;
+	font-weight: bold;
+	width: 293px;
+	vertical-align: top;
+}
+.marubatsu_tbl_judge{
+	background-color: #FFF;
+	border-radius: 3px;
+	padding: 15px;
+	font-weight: bold;
+	width: 293px;
+	vertical-align:center;
+	text-align:center;
+}
+.marubatsu_img{
+	display:inline-block;
+	vertical-align: top;
+}
+.marubatsu_orange_ttl{
+	padding-left:116px;"
+}
+.judge_txt_maru.txt_orange_r{
+	color:#F5BB1C;
+}
+.judge_txt_maru.txt_skyblue,.judge_txt_batsu.txt_skyblue{
+	color:#AAF;
+}
+/*お支払する保険金*/
+.point_table td{
+	text-align:center;
+	border:3px solid #ADADAD;
+	border-radius:5px;
+	background-color: #FFF;
+}
+.point_table_blue_in{
+	padding:8px;
+}
+.point_table.hikaku_point_680{
+	display:none;
+}
+.hikaku_point_inner{
+	padding: 5px;
+	margin-top:5px;
+}
+.title_mega.hikaku_red{
+	color:#E47373;
+}
+.small_label{
+	font-weight: bold;
+	text-align:center;
+	padding: 10px 0 5px;
+}
+.hikaku_chui{
+	padding:5px 15px;
+}
+.point_table{
+	border-collapse:separate;
+	border-spacing:4px;
+	width:96.5%;
+	margin: 0px auto;
+}
+.point_table img.hosyounaiyou_blue{
+	margin: 5px auto 0px;
+	width: 75px;
+	height: 24px;
+}
+.point_table.hikaku_point{
+	width:97.5%;
+	margin: 0px auto;
+	border-collapse: separate;
+	border-spacing:5px;
+}
+/**[2]賠償責任の補償**/
+.baisyo_ex_red{
+	font-weight:bold;
+	color:#E47373;
+}
+.baisyo_ex_ogrange{
+	font-size:93%;
+	font-weight:bold;
+	color:#FF6600;
+	padding-top: 1em;
+}
+.daiko_box{
+	border:solid 3px #7F89A9;
+	background-color:white;
+	border-radius: 4px;
+	margin: 10px auto 10px;
+	width:95%;
+	border-collapse: separate;
+}
+.daiko_box li{
+	font-weight:bold;
+}
+.daiko_label{
+	text-align:center;
+	font-weight:bold;
+	padding-bottom:15px;
+}
+.daiko_label2{
+	text-align:center;
+	padding:5px;
+	background-color:#7F89A9;
+	color:white;
+	font-size:120%;
+	font-weight:bold;
+}
+.daiko_label3{
+	text-align:center;
+	padding:5px;
+	background-color:#7F89A9;
+	color:white;
+	font-size:120%;
+	font-weight:bold;
+}
+.daiko_label2 p{
+ 	text-align:left;
+ 	margin:0 auto;
+ 	width:293px;
+ 	padding: 1px;
+}
+.daiko_img{
+	width:88px;
+	height:28px;
+	text-align:center;
+	padding:0 0 5px 0;
+}
+.daiko_ul{
+	text-align:left;
+}
+.daiko_box_sp{
+	display:none;
+	width: 100%;
+	padding: 5px;
+}
+.daiko_box_sp2{
+	display:none;
+	width: 100%;
+	padding: 0px;
+}
+.baisyo_chui{
+	width:91%;
+	margin: 0px auto;
+}
+/**[3]被害事故の補償**/
+.higai_box{
+	border:solid 3px #808080;
+	background-color:white;
+	border-radius: 4px;
+	margin: 0 auto 10px;
+	width:95%;
+	border-collapse: separate;
+}
+.higai_box li{
+	font-weight:bold;
+}
+.higai_label{
+	font-weight:bold;
+}
+.higai_box_sp{
+	display:none;
+	width:100%;
+}
+/**[4]自転車ロードサービス(プレミアム)**/
+.kahen_img_left,.kahen_img_right{
+	position:absolute;
+	width:125px;
+	height:125px;
+}
+.kahen_img_left{
+	top:-10px;
+	left:0;
+}
+.kahen_img_right{
+	top:-10px;
+	right:0;
+}
+.title_big.point_grayroad{
+	line-height:1.3em;
+	margin-top:10px;
+}
+.point_pink{
+	font-size:128%;
+}
+.point_table_blue_wrap.road_service{
+	height:13.5em;
+}
+.road_point2{
+	font-size:81%;
+}
+.point_label_tbl{
+	width:100%;
+	border-spacing: 17px;
+	margin: 0px auto;
+	border-collapse:separate;
+	margin-top: -10px;
+}
+.point_label_tbl_sp{
+	display:none;
+}
+.point_label_tbl td {
+	border: 3px solid #001E60;
+	border-radius: 3px;
+	background-color: #FFF;
+	text-align:center;
+}
+.point_label_blue{
+	background-color: #001E60;
+	height:3em;
+	text-align:center;
+}
+.road_title{
+	border-radius: 4px;
+	margin: 0 auto;
+	width:73%;
+	border-collapse: separate;
+}
+.sirvice_ex_label{
+	width: 95%;
+	margin: 0px auto;
+}
+.ex_kahen{
+	padding:0 17px;
+}
+.sirvice_ex_box{
+	border: 3px solid #999;
+	border-radius: 5px;
+	padding: 12px 12px 0;
+	background-color: #FFF;
+	margin: 0px auto 20px;
+}
+.indent_sp{
+	margin:0 auto;
+}
+.icon_arrive{
+	padding: 0 0 0 10px;
+	vertical-align: bottom;
+	display: inline-block;
+	width: 50px;
+}
+.bycle_days_ttl{
+	display: block;
+	color: #2A4287;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.bycle_days_link{
+	display: block;
+	color: #d36ca1;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.bycle_days_link:hover{
+	opacity:0.8;
+}
+.bycle_days_ttl{
+	margin-top:30px;
+}
+.bycle_days_link{
+	margin-top:5px;
+}
+a.bycle_days_link{
+	text-decoration: none;
+}
+.padding__Bbycle{
+    padding-bottom: 10px;
+}
+.road_point_sub{
+	padding: 10px 0px 5px;
+}
+/******選べる3つのタイプ・コース******/
+.course_title_table td{
+	text-align:left;
+}
+.course_title_table img{
+	width: 100px;
+	height: 100px;
+	vertical-align: bottom;
+}
+.course_title_label{
+	font-weight:bold;
+	color:#fff;
+	height:1.5em;
+	padding: 4px 0px 0px;
+	border-radius: 5px 5px 0 0;
+}
+.course_title_small{
+	background-color:white;
+	border:solid 3px;
+	height:5em;
+	padding-top:1.5em;
+	border-radius: 0 0 5px 5px;
+}
+.user_voice{
+	width:102px;
+	height:24px;
+	vertical-align:top;
+	display:inline-block;
+	margin: 8px auto 3px;
+}
+.course_title_table_sp{
+	display:none;
+}
+.type_title_small{
+	background-color:white;
+	border:solid 3px #4F81BD;
+	height:5em;
+	padding-top:1.5em;
+	border-radius: 0 0 5px 5px;
+}
+.osusume_txt{
+	text-align:center;
+	margin-bottom: -10px;
+}
+.taiken_label{
+	width:96%;
+	margin:0 auto;
+	text-align:center;
+	padding: 5px 0px 8px;
+}
+.taiken_box{
+	width:93%;
+	margin:0 auto 10px;
+	padding:10px; 
+}
+.type_title_label_s{
+	font-weight: bold;
+	color: #FFF;
+	border-radius: 5px 5px 0px 0px;
+	background-color: #4F81BD;
+	height: 1.5em;
+	padding-top: 5px;
+}
+.br_pc {
+	display:inline;
+}
+.br_sp {
+	display:none;
+}
+.user_voice_txt{
+	display:inline-block;
+	padding-top:6px;
+	font-weight:bold;
+}
+.lucky_txt{
+	display:inline-block;
+}
+
+/******コース・保険料******/
+.course_and_money_table_wrap{
+	border-radius:10px;
+	border:2px solid gray;
+	padding:5px;
+	margin: 20px 10px 10px;
+	background-color:#fff;
+	height: 13em;
+}
+.course_and_money_table_in{
+	height:4em;
+}
+.cortion_box{
+	display: inline-block;
+	margin:0 auto;
+	width:100%;
+}
+.bronz{
+	background-color: #E8423F;
+	color:white;
+}
+.silver{
+	background-color: #5E7B88;
+	color:white;
+}
+.gold{
+	background-color: #F5BB1C;
+	color:white;
+}
+.type_title_label{
+	font-weight:bold;
+	color:#fff;
+	padding: 7px auto 0px;
+	border-radius: 5px 5px 0 0;
+	background-color:#4F81BD;
+	height: 2.5em;
+	padding-top: 5px;
+}
+.point_table, .course_title_table{
+	width:100%;
+	margin:0 auto;
+	border-collapse: separate;
+	border-spacing: 17px;
+}
+.course_title_table{
+	margin-top:-25px;
+}
+.sentaku_notice{
+	text-align: center;
+	max-width: 734px;
+	margin:0 auto;
+}
+.bycle_label_icon_big{
+	display: inline-block;
+	border: 2px solid #E55602;
+	padding: 0px 2px;
+	background-color: #FFF;
+	color: #E55602;
+	font-weight: bold;
+	text-indent: 0em;
+	font-size: 15px;
+}
+.container_new{
+	width: 768px;
+	margin: 10px auto;
+}
+.premium_table {
+	border-collapse: separate;
+	border-spacing: 2px;
+	width: 96%;
+	margin: 0 auto;
+}
+.cortion{
+	font-size:90%;
+	margin-right:12px;
+	text-align:center;
+}
+.course_and_money_table{
+	border-spacing: 10px;
+	width: 100%;
+	max-width: 752px;
+	margin: 0 auto;
+}
+.course_and_money_table_680{
+	display:none;
+}
+.premium_table td.coverage.hokenkikan{
+	text-align:center;
+}
+.course_title_table_hover:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
+.premium_table td.coverage {
+	border-bottom: 1px solid #6783D0;
+	border-right: 1px solid #6783D0;
+}
+.kingaku_maru_txt{
+	font-size:20px;
+}
+.orange_sub{
+	text-align:center;
+	margin-top:10px;
+}
+.course_sub{
+	display:inline-block;
+	margin-left:20px;
+}
+.bycle_notice_icon{
+	margin-right:5px;
+}
+#family_tbl{
+	margin:80px 0;
+}
+/******無料！au損保のアプリ******/
+.topic_box{
+	padding:10px 16px;
+}
+.topic_box p{
+	text-align:left;
+}
+.app_bnr{
+	max-width:100%;
+	width: 95%;
+}
+.yobidashi_txt{
+	padding-top:10px;
+}
+.zitensyanohi_pc,.zitensyanohi_sp{
+	text-align:center;
+	margin: 10px 0px;
+}
+.zitensyanohi_sp{
+	display:none;
+}
+#apply_bnr_1,#apply_bnr_2{
+	width: 310px;
+	height: 40px;
+	margin: 10px 5px 40px;
+}
+#apply_bnr_1:hover{
+	opacity:0.8;
+}
+#apply_bnr_2:hover{
+	opacity:0.8;
+}
+
+.zitensha_Uline{
+    text-decoration: underline;
+}
+
+/******重要説明書・約款******/
+.important{
+	font-size: 90%;
+	padding: 10px 50px 70px;
+	background-color: #fffff4;
+	font-size: 13px;
+}
+.pdf_list{
+	text-align:center;
+}
+.pdf_list p{
+	display:inline-block;
+	padding:0 18px;
+}
+
+.pdf_linkcolor{
+    color: #605F5D;
+}
+.pdf_box{
+	padding:0 2px;
+	font-size:70%;
+	border:1px solid #939393;
+}
+/******フッター******/
+.icon_file{
+	margin-left:5px;
+}
+.copy{
+	font-size:60%;
+}
+.btn_totop{
+	text-align:right;
+}
+.btn_totop img{
+	vertical-align:bottom;
+}
+/******スライド******/
+.beige_title{
+	background-color: #FCF7EB;
+	text-align: center;
+	padding: 15px 0px 10px;
+	color: white;
+	font-weight: bold;
+}
+#page_layer_9{
+	margin:0 auto;
+	position:relative;
+	text-align:center;
+	background-color:#FFFFF4;
+	display:none;
+	padding: 15px 0 15px 30px;
+}
+#page_layer_9 .orange_area {
+	text-align:center;
+	border: 3px solid #DD541A;
+	padding:5px;
+	border-radius:5px;
+	width:200px;
+	font-weight:bold;
+}
+#page_layer_9  .layer_6_img > img{
+	position:absolute;
+}
+#page_layer_9  .layer_6_img > div{
+	margin:10px 10px 0 90px;
+}
+.nibai_tbl{
+	border:solid 3px #adadad;
+	border-radius:2px;
+	padding:5px 0;
+	width: 77%;
+	margin: 10px auto;
+	position:relative;
+}
+.nibai_icon{
+	position:absolute;
+	right: 20px;
+	width:95px;
+	height:20px;
+}
+.nibai_ttl{
+	text-align:left;
+	max-width:35em;
+	margin:0 auto;
+}
+.nibai_sun_icon{
+	position:absolute;
+	top:-22px;
+	width:50px;
+	height:50px;
+}
+.nibai_graph{
+	 width:100%;
+	 max-width:265px;
+	 padding: 8px 0 0 0;
+}
+.nibai_list{
+	display:inline-block;
+	text-align:left;
+	max-width:358px;
+	width:100%;
+	vertical-align:top;
+	padding:21px 5px 0;
+}
+.slide_img{
+	max-width:80px;
+	height:80px;
+	width:100%;
+	margin: -22px 5px 5px;
+}
+.slide_txt{
+	text-align:left;
+	max-width:472px;
+	margin:20px auto 15px;
+	position:relative;
+}
+#button_prev {
+	width:40px;
+}
+.sta_hoken {
+	background-color: #605f5d;
+	color: #fff;
+	width: 10.5em;
+	position: absolute;
+	right: 0;
+	bottom: 40px;
+	padding: 0;
+}
+#button_prev img {
+	width:40px;
+}
+#button_prev {
+	height:100%;
+}
+.sp_speace_none {
+	margin-top:10px;
+}
+.main_image {
+	margin-top:20px;
+}
+.mw930_margin{
+	max-width: 930px;
+	margin: 0px auto;
+}
+.footer_new .foot_nav dt,.footer_new .foot_nav dd,.footer_new .foot_lower .foot_logo_box .copy{
+	letter-spacing:0;
+}
+.footer_new .foot_nav dd a {
+	margin: 0;
+}

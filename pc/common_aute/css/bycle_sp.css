@@ -1,0 +1,572 @@
+@charset "UTF-8";
+
+/******ページインナー******/
+.pagelayer_inner{
+	width: 95%;
+	margin: 0 auto;
+}
+/******インデント＆テキスト位置******/
+.sp_title_indent{
+	margin: 0px;
+	font-weight:bold;
+}
+.margin_l30 {
+	margin-left: 18px;
+}
+.margin_l18 {
+	margin-left: 4px;
+}
+.margin_l40 {
+	margin-left: 18px;
+}
+.margin_l20 {
+	margin-left: 15px;
+}
+/******文字サイズ・色******/
+/* 一番大きい文字 */
+.title_mega{
+	font-size:17px;
+	text-align: center;
+}
+/******タイトル＆数字の箱******/
+.title_box{
+	padding: 5px;
+	width: auto;
+	margin-bottom: 5px;
+	height: 100%;
+	word-brake:brake-all;
+}
+.number_box{
+	width: 1.5em;
+	height: 1.8em;
+	margin-right: 5px;
+}
+.number_box p{
+	padding-top: 0px;
+	margin-top: -2px;
+}
+/******ボタン******/
+.point_table img.kuwashiku_green{
+	margin-top: 2px;
+	width:140px;
+	height:21px;
+}
+/******ニュース******/
+.gray_news {
+	padding: 10px 5px;
+}
+/******４つのポイント******/
+/*４つのポイント*/
+.top_message{
+	text-align: left;
+	padding: 0px 5px;
+	max-width: 425px;
+	margin: 5px auto 0;
+	width: auto;
+}
+.point_table_blue_wrap {
+	height: 11.5em;
+}
+.point_table img{
+	width:122px;
+	height:24px;
+}
+.point_label_tbl_sp{
+	border-collapse: separate;
+	border-spacing: 5px;
+	max-width: 738px;
+	margin: 0 auto;
+	width: 100%；
+}
+.point_label_tbl_sp td {
+	border: 3px solid #001E60;
+	border-radius: 3px;
+	background-color: #FFF;
+	text-align: center;
+	position:relative;
+}
+.indent_sp{
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+/******補償内容******/
+/**共通**/
+.each_title_sentence{
+	margin:0px;
+	display:block;
+}
+.each_title {
+ 	padding: 0px 1px;
+}
+.each_title_sentence{
+	padding-left: 32px;
+}
+.hosyounaiyou_matome{
+	background-color:#fffff4;
+	padding:5px 0px;
+}
+/**[1]ケガの補償**/
+.hosyo_tbl_marubatsu {
+	display:none;
+}
+.hosyo_tbl_marubatsu_sp{
+	display:table;
+	border-spacing: 3px;
+	border-collapse: separate;
+}
+.bycle_marubatsu_txt{
+	text-indent: 0em;
+	text-align: left;
+	padding: 10px 3px 0px;
+	margin-left: 33px;
+}
+.marubatsu_tbl{
+	padding: 5px;
+}
+.marubatsu_list{
+	padding: 10px 0 0;
+	display: block;
+	margin:0 auto;
+}
+.judge_txt_maru{
+	font-size: 236%;
+}
+.judge_txt_batsu {
+	font-size: 200%;
+}
+.marubatsu_tbl_judge{
+	padding:0px;
+}
+.marubatsu_logo_img{
+	max-width: 70px;
+	width: 70px;
+	height: 58px;
+}
+.marubatsu_orange_ttl_sp1{
+	padding-left:0px;
+	padding-left: 0px;
+	max-width: 17.5em;
+	margin: 0px auto 5px;
+	text-align: left;
+}
+.marubatsu_orange_ttl_sp{
+	padding-left:0px;
+	padding-left: 0px;
+	max-width: 14em;
+	margin: 0px auto 5px;
+	text-align: left;
+}
+.nibai_icon_orange{
+	padding: 5px;
+}
+.baisyo_ex2.title_small{
+	padding:5px;
+}
+.baisyo_ex_ogrange {
+	padding: 5px;
+	margin-left:16px;
+}
+.hokenkin_kome{
+	max-width: 716px;
+	margin: 0 auto;
+	width: 100%;
+}
+.ex_kahen{
+	padding:0 5px;
+}
+.konna_orange {
+	text-align: left;
+	padding-left: 14px;
+	padding-top:20px;
+}
+.sirvice_ex_box {
+	margin: 0px auto 15px;
+}
+/*お支払する保険金*/
+.point_table.hikaku_point{
+	display:none;
+}
+.point_table.hikaku_point_680{
+	display:table;
+}
+.point_table {
+    width: 100%;
+}
+.hikaku_chui{
+	padding:0px;
+}
+.title_mega.hikaku_red {
+	font-size:110%;
+}
+.small_label{
+	text-indent: 0em;
+}
+/**[2]賠償責任の補償**/
+.daiko_box, .higai_box, .point_label_tbl{
+	display:none;
+}
+.daiko_box_sp, .daiko_box_sp2, .higai_box_sp, .point_label_tbl_sp{
+	display:table;
+}
+.baisyo_chui{
+	width:90%;
+}
+.daiko_box_sp,.daiko_box_sp2,.higai_box_sp{
+	width:98%;
+}
+.daiko_img {
+	padding-top:5px;
+}
+.daiko_label {
+	padding-bottom:0px;
+}
+.daiko_ul {
+	padding: 5px;
+	max-width: 435px;
+	margin: 0 auto;
+	width: auto;
+}
+.daiko_box_sp2{
+	text-align:left;
+}
+.daiko_text{
+	max-width: 470px;
+	margin: 0px auto;
+	width: 100%;
+}
+.megalabel{
+	font-weight:bold;
+}
+/**[3]被害事故の補償**/
+.each_title_2{
+	max-width: 714px;
+	width: auto;
+	margin: 0 auto;
+	overflow:hidden;
+}
+/**[4]自転車ロードサービス(プレミアム)**/
+.kahen_img_right, .kahen_img_left{
+	top:0px;
+}
+.kahen_img_left{
+	position:relative;
+	width:100px;
+	height:100px;
+}
+.kahen_img_right{
+	position:relative;
+	width:100px;
+	height:100px;
+}
+.point_label_blue{
+	height: 2.3em;
+}
+.point_table_blue_in {
+	padding: 0px;
+}
+.point_table_blue_wrap.road_service{
+	height:12em;
+}
+.sirvice_ex_label{
+	width: 90%;
+}	
+.icon_arrive{
+	padding: 5px;
+	width: 100%;
+	text-align:center;
+}
+.padding__Bbycle{
+    padding-bottom: 10px;
+}
+.road_point_sub{
+	padding: 5px 0;
+}
+
+/******選べる3つのタイプ・コース******/
+.course_title_table{
+	border-spacing:2px;
+	max-width: 730px;
+	margin: -3px auto 0;
+	width: 100%;
+}
+.course_title_small{
+	border:solid 2px;
+	height: 6.5em;
+	padding-top:1em;
+	font-size:12px;
+}
+.type_title_small{
+	padding:1em 0 0;
+	font-size: 12px;
+}
+.taiken_label, .taiken_box{
+	width: 96%;
+	padding:5px;
+}
+.text_left_center{
+	text-align:left;
+	padding:0 5px;
+}
+.osusume_txt{
+	width:100%;
+	margin:0;
+	word-break: break-all;
+	font-size: 13px;
+}
+.taiken_voice{
+	max-width: 745px;
+	margin: 0px auto;
+	width: 100%;
+}
+.course_type_txt1{
+	max-width: 445px;
+	margin: 0px auto;
+	width: 100%;
+}
+.course_type_txt2{
+	max-width: 514px;
+	margin: 0px auto;
+	width: 100%;
+}
+#page_layer_6  .layer_6_img > img{
+	position:relative;
+	margin-top:5px;
+}
+#page_layer_6  .layer_6_img > div{
+	margin:0;
+}
+#page_layer_6 {
+	//margin-left:40px;
+}
+#page_layer_6 .pagelayer_inner{
+	//padding-top:50px;
+}
+.type_title_label_s {
+	padding-top: 2px;
+	font-size: 12px;
+}
+.user_voice {
+	padding-top: 0px;
+	margin:0;
+}
+.br_pc {
+	display:none;
+}
+.br_sp {
+	display:inline;
+}
+.user_voice_txt{
+	padding-top:0px;
+}
+.lucky_txt{
+	display:block;
+}
+
+/******コース・保険料******/
+.point_table{
+	display:none;
+}
+.cortion{
+	font-size: 85%;
+}
+.cortion_box {
+	margin:10px auto;
+}
+.course_and_money_table{
+	display:none;
+}
+.course_and_money_table_680{
+	display:table;
+	margin: 15px auto 0;
+	width: 100%;
+	max-width: 730px;
+}
+#type_choice_img_table {
+    margin: 5px 0px;
+}
+.premium_table img {
+	width: 18px;
+}
+.type_title_label{
+	font-size:12px;
+	height: 2.5em;
+	padding: 1px;
+}
+.premium_table {
+	max-width: 730px;
+	margin: 0 auto;
+	width: 100%;
+}
+.block_table.block_table_sp{
+	margin-bottom: 10px;
+}
+.course_and_money_table_wrap {
+	margin: 2px;
+}
+.course_sub {
+	margin: 5px auto -5px;
+}
+.hosyou_kome{
+	max-width: 734px;
+	margin: 0 auto;
+	width: 100%;
+}
+.road_center{
+	width: 100%;
+	text-align: center;
+	margin-top: -18px;
+}
+.bycle_notice_icon{
+	margin-right:0px;
+}
+
+/******無料！au損保のアプリ******/
+.appli_title{
+	max-width: 234px;
+	margin: 0px auto;
+	width: 100%;
+}
+.topic_box {
+	padding:5px;
+}
+.zitensyanohi_pc{
+	display:none;
+}
+.zitensyanohi_sp{
+	display:block;
+}
+#apply_bnr_1{
+	margin: 5px 0;
+}
+#apply_bnr_2{
+	margin: 5px 0;
+}
+.sentaku_notice {
+	margin: 5px auto;
+}
+.sentaku_notice_p{
+	font-size:17px;
+}
+.topic_box.news_bottom{
+	max-width: 734px;
+	margin: 0 auto;
+	width: auto;
+}
+.pagelayer_inner.notice_bottom{
+	max-width: 734px;
+	margin: 0 auto;
+	width: 100%;
+}
+.yobidashi_txt{
+	padding-top:5px;
+}
+.course_and_money_table_in {
+	text-align:center;
+}
+#family_tbl{
+	margin:50px 0;
+}
+/******重要説明書・約款******/
+.important{
+	padding:5px 0 70px;
+}
+.pdf_list {
+	max-width: 600px;
+	margin: 0 auto;
+	width: 100%;
+}
+.pdf_list p {
+	padding: 0px 5px;
+}
+.padding_t2 {
+	padding-top: 0px;
+}
+/******スライド******/
+.nibai_tbl{
+	padding:5px;
+	width: 95%;
+	margin:5px auto;
+}
+.nibai_ttl{
+	width: 92%;
+}
+.nibai_list{
+	min-width:260px;
+	width:100%;
+	vertical-align:top;
+	padding: 5px;
+}
+.nibai_graph{
+	 width:80%;
+	 max-width:275px;
+	 padding: 5px;
+}
+.nibai_sun_icon{
+	top:-18px;
+}
+.nibai_icon{
+	right: 5px;
+	top:32px;
+}
+.slide_img {
+	margin: 8px 5px 5px;
+}
+.slide_img2 {
+	margin-top:25px;
+}
+.slide_txt{
+	max-width:500px;
+}
+.title_mega.slide_ttl{
+	font-size:16px;
+}
+.beige_title {
+	padding: 10px 0px;
+}
+#button_close img {
+	width: 40px;
+	height: 40px;
+}
+#page_layer_9 {
+	padding: 62px 0px 30px 30px;
+}
+.pdf_list {
+	text-align:left;
+}
+.sta_Num .sta_hoken {
+	width:11em;
+	padding:0;
+}
+
+div.approvalInsurance {
+	font-size:10px;
+	margin-bottom:10px;
+}
+
+ul.bread_crumb {
+	margin-bottom:10px;
+}
+
+.sp_speace_none {
+	margin-top:0;
+}
+.main_image {
+	margin-top:0;
+}
+
+/******ロードサービス遷移先******/
+h2.title{
+	padding: 5px;
+	width: 93%;
+	margin-bottom: 5px;
+}
+
+.bycle_label_icon_wrapper{
+	margin-left:0;
+}
+
+.mw930_margin{
+	max-width: 930px;
+	margin: 0px auto 0px 8px;
+}

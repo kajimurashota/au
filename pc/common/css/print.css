@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* 印刷用。.print-areaを非表示 */
+.noprint_area {
+	display: none;
+}
+#pr_news #contents_flame {
+	border: none;
+}

@@ -1,0 +1,198 @@
+﻿@charset "utf-8";
+/***共通***/
+body{
+	font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+	margin:0;
+}
+p,ul{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+/***全体wrap***/
+#inner-wrapper{
+	max-width:970px;
+	margin:0px auto;
+	clear:both;
+	overflow: hidden;
+}
+.over_wrap{
+	padding:5px;
+}
+/***下半分wrap***/
+.block2{
+	clear: both;
+	padding-top: 30px;
+}
+/***文字サイズ・色・インデント***/
+.title_mega{
+	font-size:19px;
+	font-weight:bold;
+}
+.title_big{
+	font-size:15px;
+	font-weight:bold;
+}
+.title_small{
+	font-size:13px;
+	font-weight:bold;
+}
+.title_mini{
+	font-size:11px;
+}
+.navy_txt{
+	color:#001E60;
+}
+.indent1{
+	text-indent:-1em;
+	margin-left:1em;
+}
+.break_all{
+	word-break:break-all;
+}
+.txt_inner{
+	margin-left: 18px;
+}
+/***メイン画像***/
+.top_img{
+	max-width:970px;
+	width:100%;
+}
+/***キャンペーン文言***/
+.text01{
+	float:right;
+	margin-bottom: 15px;
+}
+/*先着人数*/
+.text02{
+	clear:both;
+	color:#0788FD;
+}
+/*赤タイトル*/
+.text03{
+	color: #E70012;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 16px;
+}
+/***青ボタン***/
+.btn_blue{
+	background-color:#0788FD;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;    /* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;   /* Firefox用 */
+	max-width: 280px;
+	padding: 20px;
+	margin-top: 10px;
+	color:#ffffff;
+	text-align: center;
+	margin: 10px auto;
+}
+.btn_blue:hover{
+	opacity:0.8;
+	cursor:pointer;
+}
+.anq_txt{
+	padding-left:12px;
+}
+/***タイトルイメージ***/
+.title_img{
+	max-width:970px;
+	width:100%;
+}
+/***対象条件***/
+.target_box ul{
+	margin-top:10px;
+	line-height: 1.3em;
+}
+.target_box ul li{
+	padding:3px 0;
+}
+/***注意事項***/
+.target_box .notice_box ul{
+	margin-top:0px;
+	line-height: 1.3em;
+}
+.notice_box{
+	clear:both;
+}
+/***プレゼント方法について***/
+.target_box .present_box2 ul{
+	margin-top:5px;
+	line-height: 1.3em;
+}
+.target_box .present_box2 ul {
+	margin-top: 0px;
+	line-height: 1.3em;
+}
+.target_box .present_box2 ul li {
+	padding:5px 0;
+}
+.present_box,.notice_box,.present_box2{
+	margin-top:20px;
+}
+/***カスタマーセンター***/
+.contact_box{
+	margin-top:30px;
+}
+.contact_left,.contact_right{
+	display:inline-block;
+	margin-top: 10px;
+}
+.contact_left{
+	width:27%;
+	vertical-align: top;
+	margin-left: 20px;
+}
+.contact_right{
+	width: 66%;
+	padding-left: 40px;
+}
+.contact_right li a{
+	color:#001E60;
+	text-decoration:none;
+}
+/***募文番号***/
+.number_box{
+	text-align:right;
+	margin-top:20px;
+}
+.last_notice{
+	float:right;
+}
+
+@media screen and (max-width:980px) { 
+	/***カスタマーセンター***/
+	.contact_left, .contact_right {
+		display:block;
+		width:100%;
+	}
+	.contact_left{
+		text-align:center;
+		margin-top: 10px;
+		margin-left:0px;
+	}
+	.contact_right{
+		padding-left:0px;
+		margin-top: 20px;
+	}
+
+	/***文字サイズ***/
+	.title_mega{
+		font-size:17px;
+	}
+
+	/***青ボタン***/
+	.btn_blue{
+		width:87%;
+	}
+	.anq_txt{
+		padding-left:0px;
+	}
+
+}

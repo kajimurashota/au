@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+/***青枠タイトル***/
+.title_box {
+	padding: 5px;
+}
+.title_more{
+	font-size:19px;
+	font-weight:bold;
+	color:#001E60;
+}
+
+.title_another{
+	font-size:17px;
+	font-weight:bold;
+	color:#001E60;
+}
+
+/***箱***/
+.inner-block {
+	width: 100%;
+	margin: 0px auto;
+}
+.container_new {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.width730{
+	padding: 0px 5px;
+	width: 97%;
+}
+.inner_block_97{
+	max-width: 736px;
+	width: 98%;
+	margin: 0px auto;
+}
+/**インデント***/
+.width730.indent1{
+	width: 98%;
+	margin-left: 0px;
+}
+/***一番大きい文字***/
+.title_mega{
+	font-size:17px;
+}
+/***18px***/
+.font18{
+	font-size:13px;
+	color:#001E60;
+}
+/***24px***/
+.font24{
+	font-size:18px;
+	color:#001E60;
+}
+/***タイトル***/
+.road_title_img{
+	min-width:320px;
+}
+/***自転車ロードサービス4つのポイント!***/
+.point_label_tbl{
+	display:none;
+}
+.point_label_blue{
+	height: 2em;
+}
+.point_label_tbl_sp{
+	display:table;
+	border-collapse:separate;
+	border-spacing: 5px;
+	max-width: 736px;
+	margin: 0 auto;
+	width: 100%;
+}
+.point_label_tbl_sp td {
+	border: 3px solid #375799;
+	border-radius: 3px;
+	background-color: #FFF;
+	text-align: left;
+}
+.kahen_img_left,.kahen_img_right{
+	position: relative;
+	width: 100px;
+	height:100px;
+}
+.kahen_img_left{
+	top: 0px;
+}
+.kahen_img_right{
+	top: 2px;
+}
+.point_table_blue_wrap.road_service {
+	height: 12.5em;
+}
+a:link,.kochira_link {
+	text-decoration:underline;
+}
+.navy_tr{
+	width:80px;
+	height:20px;
+	margin-top:5px;
+}
+.roadcar{
+	margin-top:5px;
+}
+.sirvice_ex_box {
+	margin: 0px auto 10px;
+}
+.ex_kahen {
+	padding: 0px 5px;
+}
+.konna_orange{
+	text-align:left;
+	padding-left:15px;
+}
+.roadservice_icon {
+	display:block;
+	margin:10px auto -5px;
+}
+/***ご利用方法***/
+.midasi{
+	text-align:left;
+}
+
+.padding_b{
+	padding-bottom:5px;
+}
+
+.padding_L10{
+	padding: 0px 5px 0px 10px;
+}
+
+.tel_font{
+	font-size:18px;
+}
+
+.togaki{
+	color:#605F5D;
+	text-align:left;
+	padding:10px;
+}
+.block_bycle_smapho.road_service .body_bycle_smapho {
+	padding: 0 5px;
+	width: 97%;
+}
+.block_bycle_smapho .body_bycle_smapho > div > div {
+    padding:0px;
+}
+.block_bycle_smapho .body_bycle_smapho .right_side ul .img_phone01,.block_bycle_smapho .body_bycle_smapho .right_side ul .img_phone02,.block_bycle_smapho .body_bycle_smapho .right_side ul .img_phone03,.block_bycle_smapho .body_bycle_smapho .right_side ul .img_phone04{
+	background-image: none;
+	width: 100%;
+	margin: 20px 0;
+	padding: 0;
+}
+.block_bycle_smapho .body_bycle_smapho .right_side ul li .image {
+	width: 25%;
+}
+.block_bycle_smapho .body_bycle_smapho .right_side ul li .image img {
+	height: 88px;
+	width: 43px;
+}
+.block_bycle_smapho.road_service {
+	margin-bottom: 0px;
+	padding-bottom:0px;
+}
+.block_bycle_smapho.road_service .body_bycle_smapho::after {
+	margin-left: 0px;
+}
+.block_bycle_smapho .body_bycle_smapho .left_side {
+	max-width: 100%;
+}
+.block_bycle_smapho .body_bycle_smapho .right_side ul li .text {
+	font-size: 13px;
+}
+.block_bycle_smapho .body_bycle_smapho .left_side dl dd small {
+	font-size: 15px;
+}
+.block_bycle_smapho .body_bycle_smapho .left_side dl {
+	display: block;
+	padding: 0px 22px;
+}
+.desk_img {
+	margin: 10px auto;
+	height: 130px;
+}
+.yousei_icon {
+	width: 20px;
+	height: 23px;
+}
+.goriyou_txt{
+	padding: 0px 5px;
+}
+.block_bycle_smapho .body_bycle_smapho .left_side dl dt {
+	font-size: 15px;
+}
+.step_txt{
+	max-width: 584px;
+	margin: 0px auto;
+	text-align: left;
+	padding:0 5px;
+}
+
+/***ご利用規約***/
+.kiyaku_box {
+	padding: 5px;
+	width: 94%;
+}
+a:link.pdf_link{
+	text-decoration:underline;
+}
+.pdf_box {
+	margin: 10px 0px;
+}
+/***body間隔（ポップアップ）***/
+.margin_bottom60{
+	margin-bottom:0px;
+}
+.block_bycle_smapho .body_bycle_smapho .left_side dl dd .tel_link{
+	font-size:18px;
+}
+.sp_pt_10{
+	padding-top:10px;
+}
+
+
+.container_new2 {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px;
+    padding: 0px;
+}

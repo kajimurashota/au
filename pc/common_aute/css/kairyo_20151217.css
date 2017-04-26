@@ -1,0 +1,671 @@
+@charset "utf-8";
+body{
+	background-color: #FFFFF4;
+}
+.title_box {
+	background-color: #DAE2F2;
+	text-align: center;
+	padding: 8px 0px;
+}/* max-width:770pxの箱 */
+.inner-block{
+	max-width:770px;
+	width:100%;
+	margin:0 auto;
+}
+/* インデント */
+.indent1{
+	text-indent:-1em;
+	margin-left:1em;
+}
+.indent2{
+	text-indent:-2em;
+	margin-left:2em;
+}
+.margin_l20{
+	margin-left:20px;
+}
+.margin_l36{
+	margin-left:36px;
+}
+.margin_l38{
+	margin-left:38px;
+}
+.margin_b30{
+	margin-bottom:30px;
+}
+.margin_b20{
+	margin-bottom:20px;
+}
+.margin_b10{
+	margin-bottom:10px;
+}
+/***文字サイズ***/
+/* 一番大きい文字 */
+.title_mega{
+	font-size:19px;
+	font-weight:bold;
+	color:#001E60;
+}
+/* 真ん中サイズの文字（太字） */
+.title_big{
+	font-size:15px;
+	font-weight:bold;
+	color:#001E60;
+}
+/* 真ん中サイズの文字（細字） */
+.title_middle{
+	font-size:15px;
+	font-weight:normal;
+	color:#001E60;
+}
+/* 一番小さいサイズの文字 */
+.title_small{
+	font-size:13px;
+	font-weight:normal;
+	color:#001E60;
+}
+/***文字色***/
+.txt_red{
+	color:#E47373;
+}
+.txt_blue{
+	color:#001E60;
+}
+.txt_black{
+	color:#000
+}
+
+/***背景色***/
+.back_gray_in{
+	background-color:#FFFFF4;
+	padding:20px 17px;
+}
+.back_gray_in.no1{
+	padding: 20px 17px 0px;
+}
+/***数字の箱***/
+.number_box{
+	background-color:#001E60;
+	width:2.5em;
+	height:2.5em;
+	text-align:center;
+	display:inline-block;
+	margin-right: 10px;
+}
+.number_box p{
+	color:#fff;
+	padding-top:2px;
+	display:inline-block;
+}
+.number_title{
+	display:inline;
+}
+.number_box_txt{
+	padding-left:42px;
+}
+/***ニュース***/
+.back_news{
+	background-color:#f2f2f2;
+	padding: 8px 0px;
+}
+a:link.newslink{
+	color:#001E60;
+	text-decoration:underline;
+}
+/***ポイントテーブル***/
+.point_label_tbl{
+	width:100%;
+	border-spacing: 17px;
+	margin: 0px auto;
+	border-collapse:separate;
+}
+.point_label_tbl_sp{
+	display:none;
+}
+.point_label_tbl td {
+	border: 3px solid #375799;
+	border-radius: 3px;
+	background-color: #FFF;
+	text-align:center;
+}
+.point_label_blue{
+	background-color: #375799;
+	height:3em;
+	text-align:center;
+}
+.label_blue_wrap{
+	text-align:center;
+}
+.point_img{
+	width:260px;
+	height:65px;
+	margin:0px auto 10px;
+}
+.inner-block .prepar:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
+.img_point1,.img_point2_1,.img_point2_2{
+	height:55px;
+}
+.img_point3_1,.img_point3_2{
+	width:119px;
+	height:65px;
+}
+.img_point2_1,.img_point2_2{
+	padding-top:10px;
+}
+.img_point3_1,.img_point3_2,.img_point4_2{
+	padding-top:5px;
+}
+.img_point1{
+	width:35px;
+	padding: 10px 0;
+}
+.img_point2_1{
+	width:60px;
+}
+.img_point2_2{
+	width:53px;
+}
+.img_point4_1{
+	width:65px;
+	height:67px;
+}
+.img_point4_2{
+	width:65px;
+	height:65px;
+}
+.img_point4_3{
+	width:80px;
+	height:54px;
+}
+.point_wrap_in{
+	height:11em;
+}
+.point_number{
+	font-size:21px;
+}
+.departures_blue{
+	text-align:right;
+	max-width: 752px;
+	margin: 8px 0 -10px;
+}
+.departures_btn{
+	width:220px;
+	height:29px;
+}
+
+/***お見積り（保険料）テーブル***/
+.mistumori_notice{
+	max-width:540px;
+	width:100%;
+	margin:0 auto;
+}
+.mitsumori_table_box .kirikae_txt{
+	width: 90%;
+	margin: 0px auto -8px;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #00B128;
+}
+.mitsumori_body .mitsumori_table td.mitsumori_kingaku_b{
+	color:#E47373;
+	height: 2em;
+}
+.mitsumori_body .mitsumori_table td.mitsumori_kingaku_s{
+	color:#5E7B88;
+	height: 2em;
+}
+.mitsumori_body .mitsumori_table td.mitsumori_kingaku_g{
+	color:#F5BB1C;
+	height: 2em;
+}
+/***補償内容テーブル***/
+.caution_mark{
+	width:30px;
+	height:30px;
+	display:inline-block;
+	margin-right: 10px;
+}
+.point_label_tbl.hosyou_label_tbl td{
+	text-align:left;
+}
+.hosyou_img{
+	margin: 20px auto;
+	text-align: center;
+}
+.hosyou_img1,.hosyou_img2,.hosyou_img3,.hosyou_img4,.hosyou_img5,.hosyou_img6{
+	height:65px;
+}
+.hosyou_img1{
+	width:73px;
+}
+.hosyou_img2{
+	width:80px;
+}
+.hosyou_img3{
+	width:85px;
+}
+.hosyou_img4{
+	width:41px;
+}
+.hosyou_img5{
+	width:47px;
+}
+.hosyou_img6{
+	width:73px;
+}
+.hosyou_blue_wrap{
+	padding:4px;
+}
+.hosyounaiyou_btn{
+	margin:0 auto 5px;
+	width: 88px;
+	height:28px;
+}
+.hosyounaiyou_btn:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
+.world_sick_table ul li{
+	padding:2px 0;
+}
+.world_sick_table_sp{
+	display:none;
+}
+.world_sick_ex td{
+	vertical-align:top;
+}
+.world_sick_ex{
+	margin:20px 0 40px;
+}
+.hosyou_txt{
+	margin: 10px 0px -8px 20px;
+}
+.hosyou_sub_ttl{
+	text-align:center;
+}
+/***サービステーブル***/
+.service_center_in{
+	max-width:80%;
+	width:100%;
+	margin:30px auto;
+}
+.service_table{
+	margin: 20px 0px;
+}
+.service_table td{
+	border: 3px solid #FFFFF4;
+}
+.service_table_img1{
+	width:100%;
+	max-width:102px;
+	height:90px;
+	margin:10px 0;
+}
+.service_table_img2{
+	width:100%;
+	max-width:53px;
+	height:90px;
+	margin:10px 0;
+}
+.service_table_sp{
+	display:none;
+}
+.service_table ul{
+	padding:20px;
+}
+.service_table ul li{
+	padding:10px;
+}
+.number_box_nagare{
+	border: 2px solid #375799;
+	background-color:#fff;
+	height:2.5em;
+	width:35%;
+	margin:10px auto;
+	border-radius:3px;
+}
+.nagare_txt{
+	padding-top:4px;
+	color:#375799;
+}
+.repear_img{
+	max-width:210px;
+	width:100%;
+	margin:0 auto;
+}
+.assistance_img1{
+	width:100%;
+	max-width:36px;
+	height:60px;
+}
+.assistance_img2{
+	width:100%;
+	max-width:46px;
+	height:60px;
+}
+.assist_tbl_sp{
+	display:none;
+}
+.oversea_call{
+	width: 130px;
+	height: 130px;
+}
+.denwa_kochira_btn{
+	max-width: 170px;
+	height: 30px;
+}
+.denwa_kochira_btn:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
+.supportdesk_orange{
+	text-align:center;
+	margin:0 auto;
+	border:1px solid #E55631;
+	padding:5px;
+}
+/***ご出発前の準備***/
+.assistant_service_tbl{
+	border-collapse:separate;
+	border-spacing:5px;
+	width: 97%;
+	margin: 0 auto;
+}
+.assistant_service_tbl_sp{
+	display:none;
+}
+
+.assistant_service_tbl img{
+	width:100%;
+	max-width:120px;
+	height:120px;
+}
+.assistant_service_tbl td{
+	border:3px solid #375799;
+	border-radius: 3px;
+	background-color:#fff;
+}
+.assistant_service_tbl .hosyou_blue_wrap{
+	height:15em;
+	text-align:center;
+}
+.assistant_service_tbl .free_call{
+	max-width:60px;
+	width:100%;
+	height:46px;
+}
+.tel_number{
+	text-align:left;
+	background-color:#001E60;
+	width:70%;
+	padding:5px;
+	margin: 0 auto;
+	color:#fff;
+	border-radius: 3px;
+}
+.tel_number ul{
+	margin:0 auto;
+}
+.tel_number ul li{
+	font-weight:bold;
+	padding:0;
+	letter-spacing: 0.08em;
+}
+.bnr_app img{
+	width:96%;
+}
+.title_mega.world_check_txt{
+	padding-bottom:20px;
+}
+.title_mega.world_check_txt2{
+	padding-bottom:0px;
+}
+/***料金表***/
+.money_big_title{
+	padding: 6px;
+	max-width:396px;
+	text-align: center;
+	margin: 15px auto 20px;
+	background-color:#FFFFF4;
+	width:100%;
+}
+.kuwashiku_green{
+	width:120px;
+	height:33px;
+	margin-top:10px;
+}
+.kuwashiku_green:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
+.apply_red_btn{
+	width: 270px;
+	height:48px;
+	margin-top: 8px;
+}
+.premium_table td.coverage.hosyou_contents{
+	text-align:left;
+	padding: 5px 0 5px 10px;
+}
+.pay_box{
+	border-radius:3px;
+	border:2px solid #605F5D;
+	background-color:#fff;
+	width: 91.5%;
+	margin:0 auto;
+	text-align:center;
+	padding:10px;
+}
+/***約款***/
+.block_agreement ul li {
+	color:#001E60;
+}
+/***既存上書き***/
+.block_mitumori{
+	border: 2px solid #2A4287;
+	background: #FFF none repeat scroll 0% 0%;
+	width:732px;
+	max-width:100%;
+	padding-top:0;
+	border-radius:3px;
+}
+.mitsumori_body .mitsumori_table caption{
+	width: 88%;
+	margin: 10px auto;
+	background-color: #2A4287;
+}
+.mitsumori_body .mitsumori_table {
+	margin-top: 10px;
+}
+.block_lower_narrow_space {
+	max-width: 100%;
+}
+.block_assistant_service > p {
+	padding: 0px;
+}
+.block_assistant_service .sp_image p {
+	padding:0;
+	font-size: 13px;
+}
+.block_application p {
+    margin: 5px 0 30px;
+}
+.lower_title.mitsumori {
+	font-size: 19px;
+}
+.premium_case_text {
+	font-size: 19px;
+}
+.block_premium_case dl dt {
+	font-size: 15px;
+	border-radius: 3px 3px 0 0;
+}
+}
+.block_premium_case dl dd .price {
+	font-size: 19px;
+}
+.block_premium_case dl dd li {
+	font-size: 15px;
+}
+.block_application {
+	width: 100%;
+	padding:0;
+}
+.block_print_info {
+	border:none;
+	background-color:#fffff4;
+}
+.mitsumori_body .mitsumori_table tr:first-child th {
+	font-size: 19px;
+	font-weight:bold;
+}
+.mitsumori_body .mitsumori_table .cell_bronze {
+	background-color: #E47373;
+	border-radius:3px 3px 0 0;
+}
+.mitsumori_body .mitsumori_table .cell_border_bronze {
+	border: 3px solid #E47373;
+}
+.mitsumori_body .mitsumori_table .cell_silver {
+	background-color: #5E7B88;
+	border-radius:3px 3px 0 0;
+}
+.mitsumori_body .mitsumori_table .cell_border_silver {
+	border: 3px solid #5E7B88;
+}
+.mitsumori_body .mitsumori_table .cell_gold {
+	background-color: #F5BB1C;
+	border-radius:3px 3px 0 0;
+}
+.mitsumori_body .mitsumori_table .cell_border_gold {
+	border: 3px solid #F5BB1C;
+}
+.block_premium_case dl dd {
+	border: 3px solid #2A4287;
+}
+.block_premium_case .premium_case_lower_text .type_family {
+	font-size: 19px;
+}
+.block_print_info li {
+	letter-spacing: normal;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 20px;
+	padding-left: 40px;
+	text-align: left;
+	color: #605F5D;
+	font-size: 15px;
+	position: relative;
+}
+.mitsumori_body .mitsumori_table_box {
+	border:none;
+}
+.premium_table th.coverage div {
+	border:none;
+}
+.premium_table td.coverage {
+	border-right: 1px solid #6783D0;
+	text-align:center;
+}
+.premium_table td.coverage {
+	padding: 10px 0 5px;
+}
+
+.radio_btn_table li span {
+	right:7px;
+}
+
+.radio_btn_table li label.selected {
+	background-color:#00B128;
+	font-weight: bold;
+	font-size:16px;
+}
+.block_premium_case dl {
+	width: 242px;
+	margin: 0px 2px 35px;
+}
+.block_premium_case .premium_case_lower_text {
+	width: 670px;
+}
+.block_agreement dl {
+	border: none;
+}
+.block_agreement dl dt {
+	font-size: 19px;
+}
+.block_agreement dl {
+	background-color:#fffff4;
+}
+.radio_btn_table li label {
+	border:none;
+	padding: 5px;
+}
+.block_application p span {
+	display: inline-block;
+	font-size: 19px;
+	background-color: #fffff4;
+	border: none;
+	padding: 0px;
+	vertical-align: middle;
+}
+.block_application p {
+	text-align: left;
+}
+.lower_main_image.ver02.travel.kaigai .pc_main_text .top_veiw_text {
+	font-size: 20px;
+}
+.premium_table {
+	width: 95%;
+	margin: 0 auto;
+}
+.premium_table th.insurance_target div {
+	border:none;
+}
+.premium_table th.insurance_target {
+	background-color: #b3b3b3;
+	border: 2px solid #b3b3b3;
+}
+#hosyou_area .blue_wrap_in,
+.freefone_link {
+	cursor:pointer;
+}
+
+div.kairyoNum {
+	position: absolute;
+	right:0;
+}
+p.kairyohoken{
+	position: absolute;
+	right: 0;
+	bottom: 40px;
+	padding:0;
+	color:#fff;
+	background-color:rgb(96, 95, 93);
+	width: 9em;
+	text-align: center;
+}
+.jyusetsu {
+	margin-bottom:20px;
+}
+.fami_point {
+	color: #2a4287;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+#pc_top_margin.block_bread_crumb {
+	padding-top:20px;
+}
+.repear_a,.repear_b{
+	display:inline;
+}
+
+.PaddingB5_Wi930{
+	padding-bottom: 5px;
+	width: 930px;
+}

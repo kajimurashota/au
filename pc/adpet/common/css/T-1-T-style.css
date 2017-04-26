@@ -1,0 +1,1328 @@
+@charset "UTF-8";
+/*!--------------------
+aute スマホ
+--------------------*/
+
+/* =========================================================
+ * Reset
+ * ====================================================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 10pt;
+  /*font-size: 62.5%;*/
+  line-height: 120%;
+  vertical-align: baseline;
+  //font:10pt 'ＭＳ Ｐゴシック','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','Tahoma','sans-serif','Osaka','arial','helvetica','clean','sans-serif';*font-size:small;
+  font-size:10pt;
+}
+html {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+a img {
+  //border: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+/*---------- reset end ----------*/
+
+/* =========================================================
+ * 全体設定
+
+
+ * ====================================================== */
+body {
+	color: #444;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 1rem;
+	-webkit-text-size-adjust: 100%;
+}
+img {
+	//width: 100%;
+}
+#wrapper {
+}
+/* =========================================================
+ * ナビゲーションリスト
+
+
+ * ====================================================== */
+.menuList {
+	margin-top: 20px;
+	padding: 0 20px 20px;
+	background: rgba(153,102,0,0.15);
+}
+.menuList li {
+	border-bottom: #bcaf91 solid 2px;
+}
+
+.menuList .naviChild {
+	display: none;
+}
+.menuList .naviChild li, .backArrow {
+	background: url("../common/images/arrow_gnavi.png") 95% center no-repeat;
+	background-size: 10px 16px;
+}
+.menuList .naviChild li a {
+	display: block;
+	padding: 12px 10px;
+	color: #444444;
+	font-size: 1.2rem;
+	text-decoration: none;
+	letter-spacing: -0.1rem;
+}
+
+.menuList .naviChild li:first-child {
+	border-top: #bcaf91 solid 2px;
+}
+.menuList .naviChild li:last-child {
+	border-bottom: none;
+}
+.menuList img {
+	vertical-align: bottom;
+}
+
+
+/* =========================================================
+ * フローティングメニュー
+ * ====================================================== */
+#floatingNavi {
+	box-sizing: border-box;
+	display: none;
+	z-index: 99999;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	padding: 0;
+}
+#floatingNavi .menuList {
+	background-color: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 0 0 0;
+	box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+.menuList li:last-child {
+	border-bottom: none;
+}
+
+/* =========================================================
+ * ヘッダー
+ * ====================================================== */
+header {
+	width: 100%;
+	max-width: 756px;
+	display: table;
+	background: #fff;
+	border-bottom: #ded6c6 solid 2px;
+}
+header div {
+	box-sizing: border-box;
+	display: table-cell;
+	border-left: #ded6c6 solid 2px;
+}
+header a:first-child {
+	border-left: none;
+}
+header a:nth-of-type(1) {
+	width: 61%;
+}
+header.itaku a:nth-of-type(1) {
+	width: 80.5%;
+}
+header.itaku a:nth-of-type(1) img {
+	width: 100%;
+}
+
+/* =========================================================
+ * ページ見出し
+
+
+ * ====================================================== */
+#pageHead {
+	padding: 10px 20px 0;
+}
+#pageHead h1 {
+	text-align: right;
+	font-size: 1.125rem;
+}
+#pageHead h1 img {
+	width: 30%;
+}
+
+/* =========================================================
+ * 犬
+ * ====================================================== */
+#dogArea {
+	margin-top: 10px;
+	padding: 10px 20px 5px;
+	background: rgba(153,102,0,0.15);
+}
+#dogArea ul {
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+}
+#dogArea ul:nth-of-type(2) {
+	margin-top: 5px;
+}
+#dogArea li {
+	display: table-cell;
+	width: 33.3333%;
+}
+#dogArea li.half {
+	display: table-cell;
+	width: 50%;
+}
+#dogArea li:nth-of-type(1) {
+	text-align: center;
+	padding-right: 10px;
+}
+#dogArea li:nth-of-type(2) {
+	text-align: center;
+	padding: 0 5px;
+}
+#dogArea li:nth-of-type(3) {
+	text-align: center;
+	padding-left: 10px;
+}
+
+/* =========================================================
+ * 猫
+ * ====================================================== */
+#catArea {
+	padding: 10px 20px 5px;
+	background: rgba(153,102,0,0.3);
+}
+
+/* =========================================================
+ * インフォメーション
+ * ====================================================== */
+#indexInfo {
+	padding: 20px 20px 0;
+}
+#indexInfo ul {
+	/*padding-bottom: 20px;*/
+	border-bottom: #bcaf91 solid 2px;
+}
+#indexInfo li {
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: #bcaf91 solid 2px;
+}
+#indexInfo li:first-child {
+	margin-top: 0;
+}
+#indexInfo li > img {
+	float: left;
+	width: 25%;
+	margin-right: 6%;
+}
+#indexInfo li div {
+	float: right;
+	width: 68.75%;
+}
+#indexInfo li div img {
+	display: block;
+}
+#indexInfo li:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#indexInfo li p {
+	margin-top: 10px;
+	line-height: 125%;
+}
+
+/* =========================================================
+ * お問い合わせ
+ * ====================================================== */
+#contact {
+	margin-top: 20px;
+	padding: 0 20px;
+}
+#contact img {
+	vertical-align: bottom;
+}
+#contact div {
+	padding: 20px 22%;
+	background: #fff;
+}
+
+/* =========================================================
+ * 補足（ページトップボタンなど）
+
+
+ * ====================================================== */
+aside {
+	margin-top: 30px;
+	padding: 0 20px;
+	text-align: right;
+}
+aside:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.pageTopBtn {
+	width: 41.5%;
+}
+.pagePetTopBtn {
+	width: 46%;
+}
+a.pageBack {
+	display: inline-block;
+	float: left;
+	width: 47.7%;
+}
+
+aside div {
+	margin-top: 30px;
+	text-align: center;
+}
+aside div img {
+	width: 47.4%;
+}
+aside.indemniBlock {
+	margin-top: 0;
+	padding: 10px 20px 0;
+	background: #fff;
+}
+
+/* =========================================================
+ * Number
+ * ====================================================== */
+div.numberBox {
+	margin-top: 20px;
+	padding: 0 20px;
+	font-size: 0.9rem;
+	text-align: right;
+}
+
+
+
+/* =========================================================
+ * フッター
+ * ====================================================== */
+footer {
+	margin-top: 28px;
+	padding: 0 20px 40px;
+}
+footer div {
+	padding-top: 29px;
+	border-top: #bcaf91 solid 2px;
+	text-align: center;
+}
+
+footer div a img {
+	display: inline-block;
+}
+footer div > img {
+	width: 60.65%;
+}
+footer div a img {
+	margin-top: 10px;
+	width: 44.35%;
+}
+
+
+/* =========================================================
+ * その他
+
+
+ * ====================================================== */
+/* clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.smallFont {
+	font-size: 0.75rem;
+}
+.centering {
+	text-align: center;
+}
+.mgt5{
+	margin-top: 5px !important;
+}
+.mgt10 {
+	margin-top: 10px !important;
+}
+.mgt20 {
+	margin-top: 20px !important;
+}
+.mgt40 {
+	margin-top: 40px !important;
+}
+.red {
+	color: #d3746f;
+}
+.redLink {
+	color: #ff0000;
+}
+
+/*--------------------------------------------------------------------------------------*/
+/*　▼▼　ココから各ページ　▼▼　*/
+/*--------------------------------------------------------------------------------------*/
+section.contents {
+	padding: 20px;
+	background: #fff;
+}
+
+section.contents p {
+	line-height: 125%;
+}
+p.notes {
+	margin-top: 10px;
+	font-size: 0.9rem;
+	text-indent: -0.6rem;
+	padding-left: 0.6rem;
+}
+}
+section.contents h2 + p {
+	margin-top: 10px;
+	font-size: 1.2rem;
+}
+p.attent {
+	margin-top: 10px;
+	font-size: 0.9rem;
+}
+p.attent span:nth-of-type(1) {
+	display: block;
+	float: left;
+	width: 2rem;
+}
+p.attent span:nth-of-type(2) {
+	display: block;
+	margin-left: 2.1rem;
+}
+
+/* =========================================================
+ * 補償内容
+ * ====================================================== */
+section.course dl {
+	margin-top: 10px;
+	font-size: 0.9rem;
+	line-height: 140%;
+}
+section.course dt {
+	float: left;
+	margin-right: 5px;
+}
+div.courseText {
+	margin-top: 20px;
+	padding: 20px;
+	border: #fff solid 2px;
+	border-radius: 8px;
+}
+div.courseGreen {
+	border: #8ca08c solid 2px;
+}
+div.courseBlue {
+	border: #8cb4d2 solid 2px;
+}
+
+#dogArea.indemniBlock {
+	margin-top: 0;
+}
+
+section.details {
+	display: none;
+}
+
+p.detailsToggle {
+	width: 70%;
+	margin: 10px auto 0;
+}
+
+section.details dl {
+	margin-top: 20px;
+}
+section.details dt {
+	margin-top: 20px;
+}
+section.details dt.tad {
+	font-size: 13px;
+	font-weight: bold;
+	color: #d3736f;
+	border-bottom: 1px solid #e3a6a3;
+}
+section.details dt.tad p {
+	padding-bottom: 3px;
+}
+section.details dt:first-child {
+	margin-top: 0;
+}
+section.details dd {
+	margin-top: 5px;
+	padding-left: 17px;
+	background: url(../../common/spimg3//images_pet/disc01.png) left 2px no-repeat;
+	background-size: 12px 12px;
+}
+
+/* =========================================================
+ * 特徴
+ * ====================================================== */
+div.meritWrap {
+	box-sizing: border-box;
+	padding-bottom: 20px;
+	border: #f49588 dotted 2px;
+}
+div.meritWrap img {
+	vertical-align: top;
+}
+section.reasonableWrap div {
+	margin-top: 20px;
+}
+section.reasonableWrap div img {
+	vertical-align: top;
+}
+
+.dialWrap li {
+	width: 48%;
+	min-height: 9rem;
+	margin-top: 10px;
+	background: #f9ebde;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.dialWrap li:nth-of-type(odd) {
+	float: left;
+}
+.dialWrap li:nth-of-type(even) {
+	float: right;
+}
+.dialWrap li img {
+	vertical-align: bottom;
+}
+.dialWrap li p {
+	padding: 10px;
+	font-size: 90%;
+}
+.dialWrap div.centering {
+	margin-top: 20px;
+	padding: 0 17.7%;
+}
+
+.reasonableWrap strong, .dialWrap strong {
+	display: block;
+	margin-top: 5px;
+	padding-left: 17px;
+	background: url(../../common/spimg3//images_pet/disc02.png) left 3px no-repeat;
+	background-size: 14px 14px;
+}
+
+/* =========================================================
+ * なぜ
+
+
+ * ====================================================== */
+#abilityWrap img {
+	vertical-align: top;
+}
+#abilityWrap div {
+	padding: 20px 0;
+	box-sizing: border-box;
+	border-left: #89a8cc solid 2px;
+	border-right: #89a8cc solid 2px;
+}
+#abilityWrap div h3 {
+	margin-top: 20px;
+}
+#abilityWrap div h3:first-child {
+	margin-top: 0;
+}
+#abilityWrap div p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0 10px
+}
+
+/* =========================================================
+ * イヌ犬種
+ * ====================================================== */
+a.applicationBtn {
+	display: inline-block;
+	margin-top: 20px;
+}
+.whatKind {
+	padding: 0 !important;
+}
+.whatKind h2 {
+	/*background: #e0a58c;
+	border-radius: 8px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing: -0.1rem;*/
+}
+.whatKind dl {
+	margin-top: 10px;
+	padding: 0 10px;
+}
+.whatKind dt {
+	margin-top: 15px;
+	padding-bottom: 4px;
+	border-bottom: #bcaf91 solid 2px;
+	color: #e0a58c;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+.whatKind dt:first-child {
+	margin-top: 0;
+}
+.whatKind dd {
+	margin-top: 5px;
+	font-size: 0.9em;
+}
+.whatKind dd span {
+	color: #e0a55b;
+}
+.treatWrap img {
+	vertical-align: bottom;
+}
+.treatWrap p {
+	padding: 10px 20px 20px;
+	background: #fef3f5;
+}
+
+.premiumWrap h2 {
+	background: #D3746F;
+	border-radius: 8px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing: -0.1rem;
+}
+.smallFont {
+	font-size: 90%;
+}
+.smallFont2 {
+	font-size: 78%;
+}
+
+#shisanWrapper {
+	margin-top: 20px;
+	margin-left: -3px;
+	margin-right: -3px;
+	border: 3px solid #D95052;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+#shisanWrapper > p {
+	text-align: center;
+	font-weight: bold;
+	background: #D95052;
+	color: #FFFFFF;
+	padding: 3px;
+}
+
+#selectArea {
+	padding: 0 10px 10px;
+	background: #f2e5d8;
+}
+div.optionBox {
+	background: #fff;
+}
+/*年齢*/
+ul.ageList {
+	padding: 5px;
+}
+ul.ageList li {
+	float: left;
+	box-sizing: border-box;
+	//width: 25%;
+	padding: 5px;
+}
+ul.ageList img {
+	vertical-align: middle;
+}
+/*血種*/
+ul.bloodType {
+	padding: 10px;
+}
+ul.bloodType li:nth-of-type(1) {
+	float: left;
+	width: 48%;
+}
+ul.bloodType li:nth-of-type(2) {
+	float: right;
+	width: 48%;
+}
+ul.bloodType li img {
+	vertical-align: middle;
+}
+
+/*体重*/
+ul.weightType {
+	padding: 10px;
+}
+ul.weightType li:nth-of-type(1) {
+	float: left;
+	width: 32%;
+}
+ul.weightType li:nth-of-type(2) {
+	padding-left: 5px;
+	float: left;
+	width: 32%;
+}
+ul.weightType li:nth-of-type(3) {
+	float: right;
+	width: 32%;
+}
+ul.weightType li img {
+	vertical-align: middle;
+}
+
+
+/* =========================================================
+ * 共通
+
+
+ * ====================================================== */
+.recommendWrap h2 + div {
+	margin-top: 10px;
+	padding: 20px 0;
+	background: #faede3;
+	border-radius: 8px;
+}
+.recommendWrap h2 + div img {
+	vertical-align: bottom;
+}
+.recommendWrap dt, .recommendWrap dd {
+	margin-top: 10px;
+}
+.recommendWrap dt:first-child, .recommendWrap dd:first-child {
+	margin-top: 0;
+}
+.recommendWrap dd {
+	padding: 0 10px;
+}
+.recommendWrap dd:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.recommendWrap dd div:nth-of-type(1) {
+	float: left;
+	width: 34%;
+}
+
+.recommendWrap dd div:nth-of-type(2) {
+	float: right;
+	width: 64%;
+	text-align: right;
+}
+.recommendWrap dd div:nth-of-type(2) p {
+	text-align: left;
+	margin-bottom: 5px;
+}
+.recommendWrap dd div:nth-of-type(2) img {
+	width: 70%;
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+/*　▼▼　フレーム表示　▼▼　*/
+/*--------------------------------------------------------------------------------------*/
+
+.noTapHighlightArea a,
+.noTapHighlightArea img,
+.noTapHighlightArea li {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-touch-callout: none;
+}
+
+.defaultHide {
+	display:none;
+}
+/* オーバーレイ */
+#disableDoublePost-overlay {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index : 1000;
+	width: 100%;
+	background: #F2F2F2;
+}
+
+/* =========================================================
+ * ポップアップ
+ * ====================================================== */
+.floatingArea {
+	box-sizing: border-box;
+	display: none;
+	z-index: 99999;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+.floatingAreaInner {
+	padding: 0 20px;
+}
+.floatingAreaInner iframe {
+	width: 100%;
+	height: 100%;
+	min-height: 320px;
+}
+
+.slideItem {
+	background: #fff;
+}
+.itemInner {
+	padding: 10px;
+}
+
+/*---------- かな ----------*/
+div.kanaWrap {
+	padding: 10px;
+}
+div.kanaWrap li {
+	float: left;
+	box-sizing: border-box;
+	width: 20%;
+	padding: 5px;
+}
+div.kanaWrap a {
+}
+div.kanaWrap a img {
+	vertical-align: top;
+}
+
+/*リスト*/
+.classList {
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-top: #bcaf91 solid 2px;
+}
+.classList li {
+	background: url("../common/images/arrow_gnavi.png") 95% center no-repeat;
+	background-size: 10px 16px;
+	border-bottom: #bcaf91 solid 2px;
+}
+.classList li a {
+	display: block;
+	padding: 10px;
+	color: #444;
+	text-decoration: none;
+}
+
+/**/
+.slideItem div.ageWrap {
+	padding: 20px 0;
+}
+/*---------- 選択表示 ----------*/
+div.chooseView {
+	margin: 0 5px;
+	padding: 10px;
+	background-color: #faede3;
+}
+div.chooseView img:nth-of-type(1) {
+	width: 35%;
+}
+div.chooseView p {
+	margin-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: #ded6c6 solid 2px;
+	font-size: 110%;
+}
+div.chooseView div {
+	margin-top: 10px;
+	text-align: right;
+}
+div.chooseView div img {
+	width: 40%;
+}
+
+/*---------- 体重 ----------*/
+div.weightWrap p {
+	margin-top: 40px;
+	color: #d3746f;
+	text-align: center;
+	letter-spacing: -0.1rem;
+}
+
+div.weightWrap ul {
+	margin: 20px 20% 40px;
+}
+div.weightWrap li {
+	margin-top: 10px;
+}
+div.weightWrap li:first-child {
+	margin-top: none;
+}
+
+/*---------- 結果 ----------*/
+p.selectInfo {
+	font-size: 0.8rem;
+}
+p.selectInfo strong {
+	font-size: 1.1rem
+}
+
+div.courseLabel {
+	margin-top: 20px;
+}
+div.courseLabel:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+div.courseLabel img {
+	vertical-align: top;
+}
+div.courseLabel img:nth-of-type(1) {
+	float: left;
+	width: 30%
+}
+div.courseLabel img:nth-of-type(2) {
+	float: right;
+	width: 35%;
+}
+
+ul.course50Info, ul.course70Info {
+	margin-top: 10px;
+	color: #676767;
+}
+ul.course50Info {
+	border-top: #8cb4d2 solid 2px;
+}
+ul.course70Info {
+	border-top: #8ca08c solid 2px;
+}
+
+ul.course50Info li, ul.course70Info li {
+	margin-top: 15px;
+	padding-bottom: 10px;
+}
+ul.course50Info span, ul.course70Info span {
+	margin-right: 10px;
+}
+ul.course50Info strong, ul.course70Info strong {
+	font-size: 1.9rem;
+}
+ul.course50Info li {
+	border-bottom: #8cb4d2 solid 2px;
+}
+ul.course70Info li {
+	border-bottom: #8ca08c solid 2px;
+}
+ul.course70Info + p {
+	margin-top: 20px;
+	color: #676767;
+}
+ul.course70Info + p + ul {
+	margin-top: 20px;
+	color: #676767;
+}
+
+
+
+
+
+
+div#resultPrice div.ageCase{
+	//background:url(../../../pc/pet/common/images/plan/insurance_case.png) no-repeat;
+	background:url(../../common/spimg3//images_pet/plan/insurance_case.png) no-repeat;
+	color:#fff;
+	font-weight:bold;
+	height:25px;
+	text-align:center;
+	padding:4px 0 0px;
+	font-size:13pt;
+}
+div#resultPrice div.result{
+	background:#cea47e;
+	padding:0 15px 15px;
+}
+div#resultPrice div.result div.inner{
+	background:#fff;
+	/*padding:10px 10px 350px 10px;*/
+	padding: 10px 5px 370px 5px;
+}
+
+div#case50{
+	float:left;
+	/*width:200px;*/
+	width: 100%;
+	//margin-left:10px;
+}
+div#case50 div.price{
+	background:url(../../common/spimg3//images_pet/plan/sp_insurance_50.png) no-repeat;
+	-webkit-background-size: 235px 117px;
+	background-size: 235px 117px;
+	width:235px;
+	/*height:101px;*/
+	height: 117px;
+	position:relative;
+}
+div#case70{
+	float:left;
+	/*width:200px;*/
+	width: 100%;
+	//margin-left:10px;
+}
+div#case70 div.price{
+	background:url(../../common/spimg3//images_pet/plan/sp_insurance_70.png) no-repeat;
+	-webkit-background-size: 235px 117px;
+	background-size: 235px 117px;
+	width:235px;
+	/*height:101px;*/
+	height: 117px;
+	position:relative;
+}
+
+div#resultPrice p.monthly{
+	position:absolute;
+	top:29px;
+	right:29px;
+	font-weight:bold;
+	font-size:14pt;
+}
+div#resultPrice p.lumpSum{
+	position:absolute;
+	top:92px;
+	right:29px;
+	font-weight:bold;
+	font-size:12pt;
+}
+div#resultPrice p.monthly70{
+	position:absolute;
+	top:29px;
+	right:29px;
+	font-weight:bold;
+	font-size:14pt;
+}
+div#resultPrice p.lumpSum70{
+	position:absolute;
+	top:92px;
+	right:29px;
+	font-weight:bold;
+	font-size:12pt;
+}
+div#resultPrice p.note02{
+	font-size:90%;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:left;
+	/*padding: 0 20px 0 0px;*/
+	font-size: 9pt;
+}
+
+
+/** 選択や同意確認のボタン **/
+.ketto_btn {
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0px 5px 9px;
+}
+.ketto_btn input {
+	position: absolute;
+	left: -9999px;
+	overflow: hidden;
+}
+.ketto_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding-top: 13px;
+	width: 85px;
+	height: 20px;
+}
+
+.ketto_btn label.small {
+	width: 117px;
+	height: 33px;
+}
+
+.ketto_btn label.small span {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 14pt;
+	color:#FFF;
+	//margin-left: -0px;
+}
+
+div.ketto_btn label {
+	background: url(../../common/spimg3//images_pet//sim/btn_shubetsu4.png) no-repeat;
+}
+//div.ketto_btn label:hover {
+//	background: url(../../common/spimg3//images_pet/sim/btn_shubetsu4.png) no-repeat;
+//}
+div.ketto_btn label.checked {
+	background: url(../../common/spimg3//images_pet/sim/btn_shubetsu4_on.png) no-repeat;
+}
+
+/* ラジオボタンを画像に */
+
+#wrapper label.rdimg {
+	position:relative;
+}
+#wrapper .rdimg input[type="radio"] {
+	position: absolute;
+	-moz-opacity: 0;
+	-webkit-opacity: 0;
+	opacity: 0;
+	outline:none;
+}
+#wrapper .rdimg input[type="radio"] + span {
+
+}
+#wrapper .rdimg input[type="radio"] + span {
+	padding-left:22px\9; /* IE8 only */
+}
+#wrapper .rdimg input[type="radio"] + span:not(:target) {
+	padding-left:0px\9; /* IE9 only */
+}
+#wrapper .rdimg input[type="radio"] + span::before {
+	content:"";
+	display: inline-block;
+	width:16px;
+	height:16px;
+	margin:1px 5px 0 5px;
+	vertical-align:top;
+	background-repeat:no-repeat;
+}
+#wrapper .rdimg input[type="radio"] + span::before {background-position: 0 -16px;}
+#wrapper .rdimg input[type="radio"]:checked + span::before {background-position: 0 0;}
+#wrapper .rdimg input[type="radio"]:disabled + span::before,
+#wrapper .rdimg input[type="checkbox"]:disabled + span::before {
+	-moz-opacity: .6;
+	-webkit-opacity: .6;
+	opacity: .6;
+}
+#wrapper .rdimg input[type="radio"] + span::before {
+	background-image:url(../spimg/new_form_radio.png);
+}
+
+
+/** 選択や同意確認のボタン **/
+.nenrei_btn {
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0px 5px 9px;
+}
+.nenrei_btn input {
+	position: absolute;
+	left: -9999px;
+	overflow: hidden;
+}
+.nenrei_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding-top: 13px;
+	width: 85px;
+	height: 20px;
+}
+
+.nenrei_btn label.small {
+	width: 60px;
+	height: 60px;
+}
+
+.nenrei_btn label.small span {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 22pt;
+	color:#FFF;
+	//margin-left: -0px;
+}
+
+div.nenrei_btn label {
+	background: url(../../common/spimg3//images_pet/sim/btn_age_off4.png) no-repeat;
+}
+//div.nenrei_btn label:hover {
+//	background: url(../../common/spimg3//images_pet/sim/btn_shubetsu4.png) no-repeat;
+//}
+div.nenrei_btn label.checked {
+	background: url(../../common/spimg3//images_pet/sim/btn_age_on.png) no-repeat;
+}
+
+/** 選択や同意確認のボタン **/
+.taijyu_btn {
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0px 5px 9px;
+}
+.taijyu_btn input {
+	position: absolute;
+	left: -9999px;
+	overflow: hidden;
+}
+.taijyu_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding-top: 13px;
+	width: 45px;
+	height: 20px;
+}
+
+.taijyu_btn label.small {
+	width: 74px;
+	height: 33px;
+}
+
+div.taijyu_btn label {
+	background: url(../../common/spimg3//images_pet/sim/btn_under10.png) no-repeat;
+}
+//div.taijyu_btn label:hover {
+//	background: url(../../common/spimg3//images_pet/sim/btn_shubetsu4.png) no-repeat;
+//}
+div.taijyu_btn label.checked {
+	background: url(../../common/spimg3//images_pet/sim/btn_under10.png) no-repeat;
+}
+
+.notice {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.itemization {
+	margin-left: 1em;
+	text-indent: -1em;
+}
+
+.itemization2 {
+	margin-left: 2.5em;
+	text-indent: -2.5em;
+}
+
+.itemization3 {
+	margin-left: 2em;
+	text-indent: -2em;
+}
+
+ul.itemization li:nth-child(n+1),
+dl.itemizationList dt:nth-child(n+1) {
+	margin-top: 0.3em;
+}
+
+dl.itemizationList dd {
+	margin-left: 1em;
+}
+
+aside.indemniBlockPt0 {
+	margin-top: 0;
+	padding: 0 20px;
+	background: #fff;
+}
+
+.mgt03e {
+	margin-top: 0.3em;
+}
+
+section.contents.payment {
+	padding: 16px 20px 0;
+}
+
+.mini {
+	font-size: 14px;
+}
+
+#dogArea p {
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+.noMarginTop {
+	margin-top: 0 !important;
+}
+
+section.contents2 {
+	background: #FFFFFF;
+	padding: 0 20px;
+}
+
+#pageHead {
+	position: relative;
+}
+
+.pageMitsumoriBtn {
+	width: 30%;
+	position: absolute;
+	left: 65%;
+	top: 33%;
+}
+
+.note03 {
+	font-size:90%;
+	text-align:right;
+	padding: 0;
+	font-size: 9pt;
+}
+
+.mt10 {
+	margin-top: 10px !important;
+}
+
+.pt10 {
+	padding-top: 10px !important;
+}
+

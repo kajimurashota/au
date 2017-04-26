@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="format-detection" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>au損保</title>
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<link href="spcss/PU_C.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="spjs/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="spjs/telNo.js"></script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32568740-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+<style type="text/css">
+	.close_float {
+		font-size: 24px;
+		padding:0px;
+		background-color: #585657;
+		height:50.5px;
+	}
+</style>
+</head>
+
+<body class="explanation">
+	<div id="content_pop_wrap">
+		<div class="sparea_pop">
+			<p class="maintitle">お支払い方法について</p>
+		</div><!--end sparea_pop-->
+		<div class="tx_area">
+			<div class="sparea_pop">
+				<p>お支払い方法は「クレジットカード払」「コンビニエンスストア払」「auかんたん決済」がお選びいただけます。</p>
+			</div>
+
+			<div class="cstcnt">
+				<table class="selection_table">
+					<tr>
+						<td class="pop_a" style="width:40%;">クレジットカード払&nbsp;&nbsp;<span style="font-size:80%">[月払]&nbsp;[一時払]</span><div class="pop_a_in"><img src="spimg/pc_card1.png">など</td>
+						<td class="pop_b">ご契約者本人名義のクレジットカードをご用意ください。</td>
+					</tr>
+					
+					<tr>
+						<td class="pop_a">コンビニエンスストア払&nbsp;&nbsp;<span style="font-size:80%">[一時払]</span><div class="pop_a_in"><img src="spimg/pc_conveni1.png">など全国の主要コンビニエンスストアでご利用いただけます。</div></td>
+						<td class="pop_b">
+							お申込み完了後、ご登録のメールアドレス宛に払込票番号やお支払い期限など、お手続きに必要な情報をお知らせします。<br>
+							期限までにご指定のコンビニエンスストアにて、お支払いのお手続きをお願いします。
+							<span class="pop_b_in">※払込用紙はお送りしておりません。<br>
+								コンビニエンスストア払をお選びいただけるのは一時払のみとなります。
+							</span>
+						</td>
+					</tr>
+					
+					<tr>
+						<td class="pop_a">auかんたん決済&nbsp;&nbsp;<span style="font-size:80%">[月払]&nbsp;[一時払]</span><div class="pop_a_in">月々のau料金と合算してお支払いいただく方法です。</div></td>
+						<td class="pop_b">auスマートフォンなどに登録されたau IDをお持ちの方がご利用いただけます。ご契約者本人またはご契約者の家族名義のau IDに限ります。
+							<span class="pop_b_in">※auかんたん決済はKDDI株式会社及び沖縄セルラー電話株式会社が提供しているサービスです。</span>
+						</td>
+					</tr>
+					
+				</table>
+				
+				<table class="shiharai_tbl">
+					<div class="pop_c">
+						<p>お支払い方法</p>
+					</div>
+
+					<tr>
+						<td class="pop_d"><div class="pop_d_in">保険期間（払込方法）</div></td>
+						<td class="pop_d1"><div class="pop_d1_in">クレジットカード払</div></td>
+						<td class="pop_d1"><div class="pop_d1_in">コンビニエンスストア払</div></td>
+						<td class="pop_d1"><div class="pop_d1_in">auかんたん決済</div></td>
+					</tr>
+					
+					<tr>
+						<td class="pop_d2">保険期間1年<br>(月払)</td>
+						<td class="pop_d3">○</td>
+						<td class="pop_d3">-</td>
+						<td class="pop_d3">○</td>
+					</tr>
+					
+					<tr>
+						<td class="pop_d2">保険期間1年<br>(一時払)</td>
+						<td class="pop_d3">○</td>
+						<td class="pop_d3">○</td>
+						<td class="pop_d3">○</td>
+					</tr>
+					
+					<tr>
+						<td class="pop_d2">保険期間2年<br>(一時払)</td>
+						<td class="pop_d3">○</td>
+						<td class="pop_d3">○</td>
+						<td class="pop_d3">○</td>
+					</tr>
+				</table>
+				
+				<p style="display: block;font-size: 0.9375rem;text-indent: -1em;margin-left: 1em;line-height:1.5em;">※「自転車向け保険&nbsp;Bycle&nbsp;S」、「ケガの保険&nbsp;日常の事故」、「ペットの保険」は保険期間2年はございません。</p>
+				<p style="display: block;font-size: 0.9375rem;text-indent: -1em;margin-left: 1em;margin-top:1.2em;line-height:1.5em;">■「au自転車向けほけん&nbsp;Bycle&nbsp;S」は「自転車向け保険&nbsp;Bycle&nbsp;S」と同一の保険商品です。</p>
+				<p style="display: block;font-size: 0.9375rem;text-indent: -1em;margin-left: 1em;line-height:1.5em;">■「au傷害ほけん&nbsp;日常の事故」は「ケガの保険&nbsp;日常の事故」と同一の保険商品です。</p>
+				<p style="display: block;font-size: 0.9375rem;text-indent: -1em;margin-left: 1em;line-height:1.5em;">■「auペットほけん」は「ペットの保険」と同一の保険商品です。</p>
+			</div>
+		</div>
+
+		<div class="tx_area" style="padding:10px 0;">
+			<p class="bobun_pop">N16E310286[1608]</p>
+		</div>
+	</div>
+
+	<!-- フロートエリア対応-->
+	<div id="floteArea">
+		<a href="javascript:void(0);" onClick="window.close(); return false;"><div class="close_float"><p style="padding-top:20px;">×&nbsp;閉じる</p></div></a>
+	</div>
+	<!-- フロートエリア対応 -->
+
+</body>
+</html>

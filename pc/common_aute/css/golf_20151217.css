@@ -1,0 +1,34 @@
+@charset "utf-8";
+.domestic_case_body.golf > div h3 div.golf_block1,.domestic_case_body.golf > div h3 div.golf_block2{
+	display:block;
+}
+.domestic_case_body.golf > div h3 div {
+	width: 226px;
+}
+.indent1{
+	text-indent:-1em;
+	margin-left:1em;
+}
+.block_table.golf_lower {
+    margin-bottom: 28px;
+}
+.domestic_case_body.golf > div h3 div.golf_case_ex{
+	padding-bottom: 20px;
+	margin-bottom: 4px;
+}
+.block_domestic_text {
+    margin-bottom: 15px;
+}
+.point_flow_text {
+	margin-bottom:15px;
+}
+
+
+div#pc_top_margin {
+    margin-top: 1em;
+}
+
+.PaddingB5_Wi930{
+	padding-bottom: 5px;
+	width: 930px;
+}

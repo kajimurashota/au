@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=no">
+<title>au損保</title>
+<link href="spcss/PU_C.css" rel="stylesheet" type="text/css" />
+
+<script src="../../common_aute/js/jquery-1.7.1.min.js" type="text/javascript">
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32568740-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+<style type="text/css">
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+table{
+	width:100%;
+	margin:6px auto;
+	font-size:1.3em;
+}
+th{
+	text-align:left;
+	padding:4px;
+	width:auto;
+}
+td{
+	text-align:center;
+	padding:4px;
+	text-align:left;
+	width:2.8em;
+}
+.index th{
+	background-color: #e0a58c;
+	color:#FFFFFF;
+	text-align:center;
+	padding:5px;
+}
+/*2016 3-16*/
+body{
+	font-family:"メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック",arial,helvetica,clean,"sans-serif;"
+}
+.popup_wrap{
+	max-width:700px;
+	margin:2px auto 0;
+	width:100%;
+}
+.close_float {
+	padding: 8px 0 6.5px;
+	background-color:#585757;
+}
+
+.instance > div.instance_title {
+	max-width: 950px;
+}
+.instance > div {
+	max-width: 950px;
+	margin: 0 auto;
+}
+.instance_title {
+	background-color: #1D2B54;
+	color: #fff;
+	margin: 10px 0;
+	max-width: 980px;
+	padding: 1px;
+	text-align: center;
+	clear: both;
+}
+.instance_title {
+    font-size: 16px;
+}
+
+.instance_title > p {
+	margin-left: 10px;
+	font-weight: bold;
+	max-width: 980px;
+	text-align: left;
+	line-height: 22px;
+	font-size: 16px;
+	z-index: 1;    
+	border-radius: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+p {
+	margin: 0;
+}
+p {
+	margin: 0 0 1.25em;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, li, table, th, td, form, address, pre, strong, em, caption, cite, code, dfn, var {
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.instance_title {
+	color: #fff;
+	text-align: center;
+}
+.instance_title {
+	font-size: 16px;
+}
+.shashin_junbi {
+	font-size: 14px;
+}
+.instance_inner p {
+	margin-left: 10px;
+}
+.bodytable {
+	margin: 10px auto;
+	width: 98%;
+}
+.bodytable tr > td {
+	padding: 10px 5px 10px 5px;
+}
+.orange_dog_icon{
+	width:60px;
+	height:49px;
+	position: absolute;
+	right: 6%;
+	bottom: -8%;
+}
+@media screen and (max-width:767px) { 
+	.popup_wrap{
+		padding:0 2px;
+	}
+	.orange_dog_icon {
+		width: 50px;
+		height: 41px;
+		display:block;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		position:static;
+		margin-top: 10px;
+		margin-bottom: -15px;
+	}
+}
+@media screen and (max-width:580px) {
+	.shashin_junbi_pad{
+		padding-left:24px;
+		word-break: break-all;
+	}
+}
+</style>
+</head>
+
+<body>
+<div class="popup_wrap">
+		<div class="instance">
+			<div class="instance_title" style="margin: 0px auto 0px;"><p>ペットのお写真を事前にご準備ください</p></div>
+			<div class="instance_inner">
+				<p class="shashin_junbi" style="text-align: left;">お申込みには、補償の対象となる愛犬・愛猫のお写真が必要です。</p>
+				<p class="shashin_junbi" style="text-align: left;">補償の対象となる愛犬・愛猫の確認のため、お写真のご登録をお願いします。</p>
+				<div class="insurance_subject" style="padding:10px 0 0px;">
+					<table class="bodytable">
+						<colgroup>
+							<col style="width:50%" />
+							<col style="width:50%" />
+						</colgroup>
+						<tbody>
+						<tr>
+							<td colspan="2" style="background-color: #fabb34;border:1px solid #fabb30;padding:10px 0;font-weight:bold;text-align:center;color:#fff;" class="title_big">
+								どんな写真ならOKなの？
+							</td>
+						</tr>
+						<tr>
+							<td style="text-align:right;">
+								<img src="../img/cat.jpg" alt="猫のOK写真"  style="width:95%;max-width:260px;" /
+							</td>
+							<td style="text-align:left;">
+								<img src="../img/dog.jpg" alt="犬のOK写真"  style="width:95%;max-width:260px;" /
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align:center;padding-bottom:20px;">
+								<ul style="max-width:400px;margin:0 auto;text-align:left; list-style: none;">
+									<li style="text-indent:-44px;margin-left:44px;margin-top:0.6em;"class="shashin_junbi">
+										<img src="../img/check.png" style="display:inline;width:30px;height:26px;" />
+										<p style="display:inline;color:#4C4B4B;" class="shashin_junbi">
+											カラー写真
+										</p>
+									</li>
+									<li style="text-indent:-44px;margin-left:44px;margin-top:0.6em;"class="shashin_junbi">
+										<img src="../img/check.png" style="display:inline;width:30px;height:26px;" />
+										<p style="display:inline;color:#4C4B4B;" class="shashin_junbi">
+											直近3か月以内に撮影されたもの
+										</p>
+									</li>
+									<li style="text-indent:-44px;margin-left:44px;margin-top:0.6em;"class="shashin_junbi">
+										<img src="../img/check.png" style="display:inline;width:30px;height:26px;" >
+										<p style="display:inline;color:#4C4B4B;" class="shashin_junbi">
+											お顔の表情、毛色、模様が確認できること
+										</p>
+									</li>
+									<li style="text-indent:-44px;margin-left:44px;margin-top:0.6em;"class="shashin_junbi">
+										<img src="../img/check.png" style="display:inline;width:30px;height:26px;" />
+										<p style="display:inline;color:#4C4B4B;" class="shashin_junbi">
+											愛犬・愛猫を抱っこして撮影してもOK!
+										</p>
+									</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="background-color: #777;border:1px solid #777;padding:10px 0;font-weight:bold;text-align:center;color:#fff;" class="title_big">
+								こんな写真はNGです！
+							</td>
+						</tr>
+						<tr>
+							<td style="text-align:right;vertical-align:top;">
+								<div style="width:95%;max-width:260px;float:right;" />
+									<img src="../img/dog2.jpg" alt="犬のNG写真1" style="width:100%;" />
+									<div style="width:100%;max-width:210px;float:right;color:#4C4B4B;text-align: left;" class="shashin_junbi" />
+										<div class=" shashin_junbi_pad" style="margin-top: 0.6em;">複数で写っていて、対象となるペットを特定できないもの</div>
+									</div>
+								</div>
+								<div style="clear:both"></div>
+							</td>
+							<td style="text-align:right;vertical-align:top;">
+								<div style="width:95%;max-width:260px;float:left;" />
+									<img src="../img/dog3.jpg" alt="犬のNG写真2" style="width:100%" />
+									<div style="width:100%;max-width:210px;float:right;color:#4C4B4B;text-align: left;" class="shashin_junbi" />
+										<div class=" shashin_junbi_pad" style="margin-top: 0.6em;">後姿で、お顔を確認できないもの</div>
+									</div>
+								</div>
+								<div style="clear:both"></div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="padding: 10px 5px 10px 5px;">
+								<div class="shashin_junbi" style="border:1px solid #EC5401;padding:10px;margin:0 auto;text-align:center;color:#EC5401; font-weight:bold;">
+									あらかじめ、パソコン・スマートフォン内に写真を保存し、<br />
+									お申込み手続きにお進みください。
+								</div>
+								
+							</td>
+						</tr>
+						<tr>
+							<td style="padding: 10px 0px 0px 0px;position:relative;" colspan="2">
+								
+								<img src="../img/dog_icon.jpg" class="orange_dog_icon" style="margin-top:0;margin-bottom:0px;">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="padding: 10px 0px 10px 0px;">
+								<div class="shashin_junbi" style="padding:10px 0px 0 0px;margin:0 auto;text-align:center;color:#EC5401;clear:both;font-weight:bold;">
+									お写真は「契約確認書」でご確認いただけます！
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	<div style="text-align:right;font-size:12px;padding-top: 20px;">B16C310194[1608]</div>
+</div><!--<div class="popup_wrap">-->
+<br /><br /><br />
+<!-- フロートエリア対応-->
+<div id="floteArea">
+	<a href="javascript:void(0);" onClick="window.close(); return false;"><div class="close_float">×&nbsp;閉じる</div></a>
+</div>
+<!-- フロートエリア対応 -->
+
+</body>
+</html>

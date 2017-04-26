@@ -1,0 +1,19 @@
+// 外部画像個数（ 2 or 3 ）//
+
+&nnum=3&
+
+
+// リンク先 //
+
+&nurl1=./standard_shogai/bicycle/index.html&
+&ntarget1=_self&
+
+
+
+&nurl2=http://www.smart-cycling.jp&
+&ntarget2=_self&
+
+
+
+&nurl3=./kaigai_ryoko/kairyo/index.html
+&ntarget3=_self&

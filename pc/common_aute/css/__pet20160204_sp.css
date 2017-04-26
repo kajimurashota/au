@@ -1,0 +1,3144 @@
+@charset "utf-8";
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, 
+fieldset, input, textarea, p, blockquote, th, td{
+    margin: 0; 
+    padding: 0;
+}
+
+ol, ul{
+    list-style:none;
+}
+a img{border-style:none;}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	font-size:0;   
+	clear: both;
+	visibility:hidden;
+}
+.clearfix{
+	display: inline-block;
+}
+/* Hides from IE Mac */
+* html .clearfix{
+	height: 1%;
+}
+.clearfix{
+	display:block;
+}
+.fs12{
+	font-size:12px;
+}
+.fs14{
+	font-size:14px;
+}
+.fs16{
+	font-size:16px;
+}
+.fs18{
+	font-size:18px;
+}
+.fs20{
+	font-size:20px;
+}
+.fs24{
+	font-size:1.4em;
+}
+.fs30{
+	font-size:1.4em;
+}
+.orange{
+	color:#eb5505;
+}
+.orange2{
+	color:#eb5505;
+}
+.gray{
+	color:#858585;
+}
+.bold{
+	font-weight:bold;
+}
+.border-bottom{
+	border-bottom:2px solid #EA541C;
+}
+.mt10{
+	margin-top:10px;
+}
+.mb10{
+	margin-bottom:10px;
+}
+.text_center{
+	text-align:center;
+}
+.sp_nav_menu{
+	display:block;
+}
+body{
+	background-color:#FFFFFF!important;
+}
+#header_new{
+	display:none!important;
+}
+#header_low{
+	display:none!important;	
+}
+h1{
+	width:980px;
+	margin:0 auto;
+	font-size:10px;
+	color:#858585;	
+	display:none;
+}
+.pankuzu{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-left:10px;
+	padding-right:10px;	
+	display:none;
+}
+.bread_crumb{
+	margin-top:50px;
+}
+#page_contents{
+	color:#000000;
+}
+#page_contents .maintitle_bg{
+	display:none;
+}
+
+
+
+/******* ご契約者の方　********/
+#insurance #contents_wrapper{
+	margin-top:0px;
+}
+#insurance .maintitle_wrap{
+	padding-bottom:0px;
+	padding-top:0px;
+	background:none!important;
+	background-color:#eb5505!important;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
+#insurance .maintitle{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:10px;
+	padding-right:10px;	
+}
+#insurance .maintitle img{
+	width:55%;
+}
+#insurance .contents_inner{
+	width:95%!important;
+	margin:0 auto;
+	padding:0px;
+}
+
+#insurance .top_title2{
+	font-size:1.2em;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:0px;
+	padding-bottom:20px;
+}
+
+#insurance .top_title2 img{
+	margin-bottom:5px;
+	height:1em;
+}
+
+#insurance .lead{
+	width:90%;
+	margin:0 auto;
+	text-align:left;
+	font-size:1em;
+	margin-bottom:20px;
+}
+#insurance .example{
+	width:auto;
+	max-width:980px;
+	margin:0 auto;
+	padding-left:10px;
+	padding-right:10px;
+}
+#insurance .example ul{
+	width:100%;
+}
+#insurance .example li{
+	width:50%;
+	float:left;
+	border:solid 4px #EB541C;
+	border-right:none;
+	box-sizing:border-box;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+#insurance .example li:nth-child(2n){
+	border-right:solid 4px #EB541C;
+}
+#insurance .example li:nth-child(3n){
+	clear:both;
+	border-top:none;
+}
+#insurance .example li:nth-child(4n){
+	border-right:solid 4px #EB541C;
+	border-top:none;
+}
+
+#insurance .example li .img{
+	text-align:center;
+	margin:0 auto 15px auto;
+}
+#insurance .example li .text{
+	text-align:center;
+	font-size:1em;
+	line-height:1.3;
+	height:2em;
+	margin-bottom:0.5em;
+}
+#insurance .example li .pt{
+	padding-top:0em;
+	margin-bottom:0em;
+}
+
+#insurance .table table{
+	display:none;
+}
+#insurance .table .box{
+	width:100%;
+	border:solid 4px #E6551E;
+	display:block;
+	box-sizing:border-box;
+}
+#insurance .table .box .title{
+	background-color:#FDF5ED;
+	font-weight:bold; 
+	border-bottom:1px solid #E6551E;
+	padding:1em;
+}
+#insurance .table .box .text{
+	border-bottom:1px solid #E6551E;
+}
+#insurance .table .box ul{
+	padding:1em;
+	margin-left:1em;
+	
+}
+#insurance .table .box li{
+	text-indent:-1em;
+}
+
+
+
+#insurance .btn{
+	text-align:center;
+	clear:both;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+#insurance .btn a{
+	text-align:center;
+	background-color:#000;
+	border-radius:5px;
+	padding:0.5em 1em 0.5em 3em;
+	color:#FFFFFF;
+	font-size:1em;
+	display:inline-block;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+
+
+/******* 健康状態の告知について　********/
+#kokuchi #contents_wrapper{
+	margin-top:0px;
+}
+#kokuchi .maintitle_wrap{
+	padding-bottom:0px;
+	padding-top:0px;
+	background:none!important;
+	background-color:#eb5505!important;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+#kokuchi .maintitle{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:10px;
+	padding-right:10px;	
+}
+#kokuchi .maintitle img{
+	width:55%;
+}
+#kokuchi .contents_inner{
+	width:95%!important;
+	margin:0 auto;
+	padding:0px;
+}
+
+#kokuchi .top_title2{
+	font-size:1.4em!important;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:0px;
+	padding-bottom:10px;
+}
+
+#kokuchi .top_title2 img{
+	margin-bottom:5px!important;
+	height:1em;
+}
+
+#kokuchi .lead{
+	width:90%;
+	margin:0 auto;
+	text-align:left!important;
+	font-size:1em;
+	margin-bottom:20px;
+	margin-top:-10px;
+}
+#kokuchi .contents_inner .center{
+	max-width:980px;
+	margin:0 auto;
+	padding-left:10px;
+	padding-right:10px;
+	background:url(../../common/img_20160128/pc/pet/kokuchi/bg01.gif) 0 0 repeat;
+	padding:1%;
+}
+#kokuchi .contents_inner .center .inner{
+	background-color:#FFF8F3;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#kokuchi .contents_inner .center .text1{
+	float:none;
+	font-size:14px;
+	width:100%;
+	text-align:center;
+	margin-right:0%;
+	margin-top:0px;
+	font-weight:bold;
+}
+
+#kokuchi .contents_inner .center .tel{
+	float:none;
+	width:90%;
+	margin:0 auto;
+	margin-top:10px;
+}
+#kokuchi .contents_inner .center .text2{
+	float:none;
+	font-size:14px;
+	width:90%;
+	margin:0 auto;
+	margin-top:20px;
+	font-weight:bold;
+}
+#kokuchi .contents_inner .title{
+	border-left:12px solid #E7551C;
+	 font-size:18px;
+	 font-weight:bold;
+	 padding-left:20px;
+	 margin-top:50px;
+	 margin-bottom:24px;
+	 padding-top:5px;
+	 padding-bottom:5px;
+}
+
+#kokuchi .contents_inner ul{
+	margin-left:1em;
+	padding-left:1em;
+	padding-right:1em;
+}
+#kokuchi .contents_inner li{
+	text-indent:-1em;
+	font-size:16px;
+	line-height:1.6;
+}
+#kokuchi .contents_inner li .notice{
+	font-size:14px;
+}
+#kokuchi .contents_inner li .notice a{
+	color:#eb5505;
+}
+#kokuchi .contents_inner li .border_bottom{
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#kokuchi .btn{
+	text-align:center;
+	clear:both;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+#kokuchi .btn a{
+	text-align:center;
+	background-color:#000;
+	border-radius:5px;
+	padding:0.5em 1em 0.5em 3em;
+	color:#FFFFFF;
+	font-size:1em;
+	display:inline-block;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+
+/******* 健康状態の告知について　********/
+#kaishibi #contents_wrapper{
+	margin-top:0px;
+}
+#kaishibi .maintitle_wrap{
+	padding-bottom:0px;
+	padding-top:0px;
+	background:none!important;
+	background-color:#eb5505!important;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#kaishibi .maintitle{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:10px;
+	padding-right:10px;	
+}
+#kaishibi .maintitle img{
+	width:55%;
+}
+#kaishibi .contents_inner{
+	width:95%!important;
+	margin:0 auto;
+	padding:0px;
+}
+
+#kaishibi .top_title2{
+	font-size:1.4em!important;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:0px;
+	padding-bottom:20px!important;
+}
+
+#kaishibi .top_title2 img{
+	margin-bottom:5px!important;
+	height:1em;
+}
+
+
+#kaishibi .title2{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-left:0px;
+	padding-right:0px;	
+}
+#kaishibi .title2 p{
+	box-sizing:border-box;
+	border:solid 2px #E6551E;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	background:none;
+	text-align:center;
+	display:block;
+	height:auto;
+	font-size:1.2em;
+	font-weight:bold;
+	vertical-align:middle;
+	max-width:100%;
+	width:100%;
+}
+
+#kaishibi .text1{
+	font-size:1em;
+	text-align:left;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+#kaishibi .img01{
+	width:90%;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+
+#kaishibi .img01 .pc{
+	display:none;
+}
+#kaishibi .img01 .sp{
+	display:block;
+}
+#kaishibi .text2{
+	font-size:1em;
+	text-align:left;
+	margin-bottom:15px;
+	margin-top:20px;
+}
+#kaishibi .notice{
+	text-align:left;
+	font-size:0.8em;
+	color:#E66641;
+}
+#kaishibi .notice ul{
+	margin-left:3em;
+}
+#kaishibi .notice li{
+	text-indent:-3em;
+}
+#kaishibi .img02{
+	width:90%;
+	margin:0 auto;
+	margin-bottom:10px;
+	margin-top:30px;
+}
+
+#kaishibi .img02 .pc{
+	display:none;
+}
+#kaishibi .img02 .sp{
+	display:block;
+}
+#kaishibi .btn{
+	text-align:center;
+	clear:both;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+#kaishibi .btn a{
+	text-align:center;
+	background-color:#000;
+	border-radius:5px;
+	padding:0.5em 1em 0.5em 3em;
+	color:#FFFFFF;
+	font-size:1em;
+	display:inline-block;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+
+
+/******* 保険金の請求について　********/
+#payment #contents_wrapper{
+	margin-top:0px;
+}
+#payment .maintitle_wrap{
+	padding-bottom:0px;
+	padding-top:0px;
+	background:none!important;
+	background-color:#eb5505!important;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#payment .maintitle{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:10px;
+	padding-right:10px;	
+}
+#payment .maintitle img{
+	width:55%;
+}
+#payment .contents_inner{
+	width:95%!important;
+	margin:0 auto;
+	padding:0px;
+}
+
+#payment .top_title2{
+	font-size:1.4em!important;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:0px;
+	padding-bottom:20px!important;
+}
+
+#payment .top_title2 img{
+	margin-bottom:5px!important;
+	height:1em;
+}
+
+
+#payment .title2{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-left:0px;
+	padding-right:0px;	
+	margin-bottom:20px;
+}
+#payment .title2 p{
+	box-sizing:border-box;
+	border:solid 2px #E6551E;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	background:none;
+	text-align:center;
+	display:block;
+	height:auto;
+	font-size:1.2em;
+	font-weight:bold;
+	vertical-align:middle;
+	max-width:100%;
+	width:100%;
+	padding-left:20%;
+	padding-right:20%;
+}
+
+#payment .step{
+	background-color:#FDF5ED;
+	padding-bottom:30px;
+}
+
+#payment .step .title{
+	background:none;
+	height:auto;
+	text-align:center;
+	color:#FFF;
+	font-size:1em;
+	position:relative;
+	padding-top:0.5em;
+	background-color:#E6551E;
+	
+}
+#payment .step .title p.text{
+	font-weight:bold;
+	width:95%;
+	margin:0 auto;
+	text-align:center;
+	float:left;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+#payment .step .title .left{
+	width:95%;
+	margin:0 auto;
+	text-align:cetner;
+	float:none;
+	color:#eb5505;
+	background-color:#FFF;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	font-weight:bold;
+}
+#payment .step .title .left span{
+	font-size:1.2em;
+}
+#payment .step .img{
+	width:40%;
+	margin:0 auto;
+	float:none;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#payment .step .nth1{
+	width:40%;
+	margin:0 auto;
+	float:none;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-right:2.3%;
+}
+
+
+
+ #payment .step .nth3{
+	 
+	width:40%;
+	margin:0 auto;
+	float:none;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-left:1.5%;	 
+	 
+	 
+	 }
+
+#payment .step .right{
+	font-size:1em;
+	margin-top:0px;
+	width:95%;
+	float:none;
+	margin:0 auto;
+}
+
+#payment .step .right p{
+	margin-bottom:10px;
+}
+#payment .step .right p span.number{
+	font-size:1.2em;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+}
+#payment .step .right .contact{
+	margin-bottom:20px;
+	text-align:center;
+}
+#payment .step .right .contact a{
+	text-align:center;
+	background-color:#F48C26;
+	border-radius:5px;
+	padding:0.5em 2em 0.5em 2em;
+	color:#FFFFFF;
+	font-size:16px;
+	display:inline-block;
+	text-decoration:none;
+	font-weight:bold;
+}
+#payment .step .right .contact img{
+	margin-bottom:3px;
+}
+
+#payment .arrow{
+	width:30%;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:22px;
+}
+
+#payment .step .right ul{
+	margin-left:2.5em;
+}
+#payment .step .right li{
+	text-indent:-2.5em;
+	margin-bottom:10px;
+}
+
+#payment .title2_2{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-left:0px;
+	padding-right:0px;	
+	margin-bottom:15px;
+	margin-top:30px;
+	clear:both;
+}
+#payment .title2_2 p{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+#payment .file{
+	background-color:#F9F8F8; 
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:16px;
+	position:relative;
+}
+#payment .file .arrow2{
+	display:none;
+	position:absolute;
+	width:10%;
+	top:289px;
+	left:43%;
+}
+#payment .file .left{
+	width:95%;
+	margin:0 auto;
+	background:none;
+	float:none;
+	padding-left:0%;
+	padding-right:0%;
+}
+#payment .file .left .img{
+	margin-bottom:10px;
+}
+
+#payment .file ul.notice1{
+	margin-left:1.7em;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#payment .file ul.notice1 li{
+	text-indent:-1.7em;
+}
+#payment .file ul.notice2{
+	margin-left:1em;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#payment .file ul.notice2 li{
+	text-indent:-1em;
+}
+
+#payment .file .pdf{
+	text-align:center;
+	margin-bottom:30px;
+}
+#payment .file .right .pdf{
+	margin-top:25px;
+}
+#payment .file .pdf a{
+	color:#eb5505;
+}
+#payment .file .pdf img{
+	margin-right:1em;
+}
+
+#payment .file .right{
+	width:95%;
+	margin:0 auto;
+	float:none;
+	padding-left:0%;
+	padding-right:0%;
+	border-top:2px dotted #747373;
+	margin-top:20px;
+	padding-top:20px;
+}
+#payment .file .right .img{
+	margin-bottom:20px;
+}
+#payment .file .right .text1{
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:1em;
+}
+#payment .file .fs18{
+	font-size:1em;
+}
+#payment .address{
+	width:95%;
+	margin:0 auto;
+	
+	border:solid 3px #F3CABA;
+	background-color: #FDF5ED;
+	box-sizing:border-box;
+	text-align:left;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding:1em;
+	font-size:1em;
+}
+#payment .address .title{
+	font-size:1.2em;
+	margin-bottom:15px;
+	font-weight:bold;
+	text-align:center;
+}
+
+#payment .bottom ul{
+	margin-left:1em;
+	margin-top:15px;
+}
+#payment .bottom li{
+	text-indent:-1em;
+	font-size:12px;
+}
+
+
+#payment .btn{
+	text-align:center;
+	clear:both;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+#payment .btn a{
+	text-align:center;
+	background-color:#000;
+	border-radius:5px;
+	padding:0.5em 1em 0.5em 3em;
+	color:#FFFFFF;
+	font-size:1em;
+	display:inline-block;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+
+
+/******* ペットの特徴・事例　********/
+#pet_type #contents_wrapper{
+	margin-top:0px;
+}
+#pet_type .maintitle_wrap{
+	padding-bottom:0px;
+	padding-top:0px;
+	background:none!important;
+	background-color:#eb5505!important;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+
+#pet_type .maintitle{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-top:15px!important;
+	padding-bottom:15px!important;
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+
+#pet_type.maintitle h2{
+	
+	
+	}
+
+#pet_type .maintitle img{
+	width:55%;
+}
+#pet_type .contents_inner{
+	width:95%!important;
+	margin:0 auto;
+	padding:0px;
+}
+
+#pet_type .top_title{
+	background:url(../../common/img_20160128/pc/pet/toypoodle/maintitle_bg.gif) 0 0;
+	font-size:1.2em!important;
+	padding:0!important;
+}
+#pet_type .top_title p{
+	font-size:1.2em;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+#pet_type .top_title img{
+	margin-bottom:5px!important;
+	height:1em;
+}
+
+
+#pet_type .title2{
+	width:105%;
+	margin-left:-2.5%;
+	padding-left:0px;
+	padding-right:0px;	
+	margin-bottom:20px;
+}
+#pet_type .title2 p{
+	box-sizing:border-box;
+	border-top:solid 2px #E6551E;
+	border-bottom:solid 2px #E6551E;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	background:none;
+	text-align:center;
+	display:block;
+	height:auto;
+	font-size:1.2em;
+	font-weight:bold;
+	vertical-align:middle;
+	max-width:100%;
+	width:100%;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+#pet_type .main_wrap{
+	background-color:#FDF5ED;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-bottom:0px;
+}
+#pet_type .main{
+	max-width:980px;
+	margin:0 auto;
+	padding-left:10px;
+	padding-right:10px;
+	font-size:1em;
+}
+#pet_type .main .mainimg_sp{
+	display:block;
+	width:80%;
+	margin:0 auto;
+}
+#pet_type .main .mainimg_pc{
+	display:none;
+}
+#pet_type .main .left{
+	float:none;
+	width:100%;
+	margin-right:0%;
+}
+#pet_type .main .mainimg_pc{
+	float:left;
+	width:36%;
+}
+#pet_type .main .right{
+	float:none;
+	width:100%;
+}
+
+#pet_type .main .title{
+	font-size:1.2em;
+	font-weight:bold;
+	border-left:12px solid;
+	padding-left:1em;
+	padding-top:3px;
+	padding-bottom:3px;
+	margin-bottom:15px;
+}
+#pet_type .main .text{
+	margin-bottom:20px;
+}
+#pet_type .contents_inner .text01{
+	text-align:center;
+	font-size:1em;
+}
+#pet_type .contents_inner .text01 span{
+	font-size:1.2em;
+}
+
+#pet_type .contents_inner .table{
+	width:100%;
+	position:relative;
+}
+#pet_type .contents_inner .table .img02 .sp{
+	display:block;
+}
+#pet_type .contents_inner .table .img02 .pc{
+	display:none;
+}
+#pet_type .contents_inner .table .img01{
+	position:absolute;
+	width:30%;
+	right:1%;
+	top:-40px;
+}
+#pet_type .contents_inner .table .img02{
+	position:relative;
+	width:100%;
+	left:0px;
+	bottom:0px;
+}
+#pet_type .contents_inner .table{
+	border:solid 1px #FBDFD0;
+	background-color:#F6F5EE; 
+	padding-top:10px;
+	padding-bottom:10px;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+	margin-top:50px; 
+}
+
+#pet_type .contents_inner .table .title{
+	font-size:18px;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+#pet_type .contents_inner .table table{
+	width:100%;
+	margin:0 auto;
+	border-bottom:1px solid #E4E3E2;
+}
+#pet_type .contents_inner .table table th{
+	border-top:1px solid #E4E3E2;
+	border-right:1px solid #E4E3E2;
+	border-bottom:1px solid #E4E3E2;
+	font-size:0.8em;
+	text-align:center;
+	font-weight:normal;
+	padding:1em;
+	
+}
+#pet_type .contents_inner .table table th.right{
+	border-right:none;
+}
+#pet_type .contents_inner .table table td{
+	border-right:1px solid #E4E3E2;
+	font-size:0.8em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	padding-left:1em;
+	padding-right:1em;
+}
+#pet_type .contents_inner .table table td.right{
+	border-right:none;
+	text-align:right;
+}
+#pet_type .contents_inner .table table td.price{
+	background-color:#E7551C;
+	color:#FFF;
+	font-size:1.2em;
+	font-weight:bold;
+	padding-top:0.3em;
+	padding-bottom:0.2em;
+}
+#pet_type .contents_inner .table table td.price span{
+	font-size:1em;
+	font-weight:normal;
+}
+#pet_type .contents_inner .table table td.bottom{
+	border-top:1px solid #E4E3E2;
+}
+#pet_type .contents_inner .table .notice{
+	width:95%;
+	margin:0 auto;
+	margin-top:10px;
+}
+#pet_type .contents_inner .table .notice ul{
+	margin-left:1em;
+}
+#pet_type .contents_inner .table .notice li{
+	text-indent:-1em;
+	font-size:0.8em;
+}
+#pet_type .contents_inner .table_bottom{
+	display:block;
+	width:100%;
+}
+#pet_type .contents_inner .table_bottom img{
+	width:100%;
+}
+#pet_type .contents_inner .sp_arrow{
+	display:block;
+	width:105%;
+	margin-left:-2.5%;
+	margin-top:25px;
+}
+#pet_type .contents_inner .price2{
+	width:70%;
+	margin:0 auto;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+
+#pet_type .contents_inner .arrow_shita{
+display:none;
+}
+
+
+
+#pet_type .contents_inner .graph .title{
+	font-size:1em;
+	text-align:center;
+	font-weight:bold;
+}
+#pet_type .contents_inner .graph .notice1{
+	text-align:center;
+	font-size:0.8em;
+	margin-bottom:30px;
+}
+#pet_type .contents_inner .graph .leftbox{
+	width:100%;
+	float:none;
+}
+#pet_type .contents_inner .graph .leftbox .box{
+	background:url(../../common/img_20160128/pc/pet/toypoodle/dot_orange.gif) 0 0 repeat-x,url(../../common/img_20160128/pc/pet/toypoodle/dot_orange.gif) 0 bottom repeat-x;
+	margin-bottom:10px;
+	position:relative;
+}
+#pet_type .contents_inner .graph .leftbox .box .icon{
+	position:absolute;
+	width:13%;
+	right:10%;
+	top:-20px;
+}
+
+#pet_type .contents_inner .graph .leftbox .box .left{
+	width:66.3%;
+	float:left;
+	font-size:1em;
+	font-weight:bold;
+	text-align:center;
+	padding-top:1em;
+}
+#pet_type .contents_inner .graph .leftbox .box .left .large{
+	font-size:1.2em;
+}
+#pet_type .contents_inner .graph .leftbox ul{
+	margin-left:1em;
+	margin-top:10px;
+}
+#pet_type .contents_inner .graph .leftbox li{
+	text-indent:-1em;
+	font-size:0.8em;
+}
+#pet_type .contents_inner .graph .leftbox .box .right{
+	width:33.7%;
+	float:left;
+
+	font-size:1em;
+	font-weight:bold;
+	color:#FFF;
+	background:url(../../common/img_20160128/pc/pet/toypoodle/bg_oragne.gif) 0 0 repeat-x;
+	background-size:cover;
+	text-align:center;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+#pet_type .contents_inner .graph .leftbox .box .right span{
+	font-size:1.2em;
+	text-decoration:underline;
+}
+
+
+#pet_type .contents_inner .graph .rightbox{
+	width:100%;
+	float:right;
+	margin-top:30px;
+}
+#pet_type .contents_inner .graph .rightbox .box{
+	background:url(../../common/img_20160128/pc/pet/toypoodle/dot_yellow.gif) 0 0 repeat-x,url(../../common/img_20160128/pc/pet/toypoodle/dot_yellow.gif) 0 bottom repeat-x;
+	margin-bottom:10px;
+	position:relative;
+}
+#pet_type .contents_inner .graph .rightbox .box .icon{
+	position:absolute;
+	width:13%;
+	right:18%;
+	top:-20px;
+}
+
+#pet_type .contents_inner .graph .rightbox .box .left{
+	width:50%;
+	float:left;
+	font-size:1em;
+	font-weight:bold;
+	text-align:center;
+	padding-top:1em;
+}
+#pet_type .contents_inner .graph .rightbox .box .left span{
+	color:#F9932B;
+}
+#pet_type .contents_inner .graph .rightbox .box .left .large{
+	font-size:1.2em;
+}
+#pet_type .contents_inner .graph .rightbox ul{
+	margin-left:1em;
+	margin-top:10px;
+}
+#pet_type .contents_inner .graph .rightbox li{
+	text-indent:-1em;
+	font-size:0.8em;
+}
+#pet_type .contents_inner .graph .rightbox .box .right{
+	width:50%;
+	float:left;
+	font-size:1em;
+	font-weight:bold;
+	color:#FFF;
+	background:url(../../common/img_20160128/pc/pet/toypoodle/bg_yellow.gif) 0 0 repeat-x;
+	background-size:cover;
+	text-align:center;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+#pet_type .contents_inner .graph .rightbox .box .right span{
+	font-size:1.2em;
+	text-decoration:underline;
+}
+
+
+#pet_type ul.bottom{
+	margin-left:1em;
+	margin-bottom:40px;
+}
+#pet_type ul.bottom li{
+	text-indent:-1em!important;
+	font-size:0.8em;
+}
+
+#pet_type .btn{
+	text-align:center;
+	clear:both;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+#pet_type .btn{
+	text-align:center;
+	clear:both;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+#pet_type .btn a{
+	text-align:center;
+	background-color:#000;
+	border-radius:5px;
+	padding:0.5em 1em 0.5em 3em;
+	color:#FFFFFF;
+	font-size:1em;
+	display:inline-block;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+
+/******* インデックス　********/
+
+
+
+/*メインビジュアル*/
+#page_contents .maintitle_bg{
+	display:none;
+}
+#page_contents .main_sp{
+	width:100%;
+	display:block;
+	margin-top:-100px;
+}
+#page_contents .main_sp img{
+	width:100%;
+}
+#page_contents .main_sp .present{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#page_contents .main_sp .text{
+	font-size:1.2em;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	background-color:#EB541C;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:1px;
+	padding-left:1em;
+	padding-right:1em;
+}
+#page_contents .main_sp ul{
+	width:95%;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+#page_contents .main_sp li{
+	margin-bottom:10px;
+}
+#page_contents .main_sp li a{
+	color:#000000;
+	text-decoration:underline;
+}
+
+
+#page_contents .maintitle h2{
+	width:100%;
+	margin-bottom:0;
+}
+
+
+#page_contents .section1 .title{
+	font-size:1.3em;
+	font-weight:bold;
+	color:#E6551E;
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+
+#page_contents .top_title{
+	font-size:2em;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:40px;
+	padding-bottom:10px;
+}
+
+
+#page_contents .top_title img{
+	margin-bottom:5px;
+	height:1em;
+}
+
+
+#page_contents .section1{
+	width:90%;
+	margin:0 auto;
+	position:relative;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#page_contents .section1 .title{
+	font-size:1.4em;
+	font-weight:bold;
+	color:#E6551E;
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	margin-bottom:10px;
+}
+#page_contents .section1 .img01{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+#page_contents .section1 .img01 img{
+	width:100%;
+}
+
+
+
+#page_contents .section1 p.img{
+	float:left;
+	width:50%;
+	  position: relative;
+  left: -50%;
+  float: left;
+	}
+
+
+
+#reason{
+	
+
+width:90%;
+
+	margin:0 auto;
+padding-top:4%;	
+	
+
+	
+	}
+	
+#reason .top_title2{
+	font-size:1.3em;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#reason .top_title2 img{
+	margin-bottom:5px;
+	height:1em;
+}
+
+
+#reason .top_title3{
+	
+	font-size:1.2em;
+	padding:1%;	
+	}
+	
+#reason p.arrow{
+	max-width:20px;
+margin: -2px  auto 0 auto;
+z-index:10;
+position:relative;
+}	
+
+
+#reason .text ul.price{
+	
+margin:7% 0;
+width:100%;
+	}
+	
+#reason .text ul.price li{
+	
+
+	width:80%;
+	clear:both;
+	}
+	
+#reason .text ul.price li.mark{
+
+width:10%;
+text-align:center;
+margin: 0 auto;
+float:left;
+
+	}
+	
+#reason .text .alert_arrow{
+
+margin:3% auto 0 auto;
+max-width:81px;
+	}
+	
+#reason .text .alert{
+background:#fd9316;
+color:#fff;
+padding:15px;
+border:solid 3px #eb5400;
+text-align:center;
+font-size:1em;
+font-weight:bold;
+margin:-3px 0 10% 0;
+	}	
+
+
+
+#reason .top_title4{
+font-size:1.3em;
+font-weight:bold;
+color:#eb5505;
+text-align:center;
+margin:0 auto;
+clear:both;
+	}	
+	
+#reason .big_arrow{
+	margin: 0 auto 2% auto;
+width:20%;
+	}	
+
+
+#reason .type{
+width:100%;
+border:solid 1px #eb5505 ;
+ position: relative;
+ padding:8% 1% 1% 1%;
+ margin-top:7%;
+}
+
+#reason .type p{
+	width:100%;
+color:#eb5505;
+ position: absolute;
+top:-1%;
+left:0%;
+font-size:1.2em;
+text-align:center;
+}
+
+#reason .type p span{
+
+background:#fff;
+padding: 1%;
+font-weight:bold;
+
+}
+
+
+
+#reason .type ul{
+
+float: left;
+ position: relative;
+ left: 50%;
+
+}
+
+#reason .type li{
+
+float:left;
+width:49%;
+position: relative;
+ left: -50%;
+ float: left;
+ margin-right:0.7%;
+ margin-bottom:0.7%; 
+}
+
+#reason .big_arrow{
+	margin: 0 auto 2% auto;
+width:40%;
+	}	
+
+			
+	
+/*==============================*/
+/*保険料お見積もり*/
+/*==============================*/
+
+
+#price{
+	
+	width:100%;
+	background:#fef5ed;
+	margin-top:0;
+	padding-top:0;
+
+	border:solid 1px #fef5ed;
+
+	}
+
+
+	.popup span{
+		
+display:none!important;
+		}	
+	
+	.pop_icon{
+		
+	position:absolute;
+	left:0%;
+	top:-4.5%;
+	max-width:40%;	
+
+		}
+
+
+	.pop_icon2{
+		
+	position:absolute;
+	right:-8%;
+	top:5%;
+	max-width:36%;	
+	background-color:transparent!important;
+		}
+		
+
+.box_calc .inner .btn1{
+						width:80%;
+						margin: 5% auto;
+}
+
+
+.box_calc .inner .btn2{
+						width:60%;
+						float:right;
+						margin:4% 0 7% 0;
+}
+.box_calc .inner .notice{
+	
+	font-size:14px;
+	padding-top:2%;
+	
+	}		
+			
+			
+			
+
+			
+			.box_calc{
+				margin-top: 0!important;
+				border:5px solid #e6551e;
+				border-top:none;
+			}
+				.box_calc .TTL_MAIN{
+					font-size:20px;
+					line-height: 2em;
+				}
+					.box_calc .TXT_QUE{
+						padding: 10px;
+						text-align: center;
+						background: #f5f4f4;
+						font-size:14px;
+						font-weight: bold;
+						line-height: 1.5em;
+						text-align: left;
+					}
+					.box_calc .contents_main{
+						width: 96%;
+						margin:0 auto;
+						padding: 10px 0 10px;
+					}
+						.box_calc .TXT1{
+							font-size:14px;
+							text-align: left;
+						}
+						/*.box_calc .title03{
+							margin-top: 10px;
+							text-align:center;
+							background:none;
+						}
+							.box_calc .title03 p{
+								display:inline-block;
+								font-size:14px;
+								margin-top: 0.5em;
+							}*/
+							
+							
+							
+					.box_calc.title03{
+	text-align:center;
+background:url(../../common/img_20160128/pc/kaigai/top/point_bg.gif) 0 50% repeat-x;		
+	margin-bottom:2%;
+
+	margin-left:-5%;
+}
+.box_calc .title03 p{
+	background-color:#FFFFFF;
+	display:inline-block;
+	font-size:1.2em; 
+	color:#686664;
+	font-weight:bold;
+	padding-left:1%;
+	padding-right:1%;
+}
+					
+							
+						.box_calc ul{
+							margin-top: 5px;
+						}
+						.box_calc ul li{
+							float: left;
+							width: 48%;
+							padding-bottom: 3px;
+						}
+			.box_calc ul li.BOX_70{
+								background-color: #eb5505;
+								margin-right: 3.5%;
+							}
+							.box_calc ul li.BOX_50{
+								background-color: #fd9316;
+							}
+							
+
+.box_calc ul li.BOX_70 .img{
+display:none;
+							}	
+							
+.box_calc ul li.BOX_70 .img_sp{
+display:block;
+							}	
+							
+
+
+
+.box_calc ul li.BOX_50 .img{
+display:none;
+							}	
+							
+.box_calc ul li.BOX_50 .img_sp{
+display:block;
+							}	
+							
+
+							
+				.box_calc ul li.sp{
+						
+						width:100%;
+						margin-bottom:5%;
+						
+							}
+									
+							
+							
+						.box_calc ul li .TTL{
+							width: 98%;
+							text-align: center;
+							line-height: 1.2em;
+							padding: 0.5em 0;
+							color:#fff;
+						}
+						.box_calc ul li .TXT{
+							width: 96%;
+							margin: 0 auto;
+							line-height: 1.5em;
+							padding: 0.5em 0.3em;
+							background: #fcf7eb;
+							box-sizing:border-box;
+							text-align:right;
+						}
+
+
+						/*セレクトボックス*/
+					.box_calc .SELECT_AREA{
+						width: 85%;
+						margin:0 auto;
+						margin-top: 20px;
+					}
+						.box_calc .SELECT_AREA .Left{
+							float:left;
+							margin-right: 15px;
+						}
+						.box_calc .SELECT_AREA .Right{
+							float:left;
+
+						}
+						.box_calc .SELECT_AREA p{
+							float: left;
+							line-height: 39px;
+							font-size: 16px;
+							font-weight: bold;
+							margin-right: 0.7em;
+						}
+						.box_calc .SELECT_AREA .dropdown{
+							float: left;
+						}
+
+						.box_calc .SELECT_AREA .dropdown {
+							  display: inline-block;
+							  position: relative;
+							  overflow: hidden;
+							  height: 39px;
+							  width: 230px;
+							  background: #FFF;
+							  border: 2px solid;
+							  border-color: #d2d2d2;
+							  border-radius: 3px;
+							  background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.0));
+							  background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.0));
+							  background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.0));
+							  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.0));
+							  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.00);
+							  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.00);
+							}
+							
+							
+							.box_calc .SELECT_AREA .dtype {
+							  display: inline-block;
+							  position: relative;
+							  overflow: hidden;
+							  height: 39px;
+							  width: 230px;
+							  background: #FFF;
+							  border: 2px solid;
+							  border-color: #d2d2d2;
+							  border-radius: 3px;
+							  background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.0));
+							  background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.0));
+							  background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.0));
+							  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.0));
+							  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.00);
+							  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.00);
+							}
+							
+							
+							.dropdown:before, .dropdown:after {
+							  content: '';
+							  position: absolute;
+							  z-index: 2;
+							  top: 14px;
+							  right: 10px;
+							  width: 0;
+							  height: 0;
+							  border: 4px dashed;
+							  border-color: #888 transparent;
+							  pointer-events: none;
+							}
+							.dropdown:before {
+							  border-bottom-style: solid;
+							  border-top: none;
+							}
+							.dropdown:after {
+							  margin-top: 7px;
+							  border-top-style: solid;
+							  border-bottom: none;
+							}
+
+							.dropdown-select {
+							  position: relative;
+							  width: 130%;
+							  margin: 0;
+							  padding: 6px 8px 6px 10px;
+							  height: 39px;
+							  line-height: 16px;
+							  font-size: 16px;
+							  color: #62717a;
+							  text-shadow: 0 1px white;
+							  /* Fallback for IE 8 */
+							  background: #FFF;
+							  /* "transparent" doesn't work with Opera */
+							  background: rgba(0, 0, 0, 0) !important;
+							  border: 0;
+							  border-radius: 0;
+							  -webkit-appearance: none;
+							}
+							.dropdown-select:focus {
+							  z-index: 3;
+							  width: 100%;
+							  color: #394349;
+							  outline: 2px solid #d2d2d2;
+							  outline: 2px solid -webkit-focus-ring-color;
+							  outline-offset: -2px;
+							}
+							.dropdown-select > option {
+							  margin: 3px;
+							  padding: 6px 8px;
+							  text-shadow: none;
+							  background: #FFF;
+							  border-radius: 3px;
+							  cursor: pointer;
+							}
+
+							/* Fix for IE 8 putting the arrows behind the select element */
+							.lt-ie9 .dropdown {
+							  z-index: 1;
+							}
+							.lt-ie9 .dropdown-select {
+							  z-index: -1;
+							}
+							.lt-ie9 .dropdown-select:focus {
+							  z-index: 3;
+							}
+
+							/* Dirty fix for Firefox adding padding where it shouldn't */
+							
+							
+
+
+
+						.box_calc .title03{
+							position:relative;
+							margin-top: 35px;
+							text-align:center;
+							background:url(../../common/img_20160128/pc/kaigai/top/point_bg.gif) 0 12px repeat-x;
+						}
+							.box_calc .title03 p{
+								background-color:#FFFFFF;
+								display:inline-block;
+								font-size:1.2em;
+								color:#686664;
+								padding:2%;
+							}
+							
+							
+						.box_calc .title04{
+							clear:both;
+							margin-top: 35px;
+							font-size:18px;
+							font-weight:bold;
+						}							
+							
+						.box_calc ul{
+							margin-top: 22px;
+						}
+						.box_calc ul li{
+							float: left;
+							width: 48%;
+							padding-bottom: 3px;
+						}
+							.box_calc ul li.BOX_70{
+								background-color: #eb5505;
+								margin-right: 3.5%;
+							}
+							.box_calc ul li.BOX_50{
+								background-color: #fd9316;
+							}
+
+						.box_calc ul li .TTL{
+							width: 98%;
+							font-size:20px;
+							text-align: center;
+							line-height: 42px;
+							font-weight: 16px;
+							font-weight: bold;
+							color:#fff;
+						}
+						.box_calc ul li .TXT{
+							width: 96%;
+							margin: 0 auto;
+							background: #fcf7eb;
+							text-align: center;
+							font-size: 24px;
+							font-weight: bold;
+							line-height: 42px;
+							color:#595757;
+							padding:5% 10%;
+							box-sizing:border-box;
+							text-align:right;
+						}		
+						
+						
+
+/*お客様の声*/
+
+#voice .contents_inner { max-width: 980px; margin: 0 auto; padding-left: 10px; padding-right: 10px; }
+#voice .lead { width: 95%; font-size: 24px; text-align: center; font-weight: bold; padding: 0px; color: #eb5400; }
+#voice .box { box-sizing: border-box; border: solid 5px #eb5505!important; clear: both; margin-bottom: 30px; }
+#voice .box .title { background: url(../../common/img_20160128/pc/pet/voice/title_bg.jpg) 0 0; padding: 15px 0px 20px!important; margin: 0 auto!important; }
+#voice .box .title .img { margin: 5px!important; }
+#voice .box .title p.text { width: 85%!important; font-size: 1.2em!important; color: #FFF; padding-top: 3px!important; float: left!important;}
+#voice .box .title p.text span { width: 100%!important; font-size: 12px!important; color: #FFF; padding-top: 3px!important; text-align: right; }
+#voice .box div.img { width: 90%!important; text-align: center!important; padding: 30px 0px; }
+#voice .box div.right { width: 95%!important; padding: 0px!important; }
+#voice .box div.right .tel span { font-size: 14px!important; }
+#voice .box div.right .notice { }
+#voice .box div.right .notice ul { float: left; margin-left: 1em!important; margin-top: 10px!important; }
+#voice .box div.right .notice li { font-size: 14px!important; margin-bottom: 25px!important; }
+
+
+#page_contents  #voice .btn{
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:0 auto!important;
+	float:none!important;
+	
+}
+#page_contents  #voice .btn a{
+	text-align:center;
+	background-color:#000;
+	border-radius:5px;
+	padding:0.5em 1em 0.5em 2em;
+	color:#FFFFFF;
+	font-size:16px;
+	display:inline-block;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+/*ポイント*/
+
+
+#page_contents .point_bg .title{
+	background:url(../../common/img_20160128/pc/bycle/title_bg.gif) repeat-x;	
+	background-size:contain;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:1em;
+	padding-right:1em;
+	color:#FFFFFF;
+	font-size:1.35em;
+	font-weight:bold;
+}
+
+
+#page_contents .point ul{
+	margin-top:35%!important;
+	margin-bottom:0px;
+}
+#page_contents .point li{
+	float:none;
+	width:90%;
+	margin:0 auto;
+	border:solid 2px #EB541C;
+	position:relative;
+	background-color:#FFFFFF;
+	box-sizing: border-box;
+	position:relative; 
+	margin-bottom:4em;
+	height:11em;
+}
+#page_contents .point li .number{
+	position:absolute;
+	width:15%;
+	left:43%;
+	top:-40px;
+	z-index:500;
+}
+#page_contents .point li img{
+	width:100%;
+}
+#page_contents .point li .text{
+	width:68%;
+	top:10%;
+	z-index:101;
+		float:right;
+		padding-bottom:3%;
+}
+#page_contents .point li .text .pc{
+	display:none;
+}
+#page_contents .point li .text .sp{
+	width:100%;
+	margin-left:5%;
+	display:block;
+	float:right;
+}
+
+#page_contents .point li .img{
+	width:32%;
+	float:left;
+	position:relative;
+	z-index:100;
+	margin-top:-2%;
+}
+
+#page_contents .point li .btn{
+	width:50%;
+	margin:20px auto;	
+
+
+}
+/*対象のペット*/
+
+#page_contents .hoshou .top_title{
+	font-size:2em;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:40px;
+	padding-bottom:10px;
+}
+#page_contents .hoshou_bg{
+	background-color:#FDF5ED;
+}
+
+#page_contents .hoshou #hoshou3{
+	border:solid 2px #E6551E;
+	background-color:#FFFFFF;
+	padding-top:0px;
+	margin-top:25px;
+	padding:4%!important;
+}
+#page_contents .hoshou #hoshou3 .title{
+	width:100%;
+	margin:0 auto;	
+}
+#page_contents .hoshou #hoshou3 .title p{
+
+	background:none;
+	text-align:center;
+	display:block;
+	height:100%;
+	font-size:1.4em;
+	font-weight:bold;
+	vertical-align:middle;
+	width:0em;
+	width:100%!important;
+	padding-left:0em;
+	padding-right:0em;
+	border-bottom:2px solid #E6551E;
+	padding-top:1em;
+}
+#page_contents .hoshou #hoshou3 .text01{
+	font-size:1em;
+	text-align:left;
+	font-weight:bold;
+	margin-top:15px;
+	margin-bottom:1em;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+#hoshou3 .photo {
+	margin:0 auto 2% auto;	
+		
+		}
+
+#hoshou3 .photo p{
+	width:100%;
+	clear:both;
+
+	}
+	
+/*補償内容*/
+	
+#page_contents #service .title{
+	width:100%;
+	margin:1em auto;	
+}
+#page_contents #service .title p{
+
+	background:none;
+	text-align:center;
+	display:block;
+	height:100%;
+	font-size:1.4em;
+	font-weight:bold;
+	vertical-align:middle;
+	width:0em;
+	width:100%!important;
+	padding-left:0em;
+	padding-right:0em;
+	border-bottom:2px solid #E6551E;
+	padding-top:1em;
+}	
+
+
+#page_contents #service .navi{
+	margin-top:35px;
+	margin-bottom:10px;
+}
+#page_contents #service .navi ul{
+display:block;
+}
+#page_contents #service .navi li{
+	float:left;
+	width:24.5%;
+	margin-left:0.3%;
+	position:relative;
+	background-color:#fef5ed;	
+}
+#page_contents #service .navi li .title{
+	background:url(../../common/img_20160128/pc/bycle/title_bg2.gif) ;
+	margin:0 auto;
+	font-size:1em;
+	text-align:center;
+	padding:0.5em 0.3em;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+#page_contents #service .navi li .check{
+	font-size:16px;
+	font-weight:bold;
+	width:80%;
+	margin:0 auto;
+}
+
+#page_contents #service .navi li p.img{
+	
+width:83%!important;
+margin:10% auto;
+
+}
+
+
+#page_contents #service .box{
+border:solid 1px #eb5400;
+width:100%;
+padding:2%;
+	box-sizing:border-box;
+}
+
+
+#page_contents #service .left{
+	margin-top:3%;
+float:none;
+}
+
+#page_contents #service .right{
+		margin-top:3%;
+float:none;
+}
+
+#page_contents #service .box .title{
+
+font-size:1.3em;
+font-weight:bold;
+color:#eb5400;
+padding-bottom:2%;
+}
+
+#page_contents #service .box .img{
+
+float:left;
+width:35%;
+padding-right:5%;
+padding-top:5%;
+}
+
+#page_contents #service .box .height{
+float:left;
+width:59%;
+height:auto;
+}
+
+#page_contents #service .box p.btn{
+
+width:45%;
+margin-top:4%;
+border:none!important;
+padding:0;
+float:right;
+}
+
+
+
+#page_contents #service .check{
+	
+text-indent:2em;
+margin-bottom:0.6em;
+}
+
+
+#page_contents #service .check img{
+	
+margin-left:-2em;
+	vertical-align:middle;
+	margin-right:0.8em;	
+}
+
+
+/*コース*/
+
+
+#course {
+	
+width:100%;
+
+padding-top:6%;
+padding-bottom:10%;
+background:#fef5ed;
+}
+
+#course .inner{
+	
+width:95%;
+margin:0 auto;
+
+}
+
+
+
+#course .top_title2{
+	font-size:1.6em!important;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#course .top_title2 img{
+	margin-bottom:5px;
+	height:1em;
+}
+
+#page_contents #course .left{
+	
+	float:none;
+	width:100%;	
+	margin-bottom:4%;
+	}
+	
+	
+#page_contents #course .left .img{
+	
+display:none;
+	}
+			
+	
+#page_contents #course .left .img_sp{
+	
+display:block;
+	}
+		
+	
+	
+#page_contents #course .right{
+	
+	float:none;
+	width:100%;	
+	
+	}	
+	
+#page_contents #course .right .img{
+	
+display:none;
+	}	
+	
+
+#page_contents #course .right .img_sp{
+	
+display:block;
+	}	
+
+#page_contents #course .notice{
+	
+padding-top:2%;
+clear:both;	
+	}	
+
+	
+#page_contents #course .text01{
+	font-size:1.2em;
+	text-align:center;
+	font-weight:bold;
+	margin-top:25px;
+	margin-bottom:40px;
+}	
+
+#page_contents #course .text02{
+	font-size:1.3em;
+	text-align:center;
+	font-weight:bold;
+	margin-top:25px;
+	margin-bottom:30px;
+}	
+
+
+#page_contents #course .point{
+border:solid 1px #e95504;
+width:100%;
+	padding:0;
+	position:relative;
+	margin-top:70px;
+	}
+
+#page_contents #course .point p.title{
+	position:absolute;	
+top:-18%;
+left:10%;
+width:80%;
+	}	
+	
+
+#page_contents #course .point .right img{
+	
+width:80%;
+	}			
+
+#page_contents #course .point .left{
+	
+	float:none;
+	width:97%;	
+	background:#f2f2f2;	
+	border-right:none!important;
+text-align:center;
+box-sizing:inherit!important;
+padding:1.5%;
+margin:0;
+	}
+	
+#page_contents #course .point .right{
+	
+	float:none;
+	width:97%;
+	background:#f2f2f2;
+text-align:center;
+padding:1.5%;
+margin:0;
+	}
+		
+	
+	
+#page_contents #course .point .left img{
+	
+width:80%;
+	}
+	
+#page_contents #course .point .left p,#page_contents #course .point .right p{
+	
+background:#fff;
+padding:5%;	
+	}				
+	
+
+/*限定サービス*/
+
+#page_contents #limited{
+	width:90%;
+	margin: 0 auto;
+	padding-bottom:8%;
+}
+
+
+
+#page_contents #limited .top_title{
+	text-align:center;
+	padding-top:6%;
+}
+#page_contents #limited .top_title p{
+	font-size:0.5em!important;
+	color:#eb5505;
+	padding-left:1em;
+	padding-right:1em;
+	border-left:3px solid;
+	border-right:3px solid;
+	display:inline-block;
+}
+#page_contents #limited .top_title2{
+	font-size:1.3em;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:10px;
+	padding-bottom:1em;
+}
+
+#page_contents #limited .top_title2 img{
+	margin-bottom:5px;
+	height:1em;
+}
+
+
+
+
+#page_contents #limited .sp_img{
+	display:block!important;
+}
+
+#page_contents #limited .text01{
+	font-size:18px;
+	text-align:center;
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#page_contents #limited .text01 span{
+	font-size:22px;
+	color:#eb5505;
+}
+#page_contents #limited .text02{
+	color:#eb5505;
+}
+#page_contents #limited .left{
+	float:left;
+	width:23%;
+	margin-top:-5%;
+
+}
+
+#page_contents #limited .pc{
+	display:none;
+}
+
+#page_contents #limited .center{
+	width:96%;
+	float:none;
+padding-top:2%;
+}
+
+#page_contents #limited  .center .text{
+font-size:16px;
+padding:2% 5%;
+}
+
+
+#page_contents #limited .right{
+	float:right;
+	width:21%;
+	margin-top:-5%;
+
+}
+
+#limited .title03{
+	clear:both;
+	text-align:center;
+background:url(../../common/img_20160128/pc/kaigai/top/point_bg.gif) 0 50% repeat-x;		
+	margin-bottom:0!important;
+	margin-top:15%;
+}
+#limited .title03 p{
+	background-color:#FFFFFF;
+	display:inline-block;
+	font-size:1.2em; 
+	color:#686664;
+	font-weight:bold;
+	padding-left:1%;
+	padding-right:1%;
+
+}
+
+
+
+#page_contents #limited .point{
+	margin-top:-25%!important;
+	clear:both;
+}
+
+#page_contents #limited .point .title{
+	background:url(../../common/img_20160128/pc/bycle/title_bg2.gif) ;
+
+	text-align:center;
+	color:#FFFFFF;
+	font-size:17px;
+	width:99.15%;
+	margin:0 auto;
+	margin-top:0.3%;
+	font-weight:bold;
+	padding:2% 0;
+}
+
+#page_contents #limited .point .title span{
+	font-size:22px;
+}
+#page_contents #limited .point ul{
+	clear:both;
+	margin-left:-1%;
+	width:100%;
+}
+#page_contents #limited .point li.box{
+	padding-top:0px;
+	background-color:#FDF5ED;
+	width:100%;
+	margin:5% 0;
+}
+#page_contents #limited .point li.height{
+	height:auto!important;
+}
+
+#page_contents #limited .point li.height .img{
+float:left;
+}
+
+#page_contents #limited .point .text{
+	float:left;
+	text-align:left;
+	font-size:16px;
+	color:#595858;
+	line-height:1.3;
+	margin-top:20px;
+	padding:0 5% 5% 0;
+	width:60%;
+}
+#page_contents #limited .point .notice{
+	position:relative;
+	width:90%;
+	margin:0 auto;
+	margin-left:2em;
+	margin-top:0px!mportant;
+	padding-top:0px;
+	background-color:#FDF5ED;
+}
+#page_contents #limited .point .notice ul{
+
+
+}
+#page_contents #limited .point .img{
+	margin-top:10px;
+	margin-bottom:0px;
+	clear:both;
+
+}
+#page_contents #limited .banner{
+
+	display:none;	
+	
+}
+#page_contents #limited .banner_sp{
+	display:block!important;
+}
+
+#page_contents #limited .btn{
+	width:80%;
+	float:none;
+	margin:6% auto;
+}
+
+
+#page_contents #limited .banner{
+	
+clear:both;
+
+padding-top:5%;
+	
+}
+#page_contents #limited .banner_sp{
+	display:none;
+}
+
+
+
+/*申込み方法*/
+
+#howto {
+width:100%;
+padding-top:6%;
+padding-bottom:6%;
+background:#fef5ed;
+}
+
+#howto .inner{
+max-width:90%;
+margin:0 auto;
+}
+
+#howto .top_title2{
+	font-size:1.8em;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:10px;
+	padding-bottom:1em;
+}
+
+#howto .top_title2 img{
+	vertical-align:middle;
+	height:1em;
+}
+
+#howto .text01{
+	font-size:1.5em;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:40px;
+}
+
+#howto .text01 span{
+background:#eb5400;
+padding:0.3% 1%;
+color:#fff;
+margin-right:2%;
+}
+
+
+#howto .text02{
+	font-size:16px;
+	margin-bottom:40px;
+}
+
+#howto .text02 span{
+	font-size:20px;
+	font-weight:bold;
+	padding-right:2%;
+
+}
+
+
+#howto ul{
+
+display:block;
+
+}
+
+#howto ul li{
+
+float:none;
+width:100%;
+margin-bottom:10%;
+}
+
+#howto ul li.last{
+
+float:none;
+width:95%;
+background:#e95504;
+text-align:center;
+}
+
+#howto ul li.last img{
+
+width:50%;
+}
+
+
+
+#howto .time{
+
+text-align:center;
+background:url(../../common/img_20160128/pc/pet/top/howto_bg.gif) 0 50% no-repeat;
+background-size:contain;
+clear:both;
+height:1em;
+margin-top:1%;
+}
+
+#howto .time span{
+
+padding:2% 2% 0 2%;
+background:#fef5ed;
+font-size:1em;
+font-weight:bold;
+
+}
+
+/*==============================*/
+/*できること*/
+/*==============================*/
+
+
+#dekirukoto{
+	width:90%;
+padding-top:50px;	
+	}
+
+
+#dekirukoto .title03{
+	text-align:center;
+background:url(../../common/img_20160128/pc/kaigai/top/point_bg.gif) 0 50% repeat-x;		
+	margin-bottom:2%;
+
+	margin-left:-5%;
+}
+#dekirukoto .title03 p{
+	background-color:#FFFFFF;
+	display:inline-block;
+	font-size:1.2em; 
+	color:#686664;
+	font-weight:bold;
+	padding-left:1%;
+	padding-right:1%;
+	width:80%;
+}
+
+
+#dekirukoto .text01{
+	font-size:18px;
+	padding-top:20px;
+	margin-bottom:35px;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+
+ #dekirukoto {
+		width:90%;
+		margin: 0 auto;
+	}
+
+		
+ #dekirukoto .gallery{
+		padding-top: 27px;
+	}
+
+#page_contents #dekirukoto .gallery .box{
+			/*width:224px;*/
+			width: 100%!important;
+			margin-right: 2%;
+			float: left;
+			text-align: center;
+		}
+		
+		
+#page_contents #dekirukoto .gallery .box .title{
+
+	font-size:18px;
+	font-weight:bold;
+padding-top:17px;	
+}		
+		
+#page_contents #dekirukoto .gallery .box .txt{
+
+	font-size:16px;
+	text-align:left;
+	padding:5% 2%;
+	}
+#page_contents #dekirukoto .gallery .box span{
+				color: #f05500;
+			}		
+
+
+/*留意事項*/
+
+
+#caution {
+max-width:90%;
+margin:0 auto;
+background:#fff;
+padding-top:6%;
+padding-bottom:10%;
+}
+
+#caution .top_title2{
+	font-size:1.4em;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:10px;
+	padding-bottom:1em;
+}
+
+#caution .top_title2 img{
+	vertical-align:middle;
+	height:1em;
+}
+
+
+#caution .text01{
+	font-size:18px;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:40px;
+}
+
+#caution .box{
+border:solid 1px #eb5400;
+width:100%;
+box-sizing:border-box;
+padding:20px;
+}
+
+
+#caution .left{
+float:none;
+margin-bottom:5%;
+}
+#caution .right{
+float:none;
+}
+
+#caution .box .title{
+
+font-size:20px;
+font-weight:bold;
+color:#eb5400;
+padding-top:0;
+padding-bottom:2%;
+}
+
+#caution .box .img{
+
+float:left;
+width:35%;
+padding-right:5%;
+}
+
+#caution .box .height{
+float:left;
+width:100%;
+height:auto!important;
+}
+
+#caution .box p.btn{
+
+width:45%;
+margin-top:2%;
+border:none!important;
+padding:0;
+float:right;
+}
+
+#caution .btn a:hover{
+	filter:alpha(opacity=70);
+	opacity:0.7;
+    -moz-opacity: 0.7;
+}
+
+#caution .check{
+	
+margin-bottom:0.8em;
+padding-left:2em;
+font-size:1.1em;
+}
+
+
+#caution .check img{
+	
+margin-left:-2em;
+	vertical-align:middle;
+	margin-right:0.8em;	
+}
+
+
+
+
+			
+/*お支払方法*/
+		
+#page_contents .pay_bg{
+	background-color:#FDF5ED;
+	padding-bottom:30px;
+}
+
+#page_contents .pay{
+	max-width:980px;
+	margin:0 auto;
+	padding-left:10px;
+	padding-right:10px;
+	clear:both;
+}
+#page_contents .pay .top_title{
+	font-size:2em;
+	text-align:center!important;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:30px;
+	padding-bottom:10px;
+}
+#page_contents .pay .top_title img{
+	margin-bottom:5px;
+	height:1em;
+}
+#page_contents .pay .icon{
+	float:none;
+	width:70%;
+	margin:0 auto;
+	margin-top:10px;
+}
+#page_contents .pay .text{
+	font-size:1.2em;
+	font-weight:bold;
+	margin:0 auto;
+	margin-top:0.5em;
+	margin-right:5%;
+	width:95%;
+	float:none;
+}
+
+#page_contents .pay .btn{
+	text-align:center;
+	width:60%;
+	margin:0 auto;
+	padding-top:30px;
+	margin-bottom:30px;
+	clear:both;
+}
+#page_contents .pay p{
+	text-align:left!important;
+}
+#page_contents .pay ul.notice{
+	margin-left:1em;
+}
+#page_contents .pay ul.notice li{
+	text-indent:-1em;
+	text-align:left!important;
+}	
+
+#page_contents .bycle{
+	max-width:980px;
+	margin:0 auto;
+	padding-left:10px;
+	padding-right:10px;
+	clear:both;
+	padding-bottom:50px;
+}
+#page_contents .bycle p{
+	text-align:left!important;
+}
+#page_contents .bycle .btn{ 
+max-width:100%!important;
+	text-align:center;
+}
+#page_contents .bycle .text{
+	text-align:left;
+}
+#page_contents .bycle .btn{
+	padding-top:50px;
+	margin-bottom:30px;
+}
+#page_contents .bycle ul{
+	margin-top:30px;
+	margin-left:1em;
+}
+#page_contents .bycle li{
+	text-indent:-1em;
+}
+
+#page_contents .pdf{
+
+	margin:0 auto;
+	padding-left:10px;
+	padding-right:10px;
+	clear:both;
+	font-size:16px;
+	padding-bottom:50px;
+}
+
+#page_contents .pdf li{
+	width:100%!important;
+}
+
+#page_contents .pdf .top_title{
+	font-size:1.2em;
+	text-align:center!important;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:50px;
+	padding-bottom:20px;
+}
+#page_contents .pdf .top_title img{
+	margin-bottom:5px;
+	height:1em;
+}
+#page_contents .pdf a{
+	color:#000000;
+	text-decoration:none;
+	position:relative;
+	z-index:100;
+	text-decoration:underline;
+}
+
+#page_contents .pdf li{
+	margin-bottom:15px;
+	clear:both;
+	margin-bottom:1em;
+}
+#page_contents .pdf li img{
+	margin-right:2%;
+	margin-top:10px;
+	float:left;
+	width:10%;
+}
+#page_contents .pdf li span{
+	display:block;
+	float:left;
+	width:80%;
+}
+
+
+/*請求について*/
+
+
+#page_contents #payment{
+width:100%;
+background:url(../../common/img_20160128/pc/pet/top/payment_bg.jpg) 50% bottom no-repeat;
+padding-top:6%;
+padding-bottom:6%;
+background-size:contain;
+height:auto;
+}
+
+
+#page_contents #payment .inner{
+max-width:90%;
+margin: 0 auto;
+}
+
+
+
+#page_contents #payment .top_title{
+	font-size:1.5em;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:10px;
+	padding-bottom:1em;
+}
+
+#page_contents #payment .top_title img{
+	vertical-align:middle;
+	height:1em;
+}
+
+
+#page_contents #payment .text01{
+	font-size:1.2em;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:40px;
+}
+
+
+#page_contents  #payment .text01{
+float:none;
+font-size:18px;
+margin: 0 auto;
+}
+
+#page_contents  #payment .btn{
+float:none;
+border:none;
+background:transparent!important;
+border:none!important;
+margin: 0 auto;
+padding-top:5%;
+
+}
+
+
+#page_contents  #payment .btn a{
+float:none;
+width:45%;
+border:none;
+background:transparent!important;
+border:none!important;
+margin: 0 auto;
+}
+
+
+
+
+
+
+		
+/*==============================*/
+/*保険期間は日帰りから31日間まで*/
+/*==============================*/
+.attention_area{
+		width:96%;
+		margin:0 auto;
+		padding: 1em 0 2em
+}
+	.attention_area .icon_area{
+		float: none;
+		width: 35%;
+		margin:0 auto;
+	}
+	.attention_area .txt_area{
+		float: none;
+		width: 100%;
+	}
+		.attention_area .txt_area .txt1{
+			font-size:14px;
+			margin-top: 16px;
+		}
+		.attention_area .txt_area .txt2{
+			font-size:14px;
+			margin-top: 16px;
+		}
+		.attention_area .txt_area .txt3{
+			font-size:13px;
+		}			

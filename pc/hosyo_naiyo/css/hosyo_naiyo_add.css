@@ -1,0 +1,523 @@
+p.resizeimage img { width: 100% }
+
+img.miniimage { display: none; }
+
+/* ▼表示領域が400px以上の場合 */
+@media screen and (min-width: 400px) {
+   img.miniimage { display: none; }  /* miniを非表示 */
+   img.bigimage  { display: inherit; } /* bigを表示 */
+   div.pc_area { display: block; } /* PC用表示エリアを表示 */
+}
+/* ▼表示領域が400px未満の場合 */
+@media screen and (max-width: 399px) {
+   img.miniimage { display: inherit; } /* miniを表示 */
+   img.bigimage  { display: none; }  /* bigを非表示 */
+   div.pc_area { display: none; } /* PC用表示エリアを非表示 */
+
+   table.transport_table td ul {
+      text-align: left; /* 搬送費用テーブルのプラン名を左寄せに */
+   }
+}
+
+/***** #content_c21_01 *****/
+
+h7,h8 {
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	background-color: #fff;
+	color: #000;
+	font-size: 75%;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+}
+
+#content_c21_01 {
+	padding: 0 0 80px 0;
+	font-size:12px;
+}
+
+#content_c21_01 .tx_area {
+	padding: 0;
+	margin: 0 0 35px 1.0em;
+}
+
+#content_c21_01 .tx_area p {
+	font-size: 12px;
+	text-indent: -1.0em;
+	line-height: 1.5em;
+}
+
+div#layout {
+	background: #fff;
+	/*padding: 0 15px;*/
+	padding: 0 0 50px ;
+	text-align: left;
+	
+}
+
+div#layout {
+	padding: 0 10px;
+}
+
+div#layout_c20 {
+	padding: 0 10px;
+}
+
+dl.thumbAndText {
+	display: box;
+	display: -webkit-box;
+	display: -moz-box;
+	width: 100%;
+}
+
+dl.thumbAndText dt {
+	width: 30%;
+	margin-right: 10px;
+}
+
+dl.thumbAndText dt img {
+	width: 100%;
+}
+
+dl.thumbAndText dd {
+	-webkit-box-flex: 1;
+	-moz-box-flex:1;
+	width: 100%;
+}
+
+div.subArea h8 {
+	border-radius: 6px;
+	border: 2px solid #d7c1a7;
+	background: #fff;
+	font-weight: bold;
+	padding: 4px;
+	text-align: center;
+	color: #595757;
+}
+
+article#pageBody section.entry h7 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+article#pageBody section.entry p.strangeMargin {
+	margin: 0 20px 10px;
+}
+
+article#pageBody section.entry h8 {
+	font-weight: bold;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	padding: 5px;
+	margin: 0 0 10px;
+	
+	background: #595757;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+}
+
+
+article#pageBody section h7 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+
+article#pageBody section p img {
+	width: 100%;
+}
+
+article#pageBody section.point {
+	
+}
+
+article#pageBody section.point h7 {
+	margin: 0 -15px 10px;
+}
+
+article#pageBody section.point h7 img {
+	width: 100%;
+}
+
+article#pageBody section.point div.noPoint {
+	margin: 0 -15px 10px -15px;
+	text-align: center;
+	background: #f0e8c7;
+	background: #f0e8c7 linear-gradient(bottom, rgb(231,212,148) 0%, rgb(245,242,223) 100%);
+	background: #f0e8c7 -o-linear-gradient(bottom, rgb(231,212,148) 0%, rgb(245,242,223) 100%);
+	background: #f0e8c7 -moz-linear-gradient(bottom, rgb(231,212,148) 0%, rgb(245,242,223) 100%);
+	background: #f0e8c7 -webkit-linear-gradient(bottom, rgb(231,212,148) 0%, rgb(245,242,223) 100%);
+	background: #f0e8c7 -ms-linear-gradient(bottom, rgb(231,212,148) 0%, rgb(245,242,223) 100%);
+	background: -webkit-gradient(linear, left bottom, left top, from(#e7d495), to(#f5f2e0));
+	
+}
+
+article#pageBody section.point div.noPoint h7 {
+	display: block;
+	margin: 0;
+}
+
+article#pageBody section.point div.noPoint h7 span.title {
+	display: block;
+	padding: 15px;
+	width: auto;
+	color: #ea8b13;
+	text-shadow: 1px 1px 0 #fff;
+	vertical-align: middle;
+	text-align: center;
+}
+
+section.point h8.icon {
+	background: url(../img/icon_headding.gif) no-repeat 0 4px;
+	background-size: 12px auto;
+	font-weight: bold;
+	padding: 0 0 0 18px;
+}
+
+article#pageBody section.point h8 {
+	margin: 0 0 10px;
+}
+article#pageBody section.point h8 img {
+	width: 100%;
+}
+
+
+article#pageBody section p.btnDetail {
+	text-align: right;
+}
+
+article#pageBody section p.btnDetail img {
+	width: auto;
+}
+
+article#pageBody section p.btnHome {
+	text-align: right;
+}
+
+article#pageBody section p.btnHome img{
+	width: auto;
+	margin-right: 2.2%;
+}
+
+article#pageBody section nav.pageCtl ul {
+	text-align: center;
+}
+
+article#pageBody section nav.pageCtl ul li {
+	list-style:none;
+	display: inline-block;
+	width: 47%;	
+}
+
+article#pageBody section nav.pageCtl ul li:first-child {
+	list-style:none;
+	margin-right: 1%;
+}
+article#pageBody section nav.pageCtl ul li:last-child {
+	list-style:none;
+	margin-left: 1%;
+}
+
+article#pageBody section nav.pageCtl ul li img {
+	list-style:none;
+	width: 100%;
+}
+
+article#pageBody section h7 {
+	font-size: 14px;
+	margin: 0 0 10px;
+}
+
+article#pageBody section.point div.point {
+	margin: 0 -10px 20px;
+}
+
+article#pageBody section.point h7 span.title {
+	padding: 5px 10px;
+	
+}
+
+article#pageBody section.point h7 span.point {
+	padding: 5px 10px;
+	font-size: 10px;
+	margin: 5px; 
+}
+
+article#pageBody section p.btnDetail img {
+	width: 85px;
+}
+
+article#pageBody section p.btnHome img {
+	width: 80px;
+}
+
+article#pageBody section.entry h7 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+article#pageBody section.entry h8 {
+	font-weight: bold;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	padding: 5px;
+	margin: 0 0 10px;
+}
+
+article#pageBody section.point h7 {
+	margin: 0 0 10px;
+}
+
+article#pageBody section.point h7 img {
+	width: 100%;
+}
+
+article#pageBody section.point div.noPoint {
+	margin: 0 -10px 10px;
+	text-align: center;
+}
+
+article#pageBody section h7 {
+	font-size: 50px;
+	margin: 0 0 10px;
+}
+
+article#pageBody section.entry h7 {
+	font-size: 50px;
+}
+
+article#pageBody section.entry h8 {
+	font-size: 46px;
+
+}
+
+aside.supply {
+	margin-bottom: 15px;
+}
+
+aside.subSection {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border: 1px solid #929191;
+	margin-bottom: 5px;
+	/*padding-right: 10px;*/
+}
+
+aside.subSection h1 {
+	font-size:12px;
+	background: #f2f2f2;
+	padding: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-o-border-radius: 10px 10px 0 0;
+	border-bottom: 1px solid #929191;
+	margin: 0;
+}
+
+aside.subSection div {
+	margin: 10px;
+}
+
+aside.subSection div.innerAside {
+	margin: 10px;
+}
+
+.cs {
+	margin: 2px 10px -5px 40px;
+}
+
+section.firstIntroduce {
+	margin-top: 5px;
+}
+
+section.firstIntroduce h7 img{
+	width: 101px;
+}
+
+article#firstIntroduce padd.padd {
+	padding: 0px 10px;
+}
+
+.accordionBlock {
+	/*margin: 0;*/
+	/* 画面幅いっぱい */  
+	margin: 0 -10px 10px;  	
+}
+
+.accordionBlock h7.switch01 {
+	margin: 0 -10px 10px;
+}
+
+.accordionBlock h7.switch02 {
+	margin: 0 -10px 10px;
+}
+
+.accordionBlock p.switchUnder,.accordionBlock p.switch_golf {
+	margin: 0 -15px 10px;
+}
+
+.accordionBlock p.closeUnder {
+}
+
+.accordionBlock h7.switch01,
+.accordionBlock h7.switch02,
+.accordionBlock h7.switch03,
+.accordionBlock h7.switch04,
+.accordionBlock h7.switch05,
+.accordionBlock p.switchUnder,
+.accordionBlock p.switch_golf {
+	cursor:pointer;
+}
+
+.accordionBlock .accordionArea {
+	display: none;
+	/* accordionBlockが画面幅いっぱいの時に指定 */  
+	margin: 0 10px;	
+}
+
+.accordionBlock p.switchUnder,
+.accordionBlock p.switch_golf {
+	margin: 0 -15px 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.accordionBlock p.switchUnder.closeUnder,
+.accordionBlock p.switch_golf.closeUnder {
+	margin: 0 -15px 10px;
+	text-align: center;
+}
+
+.alignCenter { text-align: center !important; }
+
+ul.foreignList li p span.mini {
+	list-style:none;
+	color: #666;
+}
+
+.mini {
+	font-size: 12px;
+}
+
+.padd {
+	margin: 10px 0px;
+}
+
+article#firstIntroduce padd.padd {
+	padding: 0px 10px;
+}
+
+#document_no {
+	margin-top: 20px;
+}
+
+#document_no p {
+	text-align: right;
+	font-size: 12px;
+}
+
+.roadserviceDesk {
+	padding-left: 40px;
+	padding-top:6px;
+	background: url(../img/icon_freedial.gif) no-repeat 0 8px;
+	background-size: 32px auto;
+	padding-bottom:15px;
+}
+.roadserviceDesk img {
+	vertical-align: middle;
+}
+
+/***** #content_c21_01 end *****/
+
+
+
+/***** #インデント_stt *****/
+article#pageBody ul.ate_00 {
+	margin-left: 1.0em;
+}
+
+article#pageBody ul.ate_00 li {
+	list-style:none;
+	text-indent: -0.8em;
+}
+
+article#pageBody ul.ate_0a {
+	margin-left: 1.0em;
+	margin: 1.0em 0 1.0em 1.0em;
+}
+
+article#pageBody ul.ate_0a li {
+	list-style:none;
+	text-indent: -0.8em;
+}
+
+#ate_00iddot {
+	margin-left: 1.5em;
+}
+
+.ate_00dot {
+	list-style:none;
+	text-indent: -0.5em;
+}
+
+#ate_00idastr {
+	margin-left: 1.5em;
+}
+
+.ate_00astr {
+	list-style:none;
+	text-indent: -1.0em;
+}
+
+.rice_symbol {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+/***** #インデント_end *****/
+
+#font_blue {
+	color:#0066CC;
+}
+
+/* 自転車ロードサービス画面サービス提供地域 */
+div.cont_wrap table.service_area {
+	/*font-size: 1.2em;*/
+}
+
+div.cont_wrap table.service_area td {
+	/*padding: 5px 5px 2px;*/
+	padding: 2px;
+}
+
+div.cont_wrap table.service_area td > p {
+	margin: 0 !important;
+	border: 1px solid #000000;
+	width: 80px;
+	height: 20px;
+}
+
+div.cont_wrap table.service_area td.green > p {
+	background-color: #01FF00;
+}
+
+div.cont_wrap table.service_area td.white > p {
+	background-color: #FFFFFF;
+}

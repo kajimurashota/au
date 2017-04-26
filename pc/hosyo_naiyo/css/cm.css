@@ -1,0 +1,468 @@
+/* reset
+----------------------------------------*/
+html{
+    color:#000;background:#FFF;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin:0;padding:0;
+}
+table{
+    border-collapse:collapse;border-spacing:0;
+}
+fieldset,img{ border:0; }
+address,caption,cite,code,dfn,em,strong,th,var{
+    font-style:normal;font-weight:normal;
+}
+caption,th{ text-align:left; }
+h1,h2,h3,h4,h5,h6{
+    font-size:100%;font-weight:normal;
+}
+q:before,q:after{ content:''; }
+abbr,acronym{ border:0;font-variant:normal; }
+sup{ vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+input,textarea,select{ font-family:inherit;font-size:inherit;font-weight:inherit; }
+input,textarea,select{ *font-size:100%; }
+legend{ color:#000; }
+
+/***************************************************************************/
+
+html,
+body {
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+}
+
+body {
+	font-size: 12px;
+	text-align: center;
+	color: #454545;
+	position: relative;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	/*border-top: 10px solid #d36ca1;*/
+	 -webkit-text-size-adjust: 100%;
+}
+#campaign{
+	background:#fff;
+}
+#contens{
+	padding:0 10px 30px;
+}
+#campaign div.movieArea{
+	margin:0 auto;
+	text-align:left;
+}
+#campaign div.movieArea h2{
+	font-size:120%;
+	font-weight:bold;
+	color:#d26ca0;
+}
+#campaign p.mgb5{
+	margin-bottom:5px;
+}
+#campaign p.mgt40{
+	margin-top:40px;
+}
+#campaign div.movieArea p.mgt15{
+	margin-top:15px;
+}
+#campaign div.movieArea .v-m{
+	vertical-align:middle;
+}
+#campaign div.movieArea p.txt{
+	font-weight:bold;
+	color:#d26ca0;
+}
+
+#campaign p.t-r{
+	text-align:right;
+}
+#campaign p.t-l{
+	text-align:left;
+}
+.per30{width:50%;}
+
+/*===========================================
+  #2013/04/30 追加 フロートエリア固定表示用
+-----------------------------------------*/
+div#floteArea {
+	position: fixed !important;
+	position:absolute;
+
+	/*bottom: 1px;*/
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+div#floteArea a{
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+	font-size:16px;
+}
+
+div#floteArea ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+
+
+}
+div#floteArea li {
+	list-style:none;
+	float:left;
+	margin-right: 5px;
+	padding: 2px;
+
+}
+
+/* Back & Home button */
+.close_float {
+	margin:0;padding:0;
+	font-size:24px;
+	font-weight:bold;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	text-align:center;
+	padding: 10px;
+	/*padding: 11px 10px 9px 10px;*/
+	background:#9C6;
+}
+
+.close_float a{
+	color:#fff;
+	text-decoration:none;
+
+}
+
+.mgb8{margin-bottom:8px;}
+.v-m{vertical-align:middle;}
+.v-t{vertical-align:top;}
+.bold{font-weight:bold;}
+/*########### キャンペーンページ専用 ###########*/
+body#campaign{
+	border-top:none;
+	padding:10px 0 20px;
+}
+div#contents{
+	width:990px;
+	margin:0 auto;
+}
+#campaign div#contents div#mainContens{
+	background:#fff;
+	text-align:center;
+	padding-bottom:10px;
+}
+
+#campaign p.singer{width:100%;margin:5px auto 0;text-align:right;}
+#campaign div.movieArea{
+
+	margin:0 auto;
+	text-align:center;
+}
+#campaign div.movieArea h2{
+	font-size:110%;
+	font-weight:bold;
+	color:#d26ca0;
+	margin-bottom:10px;
+	text-align:center;
+	background:url(../spimg3/images_cm/h2_bg.png) no-repeat;
+	width:100%;
+	height:100%;
+	padding:8px 0;
+	margin-top:20px;
+	-moz-background-size:100% 100%;
+	background-size:100% 100%;
+}
+#campaign div.movieArea div.cmBt{
+	margin:10px auto;
+}
+#campaign div.movieArea div.cmBt img{
+	width:48%;
+}
+#campaign div.infoArea{
+	border:1px solid #d36ca1;
+	padding:5px 0;
+}
+#campaign div.infoArea div.bt,
+#campaign div.infoArea div.bt02{
+	padding:0 5px;
+}
+#campaign div.infoArea div.bt img{
+	width:48%;
+}
+#campaign div.infoArea div.bt02 img{
+	width:31%;
+}
+#campaign div.infoArea div.intentArea{
+	width:100%;
+	margin-top:20px;
+}
+#campaign div.infoArea div.intentArea h3 img{
+	vertical-align:bottom;
+}
+#campaign div.infoArea div.intentArea div{
+	background:url(../spimg3/images_cm/intent_box_body.png) no-repeat bottom;
+	text-align:left;
+	padding:20px;
+	-moz-background-size:100% 100%;
+	background-size:100% 100%;
+}
+
+#campaign div.infoArea div.performerArea{
+	width:100%;
+	margin:30px auto;
+	text-align:left;
+	padding:0 10px;
+}
+#campaign div.infoArea div.performerArea h3{
+	font-size:130%;
+	font-weight:bold;
+	color:#d26ca0;
+}
+#campaign div.infoArea div.performerArea div.performerBox div{
+	border-bottom:1px solid #d36ca1;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	width:95%;
+}
+#campaign div.infoArea div.performerArea div.performerBox div.bono{
+	border-bottom:none;
+
+}
+#campaign div.infoArea div.performerArea div.performerBox table{
+	width:95%;
+}
+#campaign div.infoArea div.performerArea div.performerBox table th{
+	width:35%;
+	padding-right:10px;
+}
+#campaign div.infoArea div.makingArea{
+	width:95%;
+	margin:30px auto;
+	text-align:left;
+}
+#campaign div.infoArea div.makingArea h3{
+	font-size:130%;
+	font-weight:bold;
+	color:#d26ca0;
+}
+#campaign div.infoArea div.makingArea p{
+	margin:20px auto;
+	text-align:left;
+}
+
+#campaign div.bycleBt{
+	margin:10px auto;
+}
+
+div.originalBt{
+	margin:20px auto 10px;
+}
+div.originalBt div{
+	width:33%;float:left;
+}
+#campaign div.detail_box{
+	width:auto;
+	border:8px solid #2a4287;
+	-webkit-border-radius: 8px 8px 8px;
+	border-radius: 8px 8px 8px;
+	padding:10px;
+	margin-top:20px;
+}
+#campaign div.detail_box p{
+	text-align:left;
+	margin-top:5px;
+}
+
+/* -----------------------------------------------
+ * クリアフィックス
+ * -------------------------------------------- */
+.c-fix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	line-height: 0;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+.c-fix {
+	display: inline-block;
+}
+/* Mac版IEを除外 \*/
+.c-fix {
+	display: block;
+}
+
+
+section nav.pageCtl ul {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+section nav.pageCtl ul li {
+	display: inline-block;
+	width: 47%;
+}
+
+section nav.pageCtl ul li:first-child {
+	margin-right: 1%;
+}
+section nav.pageCtl ul li:last-child {
+	margin-left: 1%;
+}
+
+section nav.pageCtl ul li img {
+	width: 100%;
+}
+
+aside.subSection {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border: 1px solid #929191;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+aside.subSection h1 {
+	font-size:12px;
+	background: #f2f2f2;
+	/*background: #000000;*/	/*20130621*/
+	/*padding: 10px;*/			/*20130621*/
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-o-border-radius: 10px 10px 0 0;
+	border-bottom: 1px solid #929191;
+}
+
+aside.subSection ul.userMenu {
+	margin: 0;
+	background: url(../spimg3/images_common/bg_border.gif) repeat-y 50% 0;
+	display: box;
+	display: -webkit-box;
+	display: -moz-box;
+	width: 100%;
+
+}
+
+aside.subSection ul.userMenu li {
+	width: 100%;
+	text-align: center;
+
+	-webkit-box-flex: 1;
+	-moz-box-flex:1;
+}
+
+aside.subSection ul.userMenu li img {
+	width: 100%;
+}
+
+aside.subSection ul.userMenu li:first-child {
+	padding: 10px;
+}
+
+aside.subSection ul.userMenu li:last-child {
+	padding: 10px;
+}
+
+.cs {
+	margin: 5px 10px -5px 50px;
+}
+aside.subSection p.contactArea {
+	margin: 5px 10px 0;
+}
+
+aside.subSection ul.contactMenu {
+	margin-bottom: 10px;
+	display: box;
+	display: -webkit-box;
+	display: -moz-box;
+	list-style-type: none;
+}
+
+aside.subSection ul.contactMenu li img {
+	width: 100%;
+}
+
+aside.subSection ul.contactMenu li:first-child {
+	width: 55%;
+	padding: 0 10px 0 40px;
+	margin: 10px 10px 10px 10px;
+	/*border-right: 1px solid #929191;*/
+	background: url(../spimg3/images_common/icon_freedial.gif) no-repeat 0 0;
+	background-size: 32px auto;
+	-webkit-box-flex: 1;
+	-moz-box-flex:1;
+}
+
+aside.subSection ul.contactMenu li:first-child img {
+	margin: 8px 0px 0px 0px;
+	vertical-align: top;
+}
+
+
+aside.subSection ul.contactMenu li:first-child a {
+	display: block;
+	text-decoration: underline;
+	color: #1288CC;
+	font-size: 14px;
+}
+
+aside.subSection div {
+	margin: 10px;
+}
+
+aside.subSection div.innerAside {
+	margin: 10px;
+}
+
+section p.btnHome {
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+section p.btnHome img{
+	width: auto;
+	margin-right: 2.2%;
+}
+
+#document_no p {
+	text-align: right;
+	font-size: 12px;
+}
+
+footer {
+	font-size: 9px;
+	padding: 8px 0;
+	background: #f2f2f2;
+	line-height: 12px;
+	font-weight: 400;
+}
+
+footer p:first-child {
+	margin: 0px;
+}
+footer p:last-child {
+	margin: 0;
+}
+
+#snsBt{
+	/*width:430px;*/
+	text-align: left;
+	padding:10px 0;
+}
+
+#snsBt table{
+	margin: 0 auto;
+}
+
+#snsBt table tr td {
+	padding: 5px;
+	width: 50%;
+}

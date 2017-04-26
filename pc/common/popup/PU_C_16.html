@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>au損保</title>
+<link href="spcss/PU_C.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+function openwin(pop,winname){
+
+	var avW = 970;
+	var avH = 680;
+	  win1 = open(pop,winname,"toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,top=0,left=0,width=" + avW + ",height=" + avH + "");
+	win1.opener = self;
+	win1.focus();
+}
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32568740-1']);
+	_gaq.push(['_trackPageview']);
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+	(function() {
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+<style type="text/css">
+.explanation h2 {
+	max-width:980px;
+	background-image:url();
+	border:none;
+	text-align:center;
+}
+
+body {
+	text-align: center;
+	color: #000000;
+	position: relative;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	/*border-top: 10px solid #d36ca1;*/
+	 -webkit-text-size-adjust: 100%;
+}
+
+h2 div.ate_a00 {
+	font-size:20px;
+	font-weight:bold;
+	color:#E6551E;
+}
+
+div.tx_area h3{
+    padding: 0 10px;
+    margin: 0;
+    max-width: 940px;
+    color: #FFF;
+    background-color: #EC5601;
+    font-size:16px;
+    font-weight:bold;
+    height:46px;
+    line-height:46px;
+}
+
+h3 {
+	border:none;
+}
+
+#content_c16_01 {
+	padding: 0 0 50px 0;
+	font-size:12px;
+}
+
+#content_c16_01 .tx_area {
+	padding: 0;
+	max-width:100%;
+}
+
+#content_c16_02 .tx_area {
+	padding:0;
+	max-width:100%;
+}
+
+#content_c16_03 .tx_area {
+	padding:0;
+	max-width:100%;
+}
+
+#content_c16_01 p ,
+#content_c16_02 p ,
+#content_c16_03 p {
+	margin: 20px 8px;
+	line-height: 1.8em;
+	max-width:940px;
+}
+
+#content_c16_01 table {
+	max-width: 960px;
+	width:100%;
+	border: 1px solid #444;
+}
+
+#content_c16_01 table th {
+	width: 33%;
+	border: 1px solid #aaa;
+	background-color: #eee;
+	text-align: center;
+	padding: 6px;
+	font-weight:normal;
+}
+
+#content_c16_01 table td {
+	width: 33%;
+	border: 1px solid #aaa;
+	padding: 6px;
+}
+
+#content_c16_01 table td img {
+	padding: 0px 5px;
+}
+
+#content_c16_02 table {
+	max-width: 960px;
+	border: 1px solid #444;
+}
+
+#content_c16_02 table th {
+	width: 33%;
+	border: 1px solid #aaa;
+	background-color: #eee;
+	text-align: center;
+	padding: 6px;
+	font-weight:normal;
+}
+
+#content_c16_02 table td {
+	width: 33%;
+	border: 1px solid #aaa;
+	padding: 6px;
+}
+
+#content_c16_02 table td img {
+	padding: 0px 5px;
+}
+
+#content_c16_03 table {
+	max-width: 960px;
+	border: 1px solid #444;
+}
+
+#content_c16_03 table th {
+	width: 33%;
+	border: 1px solid #aaa;
+	background-color: #eee;
+	text-align: center;
+	padding: 6px;
+	font-weight:normal;
+}
+
+#content_c16_03 table td {
+	width: 33%;
+	border: 1px solid #aaa;
+	padding: 6px;
+}
+
+#content_c16_03 table td img {
+	padding: 0px 5px;
+}
+
+#content_c16_01 .tx_area.orange,
+#content_c16_02 .tx_area.orange,
+#content_c16_03 .tx_area.orange {
+	width:100%;
+	max-width:inherit;
+	font-size:15px;
+	background-color:#EC5601;
+}
+#content_c16_01 .tx_area,
+#content_c16_02 .tx_area,
+#content_c16_03 .tx_area{
+	width:100%;
+	max-width:980px;
+	font-size:15px;
+	margin:0 auto;
+}
+div.tx_area div{
+	margin:0 2px;
+}
+div.tx_area > h3{
+	max-width:980px;
+	margin:0 auto;
+}
+
+div.tx_area p {
+	line-height:1.8em;
+}
+
+div#floteArea {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	min-height:50.5px;
+	max-height:50.5px;
+	padding:0;
+}
+
+.close_float {
+	font-size:24px;
+	font-weight:bold;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	text-align:center;
+	background:#585657;
+	height:50.5px;
+}
+
+@media (max-width:680px) { 
+	.title{
+		font-size:17px;
+		font-weight:bold;
+	}
+}
+
+
+</style>
+
+</head>
+
+<body class="explanation" style="font-size:15px;">
+	<div>
+		<table style="margin:20px auto;">
+			<tr>
+				<td style="vertical-align:middle;">
+					<img src="./spimg/arrow_left.png" style="width:13px;" />
+				</td>
+				<td style="vertical-align:middle;">
+					<h2 style="margin:0;padding:0;width:auto;">
+						<div class="ate_a00" style="text-indent:0;margin:28px 20px;">
+							<p class="title">普通保険約款・特約集</p>
+						</div>
+					</h2>
+				</td>
+				<td style="vertical-align:middle;">
+					<img src="./spimg/arrow_right.png" style="width:13px;" />
+				</td>
+			</tr>
+		</table>
+
+
+		<!-- #content_c16_01 begin -->
+		<div id="content_c16_01">
+			<div class="tx_area orange">
+				<h3>スタンダード傷害保険</h3>
+			</div>
+			<div class="tx_area">
+				<p>ご契約の保険期間の開始日（保険始期日）により、適用される普通保険約款・特約が異なります。お客さま専用ページにて保険期間の開始日をご確認のうえ、該当する普通保険約款・特約をご覧ください。 </p>
+				<div>
+					<table>
+						<tr>
+							<th>保険期間の開始日</th>
+							<th>普通保険約款・特約</th>
+						</tr>
+						<tr>
+							<td>2016年10月1日～</td>
+							<td><a href="JavaScript:openwin('../pdf/standard_shogai/standard_yakkan20161001.pdf','myau2');">スタ傷約款</a><img src="spimg/icon_pdf.gif" /></td>
+						</tr>
+						<tr>
+							<td>2015年12月17日～2016年9月30日</td>
+							<td rowspan="2"><a href="JavaScript:openwin('../pdf/standard_shogai/standard_yakkan20160801.pdf','myau2');">スタ傷約款</a><img src="spimg/icon_pdf.gif" /></td>
+						</tr>
+						<tr>
+							<td>2013年10月1日～2015年12月16日</td>
+						</tr>
+						<tr>
+							<td>2012年5月25日～2013年9月30日</td>
+							<td><a href="JavaScript:openwin('../pdf/standard_shogai/standard_yakkan20120525.pdf','myau2');">スタ傷約款</a><img src="spimg/icon_pdf.gif" /></td>
+						</tr>
+						<tr>
+							<td>2012年2月23日～2012年5月24日</td>
+							<td><a href="JavaScript:openwin('../pdf/standard_shogai/standard_yakkan20120223.pdf','myau2');">スタ傷約款</a><img src="spimg/icon_pdf.gif" /></td>
+						</tr>
+						<tr>
+							<td>2011年7月1日～2012年2月22日</td>
+							<td><a href="JavaScript:openwin('../pdf/standard_shogai/standard_yakkan20110701.pdf','myau2');">スタ傷約款</a><img src="spimg/icon_pdf.gif" /></td>
+						</tr>
+						<tr>
+							<td>2011年5月25日～2011年6月30日</td>
+							<td><a href="JavaScript:openwin('../pdf/standard_shogai/standard_yakkan20110630.pdf','myau2');">スタ傷約款</a><img src="spimg/icon_pdf.gif" /></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- #content_c16_01 end -->
+
+		<!-- #content_c16_02 begin -->
+		<div id="content_c16_02">
+			<div class="tx_area orange">
+				<h3>海外旅行保険</h3>
+			</div>
+			<div class="tx_area">
+				<p>ご契約の保険期間の開始日（保険始期日）により、適用される普通保険約款・特約が異なります。お客さま専用ページにて保険期間の開始日をご確認のうえ、該当する普通保険約款・特約をご覧ください。</p>
+				<div>
+					<table>
+						<tr>
+							<th>保険期間の開始日</th>
+							<th>普通保険約款・特約</th>
+						</tr>
+						<tr>
+							<td>2013年10月1日～</td>
+							<td><a href="JavaScript:openwin('../pdf/kaigai_ryoko/kairyo_yakkan20131001.pdf','myau2');">海旅約款</a><img src="spimg/icon_pdf.gif" /></td>
+						</tr>
+						<tr>
+							<td>2012年12月19日～2013年9月30日</td>
+							<td><a href="JavaScript:openwin('../pdf/kaigai_ryoko/kairyo_yakkan.pdf','myau2');">海旅約款</a><img src="spimg/icon_pdf.gif" /></td>
+						</tr>
+						<tr>
+							<td>2011年11月29日～2012年12月18日</td>
+							<td><a href="JavaScript:openwin('../pdf/kaigai_ryoko/kairyo_yakkan_till20121218.pdf','myau2');">海旅約款</a><img src="spimg/icon_pdf.gif" /></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- #content_c16_02 end -->
+
+		<!-- #content_c16_03 begin -->
+		<div id="content_c16_03">
+			<div class="tx_area orange">
+				<h3>国内旅行傷害保険</h3>
+			</div>
+			<div class="tx_area">
+				<p>ご契約の保険期間の開始日（保険始期日）により、適用される普通保険約款・特約が異なります。お客さま専用ページにて保険期間の開始日をご確認のうえ、該当する普通保険約款・特約をご覧ください。</p>
+				<div>
+					<table>
+						<tr>
+							<th>保険期間の開始日</th>
+							<th>普通保険約款・特約</th>
+						</tr>
+						<tr>
+							<td>2016年10月1日～</td>
+							<td><a href="JavaScript:openwin('../pdf/kokunai_ryoko/kokuryo_yakkan20161001.pdf','myau2');">国旅約款</a><img src="spimg/icon_pdf.gif" /></td>
+						</tr>
+						<tr>
+							<td>2013年10月1日～2016年9月30日</td>
+							<td><a href="JavaScript:openwin('../pdf/kokunai_ryoko/kokuryo_yakkan20131001.pdf','myau2');">国旅約款</a><img src="spimg/icon_pdf.gif" /></td>
+						</tr>
+						<tr>
+							<td>2012年2月23日～2013年9月30日</td>
+							<td><a href="JavaScript:openwin('../pdf/kokunai_ryoko/kokuryo_yakkan20120223.pdf','myau2');">国旅約款</a><img src="spimg/icon_pdf.gif" /></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- 高さ調整 -->
+		<div style="min-height:138px;"></div>
+		<!-- #content_c16_03 end -->
+
+		<!-- フロートエリア対応-->
+		<div id="floteArea">
+			<a href="javascript:void(0);" onClick="window.close(); return false;"><div class="close_float" style="height: 50.5px; padding: 0px;"><p style="padding-top: 15px; line-height: 22.5px; font-weight: bold; text-align: center; font-size: 24px;">×&nbsp;閉じる</p></div></a>
+		</div>
+		<!-- フロートエリア対応 -->
+	</div>
+</body>
+</html>

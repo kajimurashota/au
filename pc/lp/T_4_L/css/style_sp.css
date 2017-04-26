@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document for SP*/
+
+/*ALL*************************/
+body{
+	/*background-image:url("../img/sp/body_back.png");*/
+	font-size:90%;
+	line-height:140%;
+	color:#463124;
+}
+a{
+	color:#248499;
+}
+#wrapper{
+	width:94%;
+	margin:10px auto;
+	text-align:center;
+	background-color:#fff;
+	border:2px solid #ea5404;
+	border-radius:10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+#container{
+	margin:0 auto;
+	text-align:left;
+}
+#main{
+	margin:0 3%;
+}
+
+.section{
+	margin:0 0 1em 0;
+	padding-bottom:1em;
+	text-align:center;
+	background-color:#FFF6E0;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}
+.sec-box{
+	margin:0 3% 1em 3%;
+	text-align:left;
+	position:relative;
+}
+.contact{
+	margin-bottom:1em;
+	text-align:center;
+}
+.contact .but{
+	margin:0 auto;
+}
+
+.totop{
+	text-align:right;
+}
+.totop a{
+	display:block;
+	width:50%;
+	margin-left:56%;
+}
+.fonts{
+	font-size:80%;
+	line-height:140%;
+}
+
+.ballon{
+	margin:20px 0 1em;
+	padding:15px;
+	text-align:left;
+	background-color:#FFFfff;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+  	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.35);
+}
+
+.txt-large{
+	font-size:120%;
+	color:#ea5404 !important;
+	font-weight:bold;
+}
+
+/*SECTION*************************/
+
+/*header*/
+#header{
+	padding:1em 3%;
+}
+#header h1{
+	margin:0;
+}
+#header p{
+	position:absolute;
+	width:82%;
+	margin:172% auto 0 auto;
+	/*padding-bottom:8%;
+	background-image:url("../img/sp/head_parts_2.png");
+	background-repeat:no-repeat;
+	background-position:0 bottom;
+	background-size:100%;*/
+}
+
+#header p img{
+	display:block;
+	margin:0 auto;
+}
+
+#ill-txt{
+	margin:0 3% 3% 3%;
+	text-align:right;
+	font-size:90%;
+	line-height:120%;
+}
+
+#sec0{
+	background-color:#fff;
+}
+#sec1{
+	margin-top:30%;
+}
+
+#footer{
+	line-height:130%;
+	font-size:90%;
+	padding:1em 3%;
+	background-image:url("../img/pc/foot_bar.png");
+	background-repeat:no-repeat;
+}
+#footer p{
+	margin-bottom:0;
+}
+#footer ul{
+	margin:0;
+}
+#footer ul li{
+	margin-bottom:0.5em;
+	list-style-type:none;
+	background-image:url("../img/pc/ico_1.png");
+	background-repeat:no-repeat;
+	background-position:center inherit;
+	min-height:20px;
+	padding-left:20px;
+}
+#footer h2{
+	text-align:center;
+}
+#footer #foot-logo{
+	margin:1em auto;
+	text-align:center;
+	line-height:80%;
+}
+
+

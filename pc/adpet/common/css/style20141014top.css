@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+/* ############################################################################
+ *
+ * トップページ [body#top]2014/10/14 修正分
+ *
+ * ######################################################################### */
+div#main {
+	padding-top:40px;
+}
+div#feature1014{
+	font-size:110%;
+}
+#premiumArea0905,
+div#feature1014 div.feature1014Inner{
+	border:1px solid #d3746f;
+	width:703px;
+	margin:0 auto;
+	border-top:none;
+	border-radius:0 0 6px 6px;
+}
+#premiumArea0905 {
+	width:701px;
+	padding-bottom:20px;
+	border-radius:0 0 7px 7px;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	
+}
+div#feature1014 h3{
+	background:#e6e6e6;
+	font-weight:bold;
+	font-size:170%;
+	text-align:left;
+}
+div#feature1014 h3 p{
+	font-weight:bold;
+}
+div.featureHead{
+	width:100%;
+}
+.featureHead h3{
+	padding:15px 0 15px 0;
+	display:table;
+	width:100%;
+}
+.featureHead h3 img{
+	display:table-cell;
+	padding-left:40px;
+	width:40px;
+	margin-right:0;
+}
+.featureHead h3 p{
+	padding-left:5px;
+	width:100%;
+	display:table-cell;
+	vertical-align:
+	middle;margin-left:0
+}
+
+#featureNo2 h3 span{
+	background:url(../images/top/no2.jpg) no-repeat 0 0;
+	padding-left:45px;
+	display:block;
+}
+#featureNo3 h3 span{
+	background:url(../images/top/no3.jpg) no-repeat 0 0;
+	padding-left:45px;
+	display:block;
+}
+#featureNo4 h3 span{
+	background:url(../images/top/no4.jpg) no-repeat 0 0;
+	padding-left:45px;
+	display:block;
+}
+#featureNo1 p.txt{
+	width:500px;
+	text-align:left;
+	margin:20px auto;
+}
+#featureNo1 p.img{
+	margin:0 auto;
+}
+#featureNo2 p.txt{
+	width:500px;
+	text-align:left;
+	margin:20px auto;
+}
+#featureNo2 p.txt2{
+	width:640px;
+	text-align:left;
+	margin:0 auto;
+}
+#featureNo2 p.redtxt{
+	font-size:150%;
+	font-weight:bold;
+	color:#ce2100;
+	text-align:center;
+	margin:30px auto 0;
+}
+#featureNo2 p.img{
+	margin:0 auto 20px;
+}
+
+#featureNo3 .kakaritsuke{
+	width:600px;
+	margin:20px auto;
+}
+#featureNo3 .kakaritsuke div{
+	width:286px;
+}
+#featureNo3 .kakaritsuke div p{
+	text-align:left;
+	margin-top:10px;
+}
+#featureNo3 #soudan div.soudanDtail{
+	background:url(../images/top/no3_soudan_bg.jpg) repeat-y;
+	width:630px;
+	padding:0 15px 15px;
+	margin:0 auto 50px;
+}
+#featureNo3 #soudan div.soudanDtail div{
+	background:#fff;
+	text-align:left;
+	padding:10px 0;
+}
+#featureNo3 #soudan div.soudanDtail table th{
+	font-weight:bold;
+	color:#d3746f;
+	font-size:120%;
+	padding:15px 10px 0;
+	width:50%;
+}
+#featureNo3 #soudan div.soudanDtail table td{
+	padding:0 10px;
+	vertical-align:top;
+}
+#featureNo4 p.txt{
+	width:220px;
+	text-align:left;
+	float:right;
+	font-size:85%;
+}
+#featureNo2 p.txt {
+	font-size:150%;
+}
+#floatingNavi{
+	display:none;
+}
+#top_image {
+	width:100%;
+	max-width:756px;
+	margin:0 auto;
+	height:auto;
+	background-image:url(../../common/images/top/main.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position: center center; 
+}
+
+#top_image_ul {
+	padding-top:390px;
+}
+#point1,
+#point2,
+#point3,
+#point4 {
+	cursor:pointer;
+	width:550px;
+}
+
+div#premium1014{
+	margin:40px auto 0;
+}
+#no3_img:hover,
+#otoiawase:hover,
+#point1:hover,
+#point2:hover,
+#point3:hover,
+#point4:hover,
+#shisanbtn:hover {
+	opacity: 0.7;
+}
+
+.display_sp {
+	display:none;
+}
+.display_block_sp {
+	display:none;
+}
+.txt110per{
+	font-size:110%;
+}
+#premiumText{
+	font-size: 170%;
+}
+
+#featureNo1 p.text2{
+display:inline-block;
+margin-left:90px;
+font-size: 0.9375rem;
+}

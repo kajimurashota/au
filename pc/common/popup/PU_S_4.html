@@ -1,0 +1,645 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<meta name="format-detection">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>【Bycle】プラチナコース保険料表</title>
+<script type="text/javascript" src="spjs/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="spjs/telNo.js"></script>
+
+<!--[CSS]-->
+<link type="text/css" href="../../common/css/reset.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/module.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/base.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/layout.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/parts.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/page.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/bycle.css" rel="stylesheet" />
+<link type="text/css" href="../../common/css/pamphlet.css" rel="stylesheet" />
+
+<!-- bycle 専用JS　読込み -->
+<script type="text/javascript" src="../../common/js/bycle.js"></script>
+
+<!--スマホ・PC 切り替え-->
+<script type="text/javascript" src="../../common/js/sp_switch.js"></script>
+<script>
+    //読み込みCSS 設定
+    var sp_css_1 = "../../common/css/style.css";
+    var sp_css_2 = "../../common/css/layout_sp.css";
+    var sp_css_3 = "../../common/css/base_sp.css";
+    var sp_css_4 = "../../common/css/parts_sp.css";
+    var sp_css_5 = "../../common/css/page_sp.css";
+    var sp_css_6 = "../../common/css/bycle_sp.css";
+    var sp_css_7 = "../../common/css/pamphlet_sp.css";
+
+    //SPに変更
+    function change_script_sp(){
+        if(mode == "PC"){
+            //JS
+            $.getScript("../../common/js/script_sp.js");
+            //CSS
+            $("#sp_css_1").attr("href",sp_css_1);
+            $("#sp_css_2").attr("href",sp_css_2);
+            $("#sp_css_3").attr("href",sp_css_3);
+            $("#sp_css_4").attr("href",sp_css_4);
+            $("#sp_css_5").attr("href",sp_css_5);
+            $("#sp_css_6").attr("href",sp_css_6);
+            $("#sp_css_7").attr("href",sp_css_7);
+            mode = "SP";
+        }
+    }
+    //PCに変更
+    function change_script_pc(){
+        if(mode == "SP"){
+            //JS
+            // $.getScript("../../common_aute/js/kairyo.js");
+            // $.getScript("../../common_aute/js/yuga.js");
+            //CSS
+            $("#sp_css_1").attr("href","");
+            $("#sp_css_2").attr("href","");
+            $("#sp_css_3").attr("href","");
+            $("#sp_css_4").attr("href","");
+            $("#sp_css_5").attr("href","");
+            $("#sp_css_6").attr("href","");
+            $("#sp_css_7").attr("href","");
+            mode = "PC";
+        }
+    }
+</script>
+<!--CSS スマホ用（JSで読み込み・初期値はNULL）　-->
+<link id="sp_css_1" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_2" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_3" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_4" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_5" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_6" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_7" type="text/css" href="" rel="stylesheet" />
+
+<style type="text/css">
+	.close_float {
+		font-size: 24px;
+		text-align:center;
+		height:25.5px;
+		padding:10px 0 15px 0;
+		background-color: #585657;
+		background-size:10px 33px;
+	}
+</style>
+
+
+</head>
+<body>
+<div id="page_contents">
+	
+<!--	補償内容-----------------------------------------------------------------	-->
+<div class="table">
+		<table class="table_pc" cellpadding="0" cellspacing="0" style="margin-top:20px">
+                	<tbody><tr>
+                    	<td class="bg_white" align="center"><span class="fs16">補償内容等</span></td>
+                    	<td class="silver">プラチナコース</td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin14()">死亡・後遺障害<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin14(){
+									死亡後遺障害 = window.open("../../../pc/hosyo_naiyo/standard/S_2_H_2.html","死亡・後遺障害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									死亡後遺障害.focus();
+									}
+									//-->
+								</script>
+                        <td class="bg_silver">500万円<br><img src="../../common/img_20160128/pc/bycle/bike.png" alt="自転車"> <span class="orange2">1,000万円</span></td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin15()">入院一時金<br>(3日以上の入院で）<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin15(){
+									入院一時金 = window.open("../../../pc/hosyo_naiyo/standard/S_2_H_3.html","入院一時金","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									入院一時金.focus();
+									}
+									//-->
+								</script>
+
+                        <td class="bg_silver">8万円<br><img src="../../common/img_20160128/pc/bycle/bike.png" alt="自転車"> <span class="orange2">16万円</span></td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin16()">入院保険金日額<br>(入院1日につき）<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin16(){
+									入院保険金日額 = window.open("../../../pc/hosyo_naiyo/standard/S_2_H_5.html","入院保険金日額","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									入院保険金日額.focus();
+									}
+									//-->
+								</script>
+                        <td class="bg_silver">6,000円<br><img src="../../common/img_20160128/pc/bycle/bike.png" alt="自転車"> <span class="orange2">12,000円</span></td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin17()">手術保険金<br>(手術により)<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin17(){
+									手術保険金 = window.open("../../../pc/hosyo_naiyo/standard/S_2_H_6.html","手術保険金","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									手術保険金.focus();
+									}
+									//-->
+								</script>
+                        <td class="bg_silver">3万円または6万円<br><img src="../../common/img_20160128/pc/bycle/bike.png" alt="自転車"> <span class="orange2">6万円または12万円</span></td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin18()">通院保険金日額<br>(通院1日につき）<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin18(){
+									通院保険金日額 = window.open("../../../pc/hosyo_naiyo/standard/S_2_H_7.html","通院保険金日額","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									通院保険金日額.focus();
+									}
+									//-->
+								</script>
+                        <td class="bg_silver">2,000円<br><img src="../../common/img_20160128/pc/bycle/bike.png" alt="自転車"> <span class="orange2">4,000円</span></td>
+                        <td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin19()">個人賠償責任<br>(自己負担額なし）<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin19(){
+									個人賠償責任 = window.open("../../../pc/hosyo_naiyo/standard/S_2_H_10.html","個人賠償責任","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									個人賠償責任.focus();
+									}
+									//-->
+								</script>
+                        <td class="bg_silver">2億円</td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin20()">示談代行サービス<br>賠償事故解決特約<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin20(){
+									示談代行サービス = window.open("/pc/hosyo_naiyo/standard/S_2_H_11.html","示談代行サービス","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									示談代行サービス.focus();
+									}
+									//-->
+								</script>
+                        <td class="bg_silver">○</td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	
+                	<tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin24()">携行品損害<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin24(){
+									携行品損害 = window.open("/pc/hosyo_naiyo/standard/S_2_H_12.html","携行品損害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									携行品損害.focus();
+									}
+									//-->
+								</script>
+                        <td class="bg_silver">25万円</td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	
+                	<tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin21()">法律相談費用<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin21(){
+									法律相談費用 = window.open("/pc/hosyo_naiyo/standard/S_2_H_16.html","法律相談費用","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									法律相談費用.focus();
+									}
+									//-->
+								</script>
+                        <td class="bg_silver">5万円</td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin22()">弁護士費用等<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin22(){
+									弁護士費用等 = window.open("/pc/hosyo_naiyo/standard/S_2_H_17.html","弁護士費用等","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									弁護士費用等.focus();
+									}
+									//-->
+								</script>
+                        <td class="bg_silver">300万円</td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="obi" colspan="4"><div class="bg_orange3">付帯サービス</div></td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin23()">自転車ロードサービス<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin23(){
+									自転車ロードサービス = window.open("/pc/hosyo_naiyo/standard/S_2_H_20.html","自転車ロードサービス","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									自転車ロードサービス.focus();
+									}
+									//-->
+								</script>
+                        <td class="bg_silver">プレミアム<br>
+                   	  （50km・年間4回まで無料搬送）</td>
+                   	    <td>&nbsp;</td>
+                   	    <td>&nbsp;</td>
+                   	</tr>
+                </tbody></table>
+<!--	ＳＰ-----------------------------------------------------------------	-->
+                <table class="table_sp" cellpadding="0" cellspacing="0" style="margin-top:20px">
+                	<tbody><tr>
+                    	<td class="silver">プラチナコース</td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+ 					 </tr>
+                	<tr>
+                    	<td class="bg_white" colspan="3"><a href="javascript:void(0);" onclick="openWin14()">死亡・後遺障害<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin14(){
+									死亡後遺障害 = window.open("/pc/hosyo_naiyo/standard/S_2_H_2.html","死亡・後遺障害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									死亡後遺障害.focus();
+									}
+									//-->
+								</script>
+                    </tr>
+                	<tr>
+                    	<td class="bg_silver">500万円<br><img src="../../common/img_20160128/pc/bycle/bike.png" alt="自転車"> <span class="orange2">600万円</span></td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white" colspan="3"><a href="javascript:void(0);" onclick="openWin15()">入院一時金(3日以上の入院で）<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin15(){
+									入院一時金 = window.open("/pc/hosyo_naiyo/standard/S_2_H_3.html","入院一時金","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									入院一時金.focus();
+									}
+									//-->
+								</script>
+                    </tr>
+                	<tr>
+                    	<td class="bg_silver">8万円<br><img src="../../common/img_20160128/pc/bycle/bike.png" alt="自転車"> <span class="orange2">16万円</span></td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white" colspan="3"><a href="javascript:void(0);" onclick="openWin16()">入院保険金日額(入院1日につき）<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin16(){
+									入院保険金日額 = window.open("/pc/hosyo_naiyo/standard/S_2_H_5.html","入院保険金日額","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									入院保険金日額.focus();
+									}
+									//-->
+								</script>
+                    </tr>
+                	<tr>
+                    	<td class="bg_silver">6,000円<br><img src="../../common/img_20160128/pc/bycle/bike.png" alt="自転車"> <span class="orange2">12,000円</span></td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white" colspan="3"><a href="javascript:void(0);" onclick="openWin17()">手術保険金(手術により)<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin17(){
+									手術保険金 = window.open("/pc/hosyo_naiyo/standard/S_2_H_6.html","手術保険金","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									手術保険金.focus();
+									}
+									//-->
+								</script>
+                    </tr>
+                	<tr>
+                    	<td class="bg_silver">3万円または6万円<br><img src="../../common/img_20160128/pc/bycle/bike.png" alt="自転車"> <span class="orange2">6万円または12万円</span></td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white" colspan="3"><a href="javascript:void(0);" onclick="openWin18()">通院保険金日額(通院1日につき）<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin18(){
+									通院保険金日額 = window.open("/pc/hosyo_naiyo/standard/S_2_H_7.html","通院保険金日額","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									通院保険金日額.focus();
+									}
+									//-->
+								</script>
+                    </tr>
+                	<tr>
+                    	<td class="bg_silver">2,000円<br><img src="../../common/img_20160128/pc/bycle/bike.png" alt="自転車"> <span class="orange2">4,000円</span></td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white" colspan="3"><a href="javascript:void(0);" onclick="openWin19()">個人賠償責任(自己負担額なし）<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin19(){
+									個人賠償責任 = window.open("/pc/hosyo_naiyo/standard/S_2_H_10.html","個人賠償責任","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									個人賠償責任.focus();
+									}
+									//-->
+								</script>
+                    </tr>
+                	<tr>
+                    	<td class="bg_silver">2億円</td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white" colspan="3"><a href="javascript:void(0);" onclick="openWin20()">示談代行サービス賠償事故解決特約<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin20(){
+									示談代行サービス = window.open("/pc/hosyo_naiyo/standard/S_2_H_11.html","示談代行サービス","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									示談代行サービス.focus();
+									}
+									//-->
+								</script>
+                    </tr>
+                	<tr>
+                    	<td class="bg_silver">○</td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                    
+                    <tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin24()">携行品損害<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin24(){
+									携行品損害 = window.open("/pc/hosyo_naiyo/standard/S_2_H_12.html","携行品損害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									携行品損害.focus();
+									}
+									//-->
+								</script>
+  					</tr>
+                	<tr>
+                    	<td class="bg_silver">25万円</td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+
+                    
+                	<tr>
+                    	<td class="bg_white" colspan="3"><a href="javascript:void(0);" onclick="openWin21()">法律相談費用<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin21(){
+									法律相談費用 = window.open("/pc/hosyo_naiyo/standard/S_2_H_16.html","法律相談費用","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									法律相談費用.focus();
+									}
+									//-->
+								</script>
+  					</tr>
+                	<tr>
+                    	<td class="bg_silver">5万円</td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td class="bg_white" colspan="3"><a href="javascript:void(0);" onclick="openWin22()">弁護士費用等<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin22(){
+									弁護士費用等 = window.open("/pc/hosyo_naiyo/standard/S_2_H_17.html","弁護士費用等","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									弁護士費用等.focus();
+									}
+									//-->
+								</script>
+                    </tr>
+                	<tr>
+                    	<td class="bg_silver">300万円</td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                    </tr>
+                	<tr>
+                    	<td colspan="2" class="left">付帯サービス</td>
+					</tr>
+                	<tr>
+                    	<td class="bg_white"><a href="javascript:void(0);" onclick="openWin23()">自転車ロードサービス<img src="../../common/img_20160128/pc/bycle/icon_link.png" alt="アイコン"></a></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin23(){
+									自転車ロードサービス = window.open("/pc/hosyo_naiyo/standard/S_2_H_20.html","自転車ロードサービス","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									自転車ロードサービス.focus();
+									}
+									//-->
+								</script>
+					</tr>
+                	<tr>
+                    	<td class="bg_silver">プレミアム<br>（50km・年間4回まで無料搬送） </td>
+                    	<td>&nbsp;</td>
+                    	<td>&nbsp;</td>
+                   	</tr>
+                </tbody></table>
+<!--	保険期間-----------------------------------------------------------------	-->
+  </br>
+				<table class="table2" cellpadding="0" cellspacing="0">
+				<colgroup style="width:42px">
+				<colgroup style="width:25%">
+				<colgroup style="width:25%">
+				<colgroup style="width:25%">
+				<colgroup style="width:25%">
+				      <tbody><tr>
+				        <td colspan="2" class="bg01" align="center">保険期間<br>
+				          (払込方法)</td>
+				        <td class="silver">プラチナコース</td>
+				        <td>&nbsp;</td>
+				        <td>&nbsp;</td>
+				      </tr>
+				      <tr>
+				        <td rowspan="3" class="vertical" align="left" valign="middle"><p style="font-size:14px;margin:0 14px;">本人タイプ</p></td>
+				        <td class="left" align="left" valign="middle">保険期間 1年<br>
+				          (月払）</td>
+				        <td class="bg_silver" valign="middle">1,300円</td>
+				        <td>&nbsp;</td>
+				        <td>&nbsp;</td>
+				      </tr>
+				      <tr>
+				        <td class="left" align="left" valign="middle">保険期間 1年<br>
+				          (一時払）</td>
+				        <td class="bg_silver">14,020円</td>
+				        <td>&nbsp;</td>
+				        <td>&nbsp;</td>
+				      </tr>
+				      <tr>
+				        <td class="left" align="left" valign="middle">保険期間 2年<br>
+				          (一時払）※</td>
+				        <td class="bg_silver">25,250円</td>
+				        <td>&nbsp;</td>
+				        <td>&nbsp;</td>
+				      </tr>
+
+				      <tr>
+				        <td rowspan="3" class="vertical" align="left" valign="middle"><p style="font-size:14px;margin:0 14px;">家族タイプ</p></td>
+				        <td class="left" align="left" valign="middle">保険期間 1年<br>
+				          (月払）</td>
+				        <td class="bg_silver" valign="middle">2,640円</td>
+				        <td>&nbsp;</td>
+				        <td>&nbsp;</td>
+				      </tr>
+				      <tr>
+				        <td class="left" align="left" valign="middle">保険期間 1年<br>
+				          (一時払）</td>
+				        <td class="bg_silver">28,790円</td>
+				        <td>&nbsp;</td>
+				        <td>&nbsp;</td>
+				      </tr>
+				      <tr>
+				        <td class="left" align="left" valign="middle">保険期間 2年<br>
+				          (一時払）※</td>
+				        <td class="bg_silver">51,830円</td>
+				        <td>&nbsp;</td>
+				        <td>&nbsp;</td>
+				      </tr>
+
+				      <tr>
+				        <td rowspan="3" class="vertical" align="left" valign="middle"><p style="font-size:14px;margin:0 14px;">本人<br>・親族タイプ</p></td>
+				        <td class="left" align="left" valign="middle">保険期間 1年<br>
+				          (月払）</td>
+				        <td class="bg_silver" valign="middle">2,140円</td>
+				        <td>&nbsp;</td>
+				        <td>&nbsp;</td>
+				      </tr>
+				      <tr>
+				        <td class="left" align="left" valign="middle">保険期間 1年<br>
+				          (一時払）</td>
+				        <td class="bg_silver">23,290円</td>
+				        <td>&nbsp;</td>
+				        <td>&nbsp;</td>
+				      </tr>
+				      <tr>
+				        <td class="left" align="left" valign="middle">保険期間 2年<br>
+				          (一時払）※</td>
+				        <td class="bg_silver">41,910円</td>
+				        <td>&nbsp;</td>
+				        <td>&nbsp;</td>
+				      </tr>
+				</tbody></table>
+<!--	ＳＰ-----------------------------------------------------------------	-->
+                <table class="table_sp table_sp2" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+			    	<td class="silver">プラチナコース</td>
+			    	<td>&nbsp;</td>
+			    	<td>&nbsp;</td>
+			    </tr>
+				<tr>
+			    	<td colspan="3" class="left bg01" align="center" valign="middle">保険期間1年（月払）</td>
+			   	</tr>
+				<tr>
+			    	<td colspan="3" class="bg_white" align="center">本人タイプ</td>
+			   	</tr>
+				<tr>
+			    	<td class="bg_silver" valign="middle">1,300円</td>
+			    	<td>&nbsp;</td>
+			    	<td>&nbsp;</td>
+			    </tr>
+				<tr>
+			    	<td colspan="3" class="bg_white" align="center">家族タイプ</td>
+			   	</tr>
+				<tr>
+			    	<td class="bg_silver">2,640円</td>
+			    	<td>&nbsp;</td>
+			    	<td>&nbsp;</td>
+			    </tr>
+				<tr>
+			    	<td colspan="3" class="bg_white" align="center">本人・親族タイプ</td>
+			   	</tr>
+				<tr>
+			    	<td class="bg_silver">2,140円</td>
+			    	<td>&nbsp;</td>
+			    	<td>&nbsp;</td>
+			    </tr>
+				<tr>
+			    	<td colspan="3" class="left bg01" align="center" valign="middle">保険期間1年（一時払）</td>
+			   	</tr>
+				<tr>
+			    	<td colspan="3" class="bg_white" align="center">本人タイプ</td>
+			   	</tr>
+				<tr>
+			    	<td class="bg_silver" valign="middle"><span class="bg_silver">14,020</span>円</td>
+			    	<td>&nbsp;</td>
+			    	<td>&nbsp;</td>
+			    </tr>
+				<tr>
+			    	<td colspan="3" class="bg_white" align="center">家族タイプ</td>
+			   	</tr>
+				<tr>
+			    	<td class="bg_silver"><span class="bg_silver">28,790</span>円</td>
+			    	<td>&nbsp;</td>
+			    	<td>&nbsp;</td>
+			    </tr>
+				<tr>
+			    	<td colspan="3" class="bg_white" align="center">本人・親族タイプ</td>
+			   	</tr>
+				<tr>
+			    	<td class="bg_silver"><span class="bg_silver">23,290</span>円</td>
+			    	<td>&nbsp;</td>
+			    	<td>&nbsp;</td>
+			    </tr>
+				<tr>
+			    	<td colspan="3" class="left bg01" align="center" valign="middle">保険期間2年（一時払）※</td>
+			   	</tr>
+				<tr>
+			    	<td colspan="3" class="bg_white" align="center">本人タイプ</td>
+			   	</tr>
+				<tr>
+			    	<td class="bg_silver" valign="middle"><span class="bg_silver">25,250</span>円</td>
+			    	<td>&nbsp;</td>
+			    	<td>&nbsp;</td>
+			    </tr>
+				<tr>
+			    	<td colspan="3" class="bg_white" align="center">家族タイプ</td>
+			   	</tr>
+				<tr>
+			    	<td class="bg_silver"><span class="bg_silver">51,830</span>円</td>
+			    	<td>&nbsp;</td>
+			    	<td>&nbsp;</td>
+			    </tr>
+				<tr>
+			    	<td colspan="3" class="bg_white" align="center">本人・親族タイプ</td>
+			   	</tr>
+				<tr>
+			    	<td class="bg_silver"><span class="bg_silver">41,910</span>円</td>
+			    	<td>&nbsp;</td>
+			    	<td>&nbsp;</td>
+			    </tr>
+			</tbody></table>
+            
+			<p class="fs12 gray mt10" style="margin-bottom:100px; color:#616060;">※2年契約は一時払のみになります。</p>
+			
+
+	</div>
+</div>
+		<!-- フロートエリア対応-->
+	<div id="floteArea">
+		<a href="javascript:void(0);" onclick="window.close(); return false;"><div class="close_float">×&nbsp;閉じる</div></a>
+	</div>
+	<!-- フロートエリア対応 -->
+</body>
+</html>

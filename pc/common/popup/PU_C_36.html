@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="format-detection" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>au損保</title>
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<link href="spcss/PU_C_36.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="spjs/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="spjs/telNo.js"></script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32568740-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+<script type="text/javascript">
+$(function(){
+	$('a[href^=#]').click(function(){
+		var speed = 500;
+		var href= $(this).attr("href");
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top;
+		$("html, body").animate({scrollTop:position}, speed, "swing");
+		return false;
+	});
+});
+
+$(function(){
+    var radio = $('.radio-group');
+    $('label').click(function() {
+        $(this).each(function() {
+            $('label').removeClass('checked'); 
+        });
+        $(this).addClass('checked');
+    });
+});
+</script>
+
+<style type="text/css">
+	.close_float {
+		font-size: 20px;
+		padding:0px;
+		background-color: #585657;
+		height:46px;
+		opacity: 0.83;
+		font-weight: normal;
+	}
+	.age_table_in2{
+		border-bottom:1px solid #ddd;
+	}
+</style>
+</head>
+
+<body class="explanation" style="overflow-y:scroll;">
+	<div id="content_pop_wrap">
+		<div class="sparea_pop">
+			<div class="title_area">
+				<div>各タイプ詳細および<br class="br_sp">ご加入いただける年齢について</div>
+			</div>
+		</div><!--end sparea_pop-->
+		
+		
+		
+		<div class="type_select_area radio-group clearfix">
+			<div class="type_select_frame">
+				<div class="type_select_inner">
+					<a href="#honnin_type"><label class="flat_button_5 long" for="Radio1">
+						<span class="type_text_area">本人タイプ</span>
+						<div class="type_select_img_box">
+							<img src="../img_20160128/pc/bycle/type01.jpg" alt="本人タイプ">
+						</div>
+						<input id="Radio1" type="radio" class="radio" name="radio" value="r1" />
+					</label></a>
+				</div>
+			</div>
+			<div class="type_select_frame">
+				<div class="type_select_inner">
+					<a href="#kazoku_type"><label class="flat_button_5 long" for="Radio2">
+						<span class="type_text_area">家族タイプ</span>
+						<div class="type_select_img_box">
+							<img src="../img_20160128/pc/bycle/type02.jpg" alt="家族タイプ">
+						</div>
+						<input id="Radio2" type="radio" class="radio" name="radio" value="r2" />
+					</label></a>
+				</div>
+			</div>
+			<div class="type_select_frame">
+				<div class="type_select_inner">
+					<a href="#shinzoku_type"><label class="flat_button_5 long" for="Radio3">
+						<span class="type_text_area">本人・親族タイプ</span>
+						<div class="type_select_img_box">
+							<img src="../img_20160128/pc/bycle/type03.jpg" alt="本人・親族タイプ">
+						</div>
+						<input id="Radio3" type="radio" class="radio" name="radio" value="r3" />
+					</label></a>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div id="honnin_type" style="margin-bottom:40px;">
+			<div class="age_pop_new switch middle_set">
+				<div>［本人タイプ］個人（１人）を補償の対象（被保険者）とするタイプ</div>
+			</div><!--end age_pop-->
+
+			<div class="tx_area">
+				<div class="sparea_pop small_set">
+					<p style="margin-bottom: 15px;">ご契約者（お申込人）について</p>
+				</div><!--end sparea_pop-->
+				
+				<div class="cstcnt">
+					<p class="cstcnt_in">この契約のお申込み手続きを行い、保険料をお支払いいただく方です。(18歳以上)</p>
+				</div><!--end cstcnt-->
+
+				<div class="sparea_pop small_set">
+					<p style="margin-bottom: 15px;">補償の対象となる方（被保険者）について</p>
+				</div>
+				<div class="cstcnt">
+					<table class="age_table_list">
+						<tr>
+							<td class="age_table_a" style="padding:0;">
+								<div class="icon_subject">
+									<img class="honnin" src="spimg/icon_subject_hon_s.png" alt="被保険者本人">
+									<span>被保険者本人</span>
+								</div>
+							</td>
+							<td class="age_table_b text_padding_set" style="padding-bottom:0px;">0歳～74歳までの方で、以下の方から1名ご指定いただけます。<br>
+								<p class="indent1" style="margin-bottom: 0.6em;margin-top:0.6em;"><span class="point_mark">●</span>ご契約者本人</p>
+								<p class="indent1" style="margin-bottom: 0.6em;"><span class="point_mark">●</span>ご契約者の「配偶者」「子・孫」「父母・祖父母」（同居・別居は問いません）</p>
+								<p class="indent1"><span class="point_mark">●</span>ご契約者と同居の親族（6親等内の血族・3親等内の姻族）</p>
+							</td>
+						</tr>
+					</table>
+				</div><!--end cstcnt-->
+			</div>
+		</div>
+
+		<div id="kazoku_type" style="margin-bottom:40px;">
+			<div class="age_pop_new switch middle_set" style="position:relative;">
+				<div>［家族タイプ］本人・配偶者・その他の親族を補償の対象（被保険者）とするタイプ</div>
+			</div><!--end age_pop-->
+
+			<div class="tx_area">
+				<div class="sparea_pop small_set">
+					<p style="margin-bottom: 15px;">ご契約者（お申込人）について</p>
+				</div><!--end sparea_pop-->
+				
+				<div class="cstcnt">
+					<p class="cstcnt_in">この契約のお申込み手続きを行い、保険料をお支払いいただく方です。(18歳以上)</p>
+				</div><!--end cstcnt-->
+
+				<div class="sparea_pop small_set">
+					<p style="margin-bottom: 15px;">補償の対象となる方（被保険者）について</p>
+				</div>
+				<div class="cstcnt">
+					<table class="age_table_list">
+						<tr>
+							<td class="age_table_a" style="padding-top:0px;">
+								<div class="icon_subject">
+									<img class="honnin" src="spimg/icon_subject_hon_s.png" alt="被保険者本人">
+									<span>被保険者本人</span>
+								</div>
+							</td>
+							<td class="age_table_b text_padding_set" style="">0歳～74歳までの方で、以下の方から1名ご指定いただけます。<br>
+								<p class="indent1" style="margin-bottom: 0.6em;margin-top:0.6em;"><span class="point_mark">●</span>ご契約者本人</p>
+								<p class="indent1" style="margin-bottom: 0.6em;"><span class="point_mark">●</span>ご契約者の「配偶者」「子・孫」「父母・祖父母」(同居・別居は問いません)</p>
+								<p class="indent1" style="margin-bottom: 0.6em;"><span class="point_mark">●</span>ご契約者と同居の親族（6親等内の血族・3親等内の姻族）</p>
+							</td>
+						</tr>
+						
+						<tr class="age_table_in">
+							<td class="age_table_a" style="padding-top:0px;">
+								<div class="icon_subject">
+									<img class="" src="spimg/icon_subject_spouse_s.png" alt="被保険者本人の配偶者">
+									<span>被保険者本人の配偶者</span>
+								</div>
+							</td>
+							<td class="age_table_b">
+								<p class="indent1" style="margin-bottom: 0.6em;"><span class="point_mark">●</span>被保険者本人の「配偶者」(同居・別居は問いません)</p>
+								<p>が対象となります。</p>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="age_table_a" style="">
+								<div class="icon_subject">
+									<img class="" src="spimg/icon_subject_family_s.png" alt="その他親族">
+									<span>その他親族</span>
+								</div>
+							</td>
+							<td class="age_table_b">
+								被保険者本人または被保険者本人の配偶者の<br>
+								<p class="indent1" style="margin-bottom: 0.6em;margin-top:0.6em;"><span class="point_mark">●</span>同居の親族(被保険者本人の6親等内の血族、3親等内の姻族)</p>
+								<p class="indent1" style="margin-bottom: 0.6em;"><span class="point_mark">●</span>別居の未婚(婚姻歴がないこと)の子</p>
+								<p>が対象となります。</p>
+							</td>
+						</tr>
+					</table>
+				</div><!--end cstcnt-->
+				<div class="cstcnt" style="margin-top:30px;">
+					<p class="cstcnt_in indent2">注）被保険者本人との関係は、ケガの原因となった事故が発生したときにおけるものを言います。</p>
+				</div>
+
+			</div><!--end tx_area-->
+		</div>
+		
+		<div id="shinzoku_type" style="margin:0px;">
+			<div class="age_pop_new switch middle_set" style="position:relative;">
+				<div>［本人・親族タイプ］本人・その他の親族を補償の対象（被保険者）とするタイプ</div>
+			</div><!--end age_pop-->
+
+			<div class="tx_area">
+				<div class="sparea_pop small_set">
+					<p style="margin-bottom: 15px;">ご契約者（お申込人）について</p>
+				</div><!--end sparea_pop-->
+				
+				<div class="cstcnt">
+					<p class="cstcnt_in">この契約のお申込み手続きを行い、保険料をお支払いいただく方です。(18歳以上)</p>
+				</div><!--end cstcnt-->
+
+				<div class="sparea_pop small_set">
+					<p style="margin-bottom: 15px;">補償の対象となる方（被保険者）について</p>
+				</div>
+				<div class="cstcnt">
+					<table class="age_table_list">
+						<tr class="age_table_in2">
+							<td class="age_table_a" style="padding-top:0px;">
+								<div class="icon_subject">
+									<img class="honnin" src="spimg/icon_subject_hon_s.png" alt="被保険者本人">
+									<span>被保険者本人</span>
+								</div>
+							</td>
+							<td class="age_table_b text_padding_set" style="";">0歳～74歳までの方で、以下の方から1名ご指定いただけます。<br>
+								<p class="indent1" style="margin-bottom: 0.6em;margin-top:0.6em;"><span class="point_mark">●</span>ご契約者本人</p>
+								<p class="indent1" style="margin-bottom: 0.6em;"><span class="point_mark">●</span>ご契約者の「配偶者」「子・孫」「父母・祖父母」（同居・別居は問いません）</p>
+								<p class="indent1" style="margin-bottom: 0.6em;"><span class="point_mark">●</span>ご契約者と同居の親族（6親等内の血族・3親等内の姻族）</p>
+							</td>
+						</tr>
+						
+						<tr>
+							<td class="age_table_a" style="padding-top:0px;">
+								<div class="icon_subject">
+									<img class="" src="spimg/icon_subject_family2_s.png" alt="その他親族">
+									<span>その他親族</span>
+								</div>
+							</td>
+							<td class="age_table_b">
+								被保険者本人または被保険者本人の配偶者の<br>
+								<p class="indent1" style="margin-bottom: 0.6em;margin-top:0.6em;"><span class="point_mark">●</span>同居の親族(被保険者本人の6親等内の血族、3親等内の姻族)</p>
+								<p class="indent1" style="margin-bottom: 0.6em;"><span class="point_mark">●</span>別居の未婚（婚姻歴がないこと）の子</p>
+								<p style="margin-bottom: 0.6em;">が対象となります。</p>
+								<p>ただし、被保険者本人の配偶者は「その他親族」には含まれません。</p>
+							</td>
+						</tr>
+					</table>
+				</div><!--end cstcnt-->
+			</div>
+		</div>
+		<div class="cstcnt" style="margin-top:30px;">
+			<p class="cstcnt_in indent2">注）被保険者本人との関係は、ケガの原因となった事故が発生したときにおけるものを言います。</p>
+			<p class="cstcnt_in indent1" style="margin-top: 0;margin-bottom: 0.6em;line-height: 1.8em;"><span class="point_mark">●</span>「ケガの保険&nbsp;交通事故」は本人・親族タイプはございません。</p>
+			<p class="cstcnt_in indent1" style="margin-top: 0;margin-bottom: 0.6em;line-height: 1.8em;"><span class="point_mark">●</span>「ケガの保険&nbsp;日常の事故」は家族タイプ、本人・親族タイプはございません。</p>
+			<p class="cstcnt_in indent1" style="margin-top: 0;margin-bottom: 0.6em;line-height: 1.8em;"><span class="point_mark">●</span>「au傷害ほけん&nbsp;交通事故」は「ケガの保険&nbsp;交通事故」と同一の保険商品です。</p>
+			<p class="cstcnt_in indent1" style="margin-top: 0;margin-bottom: 0.6em;line-height: 1.8em;"><span class="point_mark">●</span>「au傷害ほけん&nbsp;日常の事故」は「ケガの保険&nbsp;日常の事故」と同一の保険商品です。</p>
+		</div><!--end cstcnt-->
+		
+		<div class="tx_area bobun_area" style="padding:10px 0;">
+			<p class="bobun_pop">N16D310402[1611]</p>
+		</div>
+	</div><!--end content_pop_wrap-->
+
+	<!-- フロートエリア対応-->
+	<div id="floteArea">
+		<a href="javascript:void(0);" onClick="window.close(); return false;"><div class="close_float"><p style="line-height:46px;">×&nbsp;閉じる</p></div></a>
+	</div>
+	<!-- フロートエリア対応 -->
+
+</body>
+</html>

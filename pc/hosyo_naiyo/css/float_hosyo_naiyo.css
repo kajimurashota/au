@@ -1,0 +1,722 @@
+/* reset
+----------------------------------------*/
+#hosyo_naiyo {
+    color:#000;
+    background:#FFF;
+    font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+}
+#hosyo_naiyo body,#hosyo_naiyo div,#hosyo_naiyo dl,
+#hosyo_naiyo dt,#hosyo_naiyo dd, #hosyo_naiyo ul,
+#hosyo_naiyo ol,#hosyo_naiyo li,#hosyo_naiyo h1,#hosyo_naiyo h2,
+#hosyo_naiyo h3,#hosyo_naiyo h4,#hosyo_naiyo h5,#hosyo_naiyo h6,
+#hosyo_naiyo pre,#hosyo_naiyo code,#hosyo_naiyo form,#hosyo_naiyo fieldset,
+#hosyo_naiyo legend,#hosyo_naiyo input,#hosyo_naiyo textarea,
+#hosyo_naiyo p,#hosyo_naiyo blockquote,#hosyo_naiyo th,#hosyo_naiyo td{
+    margin:0;padding:0;
+}
+#hosyo_naiyo table{
+    border-collapse:collapse;border-spacing:0;
+}
+#hosyo_naiyo fieldset,#hosyo_naiyo img{ border:0; }
+#hosyo_naiyo address,#hosyo_naiyo caption,
+#hosyo_naiyo cite,#hosyo_naiyo code,#hosyo_naiyo dfn,
+#hosyo_naiyo em,#hosyo_naiyo strong,#hosyo_naiyo th,
+#hosyo_naiyo var{
+    font-style:normal;font-weight:normal;
+}
+#hosyo_naiyo li { list-style:none; }
+#hosyo_naiyo caption,#hosyo_naiyo th{ text-align:left; }
+#hosyo_naiyo h1,#hosyo_naiyo h2,#hosyo_naiyo h3,#hosyo_naiyo h4,#hosyo_naiyo h5,#hosyo_naiyo h6{
+    font-size:100%;font-weight:normal;
+}
+#hosyo_naiyo q:before,
+#hosyo_naiyo q:after{ content:''; }
+#hosyo_naiyo abbr,#hosyo_naiyo acronym{ border:0;font-variant:normal; }
+#hosyo_naiyo sup{ vertical-align:text-top; }
+#hosyo_naiyo sub{ vertical-align:text-bottom; }
+#hosyo_naiyo input,#hosyo_naiyo textarea,#hosyo_naiyo select{ font-family:inherit;font-size:inherit;font-weight:inherit; }
+#hosyo_naiyo input,#hosyo_naiyo textarea,#hosyo_naiyo select{ *font-size:100%; }
+#hosyo_naiyo legend{ color:#000; }
+/***************************************************************************/
+
+#hosyo_naiyo html,
+#hosyo_naiyo body {
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+}
+
+#hosyo_naiyo .explanation {
+	text-align : left;
+	line-height: 1.5em;
+	padding-bottom: 20px;
+}
+
+#hosyo_naiyo h2 {
+	border-bottom:3px #a9a9a9 solid;
+	width:100%;
+	margin: 15px auto 10px;
+	text-indent:1.2em;
+	text-align: left;
+	line-height:30px;
+	font-size: 15px;
+	font-weight:bold;
+	background-image: url(../img/img_titledeco_pur.png);
+	background-size: 8px 30px;
+	-webkit-background-size: 8px 30px;
+	-moz-background-size: 8px 30px;
+	background-position: 0% 50%;
+	background-repeat: no-repeat;
+	z-index:1;
+}
+
+#hosyo_naiyo ul.ate_a00 {			/*インデント*/
+	margin-left: 1.0em;	
+}
+
+#hosyo_naiyo ul.ate_a00 li {			/*インデント*/
+	list-style:none;
+	text-indent: -0.0em;
+}
+
+#hosyo_naiyo #warningArea {
+	padding: 10px 0;
+	/*font-size:12px;
+	line-height:1.2em;*/
+}
+#hosyo_naiyo #warningArea h3{
+	border-top:1px solid #ff6060;
+	border-bottom:1px solid #ff6060;
+	padding: 10px;
+	margin-bottom:0.5em;
+	color: #FF0000;
+	background-color:#ffdddd;
+	text-align:left;
+}
+#hosyo_naiyo #warningArea .tx_area {
+	padding: 0;
+	/*border: 1px solid #FF0000;
+	border-radius: 6px 6px 6px 6px;*/
+	margin: 0;
+	font-size:15px;
+}
+#hosyo_naiyo #warningArea .tx_area .warningAreaMainTxt {
+	padding:0 0.5em 0.2em 0.5em;
+	line-height:1.3em;
+}
+#hosyo_naiyo #warningArea .tx_area .warningAreaSubTxt {
+	padding:1em 0.5em 1em 2.5em;
+	text-indent:-2em;
+}
+
+/***** #content_01_stt *****/
+#hosyo_naiyo #content_01_01,
+#hosyo_naiyo #content_01 {
+	padding: 0;
+	margin-top:10px;
+	font-size:15px;
+}
+
+#hosyo_naiyo #content_01_01 h3,
+#hosyo_naiyo #content_01 h3{
+	border-bottom: 1px solid #aaa;
+	color: #003366;
+	padding: 10px;
+	font-size:120%;
+	background-color: #f8e8f1;
+	font-weight: bold;
+}
+#hosyo_naiyo #content_01_01 .tx_area2  h3 ,
+#hosyo_naiyo #content_01 .tx_area2  h3 {
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	color: #003366;
+	background-color: #def;
+}
+
+#hosyo_naiyo #content_01_01 .tx_area,
+#hosyo_naiyo #content_01 .tx_area {
+	padding: 0;
+	border: 5px solid #F5A9A9;
+	border-radius: 6px 6px 6px 6px;
+	margin: 0 0 0px;
+}
+#hosyo_naiyo #content_01_01 .tx_area2,
+#hosyo_naiyo #content_01 .tx_area2 {
+	/*border: 5px solid #6699cc;*/
+}
+
+#hosyo_naiyo #content_01_01 .tx_area .cont_wrap,
+#hosyo_naiyo #content_01 .tx_area .cont_wrap {
+	margin: 5px;
+	width: 100%;
+}
+
+#hosyo_naiyo #content_01 .tx_area_pet1 .cont_wrap{
+	clear: both;
+	margin: 15px auto 15px 1.5em;
+}
+#hosyo_naiyo #content_01 .tx_area_pet1 .cont_wrap table td ul li {
+	color: #3E3FB0;
+	line-height:1.3em;
+	font-weight:bold;
+	padding:3px 0;
+}
+
+#hosyo_naiyo #content_01 .tx_area .cont_wrap table {
+	width: 100%;
+}
+
+#hosyo_naiyo #content_01 .tx_area .cont_wrap table th {
+	width: 23%;
+}
+
+#hosyo_naiyo #content_01 .tx_area .cont_wrap table th img {
+	width: 100%;
+}
+
+#hosyo_naiyo #content_01 .tx_area .cont_wrap table td {
+	padding: 10px;
+}
+
+#hosyo_naiyo #content_01 .tx_area .cont_wrap table td ul {
+	margin: 0 0 0 1.0em;
+}
+
+#hosyo_naiyo #content_01 .tx_area .cont_wrap table td ul li {
+	font-size: 14px;
+	color: #3E3FB0;
+	text-indent: -1.0em;
+}
+
+#hosyo_naiyo #content_01 .tx_area .cont_wrap table td ul li.no7 {
+	font-size: 12px;
+	color: #3E3FB0;
+	text-indent: -1.0em;
+}
+
+#hosyo_naiyo #content_01 .tx_area .cont_wrap p {
+	margin: 0 0 0 0;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo dl.tx_area3 {
+	margin-left: 2em;
+}
+
+#hosyo_naiyo dl.tx_area3 dt {
+	margin-left: 2em;
+	text-indent: -2em;
+}
+
+/***** #content_01_end *****/
+
+
+
+
+
+/***** #content_02_stt *****/
+#hosyo_naiyo #content_02 {
+	/*padding: 0 0 5px 0;*/
+	font-size:15px;
+}
+
+#hosyo_naiyo #content_02 h3{
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	color: #003366;
+	padding: 10px;
+	background-color: #f3f8f8;
+	font-weight: bold;
+	margin: -1px 0 0 0;
+	cursor:pointer;
+}
+
+#hosyo_naiyo #content_02 h3.first {
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	color: #003366;
+	padding: 10px;
+	background-color: #f3f8f8;
+	font-weight: bold;
+	margin: 0;
+	corsor:pointer;
+}
+
+#hosyo_naiyo #content_02 .tx_area {
+	padding: 0;
+	/*border: 2px solid #6699cc;*/
+	margin: -1px 0;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap {
+	margin:10px 0.5em 0px;
+}
+
+#hosyo_naiyo #content_02 p {
+	margin: 0 0 5px 0;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 p.last {
+	margin: 0 0 0 0;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 p.ml10,
+#hosyo_naiyo #content_02 ul.ml10 {
+	margin: 0 0 0 10px;
+}
+
+#hosyo_naiyo #content_02 p.pd10,
+#hosyo_naiyo #content_02 ul.pd10 {
+	padding: 0 0 10px 0;
+}
+
+#hosyo_naiyo #content_02 p.prl10,
+#hosyo_naiyo #content_02 ul.prl10 {
+	padding: 0 10px 0 10px;
+}
+
+#hosyo_naiyo #content_02 .text {
+	padding: 0;
+	margin: 0 0 15px 1.0em;
+}
+
+#hosyo_naiyo #content_02 .text p {
+	font-size: 12px;
+	text-indent: -1.0em;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 p.j2h9 {
+	border: 1px solid #aaa;
+	width: 220px;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 p.k1h5 {
+	width: 100%;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 p.fb {
+	font-weight: bold;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul {
+	position: relative;
+	padding-left: 1.2em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul li {
+	line-height: 1.5em;
+	/*margin-left:1.3em;*/
+	/*text-indent:-1.3em;*/
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul li.Caution {
+	margin-left:3.6em;
+	text-indent:-3.6em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul li span.number {
+	position: absolute;
+	left:0em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul.j2h9 {
+	margin: 0 0 0 2.5em;
+	padding: 0 10px 0 0;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul.j2h9 li {
+	text-indent: -2em;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul li.last {
+	padding: 0 0 10px 0;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul.ate {
+	font-size: 10px;
+	margin: 0 0 0 2.0em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul li.red,
+#hosyo_naiyo #content_02 .tx_area .cont_wrap .ate_wrap .red,
+#hosyo_naiyo #content_02 .tx_area .cont_wrap .ate_wrap_03 .red,
+#hosyo_naiyo #content_02 .tx_area .cont_wrap .ate_wrap_04 .red {
+	color: #F00;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul.ate li {
+	text-indent: -1.0em;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul.ate_02 {
+	font-size: 12px;
+	margin: 0 0 0 1.8em;
+	padding: 0 0 0 0;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul.ate_02 li {
+	text-indent: -1.8em;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul.ate_02 li.j2h7 {
+	text-indent: -1.8em;
+	line-height: 1.5em;
+	font-size: 10px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul.ate_03 {
+	font-size: 10px;
+	margin: 0 0 0 3em;
+	padding: 0 0 0 0;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul.f10 {
+	font-size: 10px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap ul.ate_03 li {
+	text-indent: -1em;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_02 {
+	width: 270px;
+	margin: 0 5px 5px 5px;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_02 td.tbl_01_1 {
+	width: 109px;
+	border: 1px solid #aaa;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_02 td.tbl_02_1 {
+	width: 14px;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_02 td.tbl_03_1 {
+	width: 109px;
+	border: 1px solid #aaa;
+	text-align: center;
+	padding: 5px 3px;
+}
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_02 td.tbl_04_1 {
+	width: 14px;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_03 {
+	width: 270px;
+	margin: 0 5px 5px 5px;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_03 td.tbl_01 {
+	width: 119px;
+	border: 1px solid #aaa;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_03 td.tbl_02 {
+	width: 14px;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_03 td.tbl_03 {
+	width: 119px;
+	border: 1px solid #aaa;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_type01 {
+	margin: 0 30px 5px 5px;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_type01 th.tbl_t01 {
+	width: 65px;
+	text-indent: 0em;
+	border: 1px solid #aaa;
+	text-align: center;
+	padding: 0px 0px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_type01 td.tbl_t02 {
+	border: 1px solid #aaa;
+	text-indent: 0em;
+	text-align: left;
+	padding: 0px 0px 0px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_04 {
+	width: 270px;
+	margin: 0 5px 5px 5px;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_04 td.tbl_01 {
+	width: 139px;
+	border: 1px solid #aaa;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap tabl.hosho_04 td.tbl_03 {
+	width: 119px;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_05 {
+	width: 270px;
+	margin: 0 5px 5px 5px;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_05 td.tbl_01 {
+	width: 139px;
+	border: 1px solid #aaa;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap tabl.hosho_05 td.tbl_02 {
+	width: 119px;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap .ate_wrap {
+	width: 100%;
+	font-size: 12px;
+	line-height: 1.5em;
+	border: 1px solid #aaa;
+	padding: 10px 0;
+	margin: 10px 0 0 0;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap .ate_wrap_02 {
+	width: 100%;
+	font-size: 12px;
+	line-height: 1.5em;
+	border: 1px solid #aaa;
+	padding: 10px 0;
+	margin: 10px 10px 0 0;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap .ate_wrap_03 {
+	width: 100%;
+	font-size: 12px;
+	line-height: 1.5em;
+	border: 1px solid #aaa;
+	padding: 10px 0 10px 0;
+	margin: 10px 0 0 0;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap .ate_wrap_04 {
+	width: 97%;
+	font-size: 12px;
+	line-height: 1.5em;
+	border: 1px solid #aaa;
+	padding: 10px 5px 10px 5px;
+	margin: 10px 0 0 0;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap .ate_wrap_02 ul li {
+	text-indent: -1.0em;
+	line-height: 1.5em;
+	padding: 0 10px 0 0;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap .ate_wrap p.title {
+	margin: 0 0 0 0;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap .ate_wrap p,
+#hosyo_naiyo #content_02 .tx_area .cont_wrap .ate_wrap ul.ate {
+	padding: 0 10px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap p.title{
+	margin-left:3.6em;
+	text-indent:-3.6em
+}
+/***** #content_02_end *****/
+
+
+
+
+/***** #content_03_stt *****/
+#hosyo_naiyo #content_03 {
+	padding: 10px 0 40px 0;
+	font-size:13px;
+}
+
+#hosyo_naiyo #content_03 .tx_area {
+	padding: 0;
+	margin: 5px 0 5px 1.0em;
+}
+
+#hosyo_naiyo #content_03 .tx_area p {
+	text-indent: -1.0em;
+	line-height: 1.5em;
+	margin:0 0.5em;
+}
+
+#hosyo_naiyo #content_03 .divFrame{
+	border:solid 1px #ccc;
+	margin:0 0.5em 0;
+}
+/***** #content_03_end *****/
+
+
+
+/***** #footer *****/
+#hosyo_naiyo div#floteArea {
+	position: fixed !important;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+#hosyo_naiyo div#floteArea a{
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+	font-size:16px;
+}
+
+#hosyo_naiyo div#floteArea ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+#hosyo_naiyo div#floteArea li {
+	float:left;
+	margin-right: 5px;
+	padding: 2px;
+}
+
+#hosyo_naiyo .close_float {
+	font-size:24px;
+	font-weight:bold;
+	font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+	text-align:center;
+	padding: 8px;
+	background:#585657;
+	background-size:10px 33px;
+}
+
+#hosyo_naiyo .close_float a{
+	color:#fff;
+	text-decoration:none;
+}
+/* Back & Home button */
+
+/* transport_table start */
+#hosyo_naiyo table.transport_table {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10px;
+	margin: 10px 0;
+	border: 1px solid #A1A193;
+}
+
+#hosyo_naiyo table.transport_table tr {
+	border-bottom: 1px solid #A1A193;
+}
+
+#hosyo_naiyo table.transport_table tr.last {
+	border-bottom: none;
+}
+
+#hosyo_naiyo table.transport_table td {
+	border-right: 1px solid #A1A193;
+	padding: 5px;
+}
+
+#hosyo_naiyo table.transport_table td.p18 {
+	padding: 5px 18px;
+}
+
+#hosyo_naiyo table.transport_table td ul {
+	margin: 0 !important;
+}
+
+#hosyo_naiyo table.transport_table td ul li {
+	margin-bottom: 0.5em;
+	text-indent: 0 !important;
+}
+
+#hosyo_naiyo table.transport_table td ul li.last {
+	margin-bottom: 0;
+}
+
+#hosyo_naiyo table.transport_table .col2 {
+	background: #EFF4DB;
+}
+
+#hosyo_naiyo table.transport_table .col3 {
+	border-right: none;
+	background: #FCFFE0;
+}
+/* transport_table end */
+
+/* heading_area start */
+#hosyo_naiyo div.heading_area {
+	margin: 8px 0 0 0;
+	font-size: 1.7em;
+	font-weight: bold;
+	background: #595757;
+	color: #FFFFFF;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+/* heading_area end */
+
+#hosyo_naiyo div#content_02 div.note {
+	margin-left: 1em !important;
+	margin-right: 1em !important;
+	width: auto !important;
+}
+
+#hosyo_naiyo #document_no {
+	margin-top: 20px;
+}
+
+#hosyo_naiyo #document_no p {
+	text-align: right;
+	font-size: 12px;
+}
+
+/*527対応で追加　アコーディオン関連*/
+.content_02 h3.switch:hover{
+	background-color:#bdc7e3;
+}
+.accordionArea{
+	display:none;
+	padding-bottom:5px;
+}

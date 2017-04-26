@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>au損保｜au損害保険公式サイト</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<script type="text/javascript" src="../../common/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../../common/js/campcd.js"></script>
+<script type="text/javascript">
+	sbSetCAMPCookie();
+	loadRiyouQrcode();
+	winOpen = function(url){
+		var appendQuery = window.location.search;
+		if(url.match(/\?/)){
+			appendQuery = appendQuery.replace(/^\?/, "&");
+		}
+		window.open(url + appendQuery,'_self');
+	};
+	redirect = function(){
+		winOpen('http://www.au-sonpo.co.jp/auwl/golf/');
+	};
+</script>
+</head>
+<body onload="redirect();">
+</body>
+</html>

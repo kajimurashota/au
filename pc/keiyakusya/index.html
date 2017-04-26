@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr" xmlns:og="http://ogp.me/ns#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="format-detection" content="telephone=no">
+<title>ご契約者の方｜au損保</title>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<link rel="stylesheet" href="/common/css/ie8.css" type="text/css" media="all">
+<![endif]-->
+
+<script type="text/javascript" src="../common/js/campcd.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="../common/js/checkCookie.js"></script>
+<script type="text/javascript" src="../common/js/jquery.aute.extend.js"></script>
+<script type="text/javascript" src="../common/js/switchview.js"></script>
+<script type="text/javascript" src="../common/js/scrollshift.js"></script>
+<script type="text/javascript" src="../common/js/slider.js"></script>
+<script type="text/javascript" src="../common/js/header.js"></script>
+<script type="text/javascript" src="../common/js/back_top.js"></script>
+<script type="text/javascript" src="../common/js/rollover.js"></script>
+<script type="text/javascript" src="../common/js/header-footer_include.js"></script>
+
+<script type="text/javascript">
+$.SwitchView();
+</script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../common_aute/js/PIE_IE678_20150706.js"></script>
+<![endif]-->
+
+<!--[CSS]-->
+<link type="text/css" href="../common/css/reset.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/module.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/base.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/layout.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/parts.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/page.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/header.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/keiyakusya.css" rel="stylesheet" />
+
+<!--[webfonts]-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<!-- bycle 専用JS　読込み -->
+<script type="text/javascript" src="/pc/bycle/common/js/bycle.js"></script>
+
+<!--スマホ・PC 切り替え-->
+<script type="text/javascript" src="../common/js/sp_switch.js"></script>
+<script>
+    //読み込みCSS 設定
+    var sp_css_1 = "../common/css/style.css";
+    var sp_css_2 = "../common/css/layout_sp.css";
+    var sp_css_3 = "../common/css/base_sp.css";
+    var sp_css_4 = "../common/css/parts_sp.css";
+    var sp_css_5 = "../common/css/page_sp.css";
+    var sp_css_6 = "../common/css/keiyakusya_sp.css";
+
+    //SPに変更
+    function change_script_sp(){
+        if(mode == "PC"){
+            //JS
+            $.getScript("../common/js/script_sp.js");
+            //CSS
+            $("#sp_css_1").attr("href",sp_css_1);
+            $("#sp_css_2").attr("href",sp_css_2);
+            $("#sp_css_3").attr("href",sp_css_3);
+            $("#sp_css_4").attr("href",sp_css_4);
+            $("#sp_css_5").attr("href",sp_css_5);
+            $("#sp_css_6").attr("href",sp_css_6);
+            mode = "SP";
+        }
+    }
+    //PCに変更
+    function change_script_pc(){
+        if(mode == "SP"){
+            //CSS
+            $("#sp_css_1").attr("href","");
+            $("#sp_css_2").attr("href","");
+            $("#sp_css_3").attr("href","");
+            $("#sp_css_4").attr("href","");
+            $("#sp_css_5").attr("href","");
+            $("#sp_css_6").attr("href","");
+            mode = "PC";
+        }
+    }
+</script>
+<!--CSS スマホ用（JSで読み込み・初期値はNULL）　-->
+<link id="sp_css_1" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_2" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_3" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_4" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_5" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_6" type="text/css" href="" rel="stylesheet" />
+<link rel="shortcut icon" type="image/x-icon" href="/pc/common/img/share/favicon/favicon.ico" />
+<link rel="canonical" href="http://www.au-sonpo.co.jp/pc/keiyakusya/" />
+
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32568740-1']);
+</script>
+
+<!-- Google Tag Analytics -->
+<script type="text/javascript">
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- Google Tag Analytics -->
+</head>
+<body onload="javascript:sbSetCAMPCookie();javascript:loadRiyouQrcode();javascript:checkUserAgent();javascript:checkCookie();" id="index" style="overflow:hidden;">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WG9V33"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WG9V33');</script>
+<!-- End Google Tag Manager -->
+
+<div>
+	<h1>ご契約者の方｜au損保</h1>
+    <script type="text/javascript">
+        writeHeader("/pc/common/inc/"); //ヘッダー読み込み
+    </script>
+	<div id="contents_wrapper">
+		<div id="page_contents">
+			<div class="pankuzu">
+				<ul class="bread_crumb">
+					<li><a href="../">au損保TOP</a></li>
+					<li>ご契約者の方</li>
+				</ul>
+			</div>
+
+    		<div class="maintitle_wrap">
+            	<div class="maintitle">
+            		<h2><img src="../common/img_20160128/pc/keiyakusya/maintitle.gif" alt="ご契約者の方"/></h2>
+                </div><!--/maintitle-->
+            </div><!--/maintitle_wrap-->
+
+            <div class="contents_inner clearfix">
+        		<div class="title01 orange"><p>ご契約者さま向けサービス</p></div>
+
+                <div class="text01">
+                	<ul>
+                		<li>・携帯電話・PHSからもご利用いただけます。</li>
+                		<li>・サービス向上に役立てるため通話を録音させていただきます。</li>
+                		<li>・一部のIP電話など、ご利用いただけない場合がございます。</li>
+                	</ul>
+                </div><!--/text01-->
+
+                <div class="box box1 clearfix">
+                	<div class="title clearfix">
+                   	  	<p class="text">自転車ロードサービスデスク</p>
+                  </div><!--/title-->
+                  <div class="img"><img src="../common/img_20160128/pc/keiyakusya/img01.gif" alt="自転車ロードサービス"/></div>
+                  <div class="right">
+                  	<p class="comment orange">＼＼急な事故や故障の時、自転車搬送に駆けつけます！！／／</p>
+                  	<p class="tel orange"><span class="pc_display">0077‐78‐8365</span><span class="sp_display"><a href="tel:0077788365">0077‐78‐8365</a></span><span class="small">（通話料無料）</span></p>
+                    <p class="fs16">24時間365日受付中</p>
+                    <div class="notice">
+                    	<ul>
+                        	<li>注）ロードサービスが付帯されている商品に<br />ご契約いただいているお客さまに限ります。</li>
+                        </ul>
+                        <p class="btn"><a href="/pc/bycle/roadservice/">ロードサービスの詳細はこちら　＞</a></p>
+                    </div><!--/notice-->
+                  </div><!--/right-->
+                </div><!--/box1-->
+
+          		<div class="box box2 clearfix">
+                	<div class="title clearfix">
+                    	<p class="img"><img src="../common/img_20160128/pc/keiyakusya/title03.gif" alt="ペットの保険"/></p>
+                   	  	<p class="text">かかりつけ獣医師ダイヤル</p>
+                  </div><!--/title-->
+                  <div class="img"><img src="../common/img_20160128/pc/keiyakusya/img01.jpg" alt="ペット"/></div>
+                  <div class="right">
+                  	<p class="comment orange">＼＼大切な<ruby><rb>家族</rb><rp>（</rp><rt>ペット</rt><rp>）</rp></ruby>のこと、何でもお気軽にご相談ください！！／／</p>
+                  	<p class="img"><img src="../common/img_20160128/pc/keiyakusya/tel_title.gif" alt="かかりつけ獣医師ダイヤル"/></p>
+                  	<p class="tel orange"><span class="pc_display">050‐2018‐1919</span><span class="sp_display"><a href="tel:05020181919">050‐2018‐1919</a></span><span class="small">（通話料はお客さま負担です）</span></p>
+                    <p class="fs16">24時間365日受付中</p>
+                    <div class="notice">
+                    	<ul>
+                        	<li>注）ご契約時にご登録いただいたお電話番号から、<br />発信番号を通知する設定でお電話ください。</li>
+                        </ul>
+                        <p class="btn"><a  href="javascript:void(0);" onclick="openWin1()"><img src="../common/img_20160128/pc/keiyakusya/icon_link.png" alt="アイコン"/>　かかりつけ獣医師ダイヤルの<br />詳細はこちら</a></p>
+          		          		<script language="JavaScript" type="text/javascript">
+<!--
+function openWin1(){
+かかりつけ獣医師ダイヤルの詳細はこちら = window.open("/pc/common/popup/PU_P_5.html","かかりつけ獣医師ダイヤルの詳細はこちら","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+かかりつけ獣医師ダイヤルの詳細はこちら.focus();
+}
+//-->
+</script>
+                    </div><!--/notice-->
+                  </div><!--/right-->
+                </div><!--/box2-->
+
+          		<div class="box box3 clearfix">
+                	<div class="title clearfix">
+                    	<p class="img"><img src="../common/img_20160128/pc/keiyakusya/title04.gif" alt="海外旅行の保険"/></p>
+                   	  	<p class="text">海外サポートデスク</p>
+                  </div><!--/title-->
+                  <div class="img"><img src="../common/img_20160128/pc/keiyakusya/img02.gif" alt="海外サポート"/></div>
+
+                  <p class="comment2 orange">＼＼海外旅行で困ったら、いつでも電話してください！！／／</p>
+
+
+                  <div class="right2">
+                  	<p class="fs16 bold">ご旅行先からの事故のご連絡</p>
+                    <p class="btn"><a  href="javascript:void(0);" onclick="openWin2()"><img src="../common/img_20160128/pc/keiyakusya/icon_link.png" alt="アイコン"/>　ワールドフリーフォン番号一覧</a></p>
+          		          		<script language="JavaScript" type="text/javascript">
+<!--
+function openWin2(){
+ワールドフリーフォン番号一覧 = window.open("/pc/common/popup/PU_C_19.html","ワールドフリーフォン番号一覧","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+ワールドフリーフォン番号一覧.focus();
+}
+//-->
+</script>
+                    
+                    <p class="fs16">（通話料無料）<br />24時間365日受付中<strong></strong></p>
+                  </div><!--/right2-->
+                  <div class="right">
+                  	<p class="fs16 bold">帰国後の事故のご連絡</p>
+                  	<p class="tel orange"><span class="pc_display">0077‐78‐7365</span><span class="sp_display"><a href="tel:0077787365">0077‐78‐7365</a></span><span class="small">（通話料無料）</span></p>
+                    <p class="fs16">24時間365日受付中</p>
+                  </div><!--/right-->
+                </div><!--/box3-->
+
+				<p class="box4_text orange">＼ 便利な無料アプリも配信中！！／<br />ご契約者さま向けサービスを、もっと簡単にご利用いただけるアプリです。その他の機能も充実！！</p>
+          		<div class="box box4 clearfix">
+
+                <div class="inner">
+                 <p class="banner"><a id="app_bnr" target="_blank"><img src="../common/img_20160128/pc/keiyakusya/banner01.gif" alt="無料アプリ"/></a></p>
+ 					<p class="banner"><a href="http://app.au-sonpo.co.jp/" target="_blank"><img src="../common/img_20160128/pc/keiyakusya/banner02.gif" alt="ペットの家無料アプリ"/></a></p>
+ 					<p class="banner"><a href="http://app.au-sonpo.co.jp/oversea/" target="_blank"><img src="../common/img_20160128/pc/keiyakusya/banner03.gif" alt="海外サポート無料アプリ"/></a></p>
+                 </div>
+                </div><!--/box4-->
+
+
+        		<div class="title01 orange"><p>お客さま専用ページ</p></div>
+              <div class="customer">
+                    <div class="text">
+                	<p class="title orange bold">こんな時にご利用いただけます</p>
+                    	<p>■契約内容を確認したい</p>
+                        <ul>
+                        	<li>・契約内容の確認</li>
+                            <li>・契約確認書の印刷 など</li>
+                        </ul>
+                    	<p>■住所や電話番号を変更したい</p>
+                    	<p>■メールアドレス・ログインパスワードを変更したい</p>
+                    	<p>■継続手続きをしたい</p>
+                    	<p>■解約手続きをしたい</p>
+                    	<p>■au IDを連携したい</p>
+                    </div><!--/text-->
+					<div class="text">
+						<p class="title orange bold">契約確認書類の提出が必要な方</p>
+						<p>当社ではペーパーレス推進のため、保険証券の発行を省略しています。</p>
+						<p>契約内容は「お客さま専用ページ」にて、いつでもご確認いただくことができ、「契約確認書」の印刷が可能です。</p>
+						<p style="margin-bottom:10px;">勤務先や学校から、保険の加入証明書（付保証明書）の提示を求められた場合は、「契約確認書」をご利用ください。</p>
+						<p style="margin-bottom:5px;"><a href="http://faq.au-sonpo.co.jp/faq_detail.html?id=10377&category=23&page=1" style="color:#0066CC;">勤務先や学校へ契約確認書類の提出が必要な場合</a></p>
+						<p><a href="http://faq.au-sonpo.co.jp/faq_detail.html?id=10378&category=23&page=1" style="color:#0066CC;">海外渡航先へ保険の加入証明書の提示が必要な場合</a></p>
+						<p style="margin-left:1em;text-indent:-1em;margin-top:10px;">※保険証券の発行をご希望の方は、お申込み完了後「お客さま専用ページ」にてお手続きください。</p>
+					</div><!--/text-->
+
+
+
+
+
+                    <p class="btn"><a href="https://www.au-sonpo.co.jp/pca/popup_myau"><img src="../common/img_20160128/pc/keiyakusya/btn_login.gif" alt="お客さまページログイン" class="hoverImg"/></a></p>
+                </div><!--/customer-->
+
+			<div class="pankuzu pankuzu_bottom">
+				<ul class="bread_crumb">
+					<li><a href="../">au損保TOP</a></li>
+					<li>ご契約者の方</li>
+				</ul>
+			</div>
+
+            </div><!--/contents_inner-->
+
+		<div id="product_id">N15C310937[1602]</div>
+	  </div><!--end page_contents-->
+<script type="text/javascript">
+    writeFooter("/pc/common/inc/"); //フッター読み込み
+</script>
+</div>
+<script type="text/javascript">
+(function(w,d,S,P,s,t,u) {
+  u = ('https:' == d.location.protocol ? 'https://ssl.socdm.com' : 'http://tg.socdm.com') + '/so-async.js?' + 'siteid=' + s;
+  t=(t=d.getElementsByTagName(S))[t.length-1];
+  (w[P]=w[P]||{})[s]=t.id=[P,s].join('-');
+  s=d.createElement(S);s.async=!0;s.src=u;
+  t.parentNode.insertBefore(s,t);
+})(window,document,'script','scaleout-tagmanagement','31828');
+</script>
+<!-- END TAG MGMT -->
+</body>
+</html>

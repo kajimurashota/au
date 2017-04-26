@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document for PC*/
+
+/*ALL*************************/
+body{background-color:#141414;font-size:100%;}
+#wrapper{text-align:center;}
+#container{width:990px;margin:0 auto;text-align:left;}
+
+.section{margin:0;}
+.contact{margin:1em 0;}
+.totop{text-align:right;margin:1em 0;}
+.copy{color:#666;margin-top:1em;text-align:center;font-size:85%;}
+
+#main{margin:0;}
+
+/*SECTION*************************/
+
+#header{
+	padding:0;
+	background-color:#141414;
+}
+
+#header h1{
+	margin:0;
+}
+
+#header h1 img{
+	display:inline-block !important;
+	margin:0;
+}
+
+.section p{
+	margin:0;
+}
+
+/*se1*/
+#1stview{
+	
+}
+
+/*sec1*/
+#sec1{
+	position:relative;
+	
+}
+
+/*sec2*/
+#sec2{
+	position:relative;
+	
+}
+
+/*sec3*/
+#sec3{
+	position:relative;
+	
+}
+
+/*sec4*/
+#sec4{
+	position:relative;
+	
+}
+
+
+.totop a img{
+	margin:2em 0 2em auto;
+}
+
+#sec1 .totop a img,#sec3 .totop a img{
+	margin:0 0 2em auto;
+}
+
+
+.btn_reason{
+	background-color:#fff;
+	position:absolute;
+	bottom:120px;
+	left:594px;
+}
+
+.btn_detail{
+	background-color:#fff;	
+	position:absolute;
+	bottom:120px;
+	left:356px;
+}
+
+#sec2 .btn_detail{
+	background-color:#fff;	
+	position:absolute;
+	bottom:140px;
+	left:295px;
+}
+
+.btn_reason a:hover img,.btn_detail a:hover img{
+	opacity:0.7;
+}
+
+
+/*footer*/
+#footer{
+	margin:4em 0 0;
+	padding:1em 20px;
+	background-color:#000;
+}
+#footer p{
+	margin-bottom:0;
+	color:#fff;
+	font-weight:normal;
+	clear:both;
+}
+
+#footer_logo {
+	float: right;
+margin: 1em 0px 1em 0px !important;;
+font-size: 90%;
+text-align: right;
+line-height: 80%;
+}
+
+#footer_logo img {
+	display:inline !important;
+	/*margin-bottom:0.5em;*/
+}
+
+
+/*popup*/
+#POPUPWIN{
+	margin:0;
+	text-align:center;
+	background-color:#221815;
+}
+#POPUPWIN .popclose{
+	margin:1em auto;
+	width:960px;
+	width:100%;
+	text-align:center;
+
+}

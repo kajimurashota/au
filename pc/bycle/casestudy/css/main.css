@@ -1,0 +1,109 @@
+@charset "utf-8";
+body {
+	color: #454545;
+	background-image: url(../images/bg_body.jpg);
+	border-top: 5px solid #d36ca1;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 990px;
+	background-color: #fff;
+	text-align: center;
+}
+#header {
+	position: relative;
+	margin: 0 auto;
+	width: 950px;
+}
+#header {
+	margin-bottom:21px;
+}
+#header #logo {
+	float: left;
+	margin-top:15px;
+}
+
+#header #read{
+	float:right;
+	margin-top:25px;
+}
+#header #readIndex{
+	float:right;
+	margin-top:14px;
+}
+#header #imagesflogo {
+	text-align: right;
+	margin-top: 10px;
+}
+.bycle_btn {
+	margin-top: 40px;
+}
+h2.arrow {
+	margin-top: 8px;	
+}
+.caselist {
+	margin-top: 10px;
+}
+.caselist li {
+	margin-bottom: 20px;
+	list-style: none;
+}
+.caselist li:last-child {
+	margin-bottom: 0;
+}
+#bycle_c {
+	margin-top: 20px;
+	padding-top: 25px;
+	background-color: #b3d8ee;
+}
+#bycle_c .copy {
+	padding: 15px 0 30px;
+	font-size: 20px;
+}
+#footer {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	background-color: #efeace;
+}
+#footer .rgt {
+	padding-right: 10px;
+	padding-bottom: 10px;
+	color: #8b8b8b;
+}
+#footer img {
+	margin-bottom: 10px;
+}
+
+/* common */
+.w100 {
+	width: 100%;
+}
+.pad_ew {
+	padding: 0 20px;
+}
+.pad_new {
+	padding: 1em 20px 0 20px;
+}
+.rgt {
+	text-align: right;
+}
+.ctr {
+	text-align: center;
+}
+.copy_s {
+	font-size: 16px;
+	line-height: 24px;
+}
+.btn,
+.btn1 {
+	margin: 0 10px;
+}
+.btn a {
+	display: block;
+}
+.btn1 a {
+	display: block;
+}
+a img:hover {
+	opacity: 0.6;
+}

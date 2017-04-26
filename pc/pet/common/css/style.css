@@ -1,0 +1,1307 @@
+@charset "utf-8";
+
+
+/* ############################################################################
+ *
+ * トップページ [body#top]
+ *
+ * ######################################################################### */
+
+/* # wrapper
+---------------------------------------------------------------------------- */
+
+/* # contents
+---------------------------------------------------------------------------- */
+
+/* # leftWrap
+---------------------------------------------------------------------------- */
+/* # content
+---------------------------------------------------------------------------- */
+body#flogo {
+	text-align:right;
+}
+body#top #topButtonArea {
+	width:100%;
+	display:table;
+}
+body#top #topButtonArea > div{
+	display:table-cell;
+	text-align:right;
+}
+body#top #topButtonArea .quate {
+	width:250px;
+}
+
+body#top .radiusLayer {
+	clear:both;
+	padding:5px;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	margin-bottom:10px;
+}
+.radiusLayer {
+	clear:both;
+	padding:5px;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	margin-bottom:0px;
+}
+body#top .purpleArea {
+	text-align:left;
+	width:690px;
+	border:4px solid #B85B8A;
+	background-color:#C56998;
+}
+.purpleArea {
+	text-align:left;
+	width:690px;
+	border:4px solid #BC2356;
+	background-color:#CC3366;
+}
+
+.blueHead {
+	text-align:left;
+	width:690px;
+	border:5px solid #578FB4;
+	background-color:#679FC4;
+}
+.purpleArea > font {
+	font-size:18px;
+	font-weight:bold;
+	color:#FEFEFE;
+	margin-left:1em;
+}
+
+body#top .blueArea {
+	display:table;
+	border:5px solid #578FB4;
+	background-color:#679FC4;
+	width:610px;
+	margin-bottom:0px;
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	margin-bottom:5px;
+	padding-bottom:5px;
+}
+body#top .blueArea table {
+	border-collapse: collapse;
+}
+
+
+body#top .blueArea tr td.ciancell {
+	background-color:#D7E5EF;
+	border-bottom:none;
+}
+
+body#top .blueArea tr td.whitecell {
+	border-bottom:1px solid #679FC4;
+	background-color:#FFFFFF;
+}
+
+body#top .blueArea tr td.verticalline {
+	border-left:1px solid #679FC4;
+	border-right:1px solid #679FC4;
+}
+
+body#top .blueArea tr {
+	border-bottom:1px solid white;
+}
+body#top .blueArea td {
+}
+body#top .blueArea tr td:first-child p {
+	text-align:left;
+	text-indent:1em;
+	font-weight:bold;
+	font-size:16px;
+	color:#FEFEFE;
+}
+body#top .blueArea tr td p.redtxt {
+	text-indent:0em;
+	text-align:center;
+	font-weight:normal;
+	font-size:20pt;
+	color:#FF0000;
+	font-style:oblique;
+}
+body#top .blueArea tr.bbnone {
+	border-bottom:none;
+}
+
+body#top .blueArea tr td.bl10 {
+	border-left: 10px solid #679FC4;
+}
+body#top .blueArea .insuranceContentTxt {
+	position:static;
+	font-weight:bold;
+	font-size:16pt;
+	color:#0F0F0F;
+}
+body#top .careCase {
+	width:607px;
+	margin:0 auto;
+ 	display:table;
+ }
+
+body#top .careCase .careArea{
+ 	display:table-cell;
+}
+
+body#top .careCase .careBox{
+	background:none;
+	padding:4px;
+	height: 150px;
+}
+body#top .careCase .careBox .careBoxPre{
+	background-color:#D3746F;
+	border-radius:8px 8px 0 0;
+	-webkit-border-radius:8px 8px 0 0;
+	-moz-border-radius:8px 8px 0 0;
+}
+body#top .careCase .careBox .careBoxSuf{
+	text-align:left;
+	vertical-align:top;
+	background-color:#FCF5EE;
+	border-radius:0 0 8px 8px;
+	-webkit-border-radius:0 0 8px 8px;
+	-moz-border-radius:0 0 8px 8px;
+}
+body#top .careCase .careBox p{
+	text-indent:-1em;
+	margin-left:1.5em;
+	font-size:10pt;
+	padding:10px 6px 0 6px;
+}
+body#top .careCase .careBox p font.point{
+	color:#D3746F;
+}
+body#top .shisanArea {
+	width:630px;
+	background-color: #679fc4;
+	border: 5px solid #578fb4;
+}
+body#top .shisanArea .buttonArea {
+	display:table;
+	margin:0 auto;
+	width:100%;
+}
+body#top .shisanArea .buttonArea > div{
+	display:table-cell;
+}
+
+body#top .beigeArea {
+	text-align:center;
+	margin: 0 auto;
+	width:98%;
+	background-color:#f2e5d8;
+}
+body#top .beigeArea h2 {
+	padding-top:4px;
+	text-align:center;
+	vertical-align:center;
+	color:#595757;
+	font-weight:bold;
+	font-size:13pt;
+}
+
+body#top .typeSelectArea {
+	width:98%;
+	display:table;
+	margin: 0px auto;
+	background-color:#000000;
+	
+}
+body#top .typeSelectArea > div{
+	display:table-cell;
+}
+body#top .buttonArea img {
+	cursor: pointer;
+}
+body#top .chkboxText {
+	margin-left:20px;
+	display:table;
+}
+body#top .chkboxText > div{
+	display:table-cell;
+	vertical-align:middle;
+}
+body#top .chkboxText font{
+	font-size:16px;
+	font-weight:bold;
+	color:#C8719D;
+	margin-left:5px;
+}
+body#top #mitumoriButtonArea {
+	width:100%;
+	text-align:right;
+	background-color:#FFFFFF;
+}
+body#top #premiumArea0905 #animalArea0905{
+	width:661px;
+	display:table;
+}
+body#top #premiumArea0905 #animalArea0905 .animalbox0905{
+	margin:0 auto;
+	color:#B85B8A;
+	display:table-cell;
+	background-color:#FCF5EE;
+	border:1px solid #D3746F;
+	border-bottom:0;
+	-webkit-border-radius:10px 10px 0 0;
+	-moz-border-radius:10px 10px 0 0;
+	border-radius:10px 10px 0 0;
+	cursor:pointer;
+}
+body#top #premiumArea0905 #animalArea0905 .animalNonactive{
+	color:#000000;
+	background-color:#E0E0E0;
+	border-bottom:1px solid #D3746F;
+}
+
+body#top #premiumArea0905 #premiumArea0905{
+	width:660px;
+	background-color:#FCF5EE;
+	border:1px solid #D3746F;
+	border-top:none;
+	-webkit-border-radius:0 0 10px 10px;
+	-moz-border-radius:0 0 10px 10px;
+	border-radius:0 0 10px 10px;
+
+}
+body#top #premiumArea0905 #dogAreaABC0905{
+	width:601px;
+	display:table;
+	margin:0 auto;
+}
+body#top #premiumArea0905 #dogArea1230905{
+	width:601px;
+	display:table;
+	margin:0 auto;
+}
+body#top #premiumArea0905 #dogAreacat0905{
+	width:601px;
+	display:table;
+	margin:0 auto;
+}
+body#top #premiumArea0905 .catBox0905{
+	display:table-cell;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	border:1px solid #D3746F;
+	border-bottom:0;
+	-webkit-border-radius:10px 10px 0 0;
+	-moz-border-radius:10px 10px 0 0;
+	border-radius:10px 10px 0 0;
+
+}
+
+body#top #premiumArea0905 .dogBox0905{
+	font-size:14px;
+	font-weight:bold;
+	vertical-align:middle;
+	margin:0 auto;
+	display:table-cell;
+	background-color:#FFFFFF;
+	border:1px solid #D3746F;
+	border-bottom:0;
+	-webkit-border-radius:10px 10px 0 0;
+	-moz-border-radius:10px 10px 0 0;
+	border-radius:10px 10px 0 0;
+	cursor: pointer;
+
+}
+body#top #premiumArea0905 .dogNonactive{
+	background-color:#E0E0E0;
+	border-bottom:1px solid #D3746F;
+}
+
+body#top #premiumArea0905 #premiumArea0905 #premiumBox0905{
+	width:599px;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	border:1px solid #D3746F;
+	border-top:none;
+	-webkit-border-radius:0 0 10px 10px;
+	-moz-border-radius:0 0 10px 10px;
+	border-radius:0 0 10px 10px;
+
+}
+
+body#top #premiumArea0905 #animalArea0905 .animalbox0905 p{
+	font-size:18px;
+	font-weight:bold;
+	margin-left:1em;
+	width:200px;
+}
+body#top #dogABCtxt2{
+	height:15px;
+	width:300px;
+	margin:0 auto;
+	background-color: #d7e5ef;
+	border-radius: 10px;
+	font-weight:bold;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border:1px solid #578fb4;
+}
+body#top .paymentTable{
+	width:90%;
+	border-left:none;
+	margin:0 auto;
+	background-color:#e0e0e0;
+}
+body#top .paymentTable td {
+	font-weight:bold;
+	padding-top:5px;
+}
+body#top .paymentTable .whiteCell {
+	background-color:#FEFEFE;
+	border-right: 2px #d0d0d0 solid;
+	border-bottom: 2px #d0d0d0 solid;
+}
+body#top .paymentTable .bl {
+	height:2em;
+	border-left:2px #d0d0d0 solid;
+}
+body#top .paymentTable .bt {
+	border-top:2px #d0d0d0 solid;
+}
+body#top .paymentTable .br {
+	border-right:2px #d0d0d0 solid;
+}
+body#top .paymentTable .bb {
+	border-bottom:2px #d0d0d0 solid;
+}
+
+body#top .premiumTable table,
+body#top .premiumTable td,
+body#top .premiumTable th,
+body#top .paymentTable table,
+body#top .paymentTable td,
+body#top .paymentTable th {
+	border: 2px #FFFFFF solid;
+}
+body#top #premiumBox0905 .premiumTable {
+	width:98%;
+	border-left:none;
+	margin:0 auto;
+}
+
+body#top .greencell {
+	font-size:16pt;
+	font-weight:bold;
+	height:30px;
+	color:white;
+	background-color:#8ca08c;
+}
+body#top .ciancell {
+	font-size:16pt;
+	font-weight:bold;
+	height:30px;
+	color:white;
+	background-color:#8cb4d2;
+	vertical-align:top;
+	padding-top:5px;
+	padding-bottom:8px;
+}
+body#top .blackcell {
+	color:white;
+	background-color:#0f0f0f;
+	font-weight:bold;
+}
+body#top .greencell2 {
+	height:30px;
+	font-size:12pt;
+	font-weight:bold;
+	color:#748A74;
+	background-color:#DCE2DC;
+}
+body#top .ciancell2 {
+	height:30px;
+	font-size:12pt;
+	font-weight:bold;
+	color:#4A7694;
+	background-color:#D7E5EF;
+}
+body#top .greencell2 .smalltxt,
+body#top .ciancell2 .smalltxt{
+	font-size:8pt;
+}
+
+.greenTable {
+	border:5px solid #8ca08c;
+	background-color:#8ca08c;
+}
+.cyanTable {
+	border:5px solid #8cb4d2;
+	background-color:#8cb4d2;
+}
+.greenTable,
+.cyanTable {
+	width:630px;
+	border-collapse:separate;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+.greenTable tr:first-child,
+.cyanTable tr:first-child {
+	height:60px;
+}
+.cyanTable .courseTable_leftArea {
+	background-color:#8cb4d2;
+}
+.greenTable .courseTable_leftArea {
+	background-color:#8ca08c;
+}
+.cyanTable .courseTable_leftArea,
+.greenTable .courseTable_leftArea {
+	width:180px;
+	text-align:left;
+}
+
+.courseTable_leftArea p {
+	font-weight:bold;
+	color:#F0F0F0;
+}
+.greenTable  .courseTable_centerArea{
+	border-right: 1px solid #8ca08c;
+	background-color:#FEFEFE;
+}
+.cyanTable  .courseTable_centerArea{
+	border-right: 1px solid #8cb4d2;
+	background-color:#FEFEFE;
+}
+
+.courseTable_centerArea{
+	width:210px;
+	font-size:15px;
+	text-align:left;
+}
+.courseTable_centerArea p {
+	font-weight:bold;
+	color:#595959;
+}
+
+.greenTable .courseTable_rightArea_left {
+	width:160px;
+	border-bottom:1px solid #8ca08c;
+	background-color:#8ca08c;
+}
+.cyanTable .courseTable_rightArea_left {
+	width:120px;
+	border-bottom:1px solid #8cb4d2;
+	background-color:#8cb4d2;
+}
+.courseTable_rightArea_left p {
+	text-align:center;
+	font-weight:bold;color:#FFFFFF;
+}
+.courseTable_rightArea_left p font:first-child {
+	font-size:15px;
+	line-height:17px;
+}
+.courseTable_rightArea_left p font:last-child {
+	font-size:30px;
+	line-height:34px;
+}
+.courseTable_rightArea_right {
+	background-color:#DCDCDC;
+	-webkit-border-radius:0 5px 0 0;
+	-moz-border-radius:0 5px 0 0;
+	border-radius:0 5px 0 0;
+}
+.courseTable_rightArea_right p {
+	font-weight:bold;
+	font-size:15px;
+	color:#595959;
+	line-height:17px;
+}
+.courseTable_rightArea_bottom {
+	height:10x;
+}
+
+.courseTable_rightArea_bottom td{
+	background-color:#595959;
+	-webkit-border-radius:0 0 5px 0;
+	-moz-border-radius:0 0 5px 0;
+	border-radius:0 0 5px 0;
+}
+.courseTable_rightArea_bottom td p{
+	margin-left:10px;
+	font-weight:bold;
+	font-size:15px;
+	color:#f0f0f0;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+/* ############################################################################
+ *
+ * プランの紹介
+ *
+ * ######################################################################### */
+
+div#example{
+	
+}
+div#example p.note{
+	margin-left:75px;
+	width:265px;
+}
+div p.note_wide{
+	margin-bottom:1em;
+}
+
+/*どんな○？*/
+div#description{
+	margin-bottom:10px;
+}
+div#description img.photo{
+	margin-top:50px;
+	margin-left:10px;
+	float:left;
+}
+div#desTxt{
+	font-size:10pt;
+	float:right;
+	width:440px;
+	text-align:left;
+	margin-top:5px;
+}
+div#desTxt span{
+	font-weight:bold;
+	color:#e0a55b;
+}
+div#desTxt h3{
+	color:#e0a58c;
+	font-size:13pt;
+	font-weight:bold;
+}
+div#desTxt div.des01{
+	margin-bottom:20px;
+}
+div#desTxt div.des01 h3{
+	margin-left:20px;
+}
+div#desTxt div.des01  div{
+	background:url(../images/plan/description01.png) no-repeat top left;
+	padding:10px 20px 0 20px;
+}
+div#desTxt div.des02{
+	margin:0 0 20px 10px;
+}
+div#desTxt div.des02 h3{
+	margin-left:30px;
+}
+div#desTxt div.des02  div{
+	background:url(../images/plan/description02.png) no-repeat top left;
+	padding:10px 20px 0 30px;
+}
+div#desTxt div.des03 h3{
+	background:url(../images/plan/description03.png) no-repeat top left;
+	width:331px;
+	height:30px;
+	padding:10px 0 0 30px;
+}
+div#desTxt div.des03 div{
+	padding:10px 20px 0 30px;
+}
+
+/*治療費にいくら位かかるの？*/
+div#case{
+	margin-bottom:40px;
+}
+div#case div.detailsWrap{
+	background:#fff9fa;
+	width:706px;
+	margin:0 auto;
+}
+div#case div.detailsWrap div.details{
+	float:left;
+	width:382px;
+	position:relative;
+	margin:10px 0 0 5px;
+}
+div#case div.detailsWrap div.details .sonnani{
+	position:absolute;
+	top:10px;
+	left:15px;
+}
+div#case div.detailsWrap div.details div.detailsList{
+	background:url(../images/plan/details_bg02.png) repeat-y;
+}
+div#case div.detailsWrap div.details div.detailsList div.innerWrap{
+	background:url(../images/plan/details_bg03.png) no-repeat bottom;
+}
+div#case div.detailsWrap div.details div.detailsList div.inner{
+	background:url(../images/plan/details_bg01.png) no-repeat;
+	padding:10px 0;
+}
+div#case div.detailsWrap div.details table{
+	width:300px;
+	margin:0 auto;
+	padding-top:10px;
+}
+div#case div.detailsWrap div.details table th,
+div#case div.detailsWrap div.details table td{
+	border:1px solid #ccc;
+	padding:3px 5px;
+	text-align:center;
+}
+div#case div.detailsWrap div.details p.detailsTotal{
+	text-align:right;
+	padding:10px 40px 10px 0;
+}
+div#case div.detailsWrap div.details p.note{
+	width:280px;
+	margin:0 0 10px 50px;
+	font-size:85%;
+}
+
+div#case div.detailsWrap div.result{
+	float:right;
+}
+div#case div.detailsWrap div.result p.note{
+	margin-left:30px;
+	width:260px;
+	font-size:80%;
+}
+
+/*保険の補償内容と保険料*/
+div#typeSelect{
+	background:#f2e5d8;
+	padding:0 15px;
+}
+div#typeSelect h2 {
+	text-align:center;
+	font-weight:bold;
+}
+div#typeSelect div.leftArea{
+	float:left;
+	background:#fff;
+	width:290px;
+	padding:15px 0;
+	clear: none;
+}
+div#typeSelect div.rightArea{
+	float:right;
+	background:#fff;
+	width:290px;
+	padding:15px 0;
+	clear: none;
+}
+div#typeSelect.inu div.leftArea, 
+div#typeSelect.inu div.rightArea {
+	padding-top: 5px;
+}
+div#typeSelect.inu div.leftArea div, 
+div#typeSelect.inu div.rightArea div {
+	text-align: left;
+	line-height: 1.1;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+div#typeSelect.inu div.leftArea div p, 
+div#typeSelect.inu div.rightArea div p {
+	margin-left: 1em;
+	text-indent: -1em;
+}
+div#compensation div.typeName{
+	background:#f2e5d8;
+	padding-top:0px;
+}
+div#compensation div.typeName p:first-child{
+	font-weight:bold;
+	font-size:150%;
+	text-align:left;
+	margin-left:55px;
+}
+div#compensation div.typeName p:last-child{
+	font-size:120%;
+	font-weight:bold;
+	color:#d3746f;
+	font-weight:bold;
+	text-align:left;
+	margin-left:55px;
+}
+div#compensation div#ageSelect{
+	background:#f2e5d8;
+	padding:0 15px;
+}
+div#compensation div#ageSelectDog {
+	height:50px;
+	margin: 0 auto;
+}
+
+div#ageSelect div.inner{
+	background:#fff;
+	padding:20px 5px;
+	text-align:center;
+}
+div#ageSelect ul li{
+	display:inline;
+	padding:0 3px;
+}
+div#resultPrice div.ageCase{
+	background:url(../images/plan/insurance_case.png) no-repeat;
+	
+	color:#fff;
+	font-weight:bold;
+	height:25px;
+	text-align:center;
+	padding:3px 0 2px;
+	font-size:13pt;
+}
+div#resultPrice div.result{
+	background-color:#FFFFFF;
+	padding:0 15px 5px;
+	clear:both;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+}
+div#resultPrice div.result div.inner{
+	background:#fff;
+	padding:5px 40px;
+}
+div#resultPrice div.result div.inner .note{
+	position: static;
+	text-align: right;
+	margin-right:10px;
+	width: 100%;
+}
+table#case50 {
+	border:2px solid #8cb4d2;
+}
+table#case70 {
+	border:2px solid #8ca08c;
+}
+table#case50 .course {
+	background-color:#8cb4d2;
+	width:35%;
+}
+table#case70 .course {
+	background-color:#8ca08c;
+	width:35%;
+}
+table#case50 .course p ,
+table#case70 .course p {
+	text-align:left;
+	font-weight:bold;
+	font-size:20px;
+	color:#FEFEFE;
+}
+table#case50 .course p font:first-child,
+table#case70 .course p font:first-child {
+	margin-left:10px;
+	font-size:20px;
+}
+table#case50 .course p font:not(:first-child),
+table#case70 .course p font:not(:first-child) {
+	margin-left:20px;
+	font-size:14px;
+}
+
+table#case50 .payment {
+	border-bottom:1px solid #8cb4d2;
+	border-right:1px solid #8cb4d2;
+	width:15%;
+	font-size:15px;
+}
+table#case70 .payment {
+	border-bottom:1px solid #8ca08c;
+	border-right:1px solid #8ca08c;
+	width:15%;
+	font-size:15px;
+}
+
+table#case50 .premium {
+	border-bottom:1px solid #8cb4d2;
+}
+table#case70 .premium {
+	border-bottom:1px solid #8ca08c;
+}
+table#case50 div.price > div,
+table#case70 div.price > div {
+	display:table;font-size:15px;
+	float:right;
+	margin-right:50px;
+}
+table#case50 div.price > div > div,
+table#case70 div.price > div > div {
+	display:table-cell;
+}
+div#resultPrice .yen{
+	padding-right:10px;
+	width:100px;
+}
+div#resultPrice .yen p{
+	position:static;
+	top:0px;right:0px;
+	font-weight:bold;
+	font-size:20pt;
+	text-align:right;
+}
+div#resultPrice p.note02{
+	font-size:90%;
+	margin-top:10px;
+	text-align:left;
+}
+
+/*おススメポイント*/
+div#point h2{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+div#point div.pointBox{
+	background:url(../images/plan/point_bg.png) no-repeat;
+	width:340px;
+	height:135px;
+	padding:15px 5px 0;
+}
+div#point div.pointBox div.rightTxt{
+	width:225px;
+	float:right
+}
+div#point div.pointBox div.rightTxt p{
+	text-align:left;
+	margin-top:5px;
+}
+
+#callchargeText {
+	margin-left:50px;
+}
+#paymentText,
+#premiumText,
+#vetdialText,
+#carecaseText {
+	margin-right:30px;
+	margin-top:10px;
+	font-weight:bold;
+	font-size:15px;
+}
+#premiumboxText {
+	margin-right:30px;
+	font-weight:bold;
+	font-size:13px;
+}
+/* ############################################################################
+ *
+ * 商品の特長
+ *
+ * ######################################################################### */
+#main div.linkArea{
+	width:680px;
+	margin:10px auto 0;
+}
+#main div.linkArea div.rightArea{
+	float:right;
+	width:400px;
+}
+#main div.linkArea ul li{
+	float:left;
+	margin-right:13px;
+}
+/*「ペットの保険」の特長*/
+
+#merit p.fnote01{
+	position:absolute;
+	bottom:40px;
+	right:55px;
+	width:220px;
+	font-size:80%;
+}
+div#mainContent #merit p.fnote02{
+	text-align:right;
+	font-size:80%;
+	margin-right:50px;
+}
+.careCase{
+	width:607px;
+	margin:0 auto 30px;
+}
+.careCase .careBox{
+	background:url(../images/feature/merit/img_merit10.png) no-repeat;
+	width:275px;
+	height:111px;
+	padding:5px;
+}
+.careCase .careBox h4{
+	color:#fff;
+	font-weight:bold;
+	font-size:13pt;
+}
+.careCase .careBox p{
+	text-align:left;
+	padding:20px;
+}
+
+
+/*補償内容について*/
+
+#insurance p.fnote01{
+	position:absolute;
+	bottom:20px;
+	left:35px;
+	font-size:80%;
+}
+#insurance p.insuTxt{
+	text-align:left;
+	margin:20px 10px;
+}
+#insurance p.insuTxt span.grn{
+	color:#44b27b;
+}
+#insurance p.insuTxt02{
+	text-align:left;
+	margin:0 10px;
+	color:#e60012;
+}
+#insurance div.courseSelect div.example{
+	margin-top:10px;
+}
+#insurance div.courseSelect div.example div.exampleTxt{
+	float:left;
+	width:215px;
+	margin:10px 0 0 5px;
+}
+#insurance div.courseSelect div.example div.exampleTxt h3{
+	margin-left:5px;
+	font-weight:bold;
+	color:#8ca08c;
+	font-size:10pt;
+	border-bottom:1px solid #8ca08c;
+}
+#insurance div.courseSelect div.example div.exampleTxt p{
+	padding:5px 0;
+}
+
+#insurance div.courseSelect div.course70{
+	width:352px;
+	text-align:left;
+	float:left;
+}
+#insurance div.courseSelect div.course70 h3{
+	color:#8ca08c;
+	border-bottom:1px solid #8ca08c;
+}
+#insurance div.courseSelect div.course50{
+	width:330px;
+	text-align:left;
+	float:right;
+}
+#insurance div.courseSelect div.course50 h3{
+	color:#8cb4d2;
+	border-bottom:1px solid #8cb4d2;
+}
+
+#insurance table.insList{
+	width:100%;
+	margin-bottom:40px;
+}
+#insurance table.insList th,
+#insurance table.insList td{
+	border:1px solid #898989;
+	padding:3px 10px;
+	text-align:left;
+}
+#insurance table.insList th{
+	background:#e5978b;
+	color:#fff;
+}
+#insurance table.insList td{
+	color:#000;
+}
+#insurance table.insList tr.bg01 td{
+	background:url(../images/common/icon_dotted.png) no-repeat 5px 10px #fcf5ee;
+}
+#insurance table.insList tr.bg02 td{
+	background:url(../images/common/icon_dotted.png) no-repeat 5px 10px #f5e2e1;
+}
+#insurance table.insList td.etc{
+	border-right:1px solid #898989;
+	border-left:none;
+	background-image:none !important;
+	text-align:right;
+	width:50px;
+}
+
+/*なぜペットの保険が必要？*/
+
+#why p.fnote01{
+	position:absolute;
+	bottom:20px;
+	right:60px;
+	font-size:80%;
+	width:220px;
+}
+
+#why div.benefits{
+	width:660px;
+	margin:30px auto 0;
+}
+#why div.benefits div.inner{
+	border:3px solid #89a8cc;
+	border-top:none;
+	border-bottom:none;
+}
+#why div.benefits div.benefitsBox{
+	padding:15px 20px 5px;
+}
+#why div.benefits div.txtArea{
+	float:left;
+	text-align:left;
+	width:380px;
+}
+
+#kokuchi .kokuchiTxt {
+	margin: 20px;
+	text-align: left;
+}
+
+#kokuchi .kokuchiTxt2 {
+	margin: 20px 30px;
+	text-align: left;
+}
+#kokuchi .kokuchiTxt2 {
+	margin: 20px 30px;
+	text-align: left;
+}
+#kokuchi .kokuchiTxt2 p.red {
+	margin-left: 1em;
+	text-indent: -1em;
+}
+#kokuchi dl.itemizationList dd {
+	margin-left: 1em;
+}
+
+#kokuchi ul.itemization li:nth-child(n+1),
+#kokuchi dl.itemizationList dt:nth-child(n+1) {
+	margin-top: 0.3em;
+}
+
+#kokuchi .red {
+	color: #D3746F;
+	font-weight: bold;
+}
+
+#kokuchi .redLink {
+	color: #ff0000;
+}
+
+#kokuchi .notice {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#payment .paymentTxt {
+	margin: 5px 30px;
+	text-align: left;
+}
+
+#payment ul.paymentTxtF {
+	clear: both;
+	overflow:hidden;
+}
+
+#payment ul.paymentTxtF > li {
+	float: left;
+	margin-left: 15px;
+}
+
+#payment ul.paymentTxtF > li.number {
+	margin-top: 4px;
+}
+
+#payment ul.paymentTxtF > li.text {
+	float: right;
+	width: 470px;
+	margin-top: 6px;
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+#payment ul.itemization li {
+	margin-left: 2.5em;
+	text-indent: -2.5em;
+}
+
+#payment ul.itemization li:nth-child(n+1) {
+	margin-top: 0.3em;
+}
+
+#payment ul.itemization2 li {
+	margin-left: 2em;
+	text-indent: -2em;
+}
+
+#payment .red {
+	color: #D3746F;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#payment table.paymentTable {
+	text-align: left;
+}
+
+#payment table.paymentTable td {
+	padding: 0 10px 10px;
+}
+
+#payment table.paymentTable td span {
+	font-size: 10px;
+}
+
+#payment table.paymentTable td.dotBorder {
+	border-right: 1px dashed #000;
+}
+
+#payment ul.itemization3 li, 
+#payment p.itemization3 {
+	margin-left: 1em;
+	text-indent: -1em;
+}
+
+#payment table.customerTable {
+	border: 3px solid #ddd;
+}
+
+#payment table.customerTable td {
+	padding: 10px;
+}
+
+
+
+/*よくあるご質問*/
+
+#qa p.fnote01{
+	position:absolute;
+	bottom:20px;
+	right:60px;
+	font-size:80%;
+	width:220px;
+}
+
+#qa div.topinfo{
+	padding-top: 10px;
+}
+#qa div.topinfo p{
+	text-align: left;
+}
+
+#qa table.indxpic{
+}
+#qa table.indxpic tr{
+}
+#qa table.indxpic td.lftpic{
+	text-align:right;
+	padding:5px 20px 5px 5px;
+	//border:1px dashed #DC9632;
+}
+#qa table.indxpic td.rghtpic{
+	text-align:left;
+	//border:1px dashed #DC9632;
+}
+
+#qa div.benefits{
+	width:660px;
+	margin:30px auto 0;
+}
+#qa div.benefits div.inner{
+	border-top:none;
+	border:3px solid #E0A58C;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#qa div.benefits div.benefitsBox{
+	padding:0px 20px 5px;
+}
+#qa div.benefits div.txtArea{
+	float:left;
+	text-align:left;
+	width:615px;
+}
+#qa div.benefits div.txtArea p.fntsz12{
+	padding-top: 15px;
+	padding-left: 5px;
+	font-size:12pt;
+}
+#qa div.benefits div.txtArea div.dashinner{
+	border:1px dashed #DC9632;
+	color: #DC9632;
+	padding: 5px;
+}
+#qa div.benefits div.txtArea div.dashinner p{
+	margin-left:2em;
+	text-indent:-2em;
+}
+#qa div.benefits div.txtArea p.dashinnernext{
+	border:1px dashed #DC9632;
+	color: #DC9632;
+	padding: 5px 5px 5px 34px;
+	margin-bottom: 5px;
+
+}
+#qa div.benefits div.txtArea p.dashindent{
+	text-indent: -2.4em;
+}
+
+#qa div.benefits div.txtArea p.dottinner{
+	border:1px dotted #DC9632;
+}
+#qa div.benefits div.txtArea p.anstxt{
+	padding: 5px 5px 5px 8px;
+}
+#qa div.benefits div.txtArea div.indent{
+	padding-left: 2.2em;
+}
+#qa div.benefits div.txtArea p.setindent{
+	text-indent: -2.4em;
+}
+#qa div.benefits div.txtArea p.paddingtxt{
+	padding: 0px 5px 0px 20px;
+}
+#qa div.benefits div.txtArea p.paddingtxt2{
+	padding: 0px 5px 5px 20px;
+}
+#qa div.benefits div.txtArea p.onindent{
+	text-indent: -1.0em;
+}
+
+/*お問い合わせ*/
+
+#toiawase p.fnote01{
+	position:absolute;
+	bottom:20px;
+	right:60px;
+	font-size:80%;
+	width:220px;
+}
+
+#toiawase div.topinfo{
+	padding-top: 10px;
+}
+#toiawase div.topinfo p{
+	text-align: left;
+}
+
+#toiawase table.indxpic{
+}
+#toiawase table.indxpic tr{
+}
+#toiawase table.indxpic td.lftpic{
+	text-align:right;
+	padding:5px;
+	//border:1px dashed #DC9632;
+}
+#toiawase table.indxpic td.rghtpic{
+	text-align:left;
+	//border:1px dashed #DC9632;
+}
+
+

@@ -1,0 +1,866 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="format-detection" content="telephone=no">
+<title>商品一覧｜au損保</title>
+<meta name="robots" content="noindex" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<script type="text/javascript" src="../common/js/campcd.js"></script>
+<script type="text/javascript" src="../common/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../common/js/checkCookie.js"></script>
+<script type="text/javascript" src="../common/js/jquery.aute.extend.js"></script>
+<script type="text/javascript" src="../common/js/switchview.js"></script>
+<script type="text/javascript" src="../common/js/scrollshift.js"></script>
+<script type="text/javascript" src="../common/js/header.js"></script>
+<script type="text/javascript" src="../common/js/back_top.js"></script>
+<script type="text/javascript" src="../common/js/header-footer_include.js"></script>
+<script type="text/javascript" src="../common/popup/spjs/telNo.js"></script>
+<script type="text/javascript">
+$.SwitchView();
+</script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../common_aute/js/PIE_IE678_20150706.js"></script>
+<![endif]-->
+
+<!--[CSS]-->
+<link type="text/css" href="../common/css/reset.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/module.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/base.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/layout.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/parts.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/page.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/lineup.css" rel="stylesheet" />
+
+<!--[webfonts]-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<!--スマホ・PC 切り替え-->
+<script type="text/javascript" src="../common/js/sp_switch.js"></script>
+<script>
+    //読み込みCSS 設定
+    var sp_css_3 = "../common/css/layout_sp.css";
+    var sp_css_4 = "../common/css/base_sp.css";
+    var sp_css_5 = "../common/css/parts_sp.css";
+    var sp_css_6 = "../common/css/page_sp.css";
+    var sp_css_7 = "../common/css/lineup_sp.css";
+
+    //SPに変更
+    function change_script_sp(){
+        if(mode == "PC"){
+            //JS
+            $.getScript("../common/js/script_sp.js");
+            //CSS
+            // $("#sp_css_1").attr("href",sp_css_1);
+            // $("#sp_css_2").attr("href",sp_css_2);
+            $("#sp_css_3").attr("href",sp_css_3);
+            $("#sp_css_4").attr("href",sp_css_4);
+            $("#sp_css_5").attr("href",sp_css_5);
+            $("#sp_css_6").attr("href",sp_css_6);
+            $("#sp_css_7").attr("href",sp_css_7);
+            mode = "SP";
+        }
+    }
+    //PCに変更
+    function change_script_pc(){
+        if(mode == "SP"){
+            //CSS
+            // $("#sp_css_1").attr("href","");
+            // $("#sp_css_2").attr("href","");
+            $("#sp_css_3").attr("href","");
+            $("#sp_css_4").attr("href","");
+            $("#sp_css_5").attr("href","");
+            $("#sp_css_6").attr("href","");
+            $("#sp_css_7").attr("href","");
+            mode = "PC";
+        }
+    }
+</script>
+<!--CSS スマホ用（JSで読み込み・初期値はNULL）　-->
+<!--
+<link id="sp_css_1" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_2" type="text/css" href="" rel="stylesheet" />
+-->
+<link id="sp_css_3" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_4" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_5" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_6" type="text/css" href="" rel="stylesheet" />
+<style type="text/css">
+
+.sp_dis_none{
+	display:inherit;
+}
+
+@media (max-width:970px) {
+.sp_dis_none{
+	display:none;
+}
+
+}
+
+</style>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/pc/common/img/share/favicon/favicon.ico" />
+
+<link id="sp_css_7" type="text/css" href="" rel="stylesheet" />
+
+
+<script type="text/javascript">
+
+var win2
+function openwin2(pop,winname){
+	var avW = 700;
+	var avH = 650;
+	win2 = open(pop,'popup',"toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,top=0,left=0,width=" + avW + ",height=" + avH + "");
+	win2.opener = self;
+	win2.focus();
+}
+// 親ウインドウが閉じる際に子ウインドウも閉じる
+onunload = function() {
+	if(!win2) return false;
+	win2.close();
+}
+</script>
+
+<script src="../common/js/cr_effectLog.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	$(".switch").accordion();
+});
+
+$.fn.accordion = function(options){
+	$(this).toggle(
+		function() {
+			$(this).next('div.accordionArea').slideDown('slow');
+			$(this).find('span.triangle').text("▲");
+			header_anchor($(this).parents('div.accordionBlock'),{animate:true});
+			//$('html,body').animate({ scrollTop:  $(this).parents('div.accordionBlock').offset().top },'slow' );
+		},
+		function(){
+			$(this).next('div.accordionArea').slideUp('slow');
+			$(this).find('span.triangle').text("▼");
+		}
+	);
+}
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32568740-1']);
+</script>
+
+<!-- Google Tag Analytics -->
+<script type="text/javascript">
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- Google Tag Analytics -->
+
+</head>
+<body onload="javascript:sbSetCAMPCookie();javascript:loadRiyouQrcode();javascript:checkUserAgent();javascript:checkCookie();" id="cateogryItem" class="itemOversea">
+
+<!-- Google Tag Manager -->
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-WG9V33"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WG9V33');</script>
+<!-- End Google Tag Manager -->
+
+
+<div id="page-top">
+	<h1>商品一覧 ｜ au損保</h1>
+<script type="text/javascript">
+    writeHeader("/pc/common/inc/"); //ヘッダー読み込み
+</script>
+
+
+
+	<!--[container_new]-->
+	<div class="lower_main_cont">
+	<div class="block_bread_crumb container_new whith_btn" style="text-align:left;max-width: 930px;margin: 0px auto;padding:10px 0;">
+		<ul class="bread_crumb" style="margin-bottom:0;">
+			<li><a href="/pc/">au損保TOP</a></li>
+			<li>商品一覧</li>
+		</ul>
+	<!--[standard_application]-->
+	</div>
+		<div class="block_lower_main">
+			<div id="page_layer_1" class="inner-block">
+				<div class="lineup_title">
+						<p class="title_mega">au損保の商品ポイント一覧</p>
+				</div>
+				<p class="lineup_sub title_middle">当社が取り扱う商品のポイントを記載しております。<br />
+										保険料・補償条件等、詳しい内容は「詳しく見る」ボタンより各商品のご説明ページでご確認ください。</p>
+				<div class="back_beige">
+					<div class="container_new block_lower_narrow_space">
+						<div class="blue_box height492">
+							<table>
+								<colgroup>
+									<col class="kahen_ttl">
+									<col>
+								</colgroup>
+								<tbody>
+									<tr>
+										<td colspan="2"><img src="../common/img_20150623/pc/common/lineup_bycle.png" alt="Bycle" class="lineuplogo bycle_logo" /></td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<div class="blue_description">
+												<p class="title_small">
+												自転車事故への備えを重視した交通傷害保険です。<br />
+												個人賠償責任補償は最大２億円！(ゴールドコースの場合)
+												</p>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<table class="four_point">
+												<colgroup>
+													<col style="width:50%">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td class="back_green line_green"><div><p class="title_small" style="color:#fff;font-weight:bold;">交通傷害</p></div></td>
+														<td>
+															<div>
+																<p class="title_small navy_txt">個人賠償責任<br /><span style="font-weight:bold">最大２億円</span></p>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td><div><p class="title_small navy_txt" style="font-weight:bold;">自転車２倍</p></div></td>
+														<td>
+															<div>
+																<p class="title_small navy_txt" style="font-weight:bold;">自転車<br />ロードサービス</p>
+															</div>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="hokenyou_ttl">
+												<colgroup>
+													<col style="width:38%;">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td><p class="title_big navy_txt" style="line-height:1em;">保険料<br /><p class="title_small navy_txt">ブロンズコース(月払)の場合</p></td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="hokenryou_tbl">
+												<colgroup>
+													<col style="width:50%;">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td class="border-b back_sky"><p class="title_small margin_l15 navy_txt" style="font-weight:bold;">本人タイプ</p></td><td class="border-b text-r back_sky"><p class="title_small margin_r40 navy_txt" style="font-weight:bold;"><span class="font11">月々&nbsp;<span class="font15">370</span>&nbsp;円</span></p></td>
+													</tr>
+													<tr>
+														<td class="border-b back_sky"><p class="title_small margin_l15 navy_txt" style="font-weight:bold;">家族タイプ</p></td><td class="border-b text-r back_sky"><p class="title_small margin_r40 navy_txt" style="font-weight:bold;"><span class="font11">月々&nbsp;<span class="font15">890</span>&nbsp;円</span></p></td>
+													</tr>
+													<tr>
+														<td class="back_sky"><p class="title_small margin_l15 navy_txt" style="font-weight:bold;">本人・親族タイプ</p></td><td class="text-r back_sky"><p class="title_small margin_r40 navy_txt" style="font-weight:bold;"><span class="font11">月々&nbsp;<span class="font15">720</span>&nbsp;円</span></p></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="hoken_type_wrapper">
+								<div class="hoken_type"><p class="title_mini" style="padding-top: 2px;">スタンダード傷害保険</p></div>
+								<a href="../bycle/" alt="自転車保険「Bycle・Bycle Best」｜au損保" class="orange_btn"><img src="../common/img_20150623/pc/common/kuwashiku_orange_btn.png" alt="詳しく見る" class="kuwashiku_orange_btn" /></a>
+							</div>
+						</div>
+						<div class="blue_box height492">
+							<table>
+								<colgroup>
+									<col class="kahen_ttl">
+									<col>
+								</colgroup>
+								<tbody>
+									<tr>
+										<td colspan="2"><img src="../common/img_20150623/pc/common/lineup_byclebest.png" alt="BycleBest" class="lineuplogo byclebest_logo" /></td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<div class="blue_description">
+												<p class="title_small">
+												自転車事故への備えを重視し、日常のケガも補償する傷害保険です。<br />
+												個人賠償責任補償は最大２億円！(ゴールドコースの場合)
+												</p>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<table class="four_point">
+												<colgroup>
+													<col style="width:50%">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td class="back_blue line_blue"><div><p class="title_small navy_txt" style="color:#fff;font-weight:bold;">一般傷害</p></div></td>
+														<td>
+															<div>
+																<p class="title_small navy_txt">個人賠償責任<br /><span style="font-weight:bold">最大２億円</span></p>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td><div><p class="title_small navy_txt" style="font-weight:bold;">自転車２倍</p></div></td>
+														<td>
+															<div>
+																<p class="title_small navy_txt" style="font-weight:bold;">自転車<br />ロードサービス</p>
+															</div>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="hokenyou_ttl">
+												<colgroup>
+													<col style="width:38%;">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td><p class="title_big navy_txt" style="line-height:1em;">保険料<br /><p class="title_small navy_txt">ブロンズコース(月払)の場合</p></td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="hokenryou_tbl">
+												<colgroup>
+													<col style="width:50%;">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td class="border-b back_sky"><p class="title_small margin_l15 navy_txt" style="font-weight:bold;">本人タイプ</p></td><td class="border-b text-r back_sky"><p class="title_small margin_r40 navy_txt" style="font-weight:bold;"><span class="font11">月々&nbsp;<span class="font15">&nbsp;&nbsp;&nbsp;880</span>&nbsp;円</span></p></td>
+													</tr>
+													<tr>
+														<td class="border-b back_sky"><p class="title_small margin_l15 navy_txt" style="font-weight:bold;">家族タイプ</p></td><td class="border-b text-r back_sky"><p class="title_small margin_r40 navy_txt" style="font-weight:bold;"><span class="font11">月々&nbsp;<span class="font15">3,000</span>&nbsp;円</span></p></td>
+													</tr>
+													<tr>
+														<td class="back_sky"><p class="title_small margin_l15 navy_txt" style="font-weight:bold;">本人・親族タイプ</p></td><td class="text-r back_sky"><p class="title_small margin_r40 navy_txt" style="font-weight:bold;"><span class="font11">月々&nbsp;<span class="font15">2,380</span>&nbsp;円</span></p></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="hoken_type_wrapper">
+								<div class="hoken_type"><p class="title_mini" style="padding-top: 2px;">スタンダード傷害保険</p></div>
+								<a href="../byclebest/" alt="自転車保険「Bycle・Bycle Best」｜au損保" class="orange_btn"><img src="../common/img_20150623/pc/common/kuwashiku_orange_btn.png" alt="詳しく見る" class="kuwashiku_orange_btn" /></a>
+							</div>
+						</div>
+						
+						<div class="blue_box height458">
+							<table>
+								<colgroup>
+									<col class="kahen_ttl">
+									<col>
+								</colgroup>
+								<tbody>
+									<tr>
+										<td colspan="2"><img src="../common/img_20150623/pc/common/lineup_bycle-s.png" alt="Bycle-S" class="lineuplogo" /></td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<div class="blue_description">
+												<p class="title_small">
+												70歳から89歳の方を対象とする、自転車事故への備えを重視し、日常のケガも補償する傷害保険です。<br />
+												個人賠償責任補償は最大２億円！
+												</p>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<table class="four_point">
+												<colgroup>
+													<col style="width:50%">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td class="back_blue line_blue"><div><p class="title_small" style="color:#fff;font-weight:bold;">一般傷害</p></div></td>
+														<td>
+															<div>
+																<p class="title_small navy_txt">個人賠償責任<br /><span style="font-weight:bold">最大２億円</span></p>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td><div><p class="title_small navy_txt" style="font-weight:bold;">自転車２倍</p></div></td>
+														<td>
+															<div>
+																<p class="title_small navy_txt" style="font-weight:bold;">自転車<br />ロードサービス</p>
+															</div>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="hokenyou_ttl">
+												<colgroup>
+													<col style="width:38%;">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td><p class="title_big navy_txt" style="line-height:1em;">保険料<br /><p class="title_small navy_txt">月払の場合</p></td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="hokenryou_tbl">
+												<colgroup>
+													<col style="width:50%;">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td class="border-b back_sky"><p class="title_small margin_l15 navy_txt" style="font-weight:bold;">本人タイプ</p></td><td class="border-b text-r back_sky"><p class="title_small margin_r40 navy_txt" style="font-weight:bold;"><span class="font11">月々&nbsp;<span class="font15">560</span>&nbsp;円</span></p></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="hoken_type_wrapper">
+								<div class="hoken_type"><p class="title_mini" style="padding-top: 2px;">スタンダード傷害保険</p></div>
+								<a href="../bycle-s/" alt="自転車保険「Bycle S」｜au損保" class="orange_btn"><img src="../common/img_20150623/pc/common/kuwashiku_orange_btn.png" alt="詳しく見る" class="kuwashiku_orange_btn" /></a>
+							</div>
+						</div>
+						
+						<div class="blue_box height458">
+							<table>
+								<colgroup>
+									<col class="kahen_ttl">
+									<col>
+								</colgroup>
+								<tbody>
+									<tr>
+										<td colspan="2"><img src="../common/img_20150623/pc/common/lineup_traffic.png" alt="ケガの保険 交通事故" class="lineuplogo traffic_logo" /></td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<div class="blue_description">
+												<p class="title_small">
+												交通事故によるケガを補償する交通傷害保険です。<br />
+												個人賠償責任補償は最大１億円！<br>
+												<span class="sp_dis_none">&nbsp;</span>
+												</p>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<table class="four_point">
+												<colgroup>
+													<col style="width:50%">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td class="back_green line_green"><div><p class="title_small" style="color:#fff;font-weight:bold;">交通傷害</p></div></td>
+														<td>
+															<div>
+																<p class="title_small navy_txt">個人賠償責任<br /><span style="font-weight:bold">最大１億円</span></p>
+															</div>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="hokenyou_ttl koutsu_hoken">
+												<colgroup>
+													<col style="width:38%;">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td><p class="title_big navy_txt" style="line-height:1em;">保険料<br /><p class="title_small navy_txt">ブロンズコース(月払)の場合</p></td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="hokenryou_tbl">
+												<colgroup>
+													<col style="width:50%;">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td class="border-b back_sky"><p class="title_small margin_l15 navy_txt" style="font-weight:bold;">本人タイプ</p></td><td class="border-b text-r back_sky"><p class="title_small margin_r40 navy_txt" style="font-weight:bold;"><span class="font11">月々&nbsp;<span class="font15">310</span>&nbsp;円</span></p></td>
+													</tr>
+													<tr>
+														<td class="border-b back_sky"><p class="title_small margin_l15 navy_txt" style="font-weight:bold;">家族タイプ</p></td><td class="border-b text-r back_sky"><p class="title_small margin_r40 navy_txt" style="font-weight:bold;"><span class="font11">月々&nbsp;<span class="font15">710</span>&nbsp;円</span></p></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="hoken_type_wrapper">
+								<div class="hoken_type"><p class="title_mini" style="padding-top: 2px;">スタンダード傷害保険</p></div>
+								<a href="../koutsuujiko/" alt="ケガの保険 交通事故｜au損保" class="orange_btn"><img src="../common/img_20150623/pc/common/kuwashiku_orange_btn.png" alt="詳しく見る" class="kuwashiku_orange_btn" /></a>
+							</div>
+						</div>
+						
+						<div class="blue_box height458">
+							<table>
+								<colgroup>
+									<col class="kahen_ttl">
+									<col>
+								</colgroup>
+								<tbody>
+									<tr>
+										<td colspan="2"><img src="../common/img_20150623/pc/common/lineup_nichizyou.png" alt="ケガの保険 日常の事故" class="lineuplogo nichizyou_logo" /></td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<div class="blue_description">
+												<p class="title_small">
+												スポーツ・レジャー中や日常生活中のケガも補償する傷害保険です。<br />
+												個人賠償責任補償は最大１億円！
+												</p>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<table class="four_point">
+												<colgroup>
+													<col style="width:50%">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td class="back_blue line_blue"><div><p class="title_small" style="color:#fff;font-weight:bold;">一般傷害</p></div></td>
+														<td>
+															<div>
+																<p class="title_small navy_txt">個人賠償責任<br /><span style="font-weight:bold">最大１億円</span></p>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td><div><p class="title_small navy_txt" style="font-weight:bold;">熱中症補償</p></div></td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="hokenyou_ttl">
+												<colgroup>
+													<col style="width:38%;">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td><p class="title_big navy_txt" style="line-height:1em;">保険料<br /><p class="title_small navy_txt">ブロンズコース(月払)の場合</p></td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="hokenryou_tbl">
+												<colgroup>
+													<col style="width:50%;">
+													<col>
+												</colgroup>
+												<tbody>
+													<tr>
+														<td class="border-b back_sky"><p class="title_small margin_l15 navy_txt" style="font-weight:bold;">本人タイプ</p></td><td class="border-b text-r back_sky"><p class="title_small margin_r40 navy_txt" style="font-weight:bold;"><span class="font11">月々&nbsp;<span class="font15">390</span>&nbsp;円</span></p></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="hoken_type_wrapper">
+								<div class="hoken_type"><p class="title_mini" style="padding-top: 2px;">スタンダード傷害保険</p></div>
+								<a href="../sports/" alt="ケガの保険 日常の事故【スポーツも対応】｜au損保" class="orange_btn"><img src="../common/img_20150623/pc/common/kuwashiku_orange_btn.png" alt="詳しく見る" class="kuwashiku_orange_btn" /></a>
+							</div>
+						</div>
+						
+						<div class="blue_box" style="border:none;padding:0px 3px;"></div>
+						
+						
+						<div class="lineup_nottice"><p class="indent1 title_small">※「本人タイプ」「家族タイプ」「本人・親族タイプ」の補償の対象となる方の範囲については<a class="lineup_link" href="JavaScript:void(0);" onclick="openwin2('../hosyo_naiyo/standard/S_2_H_19.html','myau');">こちら</a></p></div>
+					</div><!--end container_new block_lower_narrow_space-->
+				</div>
+			</div><!-- end page_layer_1 -->
+			<div class="inner-block" id="page_layer_3">
+				<div class="container_new block_lower_narrow_space">
+					<div class="blue_box height430">
+						<table>
+							<colgroup>
+								<col class="kahen_ttl">
+								<col>
+							</colgroup>
+							<tbody>
+								<tr>
+									<td colspan="2"><img src="../common/img_20150623/pc/common/lineup_pet.png" alt="ペットの保険" class="lineuplogo pet_logo" /></td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<div class="blue_description">
+											<p class="title_small">
+											大切なペットのための医療保険です。<br />
+											病気やケガにより、動物病院で治療を受けた際の治療費の一部を補償します。犬・猫が対象です。
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<table class="four_point">
+											<colgroup>
+												<col style="width:33.3%">
+												<col style="width:33.3%">
+												<col>
+											</colgroup>
+											<tbody>
+												<tr>
+													<td colspan="3" style="height:2em;background-color:#375799;border:2px solid #375799;"><div><p class="title_big" style="font-weight:bold;color:#fff;">新規申込みは生後30日～10歳まで</p></div></td>
+												</tr>
+												<tr>
+													<td><div><p class="title_small" style="font-weight:bold;">入院補償</p></div></td>
+													<td>
+														<div>
+															<p class="title_small" style="font-weight:bold;">手術補償</p>
+														</div>
+													</td>
+													<td><div><p class="title_small" style="font-weight:bold;">通院補償</p></div></td>
+												</tr>
+												<tr>
+													<td><div><p class="title_small" style="font-weight:bold;line-height:16px;">かかりつけ<br />獣医師<br />ダイヤル</p></div></td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="hoken_type_wrapper">
+							<a href="../pet/" alt="ペット保険 ｜au損保" class="orange_btn"><img src="../common/img_20150623/pc/common/kuwashiku_orange_btn.png" alt="詳しく見る" class="kuwashiku_orange_btn" /></a>
+							<div class="hoken_type"><p class="title_mini" style="padding-top: 2px;">ペット医療費用保険</p></div>
+						</div>
+					</div>
+					<div class="blue_box height430" id="page_layer_2">
+						<table>
+							<colgroup>
+								<col class="kahen_ttl">
+								<col>
+							</colgroup>
+							<tbody>
+								<tr>
+									<td colspan="2"><img src="../common/img_20150623/pc/common/lineup_kaigai.png" alt="海外旅行の保険" class="lineuplogo kaigai_logo" /></td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<div class="blue_description">
+											<p class="title_small">
+											ケガや病気の治療費用補償など、海外でのトラブルをしっかりサポートします！<br />
+											当日加入OK！　3日間なら保険料は1,369円～！
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<table class="four_point">
+											<colgroup>
+												<col style="width:33.3%">
+												<col style="width:33.3%">
+												<col>
+											</colgroup>
+											<tbody>
+												<tr>
+													<td colspan="3" style="height:2em;background-color:#375799;border:2px solid #375799;"><div><p class="title_big" style="font-weight:bold;color:#fff;">日帰り～31日まで</p></div></td>
+												</tr>
+												<tr>
+													<td><div><p class="title_small" style="font-weight:bold;">治療・救援<br class="br_sp" />費用</p></div></td>
+													<td>
+														<div>
+															<p class="title_small" style="font-weight:bold;">携行品損害</p>
+														</div>
+													</td>
+													<td><div><p class="title_small" style="font-weight:bold;">個人賠償責任</p></div></td>
+												</tr>
+												<tr>
+													<td><div><p class="title_small" style="font-weight:bold;">傷害死亡<br />疾病死亡</p></div></td>
+													<td>
+														<div>
+															<p class="title_small" style="font-weight:bold;">傷害後遺障害</p>
+														</div>
+													</td>
+													<td><div><p class="title_small" style="font-weight:bold;">航空機寄託<br />手荷物遅延等費用</p></div></td>
+												</tr>
+												<tr>
+													<td colspan="3" style="height:2em;"><div><p class="title_small" style="font-weight:bold;">海外アシスタンスサービス</p></div></td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="hoken_type_wrapper">
+							<a href="../kaigai/" alt="海外旅行保険【出発当日加入OK！】｜au損保" class="orange_btn"><img src="../common/img_20150623/pc/common/kuwashiku_orange_btn.png" alt="詳しく見る" class="kuwashiku_orange_btn" /></a>
+							<div class="hoken_type"><p class="title_mini" style="padding-top: 2px;">海外旅行保険</p></div>
+						</div>
+					</div>
+					<div class="blue_box height360">
+						<table>
+							<colgroup>
+								<col class="kahen_ttl">
+								<col>
+							</colgroup>
+							<tbody>
+								<tr>
+									<td colspan="2"><img src="../common/img_20150623/pc/common/lineup_kokunai.png" alt="国内旅行の保険" class="lineuplogo kokunai_logo" /></td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<div class="blue_description">
+											<p class="title_small">
+											ご出発からご帰宅まで、万が一のケガの補償、個人賠償責任補償など、おでかけの安心補償をパッケージしました！<br />
+											出発当日加入OK！　日帰り・1泊2日なら保険料は262円～！
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<table class="four_point">
+											<colgroup>
+												<col style="width:33.3%">
+												<col style="width:33.3%">
+												<col>
+											</colgroup>
+											<tbody>
+												<tr>
+													<td colspan="3" style="height:2em;background-color:#375799;border:2px solid #375799;"><div><p class="title_big" style="font-weight:bold;color:#fff;">日帰り～13泊14日まで</p></div></td>
+												</tr>
+												<tr>
+													<td><div><p class="title_small" style="font-weight:bold;">ケガの補償</p></div></td>
+													<td>
+														<div>
+															<p class="title_small" style="font-weight:bold;">救援者費用</p>
+														</div>
+													</td>
+													<td><div><p class="title_small" style="font-weight:bold;">個人賠償責任</p></div></td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="hoken_type_wrapper">
+							<a href="../kokunai/" alt="国内旅行保険【262円～】｜au損保" class="orange_btn"><img src="../common/img_20150623/pc/common/kuwashiku_orange_btn.png" alt="詳しく見る" class="kuwashiku_orange_btn" /></a>
+							<div class="hoken_type"><p class="title_mini" style="padding-top: 2px;">国内旅行傷害保険</p></div>
+						</div>
+					</div>
+					<div class="blue_box height360">
+						<table>
+							<colgroup>
+								<col class="kahen_ttl">
+								<col>
+							</colgroup>
+							<tbody>
+								<tr>
+									<td colspan="2"><img src="../common/img_20150623/pc/common/lineup_golf.png" alt="ゴルフの保険" class="lineuplogo golf_logo" /></td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<div class="blue_description">
+											<p class="title_small">
+											ゴルフプレー中はもちろん、帰宅までのケガや、ゴルフ用品などの破損、個人賠償責任などの補償をパッケージしました！<br />
+											出発当日加入OK！　日帰り・1泊2日なら保険料は428円～！
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<table class="four_point">
+											<colgroup>
+												<col style="width:33.3%">
+												<col style="width:33.3%">
+												<col>
+											</colgroup>
+											<tbody>
+												<tr>
+													<td colspan="3" style="height:2em;background-color:#375799;border:2px solid #375799;"><div><p class="title_big" style="font-weight:bold;color:#fff;">日帰り～3泊4日まで</p></div></td>
+												</tr>
+												<tr>
+													<td><div><p class="title_small" style="font-weight:bold;">ケガの補償</p></div></td>
+													<td>
+														<div>
+															<p class="title_small" style="font-weight:bold;">携行品損害</p>
+														</div>
+													</td>
+													<td><div><p class="title_small" style="font-weight:bold;">個人賠償責任</p></div></td>
+												</tr>
+												<tr>
+													<td colspan="3" style="height:2em;"><div><p class="title_small" style="font-weight:bold;">ホールインワン・アルバトロス費用</p></div></td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="hoken_type_wrapper">
+							<a href="../golf/" alt="ゴルフ保険｜au損保" class="orange_btn"><img src="../common/img_20150623/pc/common/kuwashiku_orange_btn.png" alt="詳しく見る" class="kuwashiku_orange_btn" /></a>
+							<div class="hoken_type"><p class="title_mini" style="padding-top: 2px;">国内旅行傷害保険</p></div>
+						</div>
+					</div>
+					<div class="lineup_nottice"><p class="title_small indent1">※上記の内容は、各商品プランのポイントを記載したものです。詳しい内容は「詳しく見る」ボタンより各プランの説明をご確認ください。</p></div>
+					<p class="approvalnumber">B16E310265[1608]</p>
+				</div><!--end container_new block_lower_narrow_space-->
+			</div>
+		</div><!--end block_lower_main-->
+	</div><!--end lower_main_cont-->
+	<div class="block_bread_crumb container_new whith_btn" style="text-align:left;max-width: 930px;margin: 0px auto;padding:10px 0;">
+		<ul class="bread_crumb" style="margin-bottom:0;">
+			<li><a href="/pc/">au損保TOP</a></li>
+			<li>商品一覧</li>
+		</ul>
+	</div>
+
+<script type="text/javascript">
+    writeFooter("/pc/common/inc/"); //フッター読み込み
+</script>
+	<!--[header_new]-->
+
+<script type="text/javascript">
+(function(w,d,S,P,s,t,u) {
+  u = ('https:' == d.location.protocol ? 'https://ssl.socdm.com' : 'http://tg.socdm.com') + '/so-async.js?' + 'siteid=' + s;
+  t=(t=d.getElementsByTagName(S))[t.length-1];
+  (w[P]=w[P]||{})[s]=t.id=[P,s].join('-');
+  s=d.createElement(S);s.async=!0;s.src=u;
+  t.parentNode.insertBefore(s,t);
+})(window,document,'script','scaleout-tagmanagement','31828');
+</script>
+<!-- END TAG MGMT -->
+
+</body>
+</html>

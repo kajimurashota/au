@@ -1,0 +1,1520 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr" xmlns:og="http://ogp.me/ns#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="format-detection" content="telephone=no">
+<title>海外旅行保険なら【au損保】｜ネットで入れる！｜今すぐ入れる！</title>
+<meta name="description" content="海外旅行保険なら、au損保！お申込みはネット完結！出発当日でもご加入いただけます。治療費用の補償が充実しているから、万が一海外での治療費が高額でも安心！！" />
+<meta name="keywords" content="海外旅行保険,海外旅行,ネット申込み,アプリ,海外サポート,au損保" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<link rel="stylesheet" href="/common/css/ie8.css" type="text/css" media="all">
+<![endif]--><!-- JS -->
+<script type="text/javascript" src="../common/js/campcd.js"></script>
+<script type="text/javascript" src="../common/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../common/js/checkCookie.js"></script>
+<script type="text/javascript" src="../common/js/jquery.aute.extend.js"></script>
+<script type="text/javascript" src="../common/js/switchview.js"></script>
+<script type="text/javascript" src="../common/js/scrollshift.js"></script>
+<script type="text/javascript" src="../common/js/slider.js"></script>
+<script type="text/javascript" src="../common/js/header.js"></script>
+<script type="text/javascript" src="../common/js/back_top.js"></script>
+<script type="text/javascript" src="../common/js/rollover.js"></script>
+<script type="text/javascript" src="../common/js/header-footer_include.js"></script>
+<script type="text/javascript">
+$.SwitchView();
+</script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../common_aute/js/PIE_IE678_20150706.js"></script>
+<![endif]-->
+
+<!--[webfonts]-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<!--[CSS]-->
+<link type="text/css" href="../common/css/reset.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/module.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/base.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/layout.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/parts.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/page.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/kaigai.css" rel="stylesheet" />
+
+<!-- 高さ揃えJS -->
+<script type="text/javascript" src="./common/js/jquery.matchHeight.js"></script>
+
+<!-- 海外用JS　保険料データ 読込み -->
+<script type="text/javascript" src="./common/js/kaigai_calc_data.js"></script>
+
+<!-- 海外用JS　読込み -->
+<script type="text/javascript" src="./common/js/kaigai.js"></script>
+
+<!--スマホ・PC 切り替え-->
+<script type="text/javascript" src="../common/js/sp_switch.js"></script>
+<script>
+    //読み込みCSS 設定
+    var sp_css_1 = "../common/css/style.css";
+    var sp_css_2 = "../common/css/layout_sp.css";
+    var sp_css_3 = "../common/css/base_sp.css";
+    var sp_css_4 = "../common/css/parts_sp.css";
+    var sp_css_5 = "../common/css/page_sp.css";
+    var sp_css_6 = "../common/css/kaigai_sp.css";
+
+    //SPに変更
+    function change_script_sp(){
+        if(mode == "PC"){
+            //JS
+            $.getScript("../common/js/script_sp.js");
+            //CSS
+            $("#sp_css_1").attr("href",sp_css_1);
+            $("#sp_css_2").attr("href",sp_css_2);
+            $("#sp_css_3").attr("href",sp_css_3);
+            $("#sp_css_4").attr("href",sp_css_4);
+            $("#sp_css_5").attr("href",sp_css_5);
+            $("#sp_css_6").attr("href",sp_css_6);
+            mode = "SP";
+
+            // お見積もりセレクトボックス（補償内容・保険金額一覧 切り替え）
+            if($('#people_box').val() == 1 ){
+                $(".table_sp_kojin, #txt_kojin").show();
+                $(".table_sp_kazoku").hide();
+            }else{
+                $(".table_sp_kojin, #txt_kojin").hide();
+                $(".table_sp_kazoku").show();
+            }
+            $(".table_kojin").hide();
+            $(".table_kazoku").hide();
+        }
+    }
+    //PCに変更
+    function change_script_pc(){
+        if(mode == "SP"){
+            //CSS
+            $("#sp_css_1").attr("href","");
+            $("#sp_css_2").attr("href","");
+            $("#sp_css_3").attr("href","");
+            $("#sp_css_4").attr("href","");
+            $("#sp_css_5").attr("href","");
+            $("#sp_css_6").attr("href","");
+            mode = "PC";
+
+            // お見積もりセレクトボックス（補償内容・保険金額一覧 切り替え）
+            if($('#people_box').val() == 1 ){
+                $(".table_kojin, #txt_kojin").show();
+                $(".table_kazoku").hide();
+            }else{
+                $(".table_kojin, #txt_kojin").hide();
+                $(".table_kazoku").show();
+            }
+            $(".table_sp_kojin").hide();
+            $(".table_sp_kazoku").hide();
+        }
+    }
+</script>
+<!--CSS スマホ用（JSで読み込み・初期値はNULL）　-->
+<link id="sp_css_1" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_2" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_3" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_4" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_5" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_6" type="text/css" href="" rel="stylesheet" />
+<link rel="shortcut icon" type="image/x-icon" href="/pc/common/img/share/favicon/favicon.ico" />
+
+
+<link rel="canonical" href="http://www.au-sonpo.co.jp/pc/kaigai/" />
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32568740-1']);
+</script>
+
+<!-- Google Tag Analytics -->
+<script type="text/javascript">
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- Google Tag Analytics -->
+</head>
+
+<body onload="javascript:sbSetCAMPCookie();javascript:loadRiyouQrcode();javascript:checkUserAgent();javascript:checkCookie();" id="cateogryItem" class="itemKaigai applybtn_ari" style="overflow:hidden;">
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WG9V33"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WG9V33');</script>
+<!-- End Google Tag Manager -->
+
+
+<div>
+    <h1>海外旅行保険ならau損保</h1>
+    <script type="text/javascript">
+        writeHeader("/pc/common/inc/"); //ヘッダー読み込み
+    </script>
+
+<div id="contents_wrapper" class="kaigai_top">
+    <div id="page_contents">
+        <div class="pankuzu">
+        <p><img src="../common/img_20160128/pc/kaigai/top/hoken_name.gif" alt="海外旅行保険" /></p>
+            <ul class="bread_crumb">
+                <li><a href="/pc/">au損保TOP</a></li>
+                <li>海外旅行保険</li>
+            </ul>
+        </div><!-- pankuzu -->
+
+        <div class="maintitle_bg">
+            <div class="maintitle">
+                <p class="main_img"><img src="../common/img_20160128/pc/kaigai/top/maintitle.png" alt="海外旅行保険"/></p>
+                <p><a href="/pc/point/"><img src="../common/img_20160128/pc/kaigai/top/maintitle2.png" alt="PRESENT!" class="hoverImg"/></a></p>
+            </div><!--/maintitle-->
+        </div><!--/maintitle_bg-->
+
+        <div class="main_sp">
+            <p><img src="../common/img_20160128/sp/kaigai/top/mainimg.jpg" alt="モデル"/></p>
+            <p><img src="../common/img_20160128/sp/kaigai/top/maintitle.png" alt="海外旅行保険"/></p>
+        	<p class="info2_sp orange">au損保は、ドコモ・ソフトバンクなど、au以外の方もご加入いただけます。</p></a>
+            <p class="present"><a href="/pc/point/"><img src="../common/img_20160128/sp/kaigai/top/maintitle2.png" alt="PRESENT!"/></a></p>
+        </div><!--/main_sp-->
+
+        <p class="info2">au損保は、ドコモ・ソフトバンクなど、au以外の方もご加入いただけます。</p>
+
+        <div class="info">
+        </div>
+
+        <div class="info_sp">
+        </div>
+
+        <div class="border"></div>
+
+        <div class="section1 clearfix">
+            <p class="big_title">ご存知ですか？海外でケガや病気をした場合、治療費や入院費は、<br class="br_pc"/>日本と比べると高額になることもあります。</p>
+            <p class="ttl">■例えば：アメリカ（ニューヨーク）の場合</p>
+            <ul class="alert">
+            <li>注）外務省ホームページ在外公館医務官情報アメリカ合衆国（ニューヨーク市マンハッタン区）2015年4月より引用</li>
+            <li>注）1ドル=120円で計算</li>
+            </ul>
+            <div class="gallery clearfix">
+                <div class="centered">
+                    <div class="box">
+                        <div class="IMG"><img src="../common/img_20160128/pc/kaigai/top/sec1_img_01.jpg" alt="手術"/></div>
+                        <p class="txt">急性虫垂炎で入院し手術後<br/>腹膜炎を併発(8日入院)<br/>→<span>7万ドル(840万円)</span></p>
+                    </div>
+                    <div class="box">
+                        <div class="IMG"><img src="../common/img_20160128/pc/kaigai/top/sec1_img_02.jpg" alt="骨折"/></div>
+                        <p class="txt">上腕骨骨折で入院手術<br/>(1日入院)<br/>→<span>1万5千ドル(180万円)</span></p>
+                    </div>
+
+                    <div class="box">
+                        <div class="IMG"><img src="../common/img_20160128/pc/kaigai/top/sec1_img_03.jpg" alt="貧血"/></div>
+                        <p class="txt">貧血による入院<br/>(2日入院、保存療法施行)<br/>→<span>2万ドル(240万円)</span></p>
+                    </div>
+                    <div class="box">
+                        <div class="IMG"><img src="../common/img_20160128/pc/kaigai/top/sec1_img_04.jpg" alt="入院"/></div>
+                        <p class="txt">自然気胸のドレナージ処置<br/>(6日入院、手術無し)<br/>→<span>8万ドル(960万円)</span></p>
+                    </div>
+                </div>
+            </div>
+        </div><!--/section1-->
+
+        <h2 id="point" class="ttl_main_2">「海外旅行の保険」が選ばれる4つのポイント</h2>
+        <div class="section2">
+            <div class="contents clearfix">
+    			<div class="point">
+                    <ul class="clearfix">
+                    	<li class="clearfix">
+                        	<p class="number"><img src="../common/img_20160128/pc/bycle/point1.png" alt="POINT1"/></p>
+                          	<p class="text"><img src="../common/img_20160128/pc/kaigai/top/sec2_point_1-1.png" alt="出発当日加入OK" class="pc"/><img src="../common/img_20160128/sp/kaigai/top/sec2_point_1-1.png" alt="出発当日加入OK" class="sp"/></p>
+                          	<p class="img" style="padding-bottom:3px"><img src="../common/img_20160128/pc/kaigai/top/sec2_point_1-2.png" alt="アイコン"/></p>
+                          <p class="btn"><a href="#anchor1"><img src="../common/img_20160128/pc/bycle/btn_detail.gif" alt="詳しくはこちら" class="hoverImg"/></a></p>
+                     </li>
+                     	<li class="clearfix">
+                        	<p class="number"><img src="../common/img_20160128/pc/bycle/point2.png" alt="POINT2"/></p>
+                          	<p class="text"><img src="../common/img_20160128/pc/kaigai/top/sec2_point_2-1.png" alt="1500万円から" class="pc"/><img src="../common/img_20160128/sp/kaigai/top/sec2_point_2-1.png" alt="1500万円から" class="sp"/></p>
+                          	<p class="img"><img src="../common/img_20160128/pc/kaigai/top/sec2_point_2-2.png" alt="アイコン"/></p>
+                            <p class="btn"><a href="#hoshou"><img src="../common/img_20160128/pc/bycle/btn_detail.gif" alt="詳しくはこちら" class="hoverImg"/></a></p>
+                     </li>
+                       	<li class="clearfix">
+                        	<p class="number"><img src="../common/img_20160128/pc/bycle/point3.png" alt="POINT3"/></p>
+                          	<p class="text"><img src="../common/img_20160128/pc/kaigai/top/sec2_point_3-1.png" alt="海外サポートデスク" class="pc"/><img src="../common/img_20160128/sp/kaigai/top/sec2_point_3-1.png" alt="海外サポートデスク" class="sp"/></p>
+                          	<p class="img"><img src="../common/img_20160128/pc/kaigai/top/sec2_point_3-2.png" alt="アイコン" /></p>
+                            <p class="btn"><a href="#anchor3"><img src="../common/img_20160128/pc/bycle/btn_detail.gif" alt="詳しくはこちら" class="hoverImg"/></a></p>
+                        </li>
+                        <li class="clearfix">
+                        	<p class="number"><img src="../common/img_20160128/pc/bycle/point4.png" alt="POINT4"/></p>
+                          	<p class="text"><img src="../common/img_20160128/pc/kaigai/top/sec2_point_4-1.png" alt="「海外サポート」アプリ" class="pc"/><img src="../common/img_20160128/sp/kaigai/top/sec2_point_4-1.png" alt="「海外サポート」アプリ" class="sp"/></p>
+                          	<p class="img" style="padding-bottom:3px"><img src="../common/img_20160128/pc/kaigai/top/sec2_point_4-2.png" alt="アイコン"/></p>
+                            <p class="btn"><a href="#anchor4"><img src="../common/img_20160128/pc/bycle/btn_detail.gif" alt="詳しくはこちら" class="hoverImg"/></a></p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        <div class="border"></div>
+        </div>
+
+        <div id="anchor1" class="section3">
+ <h2 class="top_title entry-title_nsp">手続きはカンタン！出発当日まで加入できます！</h2>
+
+            <div class="contents clearfix">
+                <p class="ttl">ＰＣ・スマホ・タブレットから、その場でお申込みができます。<span><img src="../common/img_20160128/pc/kaigai/top/sec3_img4.png" alt="イメージ"/></span></p>
+            </div>
+        </div>
+        <div class="border"></div>
+
+
+        <div id="hoshou" class="section4">
+            <h2 class="top_title entry-title_big_nsp">安心の補償内容</h2>
+            <div class="contents clearfix">
+                <p class="ttl">家を出発してからご帰宅までのケガや病気をしっかりサポート！</p>
+                <div class="navi">
+                    <ul class="clearfix">
+                        <li>
+                            <p class="title">治療・救援費用</p>
+                            <div class="height">
+                                <p class="check"><img src="../common/img_20160128/pc/kaigai/top/check.gif" alt="アイコン"/>ケガや病気により入院した</p>
+                                <p class="check"><img src="../common/img_20160128/pc/kaigai/top/check.gif" alt="アイコン"/>旅行先で長期入院、家族が日本から駆け付けた</p>
+                            </div><!--/height-->
+                            <div class="icon"><img src="../common/img_20160128/pc/kaigai/top/sec4_img_01.png" alt="アイコン"/></div>
+                            <p class="btn"><a href="javascript:void(0);" onclick="openWin3()"><img src="../common/img_20160128/pc/kaigai/top/sec4_btn.png" alt="補償内容" class="hoverImg"/></a></p>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin3(){
+									補償内容 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_1.html","補償内容","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									補償内容.focus();
+									}
+									//-->
+								</script>
+                      </li>
+                        <li>
+                            <p class="title">携行品損害</p>
+                            <div class="height">
+                                <p class="check"><img src="../common/img_20160128/pc/kaigai/top/check.gif" alt="アイコン"/>旅行中にデジカメを破損した</p>
+                            </div><!--/height-->
+                            <div class="icon"><img src="../common/img_20160128/pc/kaigai/top/sec4_img_02.png" alt="アイコン"/></div>
+                            <p class="btn"><a href="javascript:void(0);" onclick="openWin4()"><img src="../common/img_20160128/pc/kaigai/top/sec4_btn.png" alt="補償内容" class="hoverImg"/></a></p>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin4(){
+									補償内容 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_7.html","補償内容","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									補償内容.focus();
+									}
+									//-->
+								</script>
+                      </li>
+                        <li>
+                            <p class="title">個人賠償責任</p>
+                            <div class="height">
+                                <p class="check"><img src="../common/img_20160128/pc/kaigai/top/check.gif" alt="アイコン"/>他人にケガをさせてしまった</p>
+                                <p class="check"><img src="../common/img_20160128/pc/kaigai/top/check.gif" alt="アイコン"/>他人の物を壊してしまった</p>
+                            </div><!--/height-->
+                            <div class="icon"><img src="../common/img_20160128/pc/kaigai/top/sec4_img_03.png" alt="アイコン"/></div>
+                            <p class="btn"><a href="javascript:void(0);" onclick="openWin5()"><img src="../common/img_20160128/pc/kaigai/top/sec4_btn.png" alt="補償内容" class="hoverImg"/></a></p>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin5(){
+									補償内容 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_6.html","補償内容","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									補償内容.focus();
+									}
+									//-->
+								</script>
+                      </li>
+                      <li>
+                            <div class="title" ><p class="bold">航空機寄託<br/>手荷物遅延等費用</p></div>
+                            <div class="height">
+                                <p class="check"><img src="../common/img_20160128/pc/kaigai/top/check.gif" alt="アイコン"/>航空会社に預けた手荷物の到着が遅れて身の回り品を購入</p>
+                            </div><!--/height-->
+                            <div class="icon"><img src="../common/img_20160128/pc/kaigai/top/sec4_img_04.png" alt="アイコン"/></div>
+                            <p class="btn"><a href="javascript:void(0);" onclick="openWin6()"><img src="../common/img_20160128/pc/kaigai/top/sec4_btn.png" alt="補償内容" class="hoverImg"/></a></p>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin6(){
+									補償内容 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_8.html","補償内容","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									補償内容.focus();
+									}
+									//-->
+								</script>
+                      </li>
+                        <li>
+                            <div class="title title_1" ><p class="bold">傷害後遺障害</p></div>
+                            <div class="height">
+                                <p class="check"><img src="../common/img_20160128/pc/kaigai/top/check.gif" alt="アイコン"/>ケガにより後遺障害が生じた</p>
+                            </div><!--/height-->
+                            <div class="icon"><img src="../common/img_20160128/pc/kaigai/top/sec4_img_05.png" alt="アイコン"/></div>
+                            <p class="btn"><a href="javascript:void(0);" onclick="openWin7()"><img src="../common/img_20160128/pc/kaigai/top/sec4_btn.png" alt="補償内容" class="hoverImg"/></a></p>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin7(){
+									補償内容 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_3.html","補償内容","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									補償内容.focus();
+									}
+									//-->
+								</script>
+                      </li>
+                        <li>
+                            <div class="title" ><p class="bold">傷害死亡<br/>疾病死亡</p></div>
+                            <div class="height">
+                                <p class="check"><img src="../common/img_20160128/pc/kaigai/top/check.gif" alt="アイコン"/>ケガや病気により死亡</p>
+                            </div><!--/height-->
+                            <div class="icon"><img src="../common/img_20160128/pc/kaigai/top/sec4_img_06.png" alt="アイコン"/></div>
+                            <p class="btn"><a href="javascript:void(0);" onclick="openWin8()"><img src="../common/img_20160128/pc/kaigai/top/sec4_btn.png" alt="補償内容" class="hoverImg"/></a></p>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin8(){
+									補償内容 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_9.html","補償内容","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									補償内容.focus();
+									}
+									//-->
+								</script>
+                      </li>
+                  </ul>
+                </div><!--/navi-->
+            </div>
+        </div>
+
+        <div id="surport" class="section5">
+        <div class="border"></div>
+            <p class="ttl_top"><img src="../common/img_20160128/pc/kaigai/top/title_left_min.png" alt="縦線"/>さらに安心の付帯サービス<img src="../common/img_20160128/pc/kaigai/top/title_right_min.png" alt="縦線"/>　</p>
+            <h2 class="top_title entry-title_nsp">海外サポートデスク</h2>
+            <div class="contents clearfix">
+                <div class="block_1 clearfix">
+                    <div class="IMG" ><img src="../common/img_20160128/pc/kaigai/top/sec5_img1.png" alt="イメージ"/></div>
+                    <div class="TXT" ><p>海外旅行でお困りのことがあればいつでもお電話ください。<br><span>24時間365日、日本語</span>で対応します。</p></div>
+                    <div class="btn_tel"><a class="" href="#anchor3"><img src="../common/img_20160128/pc/kaigai/top/sec5_btn_tel.png" alt="電話番号はこちら" class="hoverImg" /></a></div>
+                </div>
+                <div class="navi">
+                    <ul class="clearfix">
+                        <li>
+                            <p class="title">キャッシュレス・<br/>メディカルサービス</p>
+                            <div class="icon"><img src="../common/img_20160128/pc/kaigai/top/sec5_icon_1.png" alt="アイコン"/></div>
+                            <div class="height">
+                                <p>提携医療機関なら、その場での治療費のお支払いは不要です。<br/>
+                              <span class="fs14 mt10" style="display:block;">提携医療機関、日本語対応ＯＫな病院は「海外サポート」アプリでかんたんに検索できます。</span></p>
+                            </div><!--/height-->
+                        </li>
+                        <li>
+                            <p class="title">緊急医療<br/>アシスタンスサービス</p>
+                            <div class="icon"><img src="../common/img_20160128/pc/kaigai/top/sec5_icon_2.png" alt="アイコン"/></div>
+                            <div class="height">
+                                <p>
+
+
+不慮のケガや病気に見舞われ、医療施設への緊急移送の必要がある場合などは、海外サポートデスクへお電話ください。
+                              </p>
+                            </div><!--/height-->
+                        </li>
+                        <li>
+                            <p class="title title_1">相談・紹介サービス</p>
+
+                            <div class="icon"><img src="../common/img_20160128/pc/kaigai/top/sec5_icon_3.png" alt="オペレーター"/></div>
+                            <div class="height">
+                                <p>旅行中の各種トラブル時の相談や通訳の手配、保険金請求方法など、日本人スタッフがお応えいたします。</p>
+                            </div><!--/height-->
+                      </li>
+                  </ul>
+                </div><!--/navi-->
+
+                <div class="block_2">
+                    <div class="ttl_jet"><img src="../common/img_20160128/pc/kaigai/top/sec5_block2_ttl.jpg" alt="ご帰国後も"/></div>
+                    <div class="bg">
+                        <p class="title_main">キャッシュレス・リペアサービス</p>
+                        <div class="inner">
+                            <div class="IMG"><img src="../common/img_20160128/pc/kaigai/top/sec5_block2_img_1.gif" alt="アイコン"/></div>
+                            <p class="desc">事故で破損したスーツケース・デジタルカメラ・ビデオカメラ・パソコンの修理代金を当社が修理業者へ直接保険金としてお支払いさせていただくことで、お客さまでの修理代金のお立替が不要となるサービスです。</p>
+                            <p class="ttl">回収・修理・お届けまでの流れ</p>
+                            <ul>
+                                <li>1. お電話で事故のご連絡（サービスご利用のお申し出）</li>
+                                <li>2. ご自宅まで無料で回収にお伺いしますので、破損したお品物をお預けください</li>
+                                <li>3. 修理後、お品物を無料でご自宅へお届け</li>
+                            </ul>
+                            <div class="IMG2 clearfix">
+                                <div><img src="../common/img_20160128/pc/kaigai/top/sec5_block2_img_2.gif" alt="イメージ"/></div>
+                                <div><img src="../common/img_20160128/pc/kaigai/top/sec5_block2_img_3.gif" alt="イメージ"/></div>
+                            </div>
+                            <ul class="alert fs12"><li>注）修理費用は携行品（スーツケース・デジタルカメラ・ビデオカメラ・パソコン）1個、1組または1対あたり10万円または時価額のいずれか低い額が限度となります。超過額はお客さま負担となります。</li></ul>
+                          </div>
+                    </div>
+                <ul class="fs14 mt10 notice"><li>注）サービスの詳細は「海外旅行保険サポートガイド」（「海外サポート」アプリにも収録）をご参照ください。</li></ul>
+                </div>
+
+
+              <!-- /block_2 -->
+
+                <div class="block_3">
+                    <div class="bg">
+                        <div class="inner">
+                            <div class="box_sima clearfix">
+                                <div class="box_inner clearfix">
+                                    <p id="anchor3" class="box_title">「海外サポートデスク」電話番号のご案内</p>
+                                    <div class="wrap">
+                                        <p class="desc"><span>24時間365日 日本語で対応</span><br/>海外旅行でお困りのことがあればいつでもお電話ください。</p>
+                                        <div class="clearfix">
+                                            <div class="box boxL">
+                                                <p class="ttl">海外の旅行先から</p>
+                                                <p><img src="../common/img_20160128/pc/kaigai/top/sec5_b3_img1.png" alt="通話料無料"/></p>
+                                                <a href="javascript:void(0);" onclick="openWin9()"><img src="../common/img_20160128/pc/kaigai/top/sec5_b3_btn.png" alt="ワールドフリーフォン番号一覧" class="hoverImg" /></a>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin9(){
+									ワールドフリーフォン番号一覧 = window.open("/pc/common/popup/PU_C_19.html","ワールドフリーフォン番号一覧","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									ワールドフリーフォン番号一覧.focus();
+									}
+									//-->
+								</script>
+                                            </div>
+                                            <div class="box boxM"><img src="../common/img_20160128/pc/kaigai/top/sec5_b3_dot.png" alt="縦線"/></div>
+                                            <div class="box boxR">
+                                                <p class="ttl">日本国内から</p>
+                                                <div class="tel_area">
+                                                    <p class="txt1"><span class="call"><img src="../common/img_20160128/pc/kaigai/top/sec5_b3_tel.png" alt="フリーコール"/></span>0077-78-7365<span>（通話料無料）</span></p>
+                                                    <p class="txt2">または</p>
+                                                    <p class="txt3">03-6365-8885<span>（通話料お客さま負担）</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div><!-- /box_inner -->
+                            </div><!-- /box -->
+
+                            <div class="ttl_plus">
+                                <div><img src="../common/img_20160128/pc/kaigai/top/sec5_block4_border.png" alt="横線"/></div>
+                                <p id="anchor4">ご出発前に海外で便利な無料アプリ「海外サポート」をダウンロードしましょう！</p>
+                                <div><img src="../common/img_20160128/pc/kaigai/top/sec5_block4_border.png" alt="横線"/></div>
+                            </div>
+
+                            <div class="banner">
+                                <a href="http://app.au-sonpo.co.jp/oversea/" target="_blank"><img src="../common/img_20160128/pc/kaigai/top/sec5_banner.png" alt="無料アプリ" class="hoverImg"/></a>
+                                <div class="btn_detail"><a href="http://app.au-sonpo.co.jp/oversea/" target="_blank"><img src="../common/img_20160128/pc/kaigai/top/sec5_btn.png" alt="詳細はこちら" class="hoverImg"/></a></div>
+                            </div>
+                            <div class="banner_sp">
+                                <a href="http://app.au-sonpo.co.jp/oversea/" target="_blank"><img src="../common/img_20160128/sp/kaigai/top/sec5_banner.jpg" alt="無料アプリ" class="hoverImg"/></a>
+                            </div>
+                        </div><!-- /inner -->
+                    </div>
+                </div>
+                <!-- /block_3 -->
+            </div>
+        </div><!-- section5 -->
+
+        <div class="border"></div>
+
+        <div class="pdf1 clearfix">
+            <p class="top_title"><img src="../common/img_20160128/pc/kaigai/top/title_left.png" alt="左枠"/> サポートガイド・保険金請求書　<img src="../common/img_20160128/pc/kaigai/top/title_right.png" alt="右枠"/></p>
+
+ <p class="ttl">印刷してご旅行に携行いただくと、万一の事故の際に便利です。</p>
+
+
+            <ul class="mt30 clearfix">
+                <li class="clearfix"><a href="javascript:void(0);" onclick="openWin20()"><img src="../common/img_20160128/pc/kaigai/top/icon_pdf.gif" alt="PDF"/><span>海外旅行保険サポートガイド PDF(無料アプリ「海外サポート」にも収録されています。)</span></a></li>
+          		          		<script language="JavaScript" type="text/javascript">
+<!--
+function openWin20(){
+海外旅行保険サポートガイドPDF = window.open("/pc/common/pdf/kaigai_ryoko/kairyo_supportguide_20140401.pdf","海外旅行保険サポートガイド PDF","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+海外旅行保険サポートガイドPDF.focus();
+}
+//-->
+</script>
+                <li class="clearfix"><a href="javascript:void(0);" onclick="openWin21()"><img src="../common/img_20160128/pc/kaigai/top/icon_pdf.gif" alt="PDF"/><span>海外旅行保険保険金請求書PDF</span></a></li>
+          		          		<script language="JavaScript" type="text/javascript">
+<!--
+function openWin21(){
+海外旅行保険保険金請求書PDF = window.open("/pc/common/pdf/kaigai_ryoko/kairyo_insurance_20131218.pdf","海外旅行保険保険金請求書PDF","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+海外旅行保険保険金請求書PDF.focus();
+}
+//-->
+</script>
+            </ul>
+												<!--<p class="fs12" style="text-align:right">B15E310465[1511]</p>-->
+        </div><!--/pdf-->
+
+
+        <div class="section_6 type_bg">
+        <div class="border"></div>
+        <div id="course" class="type">
+            <h2 class="top_title entry-title">補償内容と保険料</h2>
+            <p class="text01">旅行スタイルにあわせた<span class="orange2 fs24 border-bottom">タイプ</span>と<span class="orange2 fs24 border-bottom">コース</span>をお選びいただけます</p>
+
+            <!-- タイプ選択 -->
+            <div class="box">
+                <div class="clearfix">
+            	<div class="left"><p>タイプ選択</p></div>
+                    <div class="right orange2"><p>お一人様でも、ご家族まとめてでもご加入いただけます</p></div>
+
+                </div>
+                <div class="bg">
+                    <div class="inner">
+                    	<div class="text_sp orange"><p>お一人様でも、ご家族まとめてでもご加入いただけます</p></div>
+                    	<ul class="clearfix">
+                        	<li class="clearfix">
+                            	<p class="img"><img src="../common/img_20160128/pc/bycle/type01.jpg" alt="女性" class="hoverImg"/></p>
+                                <div>
+                                <p class="text1">本人タイプ<span>（ご旅行者1人で申込み）</span></p>
+                                <p class="text2">個人を補償の<br />対象とするタイプ</p>
+                                </div>
+                            </li>
+                        	<li class="right clearfix">
+                            	<p class="img"><img src="../common/img_20160128/pc/bycle/type02.jpg" alt="家族" class="hoverImg"/></p>
+                                <div>
+                                <p class="text1">家族タイプ<span>（ご旅行者2人～5人で申込み）</span></p>
+                                <p class="text2">ご家族5人までまとめてお申込みができて、<br />一人あたりの保険料がおトクに！</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <!--<div class="box_wrap clearfix">
+                            <div class="BOX boxL">
+                                <p class="ttl">本人タイプ<span>（ご旅行者1人で申込み）</span></p>
+                                <p><img src="../common/img_20160128/pc/kaigai/top/sec6_type_img1.jpg" alt="イメージ"/></p>
+
+                                  <p class="txt">個人を補償の対象とするタイプ</p>
+
+
+                            </div>
+                            <div class="BOX boxM"><img src="../common/img_20160128/pc/kaigai/top/sec6_type_dot.png" alt=""/></div>
+                            <div class="BOX boxR">
+                                <p class="ttl">家族タイプ<span>（ご旅行者2人～5人で申込み）</span></p>
+                                <p><img src="../common/img_20160128/pc/kaigai/top/sec6_type_img2.jpg" alt="イメージ"/></p>
+                                <p class="txt">ご家族5人までまとめてお申込みができて、一人あたりの保険料がおトクに！</p>
+                            </div>
+                        </div>-->
+                    </div><!--/inner-->
+                </div><!--/bg-->
+            </div><!--/box　タイプ選択-->
+
+            <div class="ARROW"><img src="../common/img_20160128/pc/kaigai/top/sec_6_corse_arrow.png" alt="矢印"/></div>
+
+            <!-- コース選択 -->
+        	<div class="box box2">
+           	  <div class="left"><p>コース選択</p></div>
+                <div class="right orange">ご予算にあわせて選べる3つのコース</div>
+                <div class="bg clearfix">
+                	<div class="inner clearfix">
+                    <p class="orange text_sp">ご予算にあわせて選べる3つのコース</p>
+                    	<ul class="clearfix">
+                        	<li class="clearfix">
+                            	<p class="brown">ブロンズコース</p>
+                            </li>
+                        	<li class="clearfix">
+                            	<p class="silver">シルバーコース</p>
+                            </li>
+                        	<li class="right clearfix">
+                            	<p class="gold">ゴールドコース</p>
+                            </li>
+                        </ul>
+                    </div><!--/inner-->
+                </div><!--/bg-->
+          </div><!--/box-->
+          
+            <!-- お見積もり -->
+            <div class="box_calc" id="box_calc">
+                <div class="TTL_MAIN"><p>保険料お見積り</p></div>
+                <div class="inner">
+                    <p class="TXT_QUE">旅行先がどちらでも保険料は同じです。ご旅行人数と期間を選択してください。</p>
+                    <div class="contents_main">
+                        <p class="TXT1">保険期間は日帰り～31日間まで選択できます</p>
+                        <div class="SELECT_AREA clearfix">
+                                <div class="Left clearfix">
+                                    <p>人数</p>
+                                    <div class="dropdown">
+                                      <select name="one" class="dropdown-select people_selectbox" id="people_box">
+                                        <option value="1">1人（本人タイプ）</option>
+                                        <option value="2">2人(家族タイプ)</option>
+                                        <option value="3">3人(家族タイプ)</option>
+                                        <option value="4">4人(家族タイプ)</option>
+                                        <option value="5">5人(家族タイプ)</option>
+                                      </select>
+                                    </div>
+                                </div>
+                                <div class="Right clearfix">
+                                    <p>期間</p>
+                                    <div class="dropdown">
+                                      <select name="one" class="dropdown-select" id="day_box">
+                                        <option value="1">1日間</option>
+                                        <option value="2">2日間</option>
+                                        <option value="3">3日間</option>
+                                        <option value="4">4日間</option>
+                                        <option value="5">5日間</option>
+                                        <option value="6">6日間</option>
+                                        <option value="7">7日間</option>
+                                        <option value="8">8日間</option>
+                                        <option value="9">9日間</option>
+                                        <option value="10">10日間</option>
+                                        <option value="11">11日間</option>
+                                        <option value="12">12日間</option>
+                                        <option value="13">13日間</option>
+                                        <option value="14">14日間</option>
+                                        <option value="15">15日間</option>
+                                        <option value="16">16日間</option>
+                                        <option value="17">17日間</option>
+                                        <option value="18">18日間</option>
+                                        <option value="19">19日間</option>
+                                        <option value="20">20日間</option>
+                                        <option value="21">21日間</option>
+                                        <option value="22">22日間</option>
+                                        <option value="23">23日間</option>
+                                        <option value="24">24日間</option>
+                                        <option value="25">25日間</option>
+                                        <option value="26">26日間</option>
+                                        <option value="27">27日間</option>
+                                        <option value="28">28日間</option>
+                                        <option value="29">29日間</option>
+                                        <option value="30">30日間</option>
+                                        <option value="31">31日間</option>
+                                      </select>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div id="mitsumori_oneself">
+                            <div class="title03"><p>ご契約者と旅行される方が同じ場合</p></div>
+                            <ul class="clearfix">
+                                <li class="BOX_bronz">
+                                    <p class="TTL">ブロンズコース</p>
+                                    <p class="TXT" id="m_h_br" >1,369円</p>
+                                </li>
+                                <li class="BOX_silver">
+                                     <p class="TTL">シルバーコース</p>
+                                    <p class="TXT" id="m_h_si" >1,754円</p>
+                                </li>
+                                <li class="BOX_gold">
+                                    <p class="TTL">ゴールドコース</p>
+                                    <p class="TXT" id="m_h_go" >2,350円</p>
+                                </li>
+                            </ul>
+                            <div class="title03"><p>ご契約者と旅行される方が異なる場合</p></div>
+                            <ul id="course_icon_s" class="clearfix">
+                                <li class="BOX_bronz">
+                                        <p class="TTL">ブロンズコース</p>
+                                        <p class="TXT" id="m_b_br" >1,369円</p>
+                                </li>
+                                <li class="BOX_silver">
+                                        <p class="TTL">シルバーコース</p>
+                                        <p class="TXT"><span id="m_b_si">1,574円</span><img style="vertical-align:middle;" src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S" /></p>
+                                </li>
+                                <li class="BOX_gold">
+                                        <p class="TTL">ゴールドコース</p>
+                                        <p class="TXT"><span id="m_b_go">1,810円</span><img style="vertical-align:middle;" src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S" /></p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div id="mitsumori_family">
+                            <div class="title03"><p>家族タイプ</p></div>
+                            <ul class="clearfix">
+                                <li class="BOX_bronz">
+                                        <p class="TTL">ブロンズコース</p>
+                                        <p class="TXT" id="m_f_br" >1,369円</p>
+                                </li>
+                                <li class="BOX_silver">
+                                        <p class="TTL">シルバーコース</p>
+                                        <p class="TXT" id="m_f_si" >1,754円</p>
+                                </li>
+                                <li class="BOX_gold">
+                                        <p class="TTL">ゴールドコース</p>
+                                        <p class="TXT" id="m_f_go" >2,350円</p>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div><!-- /contents_main -->
+                </div><!-- /inner -->
+            </div><!-- /box_calc -->
+            <!-- /お見積もり -->
+        </div><!--/type-->
+
+        </div><!--/tsection_6 type_bg-->
+        <div class="border_type"></div>
+
+
+    <!-- 補償内容・保険金額一覧 -->
+    <div id="price">
+        <div id="anchor2" class="table">
+            <div class="title"><p>補償内容・保険金額一覧</p></div>
+
+            <div id="txt_kojin">
+                <p class="text01">ご契約者と旅行される方が異なる場合は<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/>マークの保険金額になります。</p>
+                <ul class="text02 fs12"><li>注）ご契約のご家族、ご契約者と旅行される方が異なる場合の「傷害死亡」「傷害後遺障害」「疾病死亡」の保険金額の上限は1,000万円となります。</li></ul>
+            </div>
+
+              <table class="table2 table_kojin" cellpadding="0" cellspacing="0">
+                    <tr class="category">
+                        <td align="center" class="">補償内容</td>
+                        <td class="td_brown">ブロンズコース</td>
+                        <td class="td_silver">シルバーコース</td>
+                        <td class="td_gold">ゴールドコース</td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin12()">治療・救援費用<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin12(){
+									治療救援費用 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_1.html","治療・救援費用","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									治療救援費用.focus();
+									}
+									//-->
+								</script>
+                    <td class="td_brown bg_brown"><span class="price_L">1,500万円</span></td>
+                        <td class="td_silver bg_silver"><span class="price_L">2,500万円</span></td>
+                        <td class="td_gold bg_gold"><span class="price_L">5,000万円</span></td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin13()">傷害死亡<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin13(){
+									傷害死亡 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_2.html","傷害死亡","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									傷害死亡.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown">500万円</td>
+                        <td class="td_silver bg_silver">
+                            <p class="TXT_S_1">1,500万円</p>
+                            <p class="TXT_S_2">1,000万円<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/></p>
+                        </td>
+                        <td class="td_gold bg_gold">
+                            <p class="TXT_S_1">2,500万円</p>
+                            <p class="TXT_S_2">1,000万円<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/></p>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin14()">傷害後遺障害<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+       		          		   <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin14(){
+									傷害後遺障害 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_3.html","傷害後遺障害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									傷害後遺障害.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown">500万円</td>
+                        <td class="td_silver bg_silver">
+                            <p class="TXT_S_1">1,500万円</p>
+                            <p class="TXT_S_2">1,000万円<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/></p>
+                        </td>
+                        <td class="td_gold bg_gold">
+                            <p class="TXT_S_1">2,500万円</p>
+                            <p class="TXT_S_2">1,000万円<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin15()">疾病死亡<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin15(){
+									疾病死亡 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_4.html","疾病死亡","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									疾病死亡.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown">500万円</td>
+                        <td class="td_silver bg_silver">
+                            <p class="TXT_S_1">1,500万円</p>
+                            <p class="TXT_S_2">1,000万円<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/></p>
+                        </td>
+                        <td class="td_gold bg_gold">
+                            <p class="TXT_S_1">2,500万円</p>
+                            <p class="TXT_S_2">1,000万円<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/></p>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin16()">個人賠償責任 (自己負担額なし)<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+       		          		   <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin16(){
+									個人賠償責任 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_6.html","個人賠償責任","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									個人賠償責任.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown">1億円</td>
+                        <td class="td_silver bg_silver">1億円</td>
+                        <td class="td_gold bg_gold">1億円</td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin17()">携行品損害 (自己負担額なし)<span>※1、※2、※3</span><img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin17(){
+									携行品損害 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_7.html","携行品損害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									携行品損害.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown">30万円</td>
+                        <td class="td_silver bg_silver">30万円</td>
+                        <td class="td_gold bg_gold">50万円</td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin18()">航空機寄託手荷物遅延等費用<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin18(){
+									航空機寄託手荷物遅延等 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_8.html","航空機寄託手荷物遅延等","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									航空機寄託手荷物遅延等.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown">10万円</td>
+                        <td class="td_silver bg_silver">10万円</td>
+                        <td class="td_gold bg_gold">10万円</td>
+                    </tr>
+              </table>
+              
+
+              <table class="table2 table_kazoku" cellpadding="0" cellspacing="0">
+                    <tr class="category">
+                        <td align="center" class="">補償内容</td>
+                        <td class="td_brown">ブロンズコース</td>
+                        <td class="td_silver">シルバーコース</td>
+                        <td class="td_gold">ゴールドコース</td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="td_people" colspan="4"><p>ご本人</p></td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin12()">治療・救援費用<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin12(){
+									治療救援費用 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_1.html","治療・救援費用","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									治療救援費用.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown"><p class="TXT_S_1">1,500万円</p></td>
+                        <td class="td_silver bg_silver"><p class="TXT_S_1">2,500万円</p></td>
+                        <td class="td_gold bg_gold"><p class="TXT_S_1">5,000万円</p></td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin13()">傷害死亡<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin13(){
+									傷害死亡 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_2.html","傷害死亡","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									傷害死亡.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown"><p class="TXT_S_1">500万円</p></td>
+                        <td class="td_silver bg_silver"><p class="TXT_S_1">1,500万円</p></td>
+                        <td class="td_gold bg_gold"><p class="TXT_S_1">2,500万円</p></td>
+                    </tr>
+                     <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin14()">傷害後遺障害<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin14(){
+									傷害後遺障害 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_3.html","傷害後遺障害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									傷害後遺障害.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown"><p class="TXT_S_1">500万円</p></td>
+                        <td class="td_silver bg_silver"><p class="TXT_S_1">1,500万円</p></td>
+                        <td class="td_gold bg_gold"><p class="TXT_S_1">2,500万円</p></td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin15()">疾病死亡<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin15(){
+									疾病死亡 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_4.html","疾病死亡","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									疾病死亡.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown"><p class="TXT_S_1">500万円</p></td>
+                        <td class="td_silver bg_silver"><p class="TXT_S_1">1,500万円</p></td>
+                        <td class="td_gold bg_gold"><p class="TXT_S_1">2,500万円</p></td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="td_people" colspan="4"><p>ご家族（1名につき）</p></td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin12()">治療・救援費用<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin12(){
+									治療救援費用 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_1.html","治療・救援費用","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									治療救援費用.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown"><p class="TXT_S_1">1,500万円</p></td>
+                        <td class="td_silver bg_silver"><p class="TXT_S_1">2,500万円</p></td>
+                        <td class="td_gold bg_gold"><p class="TXT_S_1">5,000万円</p></td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin13()">傷害死亡<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin13(){
+									傷害死亡 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_2.html","傷害死亡","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									傷害死亡.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown"><p class="TXT_S_1">500万円</p></td>
+                        <td class="td_silver bg_silver"><p class="TXT_S_1">1,000万円</p></td>
+                        <td class="td_gold bg_gold"><p class="TXT_S_1">1,000万円</p></td>
+                    </tr>
+                     <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin14()">傷害後遺障害<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin14(){
+									傷害後遺障害 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_3.html","傷害後遺障害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									傷害後遺障害.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown"><p class="TXT_S_1">500万円</p></td>
+                        <td class="td_silver bg_silver"><p class="TXT_S_1">1,000万円</p>
+                        </td>
+                        <td class="td_gold bg_gold"><p class="TXT_S_1">1,000万円</p></td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin15()">疾病死亡<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin15(){
+									疾病死亡 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_4.html","疾病死亡","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									疾病死亡.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown"><p class="TXT_S_1">500万円</p></td>
+                        <td class="td_silver bg_silver"><p class="TXT_S_1"><p class="TXT_S_1">1,000万円</p></td>
+                        <td class="td_gold bg_gold"><p class="TXT_S_1">1,000万円</p></td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="td_people" colspan="4"><p>ご本人・ご家族共有</p></td>
+                    </tr>
+                     <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin16()">個人賠償責任 (自己負担額なし)<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin16(){
+									個人賠償責任 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_6.html","個人賠償責任","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									個人賠償責任.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown"><p class="TXT_S_1">1億円</p></td>
+                        <td class="td_silver bg_silver"><p class="TXT_S_1">1億円</p></td>
+                        <td class="td_gold bg_gold"><p class="TXT_S_1">1億円</p></td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin17()">携行品損害 (自己負担額なし)<span>※1、※2、※3</span><img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin17(){
+									携行品損害 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_7.html","携行品損害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									携行品損害.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown"><p class="TXT_S_1">30万円</p></td>
+                        <td class="td_silver bg_silver"><p class="TXT_S_1">30万円</p></td>
+                        <td class="td_gold bg_gold"><p class="TXT_S_1">50万円</p></td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="left"><p><a href="javascript:void(0);" onclick="openWin18()">航空機寄託手荷物遅延等費用<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p></td>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin18(){
+									航空機寄託手荷物遅延等 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_8.html","航空機寄託手荷物遅延等","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									航空機寄託手荷物遅延等.focus();
+									}
+									//-->
+								</script>
+                        <td class="td_brown bg_brown"><p class="TXT_S_1">10万円</p></td>
+                        <td class="td_silver bg_silver"><p class="TXT_S_1">10万円</p></td>
+                        <td class="td_gold bg_gold"><p class="TXT_S_1">10万円</p></td>
+                    </tr>
+              </table>
+
+              <div class="table_sp table_sp_kojin">
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin12()">治療・救援費用<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin12(){
+									治療救援費用 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_1.html","治療・救援費用","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									治療救援費用.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>1,500万円</p></div>
+                        <div class="td bg_silver"><p>2,500万円</p></div>
+                        <div class="td bg_gold"><p>5,000万円</p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin13()">傷害死亡<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin13(){
+									傷害死亡 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_2.html","傷害死亡","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									傷害死亡.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>500万円</p><br /></div>
+                        <div class="td bg_silver"><p style="padding-right:1.5em;">1,500万円</p><p class="orange">1,000万円<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/></p></div>
+                        <div class="td bg_gold"><p style="padding-right:1.5em;">2,500万円</p><p class="orange">1,000万円<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/></p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin14()">傷害後遺障害<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		   <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin14(){
+									傷害後遺障害 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_3.html","傷害後遺障害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									傷害後遺障害.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>500万円</p><br /></div>
+                        <div class="td bg_silver"><p style="padding-right:1.5em;">1,500万円</p><p class="orange">1,000万円<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/></p></div>
+                        <div class="td bg_gold"><p style="padding-right:1.5em;">2,500万円</p><p class="orange">1,000万円<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/></p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin15()">疾病死亡<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin15(){
+									疾病死亡 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_4.html","疾病死亡","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									疾病死亡.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>500万円</p><br /></div>
+                        <div class="td bg_silver"><p style="padding-right:1.5em;">1,500万円</p><p class="orange">1,000万円<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/></p></div>
+                        <div class="td bg_gold"><p style="padding-right:1.5em;">2,500万円</p><p class="orange">1,000万円<img src="../common/img_20160128/pc/kaigai/top/icon_s.jpg" alt="S"/></p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin16()">個人賠償責任 (自己負担額なし)<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		   <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin16(){
+									個人賠償責任 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_6.html","個人賠償責任","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									個人賠償責任.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>1億円</p></div>
+                        <div class="td bg_silver"><p>1億円</p></div>
+                        <div class="td bg_gold"><p>1億円</p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin17()">携行品損害 (自己負担額なし)※1、※2、※3<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin17(){
+									携行品損害 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_7.html","携行品損害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									携行品損害.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>30万円</p></div>
+                        <div class="td bg_silver"><p>30万円</p></div>
+                        <div class="td bg_gold"><p>50万円</p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin18()">航空機寄託手荷物遅延等費用<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin18(){
+									航空機寄託手荷物遅延等 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_8.html","航空機寄託手荷物遅延等","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									航空機寄託手荷物遅延等.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>10万円</p></div>
+                        <div class="td bg_silver"><p>10万円</p></div>
+                        <div class="td bg_gold"><p>10万円</p></div>
+                    </div>
+              </div>
+
+              <div class="table_sp table_sp_kazoku">
+                    <p class="person">ご本人</p>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin12()">治療・救援費用<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin12(){
+									治療救援費用 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_1.html","治療・救援費用","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									治療救援費用.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>1,500万円</p></div>
+                        <div class="td bg_silver"><p>2,500万円</p></div>
+                        <div class="td bg_gold"><p>5,000万円</p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin13()">傷害死亡<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin13(){
+									傷害死亡 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_2.html","傷害死亡","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									傷害死亡.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>500万円</p></div>
+                        <div class="td bg_silver"><p>1,500万円</p></div>
+                        <div class="td bg_gold"><p>2,500万円</p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin14()">傷害後遺障害<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		   <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin14(){
+									傷害後遺障害 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_3.html","傷害後遺障害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									傷害後遺障害.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>500万円</p></div>
+                        <div class="td bg_silver"><p>1,500万円</p></div>
+                        <div class="td bg_gold"><p>2,500万円</p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin15()">疾病死亡<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin15(){
+									疾病死亡 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_4.html","疾病死亡","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									疾病死亡.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>500万円</p></div>
+                        <div class="td bg_silver"><p>1,500万円</p></div>
+                        <div class="td bg_gold"><p>2,500万円</p></div>
+                    </div>
+                </div>
+                <div class="table_sp table_sp_kazoku">
+                    <p class="person">ご家族（1名につき）</p>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin12()">治療・救援費用<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin12(){
+									治療救援費用 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_1.html","治療・救援費用","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									治療救援費用.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>1,500万円</p></div>
+                        <div class="td bg_silver"><p>2,500万円</p></div>
+                        <div class="td bg_gold"><p>5,000万円</p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin13()">傷害死亡<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin13(){
+									傷害死亡 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_2.html","傷害死亡","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									傷害死亡.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>500万円</p></div>
+                        <div class="td bg_silver"><p>1,000万円</p></div>
+                        <div class="td bg_gold"><p>1,000万円</p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin14()">傷害後遺障害<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		   <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin14(){
+									傷害後遺障害 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_3.html","傷害後遺障害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									傷害後遺障害.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>500万円</p></div>
+                        <div class="td bg_silver"><p>1,000万円</p></div>
+                        <div class="td bg_gold"><p>1,000万円</p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin15()">疾病死亡<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin15(){
+									疾病死亡 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_4.html","疾病死亡","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									疾病死亡.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>500万円</p></div>
+                        <div class="td bg_silver"><p>1,000万円</p></div>
+                        <div class="td bg_gold"><p>1,000万円</p></div>
+                    </div>
+                </div>
+                <div class="table_sp table_sp_kazoku">
+                    <p class="person">ご本人・ご家族共有</p>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin16()">個人賠償責任 (自己負担額なし)<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		   <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin16(){
+									個人賠償責任 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_6.html","個人賠償責任","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									個人賠償責任.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>1億円</p></div>
+                        <div class="td bg_silver"><p>1億円</p></div>
+                        <div class="td bg_gold"><p>1億円</p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin17()">携行品損害 (自己負担額なし)※1、※2、※3<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin17(){
+									携行品損害 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_7.html","携行品損害","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									携行品損害.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>30万円</p></div>
+                        <div class="td bg_silver"><p>30万円</p></div>
+                        <div class="td bg_gold"><p>50万円</p></div>
+                    </div>
+                    <p class="ttl"><a href="javascript:void(0);" onclick="openWin18()">航空機寄託手荷物遅延等費用<img src="../common/img_20160128/pc/kaigai/top/icon_link.png" alt="アイコン"/></a></p>
+       		          		  <script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin18(){
+									航空機寄託手荷物遅延等 = window.open("/pc/hosyo_naiyo/kaigai/K_1_H_8.html","航空機寄託手荷物遅延等","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									航空機寄託手荷物遅延等.focus();
+									}
+									//-->
+								</script>
+                    <div class="clearfix">
+                        <div class="td brown"><p>ブロンズコース</p></div>
+                        <div class="td silver"><p>シルバーコース</p></div>
+                        <div class="td gold"><p>ゴールドコース</p></div>
+                    </div>
+                    <div class="dataBox clearfix">
+                        <div class="td bg_brown"><p>10万円</p></div>
+                        <div class="td bg_silver"><p>10万円</p></div>
+                        <div class="td bg_gold"><p>10万円</p></div>
+                    </div>
+              </div>
+
+                <ul class="text03 fs12">
+                <li>※1 盗難、強盗および航空会社に預けた手荷物の不着による損害に対する限度額は、保険期間を通じて30万円となります。</li>
+                <li>※2 損害の額は携行品1個、1組または1対あたり10万円（乗車券等は5万円）が限度となります。</li>
+                <li>※3 損害の額とは修理費、または再調達価額（同等のものを再度新品で購入するために要する費用をいいます）から減価償却した時価額のいずれか低い方をいい、運転免許証については再発給手数料を、パスポートについては再取得費用（現地にて負担した場合に限ります。交通費、宿泊費を含み5万円を限度とします）をいいます。</li>
+                </ul>
+        </div>
+    </div>
+    <!-- /補償内容・保険金額一覧 -->
+    <div class="border"></div>
+
+    <div class="pay_bg clearfix">
+        <div class="pay clearfix">
+            <h2 class="top_title entry-title_big">お支払い方法</h2>
+            <div style="text-align:center;">
+	            <div class="" style="width:250px;height:48px;margin:0 auto;"><img src="../common/img_20160128/pc/kaigai/top/icon_pay.png" alt="アイコン" class="hoverImg"/></div>
+	            <div class="text" style="float:none;width:auto;margin:1em auto 1em;max-width:19em;text-align:left;">クレジットカード・<span class="orange2">auかんたん決済</span>でのお支払いができます。</div>
+	            <p class="btn" style="width:196px;height:51px;padding-top:0;"><a href="javascript:void(0);" onclick="openWin10()"><img src="../common/img_20160128/pc/kaigai/top/btn_detail.png" alt="詳しくはこちら" class="hoverImg"/></a></p>
+            </div>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin10(){
+									お支払い方法 = window.open("/pc/common/popup/PU_C_39.html","お支払い方法","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									お支払い方法.focus();
+									}
+									//-->
+								</script>
+      </div><!--/pay-->
+    </div><!--/pay_bg-->
+
+    <div class="bycle">
+        <p class="btn"><a href="JavaScript:void(0);" class="btn_order_01"><img src="../common/img_20170221/pc/kaigai/top/apply_btn2.png" alt="「海外旅行の保険」お申込みはこちらから" class="pc hoverImg"/><img src="../common/img_20170221/sp/kaigai/top/apply_btn.png" alt="「海外旅行の保険」お申込みはこちらから" class="sp"/></a></p>
+        <p class="fs16 text_center">auユーザー以外の方もご加入いただけます。</p>
+    </div><!--/bycle-->
+
+    <div class="border"></div>
+
+    <div class="attention_area clearfix">
+        <div class="icon_area"><img src="../common/img_20160128/pc/kaigai/top/attention_icon.jpg" alt="アイコン" /></div>
+        <div class="txt_area">
+        <p class="txt1 fs12">au損保の「海外旅行の保険」はPC・スマホ・タブレットから出発当日でもご加入できます。</p>
+        <p class="txt2 fs12">保険期間は日帰りから31日間まで。海外旅行のおともに安心もお忘れなく。</p>
+        <ul class="txt3 fs12">
+        
+		<li>■「au海外旅行ほけん」と本プランは同一の保険商品です。<a href="javascript:void(0);" onclick="openWin2()">詳しくはこちら</a></li>
+			<script language="JavaScript" type="text/javascript">
+			<!--
+			function openWin2(){
+			新プラン発売プラン名称変更等のご案内 = window.open("https://www.au-sonpo.co.jp/pc/common/popup/PU_C_44.html","「新プラン発売」「プラン名称変更」等のご案内","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+			新プラン発売プラン名称変更等のご案内.focus();
+			}
+			//-->
+			</script>
+        <li>■「海外旅行の保険」は、海外旅行保険のプラン名です。</li>
+        <li>■「海外旅行の保険」は、定型タイプ・コースのみの販売となります。ご希望のタイプ・コースをお選びください。</li>
+        <li>■当ページの内容は、「海外旅行の保険」の概要を説明したものです。<br />詳細は重要事項のご説明（重要事項説明書）、ご契約のしおり（普通保険約款・特約集）をご確認ください。</li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="border"></div>
+
+        <div class="pdf2 clearfix">
+            <p class="top_title"><img src="../common/img_20160128/pc/kaigai/top/title_left.png" alt="左枠"/> 重要事項説明書・約款　<img src="../common/img_20160128/pc/kaigai/top/title_right.png" alt="右枠"/></p>
+            <ul>
+                <li class="clearfix"><a href="javascript:void(0);" onclick="openWin22()"><img src="../common/img_20160128/pc/kaigai/top/icon_pdf.gif" alt="PDF"/><span>重要事項のご説明（重要事項説明書）PDF</span></a></li>
+          		          		<script language="JavaScript" type="text/javascript">
+<!--
+function openWin22(){
+重要事項説明書 = window.open("/pc/common/pdf/kaigai_ryoko/kairyo_jyusetsu_20160803.pdf","重要事項説明書","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+重要事項説明書.focus();
+}
+//-->
+</script>
+                <li class="clearfix"><a href="javascript:void(0);" onclick="openWin11()"><img src="../common/img_20160128/pc/kaigai/top/icon_pdf.gif" alt="PDF"/><span>ご契約のしおり（普通保険約款・特約集）PDF</span></a></li>
+          		          		<script language="JavaScript" type="text/javascript">
+									<!--
+									function openWin11(){
+									ご契約のしおり = window.open("/pc/common/popup/PU_C_16.html#content_c16_02","ご契約のしおり","width=980,height=600,scrollbars=yes,status=no,toolbar=no,location=no,menubar=no,directories=no,resizable=yes");
+									ご契約のしおり.focus();
+									}
+									//-->
+								</script>
+           </ul>
+        </div><!--/pdf-->
+
+    </div><!-- end page_contents -->
+
+</div><!--end page_contents-->
+
+			<div class="pankuzu pankuzu_bottom">
+				<ul class="bread_crumb">
+                <li><a href="/pc/">au損保TOP</a></li>
+					<li>海外旅行保険</li>
+				</ul>
+			</div>
+
+
+		<div id="product_id">A16D310451[1612]</div>
+
+
+<script type="text/javascript">
+    writeFooter("/pc/common/inc/"); //フッター読み込み
+</script>
+
+    </div>
+</div>
+<script type="text/javascript">
+(function(w,d,S,P,s,t,u) {
+  u = ('https:' == d.location.protocol ? 'https://ssl.socdm.com' : 'http://tg.socdm.com') + '/so-async.js?' + 'siteid=' + s;
+  t=(t=d.getElementsByTagName(S))[t.length-1];
+  (w[P]=w[P]||{})[s]=t.id=[P,s].join('-');
+  s=d.createElement(S);s.async=!0;s.src=u;
+  t.parentNode.insertBefore(s,t);
+})(window,document,'script','scaleout-tagmanagement','31828');
+</script>
+<!-- END TAG MGMT -->
+</body>
+</html>

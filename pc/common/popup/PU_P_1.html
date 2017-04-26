@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="format-detection" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>au損保</title>
+<link href="/pc/common/popup/spcss/PU_P_1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/pc/common/popup/spjs/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+$ = jQuery = jQuery.noConflict().extend(true, $);
+</script>
+<script type="text/javascript" src="/pc/common/popup/spjs/telNo.js"></script>
+<script type="text/javascript">
+function openwin(pop,winname){
+	var avW = 970;
+	var avH = 680;
+	  win1 = open(pop,'popup',"toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,top=0,left=0,width=" + avW + ",height=" + avH + "");
+	win1.opener = self;
+	win1.focus();
+}
+$(document).ready(function(){
+	$("#pup2_opener").click(function(){
+		var $table = $("#pup2_table");
+		if($table.css("display") == "none"){
+			$table.slideDown("slow");
+			$("#pup2_plus").html("▲");
+		}else{
+			$table.slideUp("slow");
+			$("#pup2_plus").html("▼");
+		}
+	});
+	$("#pup2_opener2").click(function(){
+		var $table = $("#pup2_table");
+		if($table.css("display") == "none"){
+			$table.slideDown("slow");
+			$("#pup2_plus").html("▲");
+		}
+	});
+});
+</script>
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-32568740-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+</head>
+
+<body class="explanation">
+<div class="popup_pup1">
+	<div id="mainContent">
+		<div id="main">
+			<div id="content_01">
+			<h2 class="page_title">健康状態の告知について</h2>
+				<div class="tx_area">
+					<h3 class="large_title">正しい健康状態告知をしていただくために</h3>
+					<div class="cont_wrap">
+						<p class="indent1"><span class="point_mark">●</span>ここでは、「ペットの保険」(ペット医療費用保険)における補償の対象となる犬・猫(対象ペット)の健康状態告知にあたり重要な事項を説明しています。必ずご確認・ご理解いただいたうえで正しい告知をしていただきますようお願いします。</p>
+						<p class="indent1" style="margin-bottom:30px;"><span class="point_mark">●</span>告知に関するお問い合わせは、カスタマーセンターへご連絡ください。</p>
+						<p>電話：<span class="telNoText"><font id="font_blue"><u>0800-700-1122</u></font></span>
+						<a href="tel:0800-700-1122" class="telNoLink">0800-700-1122</a>
+						（通話料無料）</p>
+						<p>受付時間:9:00～18:00（年末・年始を除く）</p>
+					</div>
+				</div>
+				<div id="content_02">
+					<div class="tx_area">
+						<div class="age_pop_new switch middle_set">
+							<div>１．告知は大変重要です</div>
+						</div>
+						<div class="cont_wrap">
+							<p class="indent1"><span class="point_mark">●</span>補償の対象となる犬・猫の健康状態告知画面にご入力いただく内容は、au損保が公平な引受判断を行ううえで重要な事項となります。</p>
+							<p class="indent1"><span class="point_mark">●</span>ご契約にあたっては、過去の病気やケガ、最近の健康状態等について、必ずご契約者本人がありのままを正確にもれなく告知ください。</p>
+						</div>
+						<!-- /.cont_wrap -->
+					</div>
+
+					<div class="tx_area">
+						<div class="age_pop_new switch middle_set">
+							<div>２．正しく告知されないと・・・</div>
+						</div>
+						<div class="cont_wrap">
+							<p class="indent1"><span class="point_mark">●</span>事実を告知されなかったり、事実と異なることを告知された場合は、「告知義務違反」としてご契約を解除することがあります。</p>
+							<p class="indent1"><span class="point_mark">●</span>またその場合は、保険金の支払事由が発生しても、保険金をお支払いできないことがあります。</p>
+						</div>
+						<!-- /.cont_wrap -->
+					</div>
+
+					<div class="tx_area">
+						<div class="age_pop_new switch middle_set">
+							<div>３．告知いただく主な内容</div>
+						</div>
+						<div class="cont_wrap">
+							<p class="indent1"><span class="point_mark">●</span>告知いただく主な内容は次のとおりです。</p>
+							<p class="indent1" style="margin-bottom: 0px;">&#9312;過去にかかったことのある特定の疾病の有無</p>
+							<p class="indent1" style="margin-bottom: 0px;">&#9313;現在、治療中もしくは経過観察中の病気やケガの有無</p>
+							<p class="indent1" style="margin-bottom: 0px;">&#9314;過去3 ヶ月以内に動物病院で行った予防以外の目的での診察の有無</p>
+						</div>
+						<!-- /.cont_wrap -->
+					</div>
+					<div class="tx_area">
+						<div class="age_pop_new switch middle_set">
+							<div>４．告知内容に該当された場合</div>
+						</div>
+						<div class="cont_wrap">
+							<p class="indent1"><span class="point_mark">●</span>告知をいただいた内容にもとづき、ご契約のお引受けについては、以下のいずれかとさせていただきます。</p>
+							<p class="indent1">&#9312;条件をつけずにお引受け<br>特定の疾病・身体部位について補償の対象外とする<span class="notice">条件をつけずに</span>ご契約をお引受けいたします。</p>
+							<p class="indent1">&#9313;条件をつけてお引受け(特定疾病・特定部位補償対象外特約がセットされます)<br>特定の疾病・身体部位について補償の対象外とする<span class="notice">条件をつけて</span>ご契約をお引受けいたします。</p>
+							<p class="indent1">&#9314;お引受けできません<br>申し訳ございませんが、今回のご契約はお引受けいたしかねます。</p>
+						</div>
+						<!-- /.cont_wrap -->
+					</div>
+
+					<div class="tx_area">
+						<div class="age_pop_new switch middle_set">
+							<div>５．保険責任開始前の発病等について</div>
+						</div>
+						<div class="cont_wrap">
+							<p class="indent1"><span class="point_mark">●</span>初年度契約(はじめてのご契約)の保険開始日より前に補償の対象となる犬・猫が被った病気・ケガについては、保険金のお支払いの対象となりません。</p>
+							<p class="indent1"><span class="point_mark">●</span>先天性異常は、初年度契約の保険開始日より前に獣医師の診断により発見されていた場合は、保険金のお支払いの対象となりません。</p>
+						</div>
+						<!-- /.cont_wrap -->
+					</div>
+
+					<div class="tx_area">
+						<div class="age_pop_new switch middle_set">
+							<div>６．解約されて新たにご契約を申し込まれる場合</div>
+						</div>
+						<div class="cont_wrap">
+							<p class="indent1"><span class="point_mark">●</span>現在のご契約を解約した後に新たなご契約をお申し込みされる場合も、補償の対象となる犬・猫の健康状態告知についてはあらためて告知していただく必要があります。</p>
+							<p class="indent1"><span class="point_mark">●</span>そのため、告知が必要な病気・ケガがある場合は、新たなご契約をお引受けできないことや、条件をつけてお引受けすることがあります。また、正しく告知をされなかった場合は、解除に該当することもありますのでご留意ください。</p>
+							<p class="indent1"><span class="point_mark">●</span>新たなご契約の保険開始日より前に補償の対象となる犬・猫が被った病気・ケガまたは受けた治療による損害についても、保険金のお支払いの対象となりません。</p>
+						</div>
+						<!-- /.cont_wrap -->
+					</div>
+				</div>
+			<!-- / id kokuchi --></div>
+		<!-- / id main --></div><!--<img src="/pc/pet/common/images/common/main_btm.png" alt="" class="v-t" />--><br />
+	<!-- / id mainContent --></div>
+
+	<!-- フロートエリア対応-->
+	<div id="floteArea">
+		<a href="javascript:void(0);" onClick="window.close(); return false;"><div class="close_float" style="height: 50.5px; padding: 0px;" class="close_float"><p style="padding-top: 15px; line-height: 22.5px; font-weight: bold; text-align: center; font-size: 24px;">×&nbsp;閉じる</p></div></a>
+	</div>
+	<!-- フロートエリア対応 -->
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+</div>
+
+</body>
+</html>

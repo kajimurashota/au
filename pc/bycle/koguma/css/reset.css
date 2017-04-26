@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*共通レイアウト（モバイルベース）*/
+
+html{
+	height:100%;
+	}
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","ＭＳ Ｐゴシック","MS UI Gothic",sans-serif;
+	font-size: 1em;
+	color: #666767;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-color: #c9ffff;
+	/*background-color: #a4d55d;*/
+	}
+h1,h2,h3,h4,h5,h6,p,pre,blockquote,ul,ol,dl,dd,a { margin:0; padding:0;}
+li {
+	list-style-type: none;
+}
+img{
+	vertical-align: top;
+	border-style: none;
+	}
+	
+a:link{
+	text-decoration: none;
+	color: #32ACE1;
+}	
+
+a:hover {
+	text-decoration: underline;
+	color: #4FBFF0;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #32ACE1;
+}
+
+a:active{
+  text-decoration:none;
+  color: #32ACE1;
+}
+
+/*clearfix*******************/
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-table;
+	min-height: 1%;
+}
+
+/* Hides from IE-mac ?*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */

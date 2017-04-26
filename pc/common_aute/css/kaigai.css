@@ -1,0 +1,1443 @@
+@charset "utf-8";
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,
+fieldset, input, textarea, p, blockquote, th, td{
+    margin: 0;
+    padding: 0;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+ol, ul{
+    list-style:none;
+}
+
+a:hover img.hoverImg {
+	filter:alpha(opacity=70);
+	opacity:0.7;
+    -moz-opacity: 0.7;
+}
+a img{border-style:none;}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	font-size:0;
+	clear: both;
+	visibility:hidden;
+}
+.clearfix{
+	display: inline-block;
+}
+/* Hides from IE Mac */
+* html .clearfix{
+	height: 1%;
+}
+.clearfix{
+	display:block;
+}
+.fs12{
+	font-size:12px;
+}
+.fs14{
+	font-size:14px;
+}
+.fs16{
+	font-size:16px;
+}
+.fs18{
+	font-size:18px;
+}
+.fs20{
+	font-size:20px;
+}
+.fs24{
+	font-size:24px;
+}
+.fs28{
+	font-size:28px;
+}
+.fs30{
+	font-size:30px;
+}
+.orange{
+	color:#eb5505;
+}
+.orange2{
+	color:#eb5505;
+}
+.gray{
+	color:#858585;
+}
+.gray2{
+	color:#595858;
+}
+.bold{
+	font-weight:bold;
+}
+.border-bottom{
+	border-bottom:2px solid #EA541C;
+}
+.mt10{
+	margin-top:10px;
+}
+.mb10{
+	margin-bottom:10px;
+}
+.text_center{
+	text-align:center;
+}
+body{
+	background-color:#FFFFFF!important;
+}
+h1{
+	width:980px;
+	margin:0 auto;
+	font-size:10px;
+	color:#858585;
+	padding-top:5px;
+}
+
+
+
+
+
+
+/**/
+#contents_wrapper{
+	margin-top:100px;
+	}
+
+
+.pankuzu{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-left:10px;
+	padding-right:10px;
+	display:block;
+	padding-top:5px;
+}
+
+
+.pankuzu p{
+	width:13%;
+float:right;
+margin-top:1%;
+}
+
+.bread_crumb{
+	margin-top:10px;
+}
+#page_contents{
+	color:#000000;
+}
+#page_contents .main_sp{
+	display:none;
+}
+
+/*メインビジュアル*/
+.kaigai_top .maintitle_bg{
+	margin-top:10px;
+	background:url(../../common/img_20160128/pc/kaigai/top/mainimg_bg.jpg) center top no-repeat;
+}
+.kaigai_top .maintitle{
+	max-width:980px;
+	margin:0 auto;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:20px;
+	padding-bottom:30px;
+}
+.kaigai_top .maintitle h2{
+	width:61%;
+	margin-bottom:28px;
+	position:static;
+}
+/*お知らせ*/
+#page_contents .info_sp{
+	display:none;
+}
+.kaigai_top .info{
+	max-width:980px;
+	margin:0 auto;
+	margin-top: 9px;
+	font-size: 12px;
+	line-height: 2em;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+	.kaigai_top .info a{
+		color:#000000;
+	}
+	.kaigai_top .info a:hover{
+		text-decoration:none;
+	}
+.kaigai_top .info2{
+	margin-top: 10px;
+	font-size:20px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	background-color:#EB541C;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:1px;
+}
+/*ボーダー*/
+.kaigai_top .border{
+	background:url(../../common/img_20160128/pc/kaigai/top/border_bg.png) repeat-x ;
+	height:16px;
+}
+.txt_or{
+	color: #f05500;
+}
+/*===============*/
+/*section1*/
+/*===============*/
+.kaigai_top .section1{
+	max-width:980px;
+	margin:0 auto;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+	.kaigai_top .section1 h2{
+		padding: 57px 0 0;
+		font-size:30px;
+		font-weight:bold;
+		color:#e95608;
+		text-align:center!important;
+	}
+	.kaigai_top .section1 .ttl{
+		padding-top: 45px;
+		font-size:16px;
+		font-weight:bold;
+	}
+	.kaigai_top .section1 .alert{
+		padding-top: 22px;
+		font-size:14px;
+	}
+	.kaigai_top .section1 .gallery{
+		padding-top: 27px;
+	}
+	.kaigai_top .section1 .gallery .centered{
+
+	}
+		.kaigai_top .section1 .gallery .box{
+			/*width:224px;*/
+			width: 23%;
+			margin-right: 2%;
+			float: left;
+			text-align: center;
+		}
+			.kaigai_top .section1 .gallery .box .txt{
+				padding-top: 18px;
+				line-height: 1.7;
+			}
+			.kaigai_top .section1 .gallery .box span{
+				color: #f05500;
+			}
+/*===============*/
+/*section2「au損保の「海外旅行の保険」が選ばれる4つのポイント」*/
+/*===============*/
+.kaigai_top  h2.ttl_main_2{
+		margin-top: 95px;
+		padding: 25px 0;
+		background:url(../../common/img_20160128/pc/kaigai/top/border_bg_2.png) repeat-x ;    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 48px;
+    padding-top: 32px;
+		color:#FFFFFF;
+		text-align:center;
+		line-height: 1;
+	}
+.kaigai_top .section2{
+	background:url(../../common/img_20160128/pc/kaigai/top/sec2_bg.png);
+	padding-left: 10px;
+    padding-right: 10px;
+}
+	.kaigai_top .section2 .contents{
+		max-width:976px;
+		margin:0 auto;
+		width: 100%;
+	}
+
+.kaigai_top .section2 ul{
+	margin-top:30px;
+}
+.kaigai_top .section2 li{
+	float:left;
+	width:24.5%;
+	border:solid 2px #EB541C;
+	position:relative;
+	background-color:#FFFFFF;
+	padding-top:15px;
+	box-sizing: border-box;
+	position:relative;
+}
+	.kaigai_top .section2 li .icon{
+		position:absolute;
+		left:10px;
+		top:-20px;
+		width:28%;
+	}
+	.kaigai_top .section2 li .number{
+		position:absolute;
+		width:20%;
+		left:40%;
+		top:-40px;
+	}
+	.kaigai_top .section2 li .btn{
+		width:100%;
+		margin-bottom:20px;
+		height:50px;
+		text-align: center;
+	}
+
+.kaigai_top .section2{
+	background:url(../../common/img_20160128/pc/kaigai/top/sec2_bg.png);
+}
+	.kaigai_top .section2 .contents{
+		max-width:976px;
+		margin:0 auto;
+		padding:69px 0 86px;
+		width: 100%;
+	}
+
+.kaigai_top .point {
+    margin: -100px auto -100px;
+    max-width: 980px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.kaigai_top .point .point_title{
+	background:url(../../common/img_20160128/pc/bycle/title_bg.png) 0 0 no-repeat;
+	background-size:cover;
+	text-align:center;
+	display:table-cell;
+	height:3.5em;
+	font-size:20px;
+	font-weight:bold;
+	vertical-align:middle;
+	width:50em;
+	padding-left:2em;
+	padding-right:2em;
+}
+.kaigai_top .point_bg .title{
+	background:url(../../common/img_20160128/pc/bycle/title_bg.gif) repeat-x;
+	text-align:center;
+	padding-top:32px;
+	padding-bottom:48px;
+	color:#FFFFFF;
+	font-size:30px;
+	font-weight:bold;
+}
+.kaigai_top .point ul{
+	clear:both;
+	margin-top:115px;
+	margin-bottom:75px;
+}
+.kaigai_top .point li{
+	float:left;
+	width:24.5%;
+	border:solid 2px #EB541C;
+	position:relative;
+	background-color:#FFFFFF;
+	padding-top:30px;
+	box-sizing: border-box;
+	position:relative;
+}
+.kaigai_top .point li .icon{
+	position:absolute;
+	left:10px;
+	top:-20px;
+	width:28%;
+}
+.kaigai_top .point li .number{
+	position:absolute;
+	width:20%;
+	left:40%;
+	top:-40px;
+}
+.kaigai_top .point li img{
+	width:100%;
+}
+.kaigai_top .point li .img{
+	width:85%;
+	margin:0 auto;
+	margin-top:25px;
+	margin-bottom:30px;
+}
+.kaigai_top .point li .text .sp{
+	display:none;
+}
+.kaigai_top .point li .btn{
+	width:85%;
+	margin:0 auto;
+	margin-bottom:20px;
+	height:50px;
+}
+/*===============*/
+/*section3「au損保の「手続きは」*/
+/*===============*/
+.kaigai_top .section3{
+	background: #fef5ed;
+	padding: 88px 10px 100px;
+}
+	.kaigai_top .section3 .contents{
+		max-width:980px;
+		margin:0 auto;
+	}
+		.kaigai_top .section3 .top_title{
+			font-size:34px;
+			font-weight:bold;
+			color:#e95608;
+			line-height: 41px;
+			text-align:center!important;
+		}
+		.kaigai_top .section3 .gallery{
+		}
+		.kaigai_top .section3 .gallery div{
+			float: left;
+		}
+		.kaigai_top .section3 .ttl{
+			padding-top: 51px;
+			padding-bottom: 20px;
+			font-size:18px;
+			font-weight:bold;
+			text-align:center!important;
+		}
+		.kaigai_top .section3 .txt{
+			padding-top: 28px;
+		}
+/*===============*/
+/*section4「安心の補償内容」*/
+/*===============*/
+.kaigai_top .section4{
+	padding: 88px 10px 100px;
+}
+	.kaigai_top .section4 .contents{
+		max-width:978px;
+		margin:0 auto;
+	}
+		.kaigai_top .section4 .top_title{
+			font-size:34px;
+			font-weight:bold;
+			color:#e95608;
+			line-height: 41px;
+			text-align:center!important;
+		}
+		.kaigai_top .section4 .ttl{
+			padding-top: 32px;
+			font-size:18px;
+			font-weight:bold;
+			text-align:center!important;
+		}
+
+.kaigai_top .section4 .navi{
+	margin-top: 44px;
+}
+	.kaigai_top .section4 .navi ul{
+		background-color:#E6551E;
+		padding-top:1%;
+		padding-bottom:1%;
+	}
+		.kaigai_top .section4 .navi li{
+			float:left;
+			width:32%;
+			min-height:341px;
+			margin-left:1%;
+			background-color:#FFFFFF;
+			position:relative;
+		}
+			.kaigai_top .section4 .navi li .title{
+				background:url(../../common/img_20160128/pc/kaigai/top/title_bg2.gif) ;
+				width:98%;
+				margin:0 auto;
+				margin-top:1%;
+				font-size:20px;
+				text-align:center;
+				padding-top:0.5em;
+				padding-bottom:0.5em;
+				color:#FFFFFF;
+				font-weight:bold;
+				margin-bottom:1em;
+			}
+			.kaigai_top .section4 .navi li .title_1{
+				padding-top: 1.5em;
+			}
+			.kaigai_top .section4 .navi li .check{
+				font-size:16px;
+				font-weight:bold;
+				width:80%;
+				margin:0 auto;
+			}
+			.kaigai_top .section4 .navi li .check img{
+				margin-bottom:5px;
+				margin-right:0.8em;
+			}
+			.kaigai_top .section4 .navi li .icon{
+				width:63%;
+				margin:0 auto;
+				text-align:center;
+			}
+			.kaigai_top .section4 .navi li .btn{
+				width:63%;
+				margin:0 auto;
+				margin-bottom:2em;
+				text-align:center;
+			}
+/*==============================*/
+/*section5「海外サポートデスク」*/
+/*==============================*/
+.kaigai_top .section5{
+	background: #fef5ed;
+	padding: 88px 10px 100px;
+}
+	.kaigai_top .section5 .contents{
+		max-width:978px;
+		margin:0 auto;
+	}
+		.kaigai_top .section5 .ttl_top{
+			font-size:16px;
+			font-weight:bold;
+			color:#e95608;
+			line-height: 23px;
+			text-align:center!important;
+		}
+		.kaigai_top .section5 .top_title{
+			margin-top: 14px;
+			font-size:34px;
+			font-weight:bold;
+			color:#e95608;
+			line-height: 41px;
+			text-align:center!important;
+		}
+		.kaigai_top .section5 .block_1{
+			margin-top: 5px;
+		}
+		.kaigai_top .section5 .block_1 .IMG{
+			float: left;
+			width: 29%;
+			text-align: right;
+		}
+		.kaigai_top .section5 .block_1 .TXT{
+			float: left;
+			width: 51%;
+			padding-top: 40px;
+		}
+			.kaigai_top .section5 .block_1 .TXT p{
+				font-weight:bold;
+				font-size:17px;
+			}
+			.kaigai_top .section5 .block_1 .TXT span{
+				color:#e95608;
+			}
+		.kaigai_top .section5 .block_1 .btn_tel{
+			float: left;
+			width: 20%;
+			padding-top: 40px;
+		}
+		.kaigai_top .section5 .navi{
+			margin-top: 44px;
+		}
+			.kaigai_top .section5 .navi ul{
+				background-color:#E6551E;
+				padding-top:1%;
+				padding-bottom:1%;
+			}
+				.kaigai_top .section5 .navi li{
+					float:left;
+					width:32%;
+					min-height:341px;
+					margin-left:1%;
+					background-color:#FFFFFF;
+				}
+					.kaigai_top .section5 .navi li .title{
+						background:url(../../common/img_20160128/pc/kaigai/top/title_bg2.gif) ;
+						width:98%;
+						margin:0 auto;
+						margin-top:1%;
+						font-size:20px;
+						text-align:center;
+						padding-top:0.5em;
+						padding-bottom:0.5em;
+						color:#FFFFFF;
+						font-weight:bold;
+						margin-bottom:1em;
+					}
+						.kaigai_top .section5 .navi li .title_1{
+							padding-top: 1.4em;
+						}
+					.kaigai_top .section5 .navi li .icon{
+						width:63%;
+						margin:0 auto;
+						text-align:center;
+					}
+					.kaigai_top .section5 .navi li .height p{
+						width:80%;
+						margin:0 auto;
+						font-size:16px;
+						padding-bottom: 7%;
+					}
+		/*==============================*/
+		/*後帰国後も*/
+		/*==============================*/
+		.kaigai_top .section5 .block_2{
+			margin-top: 31px;
+		}
+			.kaigai_top .section5 .block_2 .ttl_jet{
+				height: 60px;
+				background:url(../../common/img_20160128/pc/kaigai/top/sec5_block2_ttl_bg.png) 0 0 no-repeat;
+				background-size: contain;
+				text-align: center;
+			}
+			.kaigai_top .section5 .block_2 .bg{
+				border:2px solid #E6551E;
+				background: #fff;
+				padding-bottom: 30px;
+			}
+			.kaigai_top .section5 .block_2 .bg .title_main{
+				background:url(../../common/img_20160128/pc/kaigai/top/title_bg2.gif) ;
+				width:99.8%;
+				margin:0 auto;
+				margin-top:1px;
+				font-size:20px;
+				text-align:center;
+				padding-top:0.5em;
+				padding-bottom:0.5em;
+				color:#FFFFFF;
+				font-weight:bold;
+			}
+			.kaigai_top .section5 .block_2 .inner{
+				width:90%;
+				margin:0 auto;
+			}
+				.kaigai_top .section5 .block_2 .inner .IMG{
+					text-align: center;
+				}
+				.kaigai_top .section5 .block_2 .inner .desc{
+					font-size: 16px;
+				}
+				.kaigai_top .section5 .block_2 .inner .ttl{
+					margin-top: 46px;
+					font-size: 18px;
+					font-weight:bold;
+					color:#e95608;
+					line-height: 2.8em;
+					border-top: 1px solid #e95608;
+					border-bottom: 1px solid #e95608;
+				}
+				.kaigai_top .section5 .block_2 .inner ul{
+					margin-top:28px;
+					font-size: 16px;
+				}
+				.kaigai_top .section5 .block_2 .inner .IMG2{
+					margin:13px auto 0;
+					width: 85%;
+				}
+					.kaigai_top .section5 .block_2 .inner .IMG2 div{
+						float: left;
+					}
+				.kaigai_top .section5 .block_2 .inner .alert{
+					margin-top:15px;
+					font-size: 14px;
+					line-height: 2;
+				}
+		/*==============================*/
+		/*電話番号のご案内*/
+		/*==============================*/
+		.kaigai_top .section5 .block_3{
+			margin-top: 31px;
+		}
+			.kaigai_top .section5 .block_3 .bg{
+				border:2px solid #E6551E;
+				background: #fff;
+				padding-bottom: 30px;
+			}
+				.kaigai_top .section5 .block_3 .inner{
+					padding: 48px 0;
+					width:90%;
+					margin:0 auto;
+				}
+			.kaigai_top .section5 .block_3 .box_sima{
+				margin:0 auto;
+				background:url(../../common/img_20160128/pc/kaigai/top/bg01.gif) ;
+				clear:both;
+				padding-top:0.3%;
+				padding-bottom:0.3%;
+			}
+				.kaigai_top .section5 .block_3 .box_sima .box_inner{
+					width:99%;
+					margin:0 auto;
+					background-color:#FBF7EB;
+					margin-bottom:0.3%;
+					padding-bottom:27px;
+				}
+				.kaigai_top .section5 .block_3 .box_sima .box_inner .wrap{
+					width:92%;
+					margin:0 auto;
+				}
+
+				.kaigai_top .section5 .block_3 .box_sima .box_title{
+					font-size:22px;
+					color:#FFFFFF;
+					text-align:center;
+					background-color:#E6551E;
+					padding-top:0.5em;
+					padding-bottom:0.5em;
+					font-weight:bold;
+					margin-bottom:25px;
+				}
+				.kaigai_top .section5 .block_3 .box_sima .desc{
+					margin-top: 28px;
+					font-size:16px;
+					font-weight:bold;
+					text-align: center;
+					line-height: 1.8;
+					padding-bottom:2%;
+				}
+					.kaigai_top .section5 .block_3 .box_sima .desc span{
+						color:#E6551E;
+					}
+				.kaigai_top .section5 .block_3 .box_sima .box{
+					float: left;
+					width: 46%;
+					text-align: center;
+				}
+				.kaigai_top .section5 .block_3 .box_sima .boxM{
+					float: left;
+					width: 8%;
+					text-align: center;
+				}
+				.kaigai_top .section5 .block_3 .box_sima .boxR{
+					float: right;
+				}
+					.kaigai_top .section5 .block_3 .box_sima .box .ttl{
+						width: 100%;
+						font-size: 18px;
+						font-weight:bold;
+						color: #000;
+						line-height: 1.8em;
+						border-top: 1px solid #e95608;
+						border-bottom: 1px solid #e95608;
+					}
+					.kaigai_top .section5 .block_3 .box_sima .box .tel_area{
+						width: 87%;
+						margin: 0 auto;
+						padding-top: 32px;
+						text-align: left;
+					}
+					.kaigai_top .section5 .block_3 .box_sima .box .tel_area span{
+						font-size: 12px;
+					}
+					.kaigai_top .section5 .block_3 .box_sima .box .tel_area .txt1{
+						font-size: 20px;
+						font-weight:bold;
+						line-height: 38px;
+					}
+					.kaigai_top .section5 .block_3 .box_sima .box .tel_area .txt2{
+						font-size: 12px;
+						font-weight:bold;
+					}
+					.kaigai_top .section5 .block_3 .box_sima .box .tel_area .txt3{
+						font-size: 20px;
+						font-weight:bold;
+						line-height: 38px;
+					}
+			/*タイトル*/
+			.kaigai_top .section5 .block_3 .ttl_plus{
+				margin:47px 0 35px;
+				text-align: center;
+			}
+			.kaigai_top .section5 .block_3 .ttl_plus p{
+				font-size: 22px;
+				font-weight:bold;
+				color:#E6551E;
+				line-height: 2em;
+			}
+			/*バナー*/
+			.kaigai_top .section5 .block_3 .banner{
+				width: 91.5%;
+				margin: 27px auto;
+			}
+				.kaigai_top .section5 .block_3 .banner_sp{
+					display:none;
+				}
+			.kaigai_top .section5 .block_3 .btn_detail{
+				margin: 27px 0 0 0;
+				text-align: right;
+			}
+		/*==============================*/
+		/*サポートガイド・保険金請求書*/
+		/*==============================*/
+#page_contents .pdf1{
+	max-width:980px;
+	margin:0 auto;
+	padding-left:10px;
+	padding-right:10px;
+	clear:both;
+	font-size:16px;
+	padding-bottom:100px;
+}
+
+#page_contents .pdf1 .top_title{
+	font-size:34px;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:90px;
+	padding-bottom:50px;
+}
+#page_contents .pdf1 .top_title img{
+	margin-bottom:5px;
+}
+#page_contents .pdf1 a{
+	color:#000000;
+	text-decoration:none;
+	position:relative;
+	z-index:100;
+	text-decoration:underline;
+}
+
+#page_contents .pdf1 a:hover{
+	text-decoration:underline;
+}
+
+
+#page_contents .pdf1 ul{
+	width:75%;
+	margin: 0 auto;
+}
+
+
+#page_contents .pdf1 li{
+	margin-bottom:15px;
+}
+#page_contents .pdf1 li img{
+	margin-right:10px;
+	margin-right:10px;
+}
+
+/*==============================*/
+/*補償内容と保険料*/
+/*==============================*/
+.kaigai_top .type_bg{
+	background-color:#FDF5ED;
+}
+	.kaigai_top .type{
+		max-width:980px;
+		margin:0 auto;
+		padding-left:10px;
+		padding-right:10px;
+		clear:both;
+		padding-top:85px;
+		padding-bottom:80px;
+	}
+		.kaigai_top .type .top_title{
+			font-size:34px;
+			text-align:center;
+			font-weight:bold;
+			color:#E6551E;
+		}
+		.kaigai_top .type .top_title img{
+			margin-bottom:5px;
+		}
+		.kaigai_top .type .text01{
+				font-size:18px;
+			text-align:center;
+			font-weight:bold;
+			margin-top:25px;
+			margin-bottom:40px;
+		}
+	.kaigai_top .type .left{
+		float:left;
+		width:24%;
+	}
+		　.kaigai_top .type .left img{
+	    position: absolute;
+	    bottom: 0;
+		}
+	.kaigai_top .type .right{
+		width:74%;
+		float:right;
+	}
+		.kaigai_top .type .right p{
+			font-size:20px;
+			font-weight:bold;
+			padding-top: 7px;
+		}
+		.kaigai_top .type .box_course .right p{
+			padding-left: 70px;
+		}
+	.kaigai_top .type .bg{
+		background-color:#E6551E;
+		padding: 10px;
+	}
+		.kaigai_top .type .bg .inner{
+			background-color:#FFF;
+		}
+		.kaigai_top .type .box_wrap{
+			width: 90%;
+			margin:0 auto;
+		}
+			.kaigai_top .type .box_wrap .boxL{
+				float: left;
+				width: 44%;
+				padding:25px 0 0;
+			}
+			.kaigai_top .type .box_wrap .boxR{
+				float: right;
+				width: 44%;
+				padding:25px 0 0;
+			}
+				.kaigai_top .type .box_wrap .boxR .txt{
+					width: 70%;
+					margin:26px auto 0;
+				}
+			.kaigai_top .type .box_wrap .boxM{
+				float: left;
+				width: 12%;
+				padding:10px 0;
+				text-align: center;
+			}
+				.kaigai_top .type .box_wrap .BOX .ttl{
+					font-size:16px;
+					font-weight:bold;
+					line-height: 1.9;
+					text-align: center;
+					border-top: 1px solid #000;
+					border-bottom: 1px solid #000;
+					margin-bottom: 8px;
+				}
+				.kaigai_top .type .box_min_wrap{
+					margin-top: 16px;
+				}
+					.kaigai_top .type .box_min{
+						width: 50%;
+						float: left;
+					}
+						.kaigai_top .type .box_min img{
+							width: 33%;
+							float: left;
+						}
+						.kaigai_top .type .box_min p{
+							width: 63%;
+							padding-right: 1%;
+							float: right;
+						}
+	.kaigai_top .type .ARROW{
+		text-align: center;
+	}
+			/*==============================*/
+			/*コース選択*/
+			/*==============================*/
+			.kaigai_top .type .box_course .box_wrap{
+				width: 94%;
+			}
+			.kaigai_top .type .box_course .BOX{
+				float: left;
+				width:28%;
+				height: 68px;
+				text-align:center;
+				margin-top: 19px;
+			}
+				.kaigai_top .type .box_course .BOX p{
+					font-size: 16px;
+					font-weight: bold;
+					line-height: 68px;
+				}
+			.kaigai_top .type .box_course .BOX_border{
+				float: left;
+				display: block;
+				width:8%;
+				margin: 9px 0;
+				text-align: center;
+			}
+			.kaigai_top .type .box_course .BOX_brown{
+				background-color: #DD9161;
+				color:#FFF;
+			}
+			.kaigai_top .type .box_course .BOX_silver{
+				background-color: #D4D3C7;
+			}
+			.kaigai_top .type .box_course .BOX_gold{
+				background-color: #DACF67;
+			}
+			/*==============================*/
+			/*保険料お見積もり*/
+			/*==============================*/
+			.box_calc{
+				margin-top: 81px;
+				border:10px solid #e6551e;
+				border-top:none;
+			}
+				.box_calc .TTL_MAIN{
+					text-align: center;
+					font-size:30px;
+					font-weight: bold;
+					color: #FFF;
+					line-height: 96px;
+					background:url(../../common/img_20160128/pc/kaigai/top/box_calc_bg.png);
+				}
+					.box_calc .inner{
+						background: #FFF;
+					}
+					.box_calc .TXT_QUE{
+						text-align: center;
+						background: #f5f4f4;
+						font-size:20px;
+						font-weight: bold;
+						line-height: 80px;
+					}
+					.box_calc .TXT1{
+						text-align: center;
+						font-size:16px;
+					}
+					/*セレクトボックス*/
+					.box_calc .SELECT_AREA{
+						width: 65%;
+						margin:0 auto;
+						margin-top: 20px;
+					}
+						.box_calc .SELECT_AREA .Left{
+							float:left;
+							margin-right: 15px;
+						}
+						.box_calc .SELECT_AREA .Right{
+							float:left;
+
+						}
+						.box_calc .SELECT_AREA p{
+							float: left;
+							line-height: 39px;
+							font-size: 16px;
+							font-weight: bold;
+							margin-right: 0.7em;
+						}
+						.box_calc .SELECT_AREA .dropdown{
+							float: left;
+						}
+
+							.dropdown {
+							  display: inline-block;
+							  position: relative;
+							  overflow: hidden;
+							  height: 39px;
+							  width: 193px;
+							  background: #FFF;
+							  border: 2px solid;
+							  border-color: #d2d2d2;
+							  border-radius: 3px;
+							  background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.0));
+							  background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.0));
+							  background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.0));
+							  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.0));
+							  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.00);
+							  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.00);
+							}
+							.dropdown:before, .dropdown:after {
+							  content: '';
+							  position: absolute;
+							  z-index: 2;
+							  top: 14px;
+							  right: 10px;
+							  width: 0;
+							  height: 0;
+							  border: 4px dashed;
+							  border-color: #888 transparent;
+							  pointer-events: none;
+							}
+							.dropdown:before {
+							  border-bottom-style: solid;
+							  border-top: none;
+							}
+							.dropdown:after {
+							  margin-top: 7px;
+							  border-top-style: solid;
+							  border-bottom: none;
+							}
+
+							.dropdown-select {
+							  position: relative;
+							  width: 130%;
+							  margin: 0;
+							  padding: 6px 8px 6px 10px;
+							  height: 39px;
+							  line-height: 16px;
+							  font-size: 16px;
+							  color: #62717a;
+							  text-shadow: 0 1px white;
+							  /* Fallback for IE 8 */
+							  background: #FFF;
+							  /* "transparent" doesn't work with Opera */
+							  background: rgba(0, 0, 0, 0) !important;
+							  border: 0;
+							  border-radius: 0;
+							  -webkit-appearance: none;
+							}
+							.dropdown-select:focus {
+							  z-index: 3;
+							  width: 100%;
+							  color: #394349;
+							  outline: 2px solid #d2d2d2;
+							  outline: 2px solid -webkit-focus-ring-color;
+							  outline-offset: -2px;
+							}
+							.dropdown-select > option {
+							  margin: 3px;
+							  padding: 6px 8px;
+							  text-shadow: none;
+							  background: #FFF;
+							  border-radius: 3px;
+							  cursor: pointer;
+							}
+
+							/* Fix for IE 8 putting the arrows behind the select element. */
+							.lt-ie9 .dropdown {
+							  z-index: 1;
+							}
+							.lt-ie9 .dropdown-select {
+							  z-index: -1;
+							}
+							.lt-ie9 .dropdown-select:focus {
+							  z-index: 3;
+							}
+
+							/* Dirty fix for Firefox adding padding where it shouldn't. */
+							@-moz-document url-prefix() {
+							  .dropdown-select {
+							    padding-left: 6px;
+							  }
+							}
+
+
+					.box_calc .contents_main{
+						width: 84.8%;
+						margin:0 auto;
+						padding: 24px 0 60px;
+					}
+						.box_calc .title03{
+							margin-top: 35px;
+							text-align:center;
+							background:url(../../common/img_20160128/pc/kaigai/top/point_bg.gif) 0 12px repeat-x;
+						}
+
+							.box_calc .title03 p{
+								background-color:#FFFFFF;
+								display:inline-block;
+								font-size:20px;
+								color:#686664;
+								padding-left:30px;
+								padding-right:30px;
+							}
+						.box_calc ul{
+							margin-top: 22px;
+						}
+						.box_calc ul li{
+							float: left;
+							width: 31%;
+							padding-bottom: 3px;
+						}
+							.box_calc ul li.BOX_bronz{
+								background-color: #DD9161;
+								margin-right: 3.5%;
+							}
+							.box_calc ul li.BOX_silver{
+								background-color: #D4D3C7;
+								margin-right: 3.5%;
+							}
+							.box_calc ul li.BOX_gold{
+								background-color: #DACF67;
+							}
+						.box_calc ul li .TTL{
+							width: 98%;
+							text-align: center;
+							line-height: 42px;
+							font-weight: 16px;
+							font-weight: bold;
+						}
+						.box_calc ul li .TXT{
+							width: 98%;
+							margin: 0 auto;
+							background: #FFF;
+							text-align: center;
+							font-weight: 20px;
+							font-weight: bold;
+							line-height: 42px;
+						}
+
+/*==============================*/
+/*補償内容・保険金額一覧*/
+/*==============================*/
+.kaigai_top #price {
+padding-bottom: 99px;
+}
+.kaigai_top #price .table{
+max-width:980px;
+margin:0 auto;
+padding-left:10px;
+padding-right:10px;
+clear:both;
+}
+
+.kaigai_top #price .table .title{
+	text-align:center;
+	background:url(../../common/img_20160128/pc/kaigai/top/point_bg.gif) 0 12px repeat-x;
+	margin-bottom:15px;
+}
+	.kaigai_top #price .table .title p{
+		background-color:#FFFFFF;
+		display:inline-block;
+		font-size:22px;
+		color:#686664;
+		font-weight:bold;
+		padding-left:20px;
+		padding-right:20px;
+	}
+.kaigai_top #price .table .text01{
+	line-height: 25px;
+}
+.kaigai_top #price .table .text02{
+	line-height: 25px;
+}
+.kaigai_top #price .table .text03{
+	margin-top: 15px;
+	line-height: 25px;
+}
+.kaigai_top #price .table_sp{
+	display:none;
+}
+.kaigai_top #price .table .table2{
+border:solid 4px #E6551E;
+width:100%;
+margin-top: 10px;
+}
+.kaigai_top #price .table .table2 td{
+border:solid 3px #E6551E;
+border-right:1px solid #E6551E;
+border-left:none;
+width:20%;
+}
+.kaigai_top #price .table .table2 td.left{
+padding:1px;
+}
+.kaigai_top #price .table .table2 td.left p{
+	padding:20px;
+	vertical-align: middle;
+	text-align: left;
+	background: #E6551E;
+	color: #FFF;
+	font-weight:bold;
+	font-size: 18px;
+}
+.kaigai_top #price .table .table2 td.left p span{
+	font-weight:normal;
+	font-size: 14px;
+}
+.kaigai_top #price .table table .td_brown{
+width: 7%;
+height: 62px;
+text-align:center;
+background-color: #DD9161;
+color:#000000;
+}
+.kaigai_top #price .table table .td_silver{
+width: 7%;
+height: 62px;
+text-align:center;
+background-color:#D4D3C7;
+color:#000000;
+}
+.kaigai_top #price .table table .td_gold{
+width: 7%;
+height: 62px;
+text-align:center;
+background-color:#DACF67;
+color:#000000;
+}
+.kaigai_top #price .table table td.bg_brown{
+	background-color:#FBF5F2;
+	font-size:14px;
+	color:#595858;
+	height:4em;
+	text-align:right;
+	padding-right:0.5em;
+}
+.kaigai_top #price .table table td.bg_silver{
+	background-color:#F1F2EE;
+	font-size:14px;
+	color:#595858;
+	padding-right:0.5em;
+	text-align:right;
+}
+.kaigai_top #price .table table td.bg_gold{
+	background-color:#F9F8F2;
+	font-size:14px;
+	color:#595858;
+	padding-right:0.5em;
+	text-align:right;
+}
+
+.kaigai_top #price .table .price_L{
+	font-size:18px;
+}
+.kaigai_top #price .table .TXT_S_1{
+	padding-right: 32px;
+}
+.kaigai_top #price .table .TXT_S_2{
+	color: #E6551E;
+	font-weight: bold;
+}
+/*==============================*/
+/*お支払い方法*/
+/*==============================*/
+
+.kaigai_top .pay_bg{
+	background-color:#FDF5ED;
+	padding-bottom: 30px;
+}
+.kaigai_top .pay{
+	max-width:980px;
+	margin:0 auto;
+	padding-left:10px;
+	padding-right:10px;
+	clear:both;
+}
+.kaigai_top  .pay .top_title{
+	font-size:34px;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:60px;
+	padding-bottom:30px;
+}
+.kaigai_top  .pay .top_title img{
+	margin-bottom:5px;
+}
+.kaigai_top .pay .icon{
+	float:left;
+	width: 40%;
+	text-align: right;
+}
+.kaigai_top  .pay .text{
+	float:left;
+	width: 60%;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.kaigai_top .pay .btn{
+	text-align:center;
+	margin:0 auto;
+	clear:both;
+	width:20%;
+}
+/*==============================*/
+/*お申込みはこちらから*/
+/*==============================*/
+.kaigai_top .bycle{
+	max-width:980px;
+	margin:0 auto;
+	padding:90px 10px 80px;
+	clear:both;
+}
+.kaigai_top .bycle .btn{
+	text-align:center;
+	width: 50%;
+	margin:0 auto;
+}
+.kaigai_top .bycle .text_center{
+	padding-top: 30px;
+}
+
+.kaigai_top .border_type{
+background:url(../../common/img_20160128/pc/kaigai/top/border_type.png) no-repeat 50% 0;
+/*background-position: center;*/
+background-size: contain;
+height: 53px;
+width: 100%;
+}
+/*==============================*/
+/*保険期間は日帰りから31日間まで*/
+/*==============================*/
+.attention_area{
+	max-width:980px;
+	margin:0 auto;
+	padding:70px 10px 80px;
+}
+	.attention_area .icon_area{
+		float: left;
+		width: 17%;
+	}
+	.attention_area .txt_area{
+		float: left;
+		width: 83%;
+	}
+		.attention_area .txt_area .txt1{
+			font-size:18px;
+			margin-top: 16px;
+		}
+		.attention_area .txt_area .txt2{
+			font-size:18px;
+			margin-top: 16px;
+		}
+		.attention_area .txt_area .txt3{
+			margin-top: 37px;
+			line-height: 1.8;
+		}
+
+
+/*==============================*/
+/*PDF*/
+/*==============================*/
+#page_contents .pdf2{
+	max-width:980px;
+	margin:0 auto;
+	padding-left:10px;
+	padding-right:10px;
+	clear:both;
+	font-size:16px;
+	padding-bottom:100px;
+}
+
+#page_contents .pdf2 .top_title{
+	font-size:34px;
+	text-align:center;
+	font-weight:bold;
+	color:#E6551E;
+	padding-top:90px;
+	padding-bottom:50px;
+}
+#page_contents .pdf2 .top_title img{
+	margin-bottom:5px;
+}
+
+
+#page_contents .pdf2 ul{
+	width:45%;
+	margin: 0 auto;
+}
+
+
+
+#page_contents .pdf2 a{
+	color:#000000;
+	text-decoration:none;
+	position:relative;
+	z-index:100;
+	text-decoration:underline;
+}
+
+#page_contents .pdf2 a:hover{
+	text-decoration:underline;
+}
+
+
+
+#page_contents .pdf2 li{
+	margin-bottom:15px;
+}
+#page_contents .pdf2 li img{
+	margin-right:10px;
+	margin-right:10px;
+}

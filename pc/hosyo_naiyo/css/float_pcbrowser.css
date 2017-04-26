@@ -1,0 +1,59 @@
+/* pc browser */
+
+#hosyo_naiyo .contain {
+    display:block;
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 100px;
+    //border: 1px solid #ccc;
+    background-size: contain;
+    text-align: center;
+    vertical-align: middle ;
+    margin:0 auto;
+}
+
+#hosyo_naiyo .contain2 {
+    //border: 1px solid #d9d9d9;
+	display: block;
+	//margin-left: auto;
+	//margin-right: auto;
+    width: 380px;
+    height: 200px;
+    //border: 1px solid #fafafa;
+    //border: 1px solid #f9f9f9;
+    //border: 1px solid #990000;	/* ê‘ */
+    text-align: center;
+    vertical-align: middle ;
+}
+
+#hosyo_naiyo .contain2 ul {
+	text-align:left;
+	font-size:10pt;
+}
+
+#hosyo_naiyo .contain2 img {
+	margin-left: 10px;
+	width: 360px;
+}
+
+#hosyo_naiyo #content_01 .tx_area_pet1 .cont_wrap {
+	margin: 5px;
+	padding: 10px;
+	margin-left: 1.0em;
+	width: 90%;
+}
+#hosyo_naiyo #content_01 .tx_area_pet1 .cont_wrap p {
+	font-size: 14px;
+	color: #3e3fb0;
+	text-indent: -0.5em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.pet_not_hoken table.intxt td {
+	text-indent: -0.5em;
+}
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.pet_not_hoken table.intxt tr p{
+	margin-left: 0.5em;
+	//padding: 5px 0px 0px 0px;
+}

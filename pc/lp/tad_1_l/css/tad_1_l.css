@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body {
+	margin: 0 auto;
+	width:100%;
+	color: #454545;
+	border-top: 5px solid #E13B00;
+	background-color: #FDEFE1;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding-bottom: 40px;
+	max-width: 800px;
+	width:95%;
+	background-color: #fff;
+	text-align: center;
+}
+
+#header {
+	margin: 0 auto;
+	width: 96%;
+	text-align: left;
+}
+
+#header p {
+	font-size:80%;
+	margin:0;
+	padding-left:7em;
+	text-indent:-7em;
+}
+
+#header_left {
+	padding-top:10px;
+}
+
+#header_right {
+	vertical-align:middle;
+	text-align:right;
+}
+
+
+#dashed_area {
+	max-width:700px;
+	width:95%;
+	margin:10px auto;
+	border: 1px;
+	border-style: dashed;
+	text-align:left;
+}
+
+#dashed_area p {
+	line-height:1.4em;
+	margin:8px;
+	font-size:100%
+}
+
+#button_area {
+	margin:20px auto;
+	max-width:700px;
+}
+
+#button_area img{
+	max-width:100%;
+	border-style:none;
+}
+
+a img:hover {
+	opacity: 0.6;
+}
+
+img {
+	height:auto;
+}
+
+.mt20 {
+	margin-top:20px;
+}
+
+.mt10 {
+	margin-top:20px;
+}
+
+.img_insurance_for_pet {
+	max-width:400px;
+	min-width:100px;
+	width:50%
+}
+
+.img_ad_pet_logo {
+	max-width:100%;
+	width:327px;
+	max-height:40px;
+}
+
+.img_ad_pet_banner {
+	max-width:950px;
+	width:98%;
+	margin-top:20px;
+}
+
+.img_ad_pet_btn1 {
+	width:90%;
+	max-width:600px;
+}
+
+.img_ad_pet_btn2,
+.img_ad_pet_btn3 {
+	width:70%;
+	max-width:286px;
+}
+
+.img_ad_pet_start{
+	margin:10px 0;
+	max-width:100%;
+}
+
+.adpet_lp_table{
+max-width:707px;
+margin:20px auto;
+}
+
+.adpet_lp_table img{
+	padding:15px 0;
+	width:100%;
+	height:auto;
+	border-style:none;
+}
+
+.adpet_lp_table img:hover{
+	opacity:0.8;
+	cursor:pointer;
+}
+
+.adpet_msg_tbl img{
+	position:relative;
+	max-width:100%;
+}
+
+.adpet_bobun_area p{
+	text-align:right;
+}
+#insurance_logo{ border:solid 2px #E95404;border-radius:8px;color:#E95404;padding:5px 10px;display:inline-block;font-weight:bold;font-size:20px;margin:10px 0; }
+#mypage_1{text-align:left;margin-left:10px;line-height:2;font-weight:bold;padding-bottom:10px;padding-top:5px;margin-right:105px;}
+#mypage_2{width:100px;height:69px;position:absolute;right:0;top:5px;}
+@media screen and (max-width:767px) {
+	#insurance_logo{ font-size:14px; }
+	#mypage_1{margin:0;}
+	#mypage_2{position:relative;}
+}
+

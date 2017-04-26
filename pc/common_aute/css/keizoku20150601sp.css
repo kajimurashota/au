@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/*--------------------------*
+ * keizoku
+ *--------------------------*/
+ul.detailTab{
+    display: none;
+}
+div#mainContent {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 5px;
+    padding: 0;
+}
+div#secondContent {
+    padding: 0;
+    margin:0;
+}
+div#contentInner h2 {
+    font-size: 1.5em;
+}
+.fs-large1{font-size:1.1em;}
+.fs-large2{font-size:1.2em;}
+.fs-large3{font-size:1.3em;}
+
+div#keizoku h2.radius2{
+    border-radius: 0;
+}
+div.btArea {
+    width: auto;
+}
+div#footer div.footerInner {
+	padding-top:1px;
+}
+table#tableSolid{
+	width:auto;
+	margin:0 auto;
+}
+.point p.fs-large3{
+	font-size:1.1em;
+}
+.inquiry{
+	border:none;
+	padding:5px 0;
+}
+.inquiry h4{
+	background-color:#4F81BD;
+	color:#ffffff;
+	padding:2px 0;
+}
+.inquiry p.fs-large3{
+	font-size:1.1em;
+	font-weight:bold;
+	text-align:center;
+	line-height:2.2em;
+}
+.strong-bg{
+	padding:5px;
+}
+.radius2,
+.radius3{
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+.icon-point{
+	width:28px;
+	height:36px;
+}
+.button-login{
+	width:320px;
+}

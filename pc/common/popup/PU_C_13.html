@@ -1,0 +1,740 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>au損保</title>
+<link href="spcss/PU_C.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="../../common_aute/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../../common/js/campcd.js"></script>
+<script type="text/javascript" src="../../common/js/checkCookie.js"></script>
+<script type="text/javascript" src="../../common/js/switchview.js"></script>
+<script type="text/javascript">
+$.SwitchView({browserWidth:682});
+if($SwitchView.isSP()){
+	// SP判定の場合
+	document.write('<link type="text/css" href="../../common/popup/spcss/PU_C_SP.css" rel="stylesheet" />');
+}else{
+	// PC判定の場合
+}
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32568740-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+</head>
+
+<body class="explanation">
+
+	<h2 style="margin-left:0;">お知らせ</h2>
+
+	<!-- #page_menu_c13_01 begin -->
+	<div id="page_menu_c13_01">
+				<ul>
+			<table>
+				<tr>
+					<li class="first">【2016年】</li>
+				</tr>
+				<td>
+					<li><a href="#date201601">1月</a></li>
+					<li class="last"><a href="#date201602">2月</a></li>
+					<!-- <li><a href="#date201602">2月</a></li> -->
+					<!-- <li><a href="#date201603">3月</a></li> -->
+					<!-- <li><a href="#date201604">4月</a></li> -->
+					<!-- <li><a href="#date201605">5月</a></li> -->
+					<!-- <li><a href="#date201606">6月</a></li>-->
+					<!-- <li><a href="#date201607">7月</a></li>-->
+					<!-- <li><a href="#date201608">8月</a></li>-->
+					<!-- <li><a href="#date201609">9月</a></li>-->
+					<!-- <li><a href="#date201610">10月</a></li>-->
+					<!-- <li><a href="#date201611">11月</a></li>-->
+					<!-- <li><a href="#date201612">12月</a></li>-->
+				</td>
+			</table>
+		</ul>
+
+		<ul>
+			<table>
+				<tr>
+					<li class="first">【2015年】</li>
+				</tr>
+				<td>
+					<li><a href="#date201501">1月</a></li>
+					<!-- <li><a href="#date201502">2月</a></li> -->
+					<!-- <li><a href="#date201503">3月</a></li> -->
+					<!-- <li><a href="#date201504">4月</a></li> -->
+					<!-- <li><a href="#date201505">5月</a></li> -->
+					<li><a href="#date201506">6月</a></li>
+					<li><a href="#date201507">7月</a></li>
+					<li><a href="#date201508">8月</a></li>
+					<li><a href="#date201509">9月</a></li>
+					<li><a href="#date201510">10月</a></li>
+					<li><a href="#date201511">11月</a></li>
+					<li class="last"><a href="#date201512">12月</a></li>
+				</td>
+			</table>
+		</ul>
+
+		<ul>
+			<table>
+				<tr>
+					<li class="first">【2014年】</li>
+				</tr>
+				<td>
+					<!-- <li><a href="#date201401">1月</a></li> -->
+					<li><a href="#date201402">2月</a></li>
+					<!-- <li><a href="#date201403">3月</a></li> -->
+					<li><a href="#date201404">4月</a></li>
+					<!-- <li><a href="#date201405">5月</a></li> -->
+					<!-- <li><a href="#date201406">6月</a></li> -->
+					<li><a href="#date201407">7月</a></li>
+					<li><a href="#date201408">8月</a></li>
+					<li><a href="#date201409">9月</a></li>
+					<!-- <li><a href="#date201410">10月</a></li> -->
+					<li><a href="#date201411">11月</a></li>
+					<li class="last"><a href="#date201412">12月</a></li>
+				</td>
+			</table>
+		</ul>
+
+		<ul>
+			<table>
+				<tr>
+					<li class="first">【2013年】</li>
+				</tr>
+				<td>
+					<li><a href="#date201302">2月</a></li>
+					<li><a href="#date201303">3月</a></li>
+					<!--<li><a href="#date201304">4月</a></li>-->
+					<li><a href="#date201305">5月</a></li>
+					<li><a href="#date201306">6月</a></li>
+					<li><a href="#date201307">7月</a></li>
+					<li><a href="#date201308">8月</a></li>
+					<li><a href="#date201309">9月</a></li>
+					<li><a href="#date201310">10月</a></li>
+					<!--<li><a href="#date201311">11月</a></li>-->
+					<li class="last"><a href="#date201312">12月</a></li>
+				</td>
+			</table>
+		</ul>
+
+		<ul>
+			<table>
+				<tr>
+					<li class="first">【2012年】</li>
+				</tr>
+				<td>
+					<li><a href="#date201202">2月</a></li>
+					<li><a href="#date201203">3月</a></li>
+					<li><a href="#date201204">4月</a></li>
+					<li><a href="#date201205">5月</a></li>
+					<li><a href="#date201206">6月</a></li>
+					<li><a href="#date201207">7月</a></li>
+					<li><a href="#date201208">8月</a></li>
+					<li><a href="#date201209">9月</a></li>
+					<li><a href="#date201210">10月</a></li>
+					<li><a href="#date201211">11月</a></li>
+					<li class="last"><a href="#date201212">12月</a></li>
+				</td>
+			</table>
+		</ul>
+		<ul>
+			<table>
+				<tr>
+					<li class="first">【2011年】</li>
+				</tr>
+				<td>
+					<li><a href="#date201105">5月</a></li>
+					<li><a href="#date201106">6月</a></li>
+					<li><a href="#date201107">7月</a></li>
+					<li><a href="#date201108">8月</a></li>
+					<li><a href="#date201109">9月</a></li>
+					<li class="last"><a href="#date201111">11月</a></li>
+				</td>
+			</table>
+		</ul>
+	</div>
+	<!-- #page_menu_c13_01 end -->
+
+	<div id="div_c13_02">
+		<div id="date201602">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">2月</h3>
+			<dl>
+				<dt>2016年2月16日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/upload/article/90/article_90_1.pdf" target="_blank">「埼玉サイクルエキスポ2016」開催結果</a></dd>
+			</dl>
+		</div>
+		<div id="date201601">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">1月</h3>
+			<dl>
+				<dt>2016年1月28日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/upload/article/89/article_89_1.pdf" target="_blank">【CSR】東京都盲人福祉協会に寄付金を贈呈</a></dd>
+			</dl>
+			<dl>
+				<dt>2016年1月27日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/news/detail-87.html" target="_blank">自転車を「見て・触って・乗って」楽しめるイベント&nbsp「埼玉サイクルエキスポ2016」に協賛します！</a></dd>
+			</dl>
+			<dl>
+				<dt>2016年1月26日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/upload/article/88/article_88_1.pdf" target="_blank">役員の異動に関するお知らせ</a></dd>
+			</dl>
+			<dl>
+				<dt>2016年1月22日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/news/detail-86.html" target="_blank">YouTubeで「大切な家族」とのひと時を表現しよう！ 『au損保 ペット動画コンテスト』の募集を開始</a></dd>
+			</dl>
+			<dl>
+				<dt>2016年1月20日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/news/detail-85.html" target="_blank">スマホで入る！カンタン1日分の自動車保険「ワンデーサポーター」の取扱いを2月1日より開始！</a></dd>
+			</dl>
+			<dl>
+				<dt>2016年1月4日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/news/detail-84.html" target="_blank">あさひオリジナル自転車保険「サイクルパートナー」を開発</a></dd>
+			</dl>
+		</div>
+		<div id="date201512">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">12月</h3>
+			<dl>
+				<dt>2015年12月24日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20151224.pdf" target="_blank">「お問い合わせ窓口」年末年始の休業のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2015年12月10日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/news/detail-83.html" target="_blank">日常生活の事故も幅広く補償「自転車向け保険　Bycle　Best（バイクル　ベスト）」新発売！</a></dd>
+			</dl>
+			<dl>
+				<dt>2015年12月10日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/news/detail-82.html" target="_blank">海外旅行がもっと安心に！　「海外サポート」アプリが大幅リニューアル！</a></dd>
+			</dl>
+			<dl>
+				<dt>2015年12月10日</dt>
+				<dd><a href="PU_C_43.html" target="_blank">プラン名称変更および商品ブランド「あ・う・て」使用終了のお知らせ</a></dd>
+			</dl>
+		</div>
+		<div id="date201511">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">11月</h3>
+			<dl>
+				<dt>2015年11月20日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20151120.pdf" target="_blank">「海外サポート」アプリご利用の皆さまへお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2015年11月1日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20151101.pdf" target="_blank">「お客さまの情報の取扱いに係る基本方針（プライバシーポリシー）」改定のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+		<div id="date201510">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">10月</h3>
+			<dl>
+				<dt>2015年10月1日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20151001.pdf" target="_blank">平成27年台風第21号に係る災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+		<div id="date201509">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">9月</h3>
+			<dl>
+				<dt>2015年9月17日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/upload/article/77/article_77_1.pdf" target="_blank">共同通信「自転車の意識・実態調査」への取材対応及び調査協力</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2015年9月12日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20150911.pdf" target="_blank">平成27年台風第18号等による大雨に係る災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201508">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">8月</h3>
+			<dl>
+				<dt>2015年8月26日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/upload/article/75/article_75_1.pdf" target="_blank">世界トップクラスのトライアスロンレース「IRONMAN JAPAN北海道」開催結果</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2015年8月18日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/upload/article/74/article_74_1.pdf" target="_blank">自転車向け保険　あうて「ケガの保険　Bycle」 大幅リニューアル！！</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201507">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">7月</h3>
+			<dl>
+				<dt>2015年7月31日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20150731.pdf" target="_blank">「au損保ペットの保険　わくわくサマーキャンペーン」がスタート！</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+
+			<dl>
+				<dt>2015年7月21日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20150721_2.pdf" target="_blank">海外サポートデスク（03-6365-8885）不通のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2015年7月21日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20150721.pdf" target="_blank">本店移転のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2015年7月7日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20150707.pdf" target="_blank">「かかりつけ獣医師ダイヤル」におけるペット情報等を管理する電子カルテ終了のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2015年7月1日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20150701.pdf" target="_blank">お客さま向けフリーコール案内カード等　送付終了のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+		<div id="date201506">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">6月</h3>
+			<dl>
+				<dt>2015年6月3日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20150603.pdf" target="_blank">口永良部島（新岳）噴火に係る災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+		<div id="date201501">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">1月</h3>
+			<dl>
+				<dt>2015年1月30日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20150130.pdf" target="_blank">auかんたん決済におけるポイント付与・利用条件の変更について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201412">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">12月</h3>
+			<dl>
+				<dt>2014年12月22日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20141222.pdf" target="_blank">「お問い合わせ窓口」年末年始の休業のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2014年12月10日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20141210.pdf" target="_blank">12月5日からの大雪に係る災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2014年12月9日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20141209.pdf" target="_blank">あうて「ペットの保険」重要事項のご説明の(スマートフォン版）一部落丁について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+		<div id="date201411">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">11月</h3>
+			<dl>
+				<dt>2014年11月26日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20141126.pdf" target="_blank">長野県北部地震に係る災害救助法の適用</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+		<div id="date201409">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">9月</h3>
+			<dl>
+				<dt>2014年9月29日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20140929.pdf" target="_blank">御嶽山噴火に係る災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201408">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">8月</h3>
+			<dl>
+				<dt>2014年8月21日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20140821.pdf" target="_blank">平成26年8月19日からの大雨に係る災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2014年8月18日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20140818.pdf" target="_blank">平成26年8月15日からの大雨に係る災害救助法が適用された地域のご契約者の皆さまへ（第１報）</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2014年8月15日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20140815.pdf" target="_blank">台風１１号に係る被害により災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2014年8月11日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20140811.pdf" target="_blank">台風１２号の大雨等により災害救助法が適用された地域のご契約者の皆さまへ（第１報）</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201407">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">7月</h3>
+			<dl>
+				<dt>2014年7月15日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20140715.pdf" target="_blank">台風８号の接近に伴う大雨により災害救助法が適用された地域のご契約者の皆さまへ（第２報）</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2014年7月14日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20140714.pdf" target="_blank">【お知らせ】カスタマーセンターの受付時間延長について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2014年7月14日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20140714_2.pdf" target="_blank">台風８号の接近に伴う大雨により災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201404">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">4月</h3>
+			<dl>
+				<dt>2014年4月6日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20140406.pdf" target="_blank">あうてスポーツ・レジャー＋ゴルフ新規お申込み受付終了のご案内</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201402">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">2月</h3>
+			<dl>
+				<dt>2014年2月24日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20140224.pdf" target="_blank">大雪の被害により災害救助法が適用された地域のご契約者の皆さまへ（第２報）</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2014年2月19日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20140219.pdf" target="_blank">大雪の被害により災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201312">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">12月</h3>
+			<dl>
+				<dt>2013年12月17日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20131217.pdf" target="_blank">auケータイ(スマートフォンを除く)からの保険のお申込み終了のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2013年12月13日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20131213.pdf" target="_blank">年末年始のお問い合わせ窓口の営業日について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201310">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">10月</h3>
+			<dl>
+				<dt>2013年10月21日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20131021.pdf" target="_blank">台風２６号の被害により災害救助法が適用された地域のご契約者の皆さまへ（第２報）</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2013年10月18日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20131018.pdf" target="_blank">台風２６号の被害により災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2013年10月11日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20131011.pdf" target="_blank">台風２４号の被害により災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201309">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">9月</h3>
+			<dl>
+				<dt>2013年9月18日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20130918.pdf" target="_blank">台風１８号の被害により災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2013年9月5日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20130905_2.pdf" target="_blank">大雨により災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2013年9月5日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20130905_1.pdf" target="_blank">突風等により災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201308">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">8月</h3>
+			<dl>
+				<dt>2013年8月13日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20130813.pdf" target="_blank">秋田県および岩手県の大雨により災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201307">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">7月</h3>
+			<dl>
+				<dt>2013年7月30日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20130730.pdf" target="_blank">中国地方の大雨により災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2013年7月25日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20130725.pdf" target="_blank">山形県内大雨により災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2013年7月25日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/corporate/pdf/disclo_130725.pdf" target="_blank">ディスクロージャー資料「au損保の現状2013」を掲載しました</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201306">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">6月</h3>
+			<dl>
+				<dt>2013年6月6日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20130606.pdf" target="_blank">[お詫び]Myスマート保険(スタンダード傷害保険)の重要事項説明書の一部表示誤りについて</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201305">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;" class="first">5月</h3>
+			<dl>
+				<dt>2013年5月9日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20130509.pdf" target="_blank">山形県の融雪等に伴う地すべりにかかる災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201303">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">3月</h3>
+			<dl>
+				<dt>2013年3月27日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20130327.pdf" target="_blank">迷惑メール「ご当選のお知らせです」にご注意ください</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2013年3月7日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20130307.pdf" target="_blank">山形県の大雪にかかる災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201302">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">2月</h3>
+			<dl>
+				<dt>2013年2月28日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20130228.pdf" target="_blank">新潟県の大雪にかかる災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201212">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">12月</h3>
+			<dl>
+				<dt>2012年12月21日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20121221.pdf" target="_blank">年末年始のお問い合わせ窓口の営業日について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年12月4日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20121204_1.pdf" target="_blank">11月27日の暴風雪による災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年12月4日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20121204_2.pdf" target="_blank">[お詫び]新自転車ワイドプランご加入時のご説明画面の一部表示誤りについて</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201211">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">11月</h3>
+			<dl>
+				<dt>2012年11月8日</dt>
+				<dd><a href="../../oshirase/2012/topics_20121108.html" target="_blank">au損保 特別協賛イベント『ちがさきVELO FESTIVAL』(11月23日)開催のお知らせ</a></dd>
+			</dl>
+		</div>
+
+		<div id="date201210">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">10月</h3>
+			<dl>
+				<dt>2012年10月17日</dt>
+				<dd><a href="../../oshirase/2012/topics_20121017.html" target="_blank">「Myスマート保険world（海外旅行保険）」リニューアルのお知らせ（2012年12月19日以降ご出発のご契約から）</a></dd>
+			</dl>
+			<dl>
+				<dt>2012年10月17日</dt>
+				<dd><a href="http://www.sonpo.or.jp/news/release/2012/1209_01.html" target="_blank">2013年度「全国統一防火標語」を募集</a></dd>
+			</dl>
+		</div>
+
+		<div id="date201209">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">9月</h3>
+			<dl>
+				<dt>2012年9月25日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120925.pdf" target="_blank">台風16号にかかる災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201208">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">8月</h3>
+			<dl>
+				<dt>2012年8月16日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120816.pdf" target="_blank">8月13日からの大雨被害にかかる災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年8月15日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120815.pdf" target="_blank">【メンテナンス完了】KDDI社auかんたん決済のメンテナンス時間の延長に伴う弊社への影響について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年8月14日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120814_2.pdf" target="_blank">【一部メンテナンス完了】KDDI社auかんたん決済のメンテナンス時間の延長に伴う弊社への影響について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年8月14日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120814_1.pdf" target="_blank">KDDI社auかんたん決済のメンテナンス時間の延長に伴う弊社への影響について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年8月2日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120802.pdf" target="_blank">【復旧】KDDI社提供サービス障害に伴う弊社への影響について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年8月1日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120801.pdf" target="_blank">KDDI社提供サービス障害に伴う弊社への影響について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201207">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">7月</h3>
+			<dl>
+				<dt>2012年7月26日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/corporate/pdf/disclo_120725.pdf" target="_blank">ディスクロージャー資料「au損保の現状2012」を掲載しました</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年7月17日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120717.pdf" target="_blank">7月11日からの梅雨前線による大雨被害にかかる災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年7月12日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120712.pdf" target="_blank">カスタマーセンターでの電話受付けの復旧について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年7月10日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120710.pdf" target="_blank">7月3日からの大雨被害にかかる災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年7月5日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120705.pdf" target="_blank">7月3日からの大雨被害にかかる災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年7月4日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120704.pdf" target="_blank">「プライバシーポリシー」の一部改定のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201206">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">6月</h3>
+			<dl>
+				<dt>2012年6月12日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120612.pdf" target="_blank">お客様サポートデスク 名称・営業日・受付時間変更のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201205">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">5月</h3>
+			<dl>
+				<dt>2012年5月15日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120515.pdf" target="_blank">「ワンコイン海外旅行保険」デビューキャンペーン第三弾プレゼント当選者への賞品発送完了のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年5月9日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120509.pdf" target="_blank">突風等にかかる災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201204">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">4月</h3>
+			<dl>
+				<dt>2012年4月24日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120424.pdf" target="_blank">Myスマート保険 商品改定のご案内</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年4月24日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120424_2.pdf" target="_blank">Myスマート保険「ランナーズプラン」の販売終了について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年4月17日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120417.pdf" target="_blank">「ワンコイン海外旅行保険」デビューキャンペーン第二弾プレゼント当選者への賞品発送完了のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年4月6日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120406.pdf" target="_blank">「スマートサイクリング宣言！春の交通安全キャンペーン」実施について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201203">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">3月</h3>
+			<dl>
+				<dt>2012年3月21日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120321.pdf" target="_blank">新潟県上越市で発生した地すべり災害へのご対応について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年3月15日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120315.pdf" target="_blank">「ワンコイン海外旅行保険」デビューキャンペーン第1弾プレゼント当選者への賞品発送完了のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201202">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">2月</h3>
+			<dl>
+				<dt>2012年2月23日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120223.pdf" target="_blank">傷害保険「個人賠償責任補償特約」改定のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2012年2月8日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20120208.pdf" target="_blank">今冬期の大雪により災害救助法が適用された地域のご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201111">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">11月</h3>
+			<dl>
+				<dt>2011年11月7日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20111107.pdf" target="_blank">奄美地方における大雨により被災されたご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201109">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">9月</h3>
+			<dl>
+				<dt>2011年9月29日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20110929.pdf" target="_blank">鹿児島県奄美地方における豪雨により被災されたご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2011年9月28日</dt>
+				<dd><a href="http://www.kddi.com/corporate/news_release/2011/0927/index.html" target="_blank">「CEATEC Japan 2011」にau損保も出展（KDDIプレスリリースへリンク）</a></dd>
+			</dl>
+			<dl>
+				<dt>2011年9月28日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20110928.pdf" target="_blank">台風15号により被災されたご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2011年9月7日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20110907.pdf" target="_blank">台風12号により被災されたご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201108">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">8月</h3>
+			<dl>
+				<dt>2011年8月9日</dt>
+				<dd><a href="http://www.facebook.com/ausonpo" target="_blank">au損保　Facebookページのプロフィール写真を「ガクブルペンギン」キャラクターに変更しました</a></dd>
+			</dl>
+			<dl>
+				<dt>2011年8月1日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20110801.pdf" target="_blank">新潟県・福島県における集中豪雨で被災されたご契約者の皆さまへ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201107">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">7月</h3>
+			<dl>
+				<dt>2011年7月11日</dt>
+				<dd><a href="../../oshirase/pdf/topics_20110711.pdf" target="_blank">スマートフォン用WEBムービーページ開設のお知らせ</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+		<div id="date201106">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">6月</h3>
+			<dl>
+				<dt>2011年6月1日</dt>
+				<dd><a href="http://www.au.kddi.com/seihin/ichiran/mobilephone/mamorino2/insurance.html" target="_blank">KDDI株式会社がお子さま向けに販売中の「mamorino2」に付保する傷害保険について、au損保が引受を開始します</a></dd>
+			</dl>
+		</div>
+
+		<div id="date201105">
+			<h3 style="font-size: 12px; clear: both; margin: 40px 0 0 0;">5月</h3>
+			<dl>
+				<dt>2011年5月24日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/upload/article/2/article_2_1.pdf" target="_blank">au損保Android&trade;向けアプリ「ガクブルペンギン」を公開</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+			<dl>
+				<dt>2011年5月24日</dt>
+				<dd><a href="http://corp.au-sonpo.co.jp/upload/article/5/article_5_1.pdf" target="_blank">au損保開業を記念した「ナビウォーク保険プレゼントキャンペーン」の実施について</a><img src="spimg/icon_pdf.gif" alt="pdf" width="11" height="11" class="img_pdf" /></dd>
+			</dl>
+		</div>
+
+	</div><!-- /#-->
+
+	<!-- フロートエリア対応-->
+	<div id="floteArea">
+		<a href="javascript:void(0);" onClick="window.close(); return false;"><div class="close_float">×&nbsp;閉じる<br /></div></a>
+	</div>
+	<!-- フロートエリア対応 -->
+
+</body>
+</html>

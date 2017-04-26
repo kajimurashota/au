@@ -1,0 +1,378 @@
+﻿@charset "utf-8";
+/***青枠タイトル***/
+.title_line{
+	background-color:#FCF7EB;
+	text-align:center;
+	padding:10px 0;
+}
+.title_box{
+	background-color:#dae2f2;
+	text-align:center;
+	padding:8px 0;
+}
+	
+.title_logo{
+	width:202px;
+	height:39px;
+}
+
+.title_center{
+	text-align: center;
+}
+
+
+.title_more{
+	font-size:19px;
+	font-weight:bold;
+	color:#001E60;
+}
+
+.title_another{
+	font-size:17px;
+	font-weight:bold;
+	color:#001E60;
+}
+/***箱***/
+.inner-block{
+	max-width:770px;
+	width:100%;
+	margin:0 auto;
+}
+.width730{
+	max-width:730px;
+	margin:0 auto;
+	width:100%;
+}
+/***インデント***/
+.indent1{
+	text-indent:-1em;
+	margin-left:1em;
+}
+.margin_l18{
+	margin-left:18px;
+}
+/******文字サイズ******/
+/***一番大きい文字***/
+.title_mega{
+	font-size:19px;
+	font-weight:bold;
+	color:#001E60;
+}
+/***真ん中サイズの文字（太字）***/
+.title_big{
+	font-size:15px;
+	font-weight:bold;
+	color:#001E60;
+}
+/***真ん中サイズの文字（細字）***/
+.title_middle{
+	font-size:15px;
+	font-weight:normal;
+	color:#001E60;
+}
+/***一番小さいサイズの文字***/
+.title_small{
+	font-size:13px;
+	font-weight:normal;
+	color:#001E60;
+}
+/***18px***/
+.font18{
+	font-size:18px;
+	color:#001E60;
+}
+/***24px***/
+.font24{
+	font-size:24px;
+	color:#001E60;
+}
+/***太字***/
+.bold{
+	font-weight:bold;
+}
+/***文字色***/
+.orange_p{
+	color:#E55602;
+}
+.text_red{
+	color:#E47373;
+}
+
+.text_red2{
+	color:#FF0000;
+}
+/***タイトル***/
+.road_title_img{
+	display:inline-block;
+	min-width:420px;
+}
+/***自転車ロードサービス4つのポイント!***/
+.roadservice_txt{
+	display:inline-block;
+	padding-top: 5px;
+}
+.roadservice_icon{
+	width: 70px;
+	height: 38px;
+	margin-right: 10px;
+	vertical-align: top;
+	display:inline-block;
+}
+
+.roadservice_icon_L{
+	width: 80px;
+	height: 45px;
+	margin-right: 10px;
+	vertical-align: top;
+	display:inline-block;
+}
+
+.point_label_tbl{
+	width:100%;
+	border-spacing: 17px;
+	margin: 0px auto;
+	border-collapse:separate;
+}
+.point_label_tbl td {
+	border: 3px solid #375799;
+	border-radius: 2px;
+	background-color: #FFF;
+	text-align:center;
+}
+.point_label_blue{
+	background-color: #375799;
+	height:3em;
+	text-align:center;
+}
+.point_label_tbl_sp{
+	display:none;
+}
+.point_table_blue_wrap.road_service{
+	height:13.5em;
+}
+.point_table_blue_in{
+	padding: 8px;
+	text-align:center;
+}
+.kahen_img_right,.kahen_img_left {
+	position: absolute;
+	top: -8px;
+	width: 125px;
+	height: 125px;
+}
+.kahen_img_right {
+	right: 0px;
+}
+.kahen_img_left {
+	left: 0px;
+}
+.sirvice_ex_box {
+	border: 2px solid #808080;
+	border-radius: 3px;
+	padding: 12px 12px 0 12px;
+	background-color: #FFF;
+	margin: 0px auto 20px;
+}
+.ex_kahen{
+	padding:0 17px;
+}
+.li_nbsp{
+	margin-right: 0.5em;
+}
+.icon_arrive{
+	text-align:center;
+}
+.kochira_link{
+	color:#E47373;
+}
+.toucyaku_tbl td{
+	text-align:center;
+}
+.navy_tr{
+	width:100px;
+	height:26px;
+}
+.yousei_icon{
+	width:25px;
+	height:30px;
+	margin:0 5px;
+}
+.roadcar{
+	width: 50px;
+	height:33px;
+}
+.text-center1{
+	max-width: 420px;
+	margin: 0 auto;
+	width: 100%;
+}
+.text-center2{
+	max-width: 474px;
+	margin: 0 auto;
+	width: 100%;
+}
+.blue_allow_r{
+	width: 15px;
+	height: 13px;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+.konna_orange{
+	margin:20px auto 5px;
+	padding:5px;
+	width:98%;
+	max-width:24em;
+	text-align:center;
+	font-weight:bold;
+}
+/***ご利用方法***/
+.midasi{
+	text-align:center
+}
+
+.tel_font{
+	font-size:26px;
+}
+
+.padding_b{
+	/*padding-bottom:5px;*/
+}
+
+.togaki{
+	color:#605F5D;
+	text-align:center;
+	padding:10px;
+}
+.block_bycle_smapho.road_service .body_bycle_smapho {
+	padding-bottom:0px;
+	max-width: 730px;
+	margin: 0 auto;
+	width: 100%;
+}
+.block_bycle_smapho .body_bycle_smapho .left_side {
+	max-width: 277px;
+	margin-right: 10px;
+	width:100%;
+}
+.block_bycle_smapho .body_bycle_smapho .right_side {
+	width: 443px;
+}
+.block_bycle_smapho .body_bycle_smapho .right_side ul .img_phone01,.block_bycle_smapho .body_bycle_smapho .right_side ul .img_phone02,.block_bycle_smapho .body_bycle_smapho .right_side ul .img_phone03,.block_bycle_smapho .body_bycle_smapho .right_side ul .img_phone04{
+	margin: 0 15px;
+	width: 80px;
+	background-size: 65%;
+	padding-top: 120px;
+	font-size: 13px;
+}
+.block_bycle_smapho .body_bycle_smapho .right_side ul li::before {
+	top: 43px;
+	left: -26px;
+}
+.block_bycle_smapho .body_bycle_smapho .right_side a {
+	margin-top:0px;
+}
+.block_bycle_smapho .body_bycle_smapho > div > div.roadservice_help{
+	background-color:#375799;
+	padding: 10px;
+	border-radius:3px 3px 0 0;
+}
+.block_bycle_smapho .body_bycle_smapho .right_side ul li {
+	text-align: left;
+}
+.block_bycle_smapho .body_bycle_smapho .left_side dl dd {
+	text-align: right;
+}
+.block_bycle_smapho.road_service {
+	padding:0px;
+	margin:10px 0 5px;
+}
+.desk_img{
+	width:209px;
+	height:148px;
+	margin:0 auto;
+}
+.block_bycle_smapho .body_bycle_smapho .left_side dl dt {
+	font-size: 19px;
+}
+.block_bycle_smapho .body_bycle_smapho .left_side dl dd small {
+	font-size: 15px;
+}
+.block_bycle_smapho .body_bycle_smapho > div > div {
+	padding:10px 0;
+	border: 1px solid #375799;
+	border-radius: 0 0 3px 3px;
+}
+.step_txt{
+	padding-bottom: 10px;
+}
+/***利用者さまの声***/
+.talk_back{
+	text-align:left;
+	max-width:50em;
+	padding:5px;
+	border-radius:3px;
+	position:relative;
+	margin: 5px 0px 5px 64px;
+	border:2px solid #375799;
+	background-color:#ffffee;
+	color:#375799;
+	display:inline-block;
+	font-size:13px;
+}
+/***ご利用規約***/
+.kiyaku_box{
+	border:solid 2px gray;
+	padding: 10px;
+	max-width: 710px;
+	margin: 0 auto;
+	width: 100%;
+	text-align: left;
+	border-radius:3px;
+}
+#roadservice_list li{
+	margin:20px 0  20px 10px;
+	color: #1a1a1a;
+}
+.pdf_box{
+	margin:20px 0;
+}
+.icon_pdf{
+	margin-top: 0px;
+	margin-left: 5px;
+	font-size: 10px;
+	border: 1px solid #605F5D;
+	background: #FFF none repeat scroll 0% 0%;
+	padding: 0px 3px;
+	vertical-align: middle;
+}
+.pdf_link{
+	color:#605F5D;
+}
+/***既存上書き***/
+.lower_main_image.ver02.travel.kaigai .pc_main_text .top_veiw_text {
+	font-size: 20px;
+}
+/***body間隔（ポップアップ）***/
+.margin_bottom60{
+	margin-bottom:60px;
+}
+.block_bycle_smapho .body_bycle_smapho .right_side a.popup{
+	margin-top: -5px;
+}
+
+.block_bread_crumb {
+	padding:15px 0;
+}
+
+
+.block_bycle_smapho .body_bycle_smapho .left_side img {
+	width: 209px;
+	height:135px;
+}
+
+
+
+.block_bread_crumb2 {
+	padding: 15px 0px 0px;
+	width: 935px
+}

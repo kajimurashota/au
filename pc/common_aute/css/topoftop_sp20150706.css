@@ -1,0 +1,240 @@
+/* ---------------------------
+  AUTE index
+	@ Parts
+	  - new_main_image
+	  - top_main_cont
+	  - top_main_nav
+	  - top_bnr_block
+	  - top_news_block
+	  - top_main_content_lower
+	  - bnr_slider
+--------------------------- */
+/* ---------------------------
+  @ new_main_image
+--------------------------- */
+.new_main_image {
+  min-width: 100%;
+  height: auto;
+  background: none;
+  text-align: center;
+}
+.new_main_image img {
+  position: static;
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+}
+
+/* ---------------------------
+  @ new_main_image
+--------------------------- */
+.top_main_cont {
+  margin-top: -20px;
+}
+.top_main_cont_wrap {
+  width:720px;
+  background-color:#fff;
+  opacity:1.0;
+  padding:0;
+  margin:0 auto;
+  max-width:100%;
+}
+
+/* ---------------------------
+  @ top_main_nav
+--------------------------- */
+.top_main_nav {
+  overflow: hidden;
+  margin: 0 -10px;
+  padding: 0 2%;
+}
+.top_main_nav .top_nav_bycle {
+  width: 100%;
+  float: none;
+  margin: 0 0 5px;
+}
+.top_main_nav .top_nav_bycle a {
+  padding-top: 26.5%;
+  background: url('../../common/img_20150623/sp/top/btn_bycle.png') no-repeat;
+  background-position: center top;
+  background-size: contain;
+}
+.top_main_nav .top_nav_bycle a:hover {
+  background-position: center bottom;
+}
+.top_main_nav ul {
+  width: 100%;
+  float: none;
+}
+.top_main_nav ul li {
+  width: 50%;
+  float: left;
+  margin: 0 0 5px;
+}
+.top_main_nav ul a {
+  padding-top: 56%;
+  background-position: center top;
+  background-size: contain;
+}
+.top_main_nav ul a:hover {
+  background-position: center bottom;
+}
+.top_main_nav ul .top_nav_traffic a {
+  background-image: url('../../common/img_20150623/sp/top/btn_traffic.png');
+}
+.top_main_nav ul .top_nav_daily a {
+  background-image: url('../../common/img_20150623/sp/top/btn_daily.png');
+}
+.top_main_nav ul .top_nav_pet a {
+  background-image: url('../../common/img_20150623/sp/top/btn_pet.png');
+}
+.top_main_nav ul .top_nav_oversea a {
+  background-image: url('../../common/img_20150623/sp/top/btn_oversea.png');
+}
+.top_main_nav ul .top_nav_golf a {
+  background-image: url('../../common/img_20150623/sp/top/btn_golf.png');
+}
+.top_main_nav ul .top_nav_domestic a {
+  background-image: url('../../common/img_20150623/sp/top/btn_domestic.png');
+}
+
+/* ---------------------------
+  @ top_bnr_block
+--------------------------- */
+.top_bnr_block {
+  padding: 0 3%;
+  margin: 20px 0 40px;
+}
+.top_bnr_block .title {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.top_bnr_block .bnr_block_top {
+  text-align: center;
+  letter-spacing: normal;
+  margin: 0 0 8px;
+}
+.top_bnr_block .bnr_block_top li {
+  width: 100%;
+  display: block;
+  margin: 0 0 10px;
+}
+.top_bnr_block .bnr_block_top a {
+  padding-top: 45%;
+  background-position: center top;
+  background-size: contain;
+  display: block;
+}
+.top_bnr_block .bnr_block_top .main_bnr_pet a {
+  background-image: url('../../common/img_20150623/sp/top/bnr_pet.png');
+}
+.top_bnr_block .bnr_block_top .main_bnr_bycle a {
+  //background-image: url('../../common/img_20150623/sp/top/bnr_bycle.png');
+}
+.top_bnr_block .bnr_block_top .main_bnr_road a {
+  background-image: url('../../common/img_20150623/sp/top/bnr_roadservice.png');
+}
+.top_bnr_block .bnr_slider {
+  width: 95%;
+  margin: 0 auto;
+}
+.top_bnr_block .bnr_slider img {
+  width: 100%;
+}
+.top_bnr_block .bnr_slider .bx-wrapper .bx-prev {
+	left: -21px;
+}
+.top_bnr_block .bnr_slider .bx-wrapper .bx-next {
+	right: -21px;
+}
+
+/* ---------------------------
+  @ top_news_block
+--------------------------- */
+.top_news_block {
+  width: 100%;
+  margin: 0 0 50px;
+}
+.top_news_block .title {
+  font-size: 17px;
+}
+.top_news_block .news_block {
+  margin-bottom: 20px;
+}
+.top_news_block .news_block dl {
+  display: block;
+  border-top: none;
+  border-top: #d3d3d3 1px solid;
+}
+.top_news_block .news_block dl:first-child {
+  border-top: none;
+}
+.top_news_block .news_block dt {
+  width: 40%;
+  padding: 10px 0;
+  vertical-align: middle;
+}
+.top_news_block .news_block dt span {
+  font-size: 10px;
+}
+.top_news_block .news_block .date {
+  width: 50%;
+  font-size: 10px;
+  padding: 10px 0 10px 10%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.top_news_block .news_block .text {
+  width: 100%;
+  display: block;
+  padding: 0 0 10px;
+}
+.top_news_block .news_btns {
+  letter-spacing: normal;
+  text-align: center;
+  margin: 0;
+}
+.top_news_block .news_btns li {
+  display: block;
+  width: 100%;
+  margin: 10px 0 0;
+}
+.top_news_block .news_btns .btn_maintenance {
+  width: 100%;
+}
+
+/* ---------------------------
+  @ top_main_content_lower
+--------------------------- */
+.top_main_content_lower {
+  margin-bottom: 0;
+}
+.top_main_content_lower .lower_block {
+  width: 100%;
+  float: none;
+  border-left: none;
+  border-top: #c8c8c8 1px solid;
+  padding-bottom: 32px;
+}
+.top_main_content_lower .lower_block:first-child {
+  border-top: none;
+}
+.top_main_content_lower .lower_block h3 {
+  margin-bottom: 18px;
+}
+.top_main_content_lower .lower_block .btn_lower_block {
+  width: 70%;
+}
+.top_main_content_lower .lower_block dd {
+  font-size: 12px;
+}
+.top_main_content_lower .lower_block dd em {
+  font-size: 22px;
+}
+.top_main_content_lower .lower_block dd em span {
+  font-size: 10px;
+}
+.top_main_content_lower .lower_block p {
+  font-size: 12px;
+}
+

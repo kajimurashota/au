@@ -1,0 +1,109 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+ol, ul { list-style: none; }
+a:hover img.hoverImg { filter: alpha(opacity=70); opacity: 0.7; -moz-opacity: 0.7; }
+a img { border-style: none; }
+.clearfix:after { content: "."; display: block; height: 0; font-size: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+/* Hides from IE Mac */
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+.fs12 { font-size: 12px; }
+.fs14 { font-size: 14px; }
+.fs16 { font-size: 16px; }
+.fs18 { font-size: 18px; }
+.fs20 { font-size: 20px; }
+.fs24 { font-size: 24px; }
+.fs30 { font-size: 30px; }
+.orange { color: #ea5504; }
+.orange2 { color: #ea5504; }
+.gray { color: #858585; }
+.gray2 { color: #595858; }
+.bold { font-weight: bold; }
+.border-bottom { border-bottom: 2px solid #ea5504; }
+.mt10 { margin-top: 10px; }
+.mb10 { margin-bottom: 10px; }
+.text_center { text-align: center; }
+body { background-color: #FFFFFF!important; }
+h1 { max-width:980px;
+	margin:0 auto;
+	font-size:12px;
+	color:#858585;
+	padding-top:12px;
+	padding-bottom:0px;
+	font-weight:normal;}
+/**/
+#contents_wrapper { margin-top: 100px; }
+.pankuzu { max-width: 980px; margin: 0px auto; padding-left: 10px; padding-right: 10px; display: block; padding-top: 5px; }
+.bread_crumb { margin-top: 10px; }
+#page_contents { color: #000000; }
+.pc-br { display: block; }
+.sp{display:none;}
+/*********************
+タグライン
+*********************/
+/* mainVis */
+#page_contents .main_sp { display: none; }
+#page_contents .maintitle_bg {max-width: 980px; margin: 0px auto; height: 321px; background: url(../img_20160128/pc/tagline/tagline_pc_03.jpg) center top no-repeat; margin-top: 10px; background-size:cover;}
+#page_contents .maintitle { max-width: 980px; margin: 0px auto; padding-left: 7px; padding-right: 10px; position: static; padding-top: 94px; padding-bottom: 30px; }
+#page_contents .maintitle h2 { width: 52%; margin-bottom: 28px; }
+#page_contents .maintitle_bg ul { max-width: 980px; margin: 0px auto; padding-left: 10px; padding-right: 10px; padding-top: 20px; padding-bottom: 10px; }
+#page_contents .maintitle_bg li { font-size: 12px; margin-bottom: 10px; }
+#page_contents .maintitle_bg li a { color: #000000; }
+#page_contents .maintitle_bg li a:hover { text-decoration: none; }
+#page_contents .maintitle_bg .text { font-size: 20px; font-weight: bold; color: #FFFFFF; text-align: center; background-color: #ea5504; padding-top: 10px; padding-bottom: 10px; margin-bottom: 1px; }
+/* box01 */
+#page_contents #box01 { max-width: 970px; margin: 0px auto; border: #ea5504 solid 5px; position: relative; padding: 80px 0px; text-align: center !important; }
+#page_contents #box01 .title { color: #ea5504; font-size: 20px; margin-bottom: 20px; line-height: 50px; letter-spacing: 0.5px; font-family: 'Noto Sans Japanese', sans-serif; font-weight: 500; }
+/* box02 */
+#page_contents #box02 { width: 100%; background-color: #fef5ed; position: relative; margin-top: 90px; padding: 90px 0px 100px; text-align: center !important; }
+#page_contents #box02 .title { max-width: 980px; margin: 0px auto; font-size: 26px; letter-spacing: 3px; margin-bottom: 55px; padding: 10px 0px; border-top: #ea5504 solid 4px; border-bottom: #ea5504 solid 4px; font-family: 'Noto Sans Japanese', sans-serif; font-weight: 600; }
+#page_contents #box02 .text01,
+#page_contents #box02 .text02 { font-size: 22px; margin: 55px 0px 40px; line-height: 50px; font-family: 'Noto Sans Japanese', sans-serif; }
+#page_contents #box02 .img01 { width: 35%; margin: 0px auto; }
+/* box02 inlineBox */
+#page_contents #box02 .inlineBox { max-width: 980px; margin: 0px auto; }
+#page_contents #box02 .inlineBox .inlineBoxInner { width: 50%; height: 430px; float: left; background-color: #fff; border: #ea5504 solid 4px; box-sizing:border-box; position:relative;}
+#page_contents #box02 .inlineBox .inlineBoxInner01{border-bottom:none; height: 330px;}
+#page_contents #box02 .inlineBox .inlineBoxInner02{border-left:none; border-bottom:none; height: 330px;}
+#page_contents #box02 .inlineBox .inlineBoxInner04{border-left:none;}
+#page_contents #box02 .inlineBox .inlineBoxInner .ibiTitle { font-size: 20px; color: #ea5504; padding: 30px 0px; font-weight: bold; }
+#page_contents #box02 .inlineBox .inlineBoxInner .ibiImg { width: 25%; height: 100px; margin: 0px auto; }
+#page_contents #box02 .inlineBox .inlineBoxInner .ibiImg02 { width: 35%; height: 100px; margin: 0px auto; }
+#page_contents #box02 .inlineBox .inlineBoxInner .ibiText { padding: 8%; font-size: 16px; text-align: left; padding-bottom:0px; padding-top:4%;}
+#page_contents #box02 .inlineBox .inlineBoxInner .notice{padding-left:8%; padding-right:8%; margin-left:2em; text-align:left; margin-top:5px;}
+#page_contents #box02 .inlineBox .inlineBoxInner .notice span{display:block; text-indent:-2em;}
+#page_contents #box02 .inlineBox .inlineBoxInner .icon{position:absolute; top:0px; right:-1px; width:15%;}
+#page_contents #box02 .inlineBox .inlineBoxCam { clear: both; padding: 1% 0px; font-size: 12px; text-align: left; margin-left:2em;}
+#page_contents #box02 .inlineBox .inlineBoxCam li{text-indent:-2em;}
+/* box03 */
+#page_contents #box03 { width: 100%; position: relative; margin: 110px auto 120px; text-align: center !important; }
+#page_contents #box03 .title { max-width: 980px; margin: 0px auto; font-size: 26px; letter-spacing: 3px; margin-bottom: 55px; padding: 10px 0px; border-top: #ea5504 solid 4px; border-bottom: #ea5504 solid 4px; font-family: 'Noto Sans Japanese', sans-serif; font-weight: 600; }
+/* box03 jitensya */
+#page_contents #box03 .jitensya { max-width: 900px; margin: 35px auto 15px; padding: 20px 40px; border: #ea5504 solid 1px; }
+#page_contents #box03 .jitensya .img01 { width: 35%; margin: 0px auto; float: left; vertical-align: middle; }
+#page_contents #box03 .jitensya .text01 { width: 60%; margin-left: 5%; float: left; font-size: 18px; font-weight: bold; color: #ea5504; text-align: left; }
+/* box03 jitensyaGps */
+#page_contents #box03 .jitensyaGps { max-width: 900px; margin: 0px auto; padding: 20px 40px; position: relative; background-color: #f8f8f9; }
+#page_contents #box03 .jitensyaGps .img01 { width: 31.5%; margin: 0px; float: left; vertical-align: middle; }
+#page_contents #box03 .jitensyaGps .text01 { width: 60%; margin: 6% 0 20px 8%; float: left; font-size: 18px; font-weight: bold; color: #000; text-align: left; }
+#page_contents #box03 .jitensyaGps .text02 { width: 60%; margin: 0 0 20px 8%; float: left; font-size: 16px; text-align: left; }
+/* box03 jitensyaCap */
+#page_contents #box03 .jitensyaCap { max-width: 980px; margin: 0px auto; }
+#page_contents #box03 .jitensyaCap .text01 { margin: 40px 0px 0px 40px; font-size: 16px; text-align: left; }
+#page_contents #box03 .jitensyaCap .text02 { clear: both; padding: 30px 0px 0px; font-size: 20px; letter-spacing: 3px; text-align: center; font-family: 'Noto Sans Japanese', sans-serif; font-weight: 500; }
+/* box03 jitensyaCapS */
+#page_contents #box03 .text03 { width: 55%; margin-left: 7.5%; float: left; font-size: 12px; text-align: left; }
+#page_contents #box03 .text03 ul{
+	margin-left:2em;
+}
+#page_contents #box03 .text03 ul li{
+	text-indent:-2em;
+}
+
+#page_contents #box03 .text03 .text03cap { width: 6%; display: block; float: left; font-size: 12px; }
+#page_contents #box03 .text03 .text03capTxt { width: 94%; display: block; float: left; font-size: 12px; }
+/* btn */
+#page_contents .btn { text-align: center; float: right; padding-top: 20px; padding-bottom: 20px; }
+#page_contents .btn a { text-align: center; background-color: #000; border-radius: 5px; padding: 0.5em 1em 0.5em 2em; color: #FFFFFF; font-size: 16px; display: inline-block; text-decoration: none; font-weight: bold; }
+#page_contents .btn a:hover { filter: alpha(opacity=70); opacity: 0.7; -moz-opacity: 0.7; }

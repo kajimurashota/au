@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+div#pc_top_margin {
+    margin-top: 1em;
+}
+
+#traffic_point1 {
+	margin-top:20px;
+}
+
+.premium_table td.family_type {
+	background-color:#8BC5F2;
+	color:#FFF;
+	padding:5px;
+}
+
+.block_table .premium_table td.coverage {
+	text-align:center;
+}
+
+#insurance_area .table_list li em {
+	font-size:16px;
+}
+
+#pc_top_margin.block_bread_crumb.PaddingB5_Wi930{
+	padding-bottom: 5px;
+	width: 930px;
+}

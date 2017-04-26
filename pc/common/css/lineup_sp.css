@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* 一番大きい文字 */
+.title_mega{
+	font-size:19px;
+}
+
+.lower_main_cont {
+	margin-top:0!important;
+}
+
+
+h1{
+	width:980px;
+	margin:0 auto;
+	font-size:10px;
+	color:#858585;	
+	display:none;
+}
+
+.bread_crumb{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-left:10px;
+	padding-right:10px;	
+	display:none;
+}
+
+.container_new > div {
+	margin: 0px;
+}
+.hokenyou_ttl {
+	max-width: 278px;
+	margin: 10px auto 0px;
+}
+.hokenryou_tbl {
+    margin: 0 auto;
+    width: 280px;
+}
+.hokenryou_tbl td {
+	padding: 2px;
+}
+.kahen_ttl{
+	width:59%;
+}
+.hoken_type {
+	margin-right:5px;
+	padding: 2px;
+	width: 112px;
+	right: 9px;
+}
+
+.kuwashiku_orange_btn{
+	margin: 10px auto 0;
+	
+}
+
+.container_new > div.blue_box{
+	margin: 10px 5px;
+	width: 95%;
+	padding: 10px 0;
+}
+.margin_r70 {
+	margin-right: 36px;
+}
+.margin_r40 {
+	margin-right: 30px;
+}
+.four_point{
+	width: 290px;
+}
+.bycle_logo {
+	width:auto;
+}
+.lineuplogo {
+	height:40px;
+}
+.byclebest_logo {
+	width: auto;
+}
+.traffic_logo {
+	width: auto;
+}
+.nichizyou_logo {
+	width: auto;
+}
+.pet_logo {
+	width: auto;
+}
+.kaigai_logo {
+	width: auto;
+}
+.kokunai_logo {
+	width: auto;
+}
+.golf_logo {
+	width:  auto;
+}
+.hokenyou_ttl.koutsu_hoken {
+	margin-top: 10px;
+}
+.container_new > div.blue_box.height360,
+.container_new > div.blue_box.height430,
+.container_new > div.blue_box.height492,
+.container_new > div.blue_box.height458{
+	height:auto;
+	padding-bottom:100px;
+}
+.approvalnumber{
+	padding-right:5px;
+}
+.br_sp {
+	display:inline;
+}
+.back_beige{
+	margin-bottom: 10px;
+	padding:2px 0 8px;
+}

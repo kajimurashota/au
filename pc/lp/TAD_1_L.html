@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>あいおいニッセイ同和｜ペットの保険</title>
+<meta charset="shift_jis">
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="keywords" content="あいおいニッセイ同和,ペット,保険" />
+<link rel="canonical" href="http://www.au-sonpo.co.jp/adpet" />
+<script type="text/javascript" src="../common_aute/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../common/js/campcd.js"></script>
+<script type="text/javascript" src="../common/js/checkCookie.js" charset="utf-8"></script>
+<link type="text/css" href="tad_1_l/css/tad_1_l.css" rel="stylesheet" />
+<script type="text/javascript">
+	//PDFの表示切替
+	var head = document.getElementsByTagName("head")[0];
+	var paraString = window.location.search.substring(1);
+	var params = paraString.split('&');
+	for(var i = 0; i <params.length; i++) {
+		var paramItem = params[i].split('=');
+		if(paramItem[0] == "DRT_CD"){
+			if(paramItem[1] == "NS00"){
+				var csslink = document.createElement("link");
+				csslink.setAttribute("rel","stylesheet");
+				csslink.setAttribute("type","text/css");
+				csslink.setAttribute("href","./tad_1_l/css/pdfcontrol.css");
+				head.appendChild(csslink);
+			}
+			break;
+		}
+	}
+
+	var sendFlg = 0;
+	function submit() {
+		if(sendFlg == 0){
+			sendFlg = 1;
+			document.forms[0].submit();
+		}else{
+			alert("すでに処理実行中です。\nしばらくお待ちください。");
+		}
+	}
+	function initialForm(){
+		var paraString = window.location.search.substring(1);
+		var params = paraString.split('&');
+		for(var i = 0; i <params.length; i++) {
+			var paramItem = params[i].split('=');
+			if(paramItem[0] == "DRT_CD"){
+				document.getElementById("DAIRITEN_CD").value = paramItem[1];
+			}else if(paramItem[0] == "CLS_CD"){
+				document.getElementById("BOSHUNIN_ID").value = paramItem[1];
+			}
+		}
+	}
+</script>
+
+<script type="text/javascript">
+	//google analytics
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32568740-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<script type="text/javascript">
+function openwin(pop,winname){
+	var avW = 970;
+	var avH = 680;
+	  win1 = open(pop,winname,"toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,top=0,left=0,width=" + avW + ",height=" + avH + "");
+	win1.opener = self;
+	win1.focus();
+}
+</script>
+</head>
+
+<script type="text/javascript">
+var sendFlg = 0;
+function submit() {
+	if(sendFlg == 0){
+		sendFlg = 1;
+		document.forms[0].submit();
+	}else{
+		alert("すでに処理実行中です。\nしばらくお待ちください。");
+	}
+}
+</script>
+</head>
+
+<body onload = "javascript:initialForm();javascript:checkCookie();">
+	<form name="postForm" method="post" action="https://pet.aioinissaydowa.co.jp/ph/pages/H010.aspx" > 
+		<input type="hidden" name="DAIRITEN_CD" id="DAIRITEN_CD" value="" />
+		<input type="hidden" name="BOSHUNIN_ID" id="BOSHUNIN_ID" value="" />
+		<input type="hidden" name="OkURL" id="OkURL" value="https://www.au-sonpo.co.jp/pca/MBTAD_1_T.do" />
+		<input type="hidden" name="NgURL" id="NgURL" value="https://www.au-sonpo.co.jp/pca/MBZAD_XE.do" />
+
+		<div id="wrapper">
+			<div id="header">
+				<div id="header_left">
+					<p>引受保険会社：au損害保険株式会社</p>
+					<p>販売受託会社：あいおいニッセイ同和損害保険株式会社</p>
+				</div>
+				<div id="header_right">
+					<div>
+						<div id="insurance_logo">ペット医療費用保険</div>
+					</div>
+					<img class="img_insurance_for_pet" alt="ペット医療費用保険" src="../common/img_20151119/pc/top/btn_09.gif" />
+				</div>
+			</div><!--header end-->
+
+			<div id="maincontent" class="mt10">
+<!--
+				<img class="img_ad_pet_logo" alt="ペットの保険" src="tad_1_l/images/ad_pet_logo.jpg" />
+-->
+<!--
+				<img class="img_ad_pet_banner" alt="大切な家族のための保険" src="tad_1_l/images/ad_pet_banner.jpg" />
+				<img class="img_ad_pet_start"alt="はじめよう！大切な家族（ペット）のための医療保険" src="tad_1_l/images/adpet_start.png" />
+-->
+				<img class="img_ad_pet_start"alt="はじめよう！大切な家族（ペット）のための医療保険" src="tad_1_l/images/adpet_start.png"  style="margin-bottom:0;"/>
+				<img class="img_ad_pet_banner" alt="大切な家族のための保険" src="tad_1_l/images/ad_pet_banner.jpg"  style="margin-top:0;"/>
+				<div style="max-width:700px;margin:10px auto 0;">
+					<div style="border:solid 2px #E13B00;border-radius:10px;padding:10px;color:#555452;font-weight:bold;line-height:1.8;font-size:20px;">
+						ペットの通院や入院・手術の治療費は”高額”になりがちです。<br />
+						万一の病気やケガにそなえて愛犬・愛猫と長く一緒に<br />
+						暮らせる準備をしましょう！
+					</div>
+				</div>
+				<div style="max-width:700px;margin:50px auto 0;">
+					<div style="padding:0 8px;">
+						<a href="javascript:void(0);" onclick="submit();"><img alt="新規お申込み" src="tad_1_l/images/new_appli_btn.png"  style="width:100%;" /></a>
+					</div>
+					<div style="text-align:right;"><p style="display:inline-block;text-align:left;">ご加入いただくペットの写真（データ）をご用意ください。</p></div>
+				</div>
+				<div style="max-width:700px;margin:50px auto 0;">
+					<div style="text-align:left;">
+						<div style="color:#CF3800;vertical-align:top;margin:0 8px 5px;">
+							<div style="display:inline-block;vertical-align:top;">
+								<div style="background-color:#CF3800;;width:0.5em;;height:1em;vertical-align:top;"></div>
+							</div>
+							<div style="display:inline-block;vertical-align:top;font-weight:bold;">お客さま専用ページのご案内</div>
+						</div>
+					</div>
+					<div style="border-top:3px double #FCC8AA;border-bottom:3px double #FCC8AA;padding:10px;">
+						<div style="max-width:640px;margin:0 auto;position:relative;">
+							<div id="mypage_1" style="">お客さま専用ページでは、継続のお手続き、ご契約内容の確認・変更、メールアドレス・パスワード変更等のお手続きが可能です。</div>
+							<a href="https://www.au-sonpo.co.jp/pca/popup_myau"><img id="mypage_2" alt="お客さま専用ページ" src="../common/img/share/btn_login.png" style=""/></a>
+						</div>
+					</div>
+				</div>
+				
+				<table class="adpet_lp_table">
+					<colgroup style="width:40%;">
+					<colgroup style="width:60%;">
+					<tr>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+					</tr>
+				</table>
+						<td style="text-align: left; padding-left: 20px; font-size: 105%;"></td>
+						<td style="text-align: left; padding-left: 20px; font-size: 105%;"></td>
+				
+				<div id="dashed_area" class="mt20">
+					<p>
+						ペット医療費用保険はau損保の商品です。この商品は、あいおいニッセイ同和損保（販売受託会社）がau損保（引受保険会社）から販売委託を受け、あいおいニッセイ同和損保（扱者を含む）、もしくは再委託制度によりあいおいニッセイ同和損保の代理店が販売します。
+					</p>
+				</div>
+				<div class="adpet_bobun_area" style="margin-right:8px;">
+					<p>N16C990028[1611]</p>
+				</div>
+			</div><!--maincontent end-->
+		</div><!-- wrapper end-->
+	</form>
+</body>
+</html>

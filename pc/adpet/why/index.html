@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>なぜペットの保険が必要？｜「ペットの保険」</title>
+<meta name="robots" content="none" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<script type="text/javascript" src="../common/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../common/js/script_top.js"></script>
+<script type="text/javascript" src="../common/js/smartRollover.js"></script>
+<script type="text/javascript" src="../common/js/common.js"></script>
+<script type="text/javascript" src="../common/js/yuga.js"></script>
+<script type="text/javascript" src="../common/js/heightLine.js"></script>
+<link type="text/css" href="../common/css/reset.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/modules.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/base.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/style.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/style20141225etc.css" rel="stylesheet" />
+<script type="text/javascript" src="../common/js/campcd.js"></script>
+<script type="text/javascript" src="../../common/js/switchview.js"></script>
+<script type="text/javascript">
+$.SwitchView({
+	sp: {
+		csslist:["../common/css/style20141225etcSP.css","../common/css/T-1-T-style.css"],
+		jslist:["../common/js/T-1-T-common.js"]
+	}
+});
+</script>
+<link rel="contents" href="/index_jp.html" title="Home" />
+<link rel="index" href="/sitemap/" title="Sitemap" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<script type="text/javascript">
+;(function($){
+	$(function(){
+
+		// sideNav ------------------------------------------------------------
+
+		var $sideNavImg = $('#topNav > div > img').css({cursor : 'pointer'});
+		var $sideNav = $('#topNav > div');
+		$sideNav.each(function(){
+			var openFlg = false;
+			var $title = $(this).find(' > img').eq(0);
+			var $subNav = $(this).find(' > ul').eq(0);
+
+			if( $(this).attr('id') == 'featureNav' ){
+				// 「商品の特徴」欄の場合は、メニューを開いた状態にするため「nav_btm.png」を非表示に
+				$(this).find('img.nav_btm').hide();
+			}
+			else {
+				// 「商品の特徴」欄以外の場合は、メニューを非表示に
+				$(this).find(' > ul').eq(0).hide();
+			}
+
+			var itemLength = $subNav.find(' > li').length || 0;
+			var speed = (itemLength > 4 ? 4 : itemLength) * 150;
+
+			var $sideNavSelect = $(this);
+
+			$(this).on('open', function(){
+				openFlg = true;
+				$subNav.stop(true, true).slideDown(speed);
+			}).on('close', function(){
+				openFlg = false;
+				$subNav.stop(true, true).slideUp(speed);
+			});
+
+			$title.click(function(){
+				if (openFlg) {
+
+					if( $sideNavSelect.attr('id') == 'featureNav' ){
+						$sideNavSelect.find('img:first').attr('src', '../common/images/common/left/nav_01.png');
+					}
+					else if( $sideNavSelect.attr('id') == 'planNav' ){
+						$sideNavSelect.find('img:first').attr('src', '../common/images/common/left/nav_02_off.png');
+					}
+					else if( $sideNavSelect.attr('id') == 'customerNav' ){
+						$sideNavSelect.find('img:first').attr('src', '../common/images/common/left/nav_03.png');
+					}
+					else if( $sideNavSelect.attr('id') == 'faqNav' ){
+						$sideNavSelect.find('img:first').attr('src', '../common/images/common/left/nav_04.png');
+					}
+
+					$sideNavSelect.trigger('close');
+
+					// メニューを閉じるために、「nav_btm.png」を表示する
+					$sideNavSelect.find('img.nav_btm').show();
+
+				} else {
+
+					if( $sideNavSelect.attr('id') == 'featureNav' ){
+						$('div#featureNav').find('img:first').attr('src', '../common/images/feature/left/feature_ttl.png');
+						$('div#planNav').find('img:first').attr('src', '../common/images/common/left/nav_02_off.png');
+						$('div#customerNav').find('img:first').attr('src', '../common/images/common/left/nav_03.png');
+						$('div#faqNav').find('img:first').attr('src', '../common/images/common/left/nav_04.png');
+					}
+					else if( $sideNavSelect.attr('id') == 'planNav' ){
+						$('div#featureNav').find('img:first').attr('src', '../common/images/common/left/nav_01.png');
+						$('div#planNav').find('img:first').attr('src', '../common/images/plan/left/plan_ttl.png');
+						$('div#customerNav').find('img:first').attr('src', '../common/images/common/left/nav_03.png');
+						$('div#faqNav').find('img:first').attr('src', '../common/images/common/left/nav_04.png');
+					}
+					else if( $sideNavSelect.attr('id') == 'customerNav' ){
+						$('div#featureNav').find('img:first').attr('src', '../common/images/common/left/nav_01.png');
+						$('div#planNav').find('img:first').attr('src', '../common/images/common/left/nav_02_off.png');
+						$('div#customerNav').find('img:first').attr('src', '../common/images/payment/left/payment_ttl.png');
+						$('div#faqNav').find('img:first').attr('src', '../common/images/common/left/nav_04.png');
+					}
+					else if( $sideNavSelect.attr('id') == 'faqNav' ){
+						$('div#featureNav').find('img:first').attr('src', '../common/images/common/left/nav_01.png');
+						$('div#planNav').find('img:first').attr('src', '../common/images/common/left/nav_02_off.png');
+						$('div#customerNav').find('img:first').attr('src', '../common/images/common/left/nav_03.png');
+						$('div#faqNav').find('img:first').attr('src', '../common/images/qa/left/qa_ttl.png');
+					}
+
+					$sideNav.not($sideNavSelect).trigger('close');
+					$sideNavSelect.trigger('open');
+
+					// 一旦全てのメニューの「nav_btm.png」を表示する
+					$sideNav.find('img.nav_btm').show();
+					// 選択されたメニューのみ、「nav_btm.png」を非表示にする
+					$sideNavSelect.find('img.nav_btm').hide();
+				}
+			});
+		});
+	});
+})(jQuery);
+</script>
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-32568740-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+</head>
+<body onload="javascript:sbSetCAMPCookie();javascript:loadRiyouQrcode();javascript:checkUserAgent();" id="top">
+<div id="wrapper">
+	<div id="mb-site-link" align="center" style="display:none">
+		<form method="post" id="linkForm" action="">
+			<a href="javascript:document.forms[0].submit();"></a>
+		</form>
+	</div>
+	<!--==================== navi ====================-->
+	<nav id="floatingNavi" style="display:none;">
+		<div class="menuList">
+			<ul>
+				<li><img src="../../common/spimg3/images_pet/gnavi_close.png" alt="閉じる" class="hideNavi"></li>
+				<li class="backArrow"><a href="../index.html"><img src="../../common/spimg3/images_pet/gnavi_home.png" alt="ホーム"></a></li>
+				<li>
+					<strong><img src="../../common/spimg3/images_pet/gnavi_feature_c.png" alt="商品の特徴"></strong>
+					<ul class="naviChild">
+						<li><a href="../why/index.html">なぜペットの保険が必要？</a></li>
+						<li><a href="../merit/index.html">「ペットの保険」の特長</a></li>
+						<li><a href="../insurance/index.html">補償内容について</a></li>
+						<li><a href="../kokuchi/index.html">健康状態の告知について</a></li>
+					</ul>
+				</li>
+				<li>
+					<strong><img src="../../common/spimg3/images_pet/gnavi_plan_c.png" alt="プランのご紹介"></strong>
+					<ul class="naviChild">
+						<li><a href="../toypoodle/index.html">トイプードルの特徴</a></li>
+						<li><a href="../chihuahua/index.html">チワワの特徴</a></li>
+						<li><a href="../miniaturedachshund/index.html">ミニチュアダックスの特徴</a></li>
+						<li><a href="../shiba/index.html">柴犬の特徴</a></li>
+						<li><a href="../yorkshireterrier/index.html">ヨークシャーテリアの特徴</a></li>
+						<li><a href="../inu/index.html">犬の特徴</a></li>
+						<li><a href="../neko/index.html">猫の特徴</a></li>
+					</ul>
+				</li>
+				<li class="backArrow"><a href="../payment/index.html"><img src="../../common/spimg3/images_pet/gnavi_contract_c.png" alt="保険金請求について"></a></li>
+				<li>
+					<strong><img src="../../common/spimg3/images_pet/gnavi_contact_c.png" alt="Q＆A・お問い合わせ"></strong>
+					<ul class="naviChild">
+						<li><a href="../qa/index.html">よくあるご質問</a></li>
+						<li><a href="../toiawase/index.html">お問い合わせ</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div id="contents">
+		<div id="header" class="indexHeader">
+			<div class="homeIndex">
+				<img class="indexarrow" src="../common/images/common/navi_arrow_r.png" />&nbsp;<a href="../index.html">ペットの保険</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;商品の特長&nbsp;&nbsp;&gt;&nbsp;&nbsp;なぜペットの保険が必要？</span>
+				<div style="text-align:left;margin-top:10px;"><img src="../common/images/common/pet_ins_icon.png" alt="ペット医療費用保険" /></div>
+			</div>
+			<div id="readIndex" >
+				
+				<div class="clearfix" id="itemTabHeader">
+					<ul>
+						<li><a href="../toypoodle/index.html"> <image alt="トイプードルの特徴・事例" src="../common/images/common/header/toypoodle_off.png"></a></li>
+						<li><a href="../chihuahua/index.html"> <image alt="チワワの特徴・事例" src="../common/images/common/header/chihuahua_off.png"></a></li>
+						<li><a href="../miniaturedachshund/index.html"> <image alt="ミニチュアダックスの特徴・事例" src="../common/images/common/header/miniaturedachshund_off.png"></a></li>
+						<li><a href="../shiba/index.html"> <image alt="柴犬の特徴・事例" src="../common/images/common/header/shiba_off.png"></a></li>
+						<li><a href="../yorkshireterrier/index.html"> <image alt="ヨークシャーテリアの特徴・事例" src="../common/images/common/header/yorkshireterrier_off.png"></a></li>
+						<li><a href="../inu/index.html"> <image alt="犬の特徴・事例（その他の犬種）" src="../common/images/common/header/inu_off.png"></a></li> 
+						<li><a href="../neko/index.html"> <image alt="猫の保険" src="../common/images/common/header/neko_off.png"></a></li> 
+					</ul>
+				</div><!-- / id itemTabHeader -->
+			</div><!-- / id readIndex -->
+		</div><!-- / id header -->
+
+		<div id="leftWrap">
+			<div id="fixedBox">
+				<a href="../index.html"><img src="../common/images/common/left/logo.png" alt="ペットの保険" /></a>
+				<div id="topNav" class="sideBox">
+					<div id="featureNav">
+						<img src="../common/images/feature/left/feature_ttl.png" alt="商品の特長" /><br />
+						<ul>
+							<li><img src="../common/images/feature/left/nav_why_on.png" alt="なぜペットの保険が必要？" /></li>
+							<li><a href="../merit/index.html"><img src="../common/images/feature/left/nav_merit_off.png" alt="「ペットの保険」の特長" /></a></li>
+							<li><a href="../insurance/index.html"><img src="../common/images/feature/left/nav_insurance_off.png" alt="補償内容について" /></a></li>
+							<li><a href="../kokuchi/index.html"><img src="../common/images/feature/left/nav_kokuchi_off.png" alt="健康状態の告知について" /></a></li>
+						</ul>
+						<img src="../common/images/common/left/nav_btm.png" alt="" class="v-t nav_btm" />
+					<!-- / id featureNav --></div>
+					<div id="customerNav" class="mgt10">
+						<a href="../payment/index.html"><img src="../common/images/common/left/nav_03_off.png" alt="保険金請求について" /></a>
+						<img src="../common/images/common/left/nav_btm.png" alt="" class="v-t nav_btm" />
+					<!-- / id customerNav --></div>
+					<div id="faqNav" class="mgt10">
+						<img src="../common/images/common/left/nav_04.png" alt="Q＆A・お問い合わせ" /><br />
+						<ul>
+							<li><a href="../qa/index.html"><img src="../common/images/qa/left/nav_qa_off.png" alt="よくある質問" /></a></li>
+							<li><a href="../toiawase/index.html"><img src="../common/images/qa/left/nav_toi_off.png" alt="お問い合わせ" /></a></li>
+						</ul>
+						<img src="../common/images/common/left/nav_btm.png" alt="" class="v-t nav_btm" />
+					<!-- / id faqNav --></div>
+				<!-- / id topNav --></div>
+			<!-- / id fixedBoxNav --></div>
+
+			<div id="floatBox">
+				<div id="rightContainer">
+					<div id="menu">
+						<p class="mgb10"><a href="../index.html"><img src="../common/images/plan/left/signup_bt_t-p_off.png" alt="トイプードルの特徴・事例お申込み" /></a></p>
+						<p><img src="../common/images/common/left/contact.png" alt="お問い合わせ先0800-700-1122" /></p>
+						
+						<div class="menuBox">
+							<h2><img src="../common/images/common/left/terms_ttl.png" alt="重要事項説明書・約款" /></h2>
+							<div class="inner">
+								<div class="pdf">
+									<p><a href="../../common/pdf/pet_iryo/ad_pet_jyusetsu_20141001.pdf" target="_blank" class="pdf">ペット医療費用保険<br />重要事項のご説明<br />(重要事項説明書)</a></p>
+									<p><a href="../../common/popup/PU_P_4.html" onClick="javascript:window.open('../../common/popup/PU_P_4.html','','width=700, height=650, menubar=no, toolbar=no, scrollbars=yes'); return false;">ペット医療費用保険<br />ご契約のしおり<br />(普通保険約款・特約)</a></p>
+								</div>
+							</div>
+						</div>
+						
+					</div><img src="../common/images/common/left/menu_btm.png" alt="" class="v-t" /><br />
+
+					
+				<!-- / id rightContainer --></div>
+			<!-- / id floatBox --></div>
+		<!-- / id leftWrap --></div>
+
+		<div id="mainContent">
+			<div id="spTop" class="display_block_sp">
+				<header class="clearfix" style="width:100%;">
+					<div style="width:80%;background-color:#FFF;"><a href="../index.html"><img style="width:100%" src="../../common/spimg3/images_pet/adpet/title.png" alt="aute"></a></div>
+					<div style="width:20%;background-color:#FFF;"><img style="width:100%" src="../../common/spimg3/images_pet/floating_navi.png" alt="メニュー" class="showNavi"></div>
+				</header>
+			</div>
+			<div id="topicPath" class="c-fix"></div>
+			<div id="main">
+				<div id="why">
+					<div id="firstView">
+						<h1><img class="sp_img_100p" src="../common/images/feature/why/ttl_why.png" alt="なぜペットの保険が必要？" /></h1>
+					</div>
+					
+					<p><img class="sp_img_100p" src="../common/images/feature/why/img_why01.png" alt="もし、大切な家族の一員である愛犬・愛猫が病気やケガになったら？ペットには公的な健康保険がないため、入院・手術などの治療費は全額自己負担となります。" /></p>
+					<div class="p-r">
+						<p><img class="sp_img_100p" src="../common/images/feature/why/img_why02.png" alt="例えば入院・手術で、これくらい費用がかかるんです！" /></p>
+						<p class="note fnote01">※上記治療費は一例です。実際の診療費・治療内容は症状、動物病院ごとに異なります。</p>
+					</div>
+					<div class="benefits">
+						<h2><img class="sp_img_100p" src="../common/images/feature/why/h2_why01.png" alt="ペットの保険に入っていたらできることがたくさんあります！" /></h2>
+						<div class="inner">
+							<div class="benefitsBox c-fix">
+								<div class="txtArea">
+									<h3><img id="why01png" src="../common/images/feature/why/why01.png" alt="1.自己負担額を抑えることができます！" /></h3>
+									<p class="sp_10pt_txt">
+										高額になりがちな入院・手術の費用を保険で抑えることができるので、治療に専念できます。
+									</p>
+								</div>
+								<img src="../common/images/feature/why/why01_img.png" alt="1.自己負担額を抑えることができます！" class="f-r" />
+							</div>
+							<img class="sp_img_100p" src="../common/images/feature/why/line.png" alt="" class="mg0a" /><br />
+							<div class="benefitsBox c-fix">
+								<div class="txtArea">
+									<h3><img id="why02png" src="../common/images/feature/why/why02.png" alt="2.治療法の選択肢が広がります！" /></h3>
+									<p class="sp_10pt_txt">
+										「動物病院で勧められた治療法では、費用が高すぎて治療をあきらめた・・・」ということにならないように、保険で自己負担額を抑えることで、高度な治療を選択することもできます。
+									</p>
+								</div>
+								<img src="../common/images/feature/why/why02_img.png" alt="2.治療法の選択肢が広がります！" class="f-r" />
+							</div>
+							<img class="sp_img_100p" src="../common/images/feature/why/line.png" alt="" class="mg0a" /><br />
+							<div class="benefitsBox c-fix">
+								<div class="txtArea">
+									<h3><img id="why03png" src="../common/images/feature/why/why03.png" alt="3.困ったときに相談することもできます！" /></h3>
+									<p class="sp_10pt_txt">
+										「うちの犬って病気なのかな・・・」、「しつけって難しいな・・・」など、毎日一緒にいる愛犬・愛猫のことで相談したいこともありますよね？そんな時に「健康」や「しつけ」について相談できるサービスがついています。
+									</p>
+								</div>
+								<img src="../common/images/feature/why/why03_img.png" alt="3.困ったときに相談することもできます！" class="f-r" />
+							</div>
+							
+						</div><img class="sp_img_100p" src="../common/images/feature/why/img_why03.png" alt="だから…ペットのために保険に入ることが大切なんです！" class="v-top" />
+					</div>
+					<p><img class="sp_img_100p" src="../common/images/feature/why/img_why04.png" alt="家族みんなが笑顔になれる、「ペットの保険」をオススメします！" /></p>
+					<div class="btArea">
+						<a href="../index.html"><img class="sp_img_80p" src="../common/images/plan/bt_submit_off.png" alt="4ステップでお手続き完了！今すぐお申込み" /></a>
+					</div>
+					
+				<!-- / id why --></div>
+				<p class="note mgt20">※当ページの内容は概要を説明したものです。<br />詳細は重要事項のご説明（重要事項説明書）、ご契約のしおり（普通保険約款・特約集）をご確認ください。</p>
+				<p class="bobun">A14C360403[1409]</p>
+			<!-- / id main --></div><img class="sp_img_100p" src="../common/images/common/main_btm.png" alt="" class="v-t" /><br />
+		<!-- / id mainContent --></div>
+	<!-- / id contents --></div>
+	<div id="contentsFooter">
+		<div class="homeIndex">
+			<img class="indexarrow" src="../common/images/common/navi_arrow_r.png" />&nbsp;<a href="../index.html">ペットの保険</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;商品の特長&nbsp;&nbsp;&gt;&nbsp;&nbsp;なぜペットの保険が必要？</span>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="fnav">
+			<div class="footerInner c-fix">
+				<div class="linkBox">
+					<dl class="heightLine-footer">
+						<dt>商品の特長</dt>
+						<dd><a href="../why/index.html">なぜペットの保険が必要？</a></dd>
+						<dd><a href="../merit/index.html">「ペットの保険」の特長</a></dd>
+						<dd><a href="../insurance/index.html">補償内容について</a></dd>
+						<dd><a href="../kokuchi/index.html">健康状態の告知について</a></dd>
+					</dl>
+				</div>
+				<div class="linkBox">
+					<dl class="heightLine-footer">
+						<dt>特徴・事例の紹介</dt>
+						<dd><a href="../toypoodle/index.html">トイプードルの特徴・事例</a></dd>
+						<dd><a href="../chihuahua/index.html">チワワの特徴・事例</a></dd>
+						<dd><a href="../miniaturedachshund/index.html">ミニチュアダックスの特徴・事例</a></dd>
+						<dd><a href="../shiba/index.html">柴犬の特徴・事例</a></dd>
+						<dd><a href="../yorkshireterrier/index.html">ヨークシャーテリアの特徴・事例</a></dd>
+						<dd><a href="../inu/index.html">犬の特徴・事例（その他の犬種）</a></dd>
+						<dd><a href="../neko/index.html">猫の特徴・事例</a></dd>
+					</dl>
+				</div>
+				<div class="linkBox">
+					<dl class="heightLine-footer">
+						<dt>保険金請求について</dt>
+						<dd><a href="../payment/index.html">保険金請求について</a></dd>
+					</dl>
+				</div>
+				<div class="linkBox">
+					<dl class="heightLine-footer">
+						<dt>Q＆A・お問い合わせ</dt>
+						<dd><a href="../qa/index.html">よくあるご質問</a></dd>
+						<dd><a href="../toiawase/index.html">お問い合わせ</a></dd>
+					</dl>
+				</div>
+			<!-- / class footerInner --></div>
+		<!-- / id fnav --></div>
+		<div id="fnav-btm">
+			<div class="footerInner">
+				<div class="fnav-btm">
+					
+					<ul>
+						<li><a href="../../../corporate/" target="_blank">会社情報</a></li>
+						<li><a href="../../common/popup/PU_C_7.html" onClick="javascript:window.open('../../common/popup/PU_C_7.html','','width=700, height=650, menubar=no, toolbar=no, scrollbars=yes'); return false;">プライバシーポリシー</a></li>
+						<li><a href="../../common/popup/PU_C_8.html" onClick="javascript:window.open('../../common/popup/PU_C_8.html','','width=700, height=650, menubar=no, toolbar=no, scrollbars=yes'); return false;">勧誘方針</a></li>
+						<li><a href="../../common/popup/PU_C_11.html" onClick="javascript:window.open('../../common/popup/PU_C_11.html','','width=700, height=650, menubar=no, toolbar=no, scrollbars=yes'); return false;">利益相反管理方針</a></li>
+						<li><a href="../../common/popup/PU_C_12.html" onClick="javascript:window.open('../../common/popup/PU_C_12.html','','width=700, height=650, menubar=no, toolbar=no, scrollbars=yes'); return false;">反社会的勢力に対する基本方針</a></li>
+						<li><a href="../../common/popup/PU_C_17.html" onClick="javascript:window.open('../../common/popup/PU_C_17.html','','width=700, height=650, menubar=no, toolbar=no, scrollbars=yes'); return false;">そんぽADRセンター</a></li>
+						<li><a href="../../common/popup/PU_C_14.html" onClick="javascript:window.open('../../common/popup/PU_C_14.html','','width=700, height=650, menubar=no, toolbar=no, scrollbars=yes'); return false;">お客さまの声</a></li>
+						<li><a href="../../common/popup/PU_C_9.html" onClick="javascript:window.open('../../common/popup/PU_C_9.html','','width=700, height=650, menubar=no, toolbar=no, scrollbars=yes'); return false;">サイト利用規約</a></li>
+						<li><a href="../../common/popup/PU_C_10.html" onClick="javascript:window.open('../../common/popup/PU_C_10.html','','width=700, height=650, menubar=no, toolbar=no, scrollbars=yes'); return false;">対応機種</a></li>
+					</ul>
+				</div>
+				<div class="blank">
+					<img src="../common/images/common/footer/blank_title.png" alt="外部リンク" class="blankimg" />
+					<p><a href="http://www.sonpo.or.jp/" target="_blank">日本損害保険協会</a>　<a href="http://www.sonpohogo.or.jp/" target="_blank">損害保険契約者保護機構</a></p>
+				</div>
+				<p class="flogo"><img src="../common/images/common/footer/au_logo.png" alt="au損害保険株式会社 Copyright &copy; au insurance Co., Ltd. All Rights Reserved." /></p>
+			<!-- / class footerInner --></div>
+		<!-- / id fnav-btm --></div>
+	<!-- / id footer --></div>
+
+	<a href="#wrapper" class="backToTop"><img src="../common/images/common/back_to_top.png" alt="このページの先頭へ" /></a>
+
+<!-- / id wrapper --></div>
+</body>
+</html>

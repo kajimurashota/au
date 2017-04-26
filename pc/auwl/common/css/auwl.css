@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, 
+fieldset, input, textarea, p, blockquote, th, td{
+    margin: 0; 
+    padding: 0;
+	font-family: "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", "ÉÅÉCÉäÉI", Meiryo, Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif;
+}
+
+
+#header_alea {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.header_alea_fixed {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1002;
+}
+
+#header_logo {
+    max-width: 980px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    clear: both;
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+#header_logo .logo {
+    float: left;
+    max-width: 22%;
+    margin-right: 2%;
+}
+
+#header_logo a {
+    color: #000000;
+    text-decoration: none;
+    padding: 0 !important;
+    padding: 0 !important;
+}
+
+#page_contents .helmet_table table td {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    height: 53px;
+    border-right: solid 1px #ea5504;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#page_contents .table table td {
+    border: solid 3px #ea5504;
+    border-right: 1px solid #ea5504;
+    border-left: none;
+    width: 20%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#inline_content_wl {
+    text-align: center;
+}
+
+#inline_content_wl .inner .box {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+}
+
+#inline_content_wl .inner .box .bg {
+    max-width: 750px;
+    height: 100%;
+}
+
+#inline_content_wl .inner .box p.nashi {
+	margin-bottom: 40px;
+}
+
+#inline_content_wl .inner .box p.ari {
+	margin-bottom: 10px;
+}
+
+#inline_content_wl .inner .box p a {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10%;
+    background-color: #fd9319;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+#inline_content_wl .inner .box p a span {
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    display: block;
+    width: 100%;
+    background-color: #ec5506;
+    border-radius: 5px;
+}
+
+#inline_content_wl .inner .box p a span {
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+}
+
+#inline_content_wl .inner .box p:nth-child(3) a {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10%;
+    background-color: #355cb9;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+#inline_content_wl .inner .box p:nth-child(3) a span {
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    display: block;
+    width: 100%;
+    background-color: #2a4185;
+    border-radius: 5px;
+}
+
+#inline_content_wl .inner .box p:nth-child(3) a span {
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+}
+
+#inline_content_wl .inner .box p:nth-child(2) {
+	font-size: 24px;
+}
+
+#inline_content_wl .inner .box p:nth-child(2) img {
+	max-height: 50px;
+}
+
+#page_contents .hoshou #hoshou1 .helmet .box_title img {
+    position: absolute;
+    width: 17.6%;
+    top: -30px;
+    left: 7%;
+}
+
+@media (max-width:980px) {
+	#page_contents .hoshou #hoshou1 .helmet .box_title img {
+	    left: 1%;
+	}
+}
+
+@media (max-width:679px) {
+
+	#header_logo .logo {
+	    height: 19px;
+	    max-width: 100%;
+	}
+	
+	#header_logo .logo img {
+	    height: 19px;
+	    max-width: 100%;
+	}
+
+	#page_contents .table {
+	    padding-left: 5px;
+	    padding-right: 5px;
+	    clear: both;
+	}
+
+	#page_contents .helmet_table table td {
+	    padding-left: 0.1em;
+	    padding-right: 0.1em;
+	}
+
+
+	#inline_content_wl .inner .box {
+	    height: 60%;
+	}
+
+	#inline_content_wl .inner .box p a {
+	    width: 90%;
+	}
+
+	#inline_content_wl .inner .box p a span {
+	    font-size: 12px;
+	}
+
+	#inline_content_wl .inner .box p a span b {
+	    font-size: 16px;
+	}
+
+	#inline_content_wl .inner .box p:nth-child(3) a {
+	    width: 90%;
+	}
+
+	#inline_content_wl .inner .box p:nth-child(3) a span {
+	    font-size: 12px;
+	}
+	
+	#inline_content_wl .inner .box p:nth-child(2) {
+		font-size: 16px;
+	}
+
+	#inline_content_wl .inner .box p:nth-child(2) img {
+		max-height: 30px;
+	}
+	
+	#inline_content_wl .inner .box p.nashi {
+		margin-bottom: 25px;
+	}
+	
+	#page_contents .hoshou #hoshou1 .helmet .box_title img {
+	    max-width: 150px;
+	    width: 33%;
+		left: -7%;
+		top: -60px;
+	}
+}
+

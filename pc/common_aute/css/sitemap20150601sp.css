@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*--------------------------*
+ * sitemap
+ *--------------------------*/
+div#mainContent {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+div#secondContent {
+    padding: 0;
+}
+.sitemap .category {
+	font-size: 1.2em;
+	line-height:1.6em;
+}
+.sitemap div.goods,
+.sitemap div.goods2 {
+	float: none;
+	min-height: 210px;
+	width: 100%;
+	height: auto;
+}
+.sitemap dd,
+.sitemap li{
+	line-height:2em;
+}
+div#footer div.footerInner {
+	padding-top:1px;
+}

@@ -1,0 +1,587 @@
+@charset "utf-8";
+
+body{
+	background:#fff;
+}
+
+div#layout {
+	background: none repeat scroll 0 0 #fff;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	text-align: left;
+	width: 950px;
+}
+div#gnav #gnavItem ul.g_sub{
+	position:absolute;
+	left:0px;
+}
+div#header {
+	margin-bottom:30px;
+}
+div#header #readIndex {
+	float: right;
+	margin-top: 0;
+	text-align:right;
+}
+#systemMaintenance a {
+	background: none;
+}
+.bx-wrapper .bx-controls-direction a {
+	height: 35px;
+	margin-top: -16px;
+	outline: 0 none;
+	position: absolute;
+	text-indent: -9999px;
+	top: 50%;
+	width: 32px;
+	z-index: 999;
+}
+.bx-wrapper .bx-prev {
+	background: url("../images1408/controls.png") no-repeat scroll 0 -35px;
+	left: 0;
+}
+.bx-wrapper .bx-next {
+	background: url("../images1408/controls.png") no-repeat scroll -43px -35px;
+	right: 0;
+}
+:root .bx-wrapper .bx-prev {
+	background: url("../images1408/controls.png") no-repeat scroll 0 -35px rgba(0, 0, 0, 0);
+	left: 0;
+}
+:root .bx-wrapper .bx-next {
+	background: url("../images1408/controls.png") no-repeat scroll -43px -35px rgba(0, 0, 0, 0);
+	right: 0;
+}
+div#visualPet{
+	margin:30px 0 20px;
+}
+div#visual{
+	float:left;
+	width:710px;
+	border:none;
+	margin:0;
+	padding:0;
+}
+
+div#linkPet{
+	float:right;
+	width:230px;
+	/*background:#fbf0f6;*/
+	text-align:center;
+	/*padding:10px 0;*/
+}
+
+div#linkItem{
+	padding-bottom:25px;
+	background:url("../images1408/line01.png") no-repeat bottom;
+}
+div#linkItem ul li{
+	float:left;
+	margin-left:10px;
+}
+div#linkItem ul li.firstChild{
+	margin:0;
+}
+div#bannerSection{
+	padding:15px 55px 30px;
+	background:url("../images1408/line02.png") no-repeat bottom;
+}
+#bannerSection .bx-wrapper .bx-controls-direction a {
+	height: 27px;
+	width: 27px;
+	margin-top: -10px;
+	outline: 0 none;
+	position: absolute;
+	text-indent: -9999px;
+	top: 50%;
+	z-index: 999;
+}
+#bannerSection .bx-wrapper .bx-prev {
+	background: url("../images1408/controls2.png") no-repeat scroll 0 0;
+	left: -35px;
+}
+#bannerSection .bx-wrapper .bx-next {
+	background: url("../images1408/controls2.png") no-repeat scroll -48px 0;
+	right: -32px;
+}
+:root #bannerSection .bx-wrapper .bx-prev {
+	background: url("../images1408/controls2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	left: -35px;
+}
+:root #bannerSection .bx-wrapper .bx-next {
+	background: url("../images1408/controls2.png") no-repeat scroll -48px 0 rgba(0, 0, 0, 0);
+	right: -32px;
+}
+div.information{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #e9b6d0;
+	background:#fbf0f6;
+	padding:10px 15px;
+	margin-top:15px;
+	overflow: hidden;
+}
+div.information.firstChild{
+	margin-top:0;
+}
+div.information div.ttl{
+	background:url("../images1408/infoIcon.png") no-repeat left;
+	padding:5px 0 5px 40px;
+	font-size:135%;
+	color:#d36ca1;
+	font-weight:bold;
+}
+div.information p{
+	padding-left:40px;
+}
+div.information div.ttl{
+	position:relative;
+}
+div.information div.ttl span.toggleBtn{
+	position:absolute;
+	right:0;
+	top:8px;
+	width:14px;
+	height:14px;
+	cursor:pointer;
+}
+div.information div.ttl span.opened{
+	background: url("../images1408/minusIcon.png") no-repeat;
+}
+div.information div.ttl span.closed{
+	background: url("../images1408/plusIcon.png") no-repeat;
+}
+div.infoText {
+	display:none;
+}
+div#newsArea {
+	margin:55px 0 0;
+	position:relative;
+}
+div#newsArea div#tab{
+	position:absolute;
+	top:-40px;
+	height:41px;
+}
+div#newsArea div#tab ul li{
+	float:left;
+}
+div#newsArea li{
+	margin-bottom:5px;
+}
+div#newsArea li span {
+	display: inline-block;
+	width: 120px;
+}
+div#newsArea div.newsBox{
+	border:1px solid #ccc;
+	padding:15px;
+}
+
+/*右*/
+
+#rightWrap {
+	width: 232px;
+	margin-bottom:15px;
+}
+
+#rightWrap #userIndexLogin {
+	background: url("../images1408/bg_box.png") no-repeat scroll left bottom;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+div#snsArea{
+	background:url("../images1408/img_sns.png") no-repeat;
+	width:232px;
+	height:56px;
+	margin-top:15px;
+	padding-top:45px;
+	text-align:center;
+}
+
+a.indexRightBtn {
+	margin-top: 10px;
+}
+
+#userIndexLogin  p.loginTxt{
+	margin:0;
+	padding:10px 20px 0;
+	text-align:left;
+}
+#userIndexLogin div.otherLink{
+	text-align:left;
+	padding:10px 20px 0;
+}
+
+#userIndexLogin div.otherLink p{
+	margin-top:0;
+}
+
+
+/*--------------------
+トップオブトップ タブ切り替え
+--------------------*/
+
+li.newsItem{
+	border-top:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	width:211px;
+	height:40px;
+}
+li.newsItem:first-child{
+	border-left:1px solid #cccccc;
+}
+li.newsItem a{
+	display:block;
+	text-align:center;
+	font-size:1.1em;
+	font-weight:900;
+	letter-spacing:0.1em;
+}
+.news-ac:link,
+.news-ac:hover,
+.news-ac:active,
+.news-ac:visited{
+	text-decoration:none;
+	border-top:4px solid #d36ca1;
+	background-color:#ffffff;
+	color:#d36ca1;
+	padding-top:11px;
+	height:25px;
+}
+.news-pa:link,
+.news-pa:visited{
+	text-decoration:none;
+	background-color:#e6e6e6;
+	color:#323232;
+	padding-top:15px;
+	height:24px;
+}
+.news-pa:active,
+.news-pa:hover{
+	text-decoration:none;
+	background-color:#f6f6f6;
+	color:#828282;
+	padding-top:15px;
+	height:24px;
+}
+
+
+
+
+
+/*=============================================================
+
+ボタンエフェクト
+
+=============================================================*/
+
+
+/*.stage{
+ -webkit-perspective: 400;
+ -ms-perspective: 400;
+ -o-perspective: 400;
+ -moz-perspective: 400px;
+ perspective: 400;
+}
+
+.cube {
+ height: 100px;
+ width: 100px;
+ position: relative;
+ margin:0 auto;
+ -webkit-transform-style: preserve-3d;
+ -ms-transform-style: preserve-3d;
+ -o-transform-style: preserve-3d;
+ transform-style: preserve-3d;
+ -webkit-transition:all 1s;
+ -o-transition:all 1s;
+ transition:all 1s;
+}
+*/
+/* side_topからside_leftのCSSは同上 */
+/*.stage:hover .cube{
+ -webkit-transform: rotateY(180deg);
+ -ms-transform: rotateY(180deg);
+ -o-transform: rotateY(180deg);
+ transform: rotateY(180deg);
+}*/
+
+/** {
+	outline: none;
+	border: none;
+}*/
+
+#linkItem a {
+	position: relative;
+	display: block;
+	width: 150px;
+	height: 150px;
+}
+li.itemBycle a {background: url(../images1408/link_bycle_off.png) left top no-repeat;}
+li.itemkoutsuujiko a {background: url(../images1408/link_kotsu_off.png) left top no-repeat;}
+li.itemsports a {background: url(../images1408/link_nichijo_off.png) left top no-repeat;}
+li.itemkaigai a {background: url(../images1408/link_kaigai_off.png) left top no-repeat;}
+li.itemgolf a {background: url(../images1408/link_golf_off.png) left top no-repeat;}
+li.itemkokunai a {background: url(../images1408/link_kokunai_off.png) left top no-repeat;}
+
+
+
+/*--------------------
+画像の初期設定
+--------------------*/
+/*IE8*/
+#linkItem a img {
+	visibility: hidden\9;
+}
+/*Modern browser*/
+:root #linkItem a img {
+	opacity: 0;
+	-webkit-transform: rotate(180deg) scale(0.1);
+	-ms-transform: rotate(180deg) scale(0.1);
+	-o-transform: rotate(180deg) scale(0.1);
+	transform: rotate(180deg) scale(0.1);
+}
+/*IE10*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	:root #linkItem a img {
+		visibility: hidden;
+	}
+}
+/*IE11*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	*::-ms-backdrop, :root #linkItem a img {
+		visibility: visible;
+	}
+}
+
+/*--------------------
+マウスオーバー処理
+--------------------*/
+/*IE8*/
+#linkItem a:hover img {
+	visibility: visible\9;
+}
+/*Modern browser*/
+:root #linkItem a:hover img {
+	opacity: 0.9;
+	-webkit-transform: rotate(360deg) scale(1);
+	-ms-transform: rotate(360deg) scale(1);
+	-o-transform: rotate(360deg) scale(1);
+	transform: rotate(360deg) scale(1);
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+/*IE10*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	:root #linkItem a:hover img {
+		visibility: visible;
+		transition: none;
+	}
+}
+/*IE11*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	*::-ms-backdrop, :root #linkItem a:hover img {
+		visibility: visible;
+		transition: all 0.5s ease-out;
+	}
+}
+
+/*--------------------
+マウスオーバーに追加エフェクト
+--------------------*/
+/*---------- 外側波紋 ---------*/
+/*Modern browser*/
+:root #linkItem a:before {
+	position: absolute;
+	z-index: 9999;
+	box-sizing: border-box;
+	display: block;
+	visibility: hidden;
+	opacity: 0.5;
+	content: "";
+	width: 10%;
+	height: 10%;
+	background: rgba(255,255,255,0.85);
+	border: #fff solid 2px;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	margin-top: -7px;
+	margin-left: -7px;
+}
+:root #linkItem a:hover:before {
+	visibility: visible;
+	opacity: 0;
+	width: 150px;
+	height: 150px;
+	top: 50%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -75px;
+	background: none;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: all 0.8s ease-out 0.1s;
+	transition: all 0.8s ease-out 0.1s;
+}
+/*IE10*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	:root #linkItem a:before, :root #linkItem a:hover:before {
+		display: none;
+	}
+}
+/*IE11*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	*::-ms-backdrop, :root #linkItem a:before, *::-ms-backdrop, :root #linkItem a:hover:before {
+		display: block;
+	}
+}
+
+/*---------- 内側波紋 ---------*/
+/*Modern browser*/
+:root #linkItem a:after {
+	position: absolute;
+	box-sizing: border-box;
+	display: block;
+	visibility: hidden;
+	opacity: 0.5;
+	content: "";
+	width: 10%;
+	height: 10%;
+	background: rgba(255,255,255,0.5);
+	border: #fff solid 2px;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	margin-top: -7px;
+	margin-left: -7px;
+}
+:root #linkItem a:hover:after {
+	visibility: visible;
+	opacity: 0;
+	width: 50%;
+	height: 50%;
+	top: 50%;
+	left: 50%;
+	margin-top: -38px;
+	margin-left: -38px;
+	background: none;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: all 0.9s ease-out 0.2s;
+	transition: all 0.9s ease-out 0.2s;
+}
+/*IE10*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	:root #linkItem a:after, :root #linkItem a:hover:after {
+		display: none;
+	}
+}
+/*IE11*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	*::-ms-backdrop, :root #linkItem a:after, *::-ms-backdrop, :root #linkItem a:hover:after {
+		display: block;
+	}
+}
+
+
+
+
+/*=============================================================
+ペット保険（大きいエリア）エフェクト
+=============================================================*/
+#linkPet a {
+	position: relative;
+	display: block;
+	width: 220px;
+	height: 220px;
+	padding: 10px;
+	background: url(../images1408/link_pet_off.png) center center;
+	background-size: 220px 220px;
+	background-repeat: no-repeat;
+	background-color: #fbf0f6;
+	border-radius: 6px;
+}
+
+/*--------------------
+画像の初期設定
+--------------------*/
+/*IE8*/
+#linkPet a img {
+	visibility: hidden\9;
+}
+/*Modern browser*/
+:root #linkPet a img {
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+/*--------------------
+マウスオーバー処理
+--------------------*/
+#linkPet a:hover {
+	background-size: 110px 110px;
+	background-color: #fff;
+	-webkit-transition:background-size 0.4s ease-in, background-color 0.2s ease-in 0.8s;
+	transition: background-size 0.4s ease-in,background-color 0.2s ease-in 0.8s;
+}
+/*IE8*/
+#linkPet a:hover img {
+	visibility: visible\9;
+}
+/*Modern browser*/
+:root #linkPet a:hover img {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: all 0.5s ease-in 0.1s;
+	transition: all 0.5s ease-in 0.1s;
+}
+/*IE10*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	:root #linkPet a:hover img {
+		transition: none;
+	}
+}
+/*IE11*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	*::-ms-backdrop, :root #linkPet a:hover img {
+		transition: all 0.3s ease-in;
+	}
+}
+
+
+
+/*--------------------
+TOP以外のヘッダー
+--------------------*/
+
+div#header div.headerRight{
+	float:right;
+	width:383px;
+}
+
+img.flogo{
+	margin-top:7px;
+	float:left;
+}
+
+div#itemTabHeader{
+	margin-top:3px;
+}

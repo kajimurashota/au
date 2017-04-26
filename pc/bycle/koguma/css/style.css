@@ -1,0 +1,629 @@
+@charset "utf-8";
+
+
+@media all and (orientation:portrait) {
+#wrapper {
+	width: 1280px;
+}
+}
+@media all and (orientation:landscape) {
+#wrapper {
+	width: 1280px;
+}
+}
+
+
+/*----------------------------------------
+	こぐま
+----------------------------------------*/
+.mt10 {
+	margin-top: 10px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.mt40 {
+	margin-top: 40px;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+.mb40 {
+	margin-bottom: 40px;
+}
+.mr20 {
+	margin-right: 20px;
+}
+.mr22 {
+	margin-right: 22px;
+}
+.mr30 {
+	margin-right: 30px;
+}
+.mr40 {
+	margin-right: 40px;
+}
+.btnSocialBox{
+	text-align: right;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.btnSocial {
+	display: inline-block;
+	margin-left: 10px;
+	height: 15px;
+}
+.btnTwitter {
+	width: 100px;
+}
+#bgColorGA {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-color: #a4d55d;
+}
+#bgTypeA {
+	background-image: url(../img/bgre.gif);
+	background-position: center 150px;
+	background-repeat: repeat-y;
+	background-color: #C9FFFF;/*	height: auto !important;
+	height: 100%; 
+	min-height: 100%; */
+}
+#bgTypeB {
+	background-image: url(../about/img/about_bg.png);
+	background-position: center 160px;
+	background-repeat: no-repeat;
+	background-color: #C9FFFF;
+/*	height: auto !important;
+	height: 100%;
+	min-height: 100%;*/
+}
+
+#wrapper1280 {
+
+}
+#wrapper {
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 100%;
+	line-height: 1.4em;
+	/*padding-bottom: 178px;
+	height: 100%;*/
+	position: relative;
+	margin-bottom: 40px;
+}
+#header {
+	background-image: url(../img/bg.gif);
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 160px;
+}
+#logoKoguma {
+	position: absolute;
+	top: -152px;
+	left: -120px;
+}
+h1 {
+	position:absolute;
+	text-indent:-9999px;
+}
+.titH2 {
+	background-image: url(../img/tit_h2_bg.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	height: 56px;
+	width: 685px;
+	padding-left: 95px;
+	padding-top: 10px;
+	margin-bottom: 25px;
+}
+#mainNavi {
+	position: absolute;
+	top: -112px;
+	left: 301px;
+	width: 479px;
+}
+#mainNavi li {
+	float: left;
+}
+#LinkAu {
+	position: absolute;
+	top: -160px;
+	left: 695px;
+}
+#goToTop {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	height: 57px;
+	position: fixed;
+	bottom: 90px;
+}
+#goToTop a {
+	display: none;
+}
+#footerNews {
+	background-image: url(../news/img/footer.png);
+	background-position: center top;
+	background-repeat: repeat-x;
+	height: 166px;
+	/*position: fixed;*/
+	left: 0px;
+	bottom: 0px;
+	width: 100%;	/*z-index: 100;*/
+}
+#footerMovie {
+	background-image: url(../movie/img/footer.png);
+	background-position: center top;
+	background-repeat: repeat-x;
+	height: 166px;
+	/*position: fixed;*/
+	left: 0px;
+	bottom: 0px;
+	width: 100%;	/*z-index: 100;*/
+}
+#footerBg {
+	height: auto;
+	background-color: #FF0004;
+}
+#copyright {
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	padding-top: 140px;
+}
+#pageIndex {
+	font-size: 100%;
+	font-weight: bold;
+	color: #603c2a;
+	position: relative;
+	padding-top: 30px;
+}
+#pageIndex ul {
+ 	position: relative;
+ 	 left: 50%;
+ 	 float: left;
+}
+#pageIndex li {
+ 	position: relative;
+ 	 left: -50%;
+ 	 float: left;
+}
+#pageIndex a:link {
+	color: #603c2a;
+	background-color: #FFFCFC;
+	text-decoration: none;
+}
+#pageIndex a:hover {
+	color: #FFFCFC;
+	background-color: #603c2a;
+	text-decoration: none;
+}
+#pageIndex .pageIndexBack {
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	border: 1px solid #603c2a;
+	margin-right: 5px;
+}
+#pageIndex .pageIndexNum {
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	border: 1px solid #603c2a;
+	margin-right: 5px;
+}
+#pageIndex .pageIndexNext {
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	border: 1px solid #603c2a;
+}
+#pageIndex .pageIndexOn {
+	color: #FFFCFC;
+	background-color: #603c2a;
+}
+#snsBtnTable {
+	margin-left: 450px;
+}
+#snsBtnTableB {
+	margin-left: 500px;
+}
+.comingSoonIcon {
+	z-index: 100;
+	position: absolute;
+}
+/*----------------------------------------
+	top_nomal
+----------------------------------------*/
+#TopContents {
+	background-image: url(../img/topbg.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 890px;
+	position: relative;
+}
+#TopMovieB1 {
+	position: absolute;
+	top: 150px;
+	left: 140px;
+}
+#TopMovieA5 {
+	position: absolute;
+	top: 170px;
+	left: 450px;
+}
+#TopNews042301 {
+	position: absolute;
+	top: 135px;
+	left: 670px;
+}
+#TopApp01 {
+	position: absolute;
+	top: 430px;
+	left: 120px;
+}
+#TopMovieA4 {
+	position: absolute;
+	top: 420px;
+	left: 580px;
+}
+#TopMovieA3 {
+	position: absolute;
+	top: 450px;
+	left: 780px;
+}
+#TopMovieA2 {
+	position: absolute;
+	top: 360px;
+	left: 980px;
+}
+#TopAute {
+	position: absolute;
+	top: 190px;
+	left: 980px;
+}
+/*----------------------------------------
+	top
+----------------------------------------*/
+#wrapperTopBg {
+	background-color: #c9ffff;
+	width: 100%;
+	height: 100%;
+	height: auto !important;
+	min-height: 100%;
+}
+#wrapperTop {
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-color: #c9ffff;
+
+}
+#bgTop {
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#headerTop {
+
+}
+#logoKogumaTop {
+	position: absolute;
+	top: 8px;
+	left:130px;
+	z-index: 100;
+}
+/*#logoKoguma {
+	position: absolute;
+	top: -152px;
+	left: -120px;
+}*/
+#mainNaviTop {
+	position: absolute;
+	top: 48px;
+	left: 551px;
+	width: 479px;
+	z-index: 100;
+}
+
+#LinkAuTop {
+	position: absolute;
+	top: 0px;
+	left: 945px;
+		z-index: 100;
+}
+#mainNaviTop li {
+	float: left;
+}
+/*----------------------------------------
+	news
+----------------------------------------*/
+.newsParag {
+	background-image: url(../news/img/parag_bg.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+	width: 700px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.newsParagTop {
+	background-image: url(../news/img/parag_t_bg.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	padding-top: 31px;
+	margin-bottom: 20px;
+}
+.newsParagBot {
+		background-image: url(../news/img/parag_b_bg.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	padding-top: 32px;
+}
+.newsParagTit {
+	color: #598745;
+	font-size: 160%;
+	border-bottom: 2px dotted #598745;
+	padding-bottom: 10px;
+	margin-bottom: 7px;
+		line-height: 1.2em;
+}
+.newsTit {
+	color: #598745;
+	font-size: 160%;
+	border-bottom: 2px dotted #598745;
+	padding-bottom: 10px;
+	margin-bottom: 7px;
+	width: 580px;
+	margin-left: 80px;
+}
+.newsParagDate {
+	text-align: right;
+	font-size: 70%;
+	font-weight: bold;
+
+}
+.newsDate {
+	text-align: right;
+	font-size: 70%;
+	font-weight: bold;
+		width: 580px;
+	margin-left: 80px;
+}
+.newsBtnMore {
+	text-align: right;
+}
+.newsTxt {
+	height: 70px;
+}
+.newsDetWrapper {
+	background-color: #ffe9d4;
+	text-align: center;
+	border: 20px solid #c69c6d;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+
+	-moz-border-radius:20px;
+-webkit-border-radius:20px;
+-o-border-radius:20px;
+-ms-border-radius:20px;
+border-radius:20px;
+behavior:url("../ie-css3.htc");
+position:relative;
+
+
+}
+.newsTxtA {
+	text-align: left;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.newsDetBtn1 {
+	text-align: center;
+}
+/*----------------------------------------
+	movie
+----------------------------------------*/
+#movieThumb li {
+	float: left;
+	margin-bottom: 30px;
+}
+.movieDetWrapper {
+	text-align: center;
+	border-radius: 20px;
+	border: 3px solid #00ffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	
+	-moz-border-radius:20px;
+-webkit-border-radius:20px;
+-o-border-radius:20px;
+-ms-border-radius:20px;
+border-radius:20px;
+behavior:url("../ie-css3.htc");
+position:relative;
+
+}
+.movieTit {
+	color: #598745;
+	font-size: 160%;
+	border-bottom: 2px dotted #598745;
+	padding-bottom: 10px;
+	margin-bottom: 7px;
+	width: 580px;
+	margin-left: 100px;
+	line-height: 1.2em;
+}
+.movieDetTxt {
+	text-align: left;
+	width: 580px;
+	margin-left: 100px;
+}
+.movieDetWrapper iframe {
+	border:none;
+}
+/* 2014.7.17 y-suzuki */
+.movieSubTit {
+	color: #598745;
+	font-size: 120%;
+	padding-bottom: 4px;
+	margin-bottom: 3px;
+}
+.movieThumH3 {
+	color: #598745;
+	background-image: url(../movie/img/mov_thum_h3.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+/*
+	height: 56px;
+	width: 685px;
+*/
+	padding-left: 29px;
+	padding-top: 2px;
+	margin-bottom: 10px;
+}
+
+/*----------------------------------------
+	app
+----------------------------------------*/
+.appParag {
+	background-image: url(../news/img/parag_bg.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+	width: 700px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.appTxtL {
+	float: left;
+	width: 120px;
+	margin-right: 20px;
+}
+.appTxtR {
+	float: left;
+	width: 560px;
+}
+.appTit {
+	color: #598745;
+	font-size: 160%;
+	border-bottom: 2px dotted #598745;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	line-height: 1.2em;
+}
+.appBtnSel {
+	margin-top: 10px;
+}
+/*----------------------------------------
+	about
+----------------------------------------*/
+#aboutWrapper {
+	position: relative;
+	height: 1900px;
+}
+#aboutKo {
+	position: absolute;
+	left: 120px;
+}
+#aboutKoTxt {
+	position: absolute;
+	width: 325px;
+	left: 340px;
+	top: 100px;
+}
+#aboutHi {
+	position: absolute;
+	left: 500px;
+	top: 280px;
+}
+#aboutHiTxt {
+	position: absolute;
+	width: 325px;
+	left: 140px;
+	top: 430px;
+}
+#aboutGo {
+	position: absolute;
+	left: 140px;
+	top: 600px;
+}
+#aboutGoTxt {
+	position: absolute;
+	width: 270px;
+	left: 420px;
+	top: 750px;
+}
+#aboutSu {
+	position: absolute;
+	left: 480px;
+	top: 900px;
+}
+#aboutSuTxt {
+	position: absolute;
+	width: 300px;
+	left: 180px;
+	top: 1020px;
+}
+#aboutSh {
+	position: absolute;
+	left: 190px;
+	top: 1150px;
+}
+#aboutShTxt {
+	position: absolute;
+	width: 300px;
+	left: 400px;
+	top: 1300px;
+}
+#aboutYa {
+	position: absolute;
+	left: 450px;
+	top: 1450px;
+}
+#aboutYaTxt {
+	position: absolute;
+	width: 280px;
+	left: 200px;
+	top: 1570px;
+}
+/*----------------------------------------
+	present
+----------------------------------------*/
+#presentDummy01 {
+	position: absolute;
+	left: 0px;
+	top: 90px;
+}
+#presentThumb li {
+	width: 344px;
+	border: 1px solid #00FFFF;
+	border-radius: 10px;
+	padding-top: 24px;
+	padding-left: 24px;
+	padding-bottom: 24px;
+	float: left;
+	margin-bottom: 40px;
+}
+.presentThumbImg {
+	margin-bottom: 12px;
+}
+.presentBtn p {
+	float: left;
+}

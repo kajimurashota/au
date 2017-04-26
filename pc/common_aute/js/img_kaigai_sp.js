@@ -1,0 +1,42 @@
+	imglist = new Array();
+
+	//各種目共通画像
+	imglist.flogo = '<img style="width:95%;" src="../common_aute/images/flogo.gif" alt="au損害保険株式会社">'
+	imglist.no1 = '<img src="../common_aute/images/no1.png">'
+	imglist.no2 = '<img src="../common_aute/images/no2.png">'
+	imglist.no3 = '<img src="../common_aute/images/no3.png">'
+	imglist.no4 = '<img src="../common_aute/images/no4.png">'
+	imglist.no5 = '<img src="../common_aute/images/no5	.png">'
+	imglist.ico_arr = '<img class="ico_arr" alt="→" src="../lp/t_1_l/img/pc/ico_arr.png">'
+	imglist.pdf_icon = '<img src="../pet/common/images/common/pdf_icon.png" alt="pdf"/></p>'
+	imglist.sp_customer = '<img style="width: 80%; max-width:300px;margin-top:10px;" src="../common_aute/images/sp_customer.png" alt="お問い合わせ">'
+	imglist.copylight = '<img src="../common/spimg3/images_pet/copylight.png" alt="au損害保険株式会社">'
+	imglist.btn_footer = '<img src="../common_aute/images/btn_footer.png" alt="au損保トップ">'
+	imglist.blank_title = '<img src="../common_aute/images/blank_title.gif" alt="外部リンク" class="blankimg" />'
+	imglist.pc_bnr_kaigaisongai = '<img src="../common_aute/images3/bnr_kaigaisongai.gif" alt="海外旅行保険" class="ins-bnr" style="width:110px;height:16px;"/>'
+	imglist.img_point = '<img src="../common_aute/images3/img_point.png" alt="" style="width:20px;"/>'
+	imglist.icon_company = '<img src="../common_aute/images3/icon_company.gif" alt="会社概要" style="height:18px;width:16px;" />'
+	
+	//SPのみ　ヘッダーとフッターとアコーディオン
+	imglist.sp_logo_aute = '<img style="width:90%;margin:auto auto auto 0.1em;" src="../common_aute/images3/logo_aute.png" alt="あうて">'
+	imglist.sp_flogo = '<img style="width:90%;" src="../common_aute/images/flogo.gif" alt="au損害保険株式会社">'
+	imglist.sp_login = '<img style="width:100%;" src="../common/spimg3/images_pet/login.png" alt="ログイン">'
+	imglist.sp_floating_navi = '<img style="width:100%;" src="../common/spimg3/images_pet/floating_navi.png" alt="メニュー" class="showNavi">'
+	imglist.sp_icon_company = '<img src="../common_aute/images3/icon_company.gif" alt="会社概要" style="height:18px;width:16px;" />'
+	imglist.accordion_foreign01_open = '<img src="../common_aute/images3/images_foreign_travel/title_point03_open.gif" style="width:100%;" alt="「海外アシスタンスサービス」でいつでも安心!">'
+	imglist.accordion_foreign02_open = '<img src="../common_aute/images3/images_foreign_travel/title_point04_open.gif" style="width:100%;" alt="安心の示談代行サービス（賠償事故解決特約）">'
+	imglist.accordion_foreign01_close = '<img src="../common_aute/images3/images_foreign_travel/title_point03_close.gif" style="display:none;width:100%;" alt="「海外アシスタンスサービス」でいつでも安心!">'
+	imglist.accordion_foreign02_close = '<img src="../common_aute/images3/images_foreign_travel/title_point04_close.gif" style="display:none;width:100%;" alt="安心の示談代行サービス（賠償事故解決特約）">'
+
+	//海外旅行
+	imglist.img_kaigai01 = '<img src="../common_aute/images3/img_kaigai01.gif" alt="旅行の保険 海外旅行" class="mgb5 centerImage sp_img_80p" />'
+	imglist.img_kaigai01_3 = '<img src="../common_aute/images3/img_kaigai01_3.gif" alt="例えば" class="mgb10 sp_img_98p" />'
+	imglist.bt_app_kaigai = '<img src="../common_aute/images3/bt_app_kaigai.gif" alt="あうて「旅行の保険 海外旅行」お申込みはこちら" class="hover_opacity sp_img_90p" />'
+	imglist.img_kaigai02 = '<img class="sp_img_98p" src="../common_aute/images3/img_kaigai02.jpg" alt="海外旅行に便利な無料アプリ「海外サポート」配信中！" style="margin:0 auto 10px;" id="kaigaiapl"/>'
+	imglist.img_kaigai03_2 = '<img class="sp_img_98p" src="../common_aute/images/kaiyo_banner_sp_top.png" alt="楽しい海外旅行をサポート" style="margin:0 auto;" />'
+	imglist.img_foreign16 = '<img class="sp_img_98p display_block_sp" src="../common_aute/images/img_foreign16.gif" alt="" style="margin:10px auto;"/>'
+	imglist.img_foreign07 = '<img class="sp_img_98p" style="margin:10px auto;" src="../common_aute/images/img_foreign07.gif" alt="ワールドフリーフォン番号一覧">'
+	imglist.icon_freedial = '<img style="width:35px;height:28px;" src="../common_aute/images/icon_freedial.gif" alt="ワールドフリーフォン番号一覧">'
+	imglist.img_kaigai32 = '<img class="display_block_sp sp_img_98p" src="../common_aute/images/SP_img_kaigai32.png" alt="" style="margin:10px auto;"/>'
+	imglist.img_kaigai33 = '<img class="display_block_sp sp_img_50p" src="../common_aute/images/img_foreign14.gif" alt="" style="margin:10px auto;"/>'
+	imglist.img_foreign05 = '<img class="sp_img_98p" src="../common_aute/images3/images_foreign_travel/img_foreign05.gif" alt="" style="margin:0 auto;"/>'

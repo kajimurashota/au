@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* SP CSS Document */
+
+html,body{width:320px !important;min-width:320px !important; max-width:320px !important; overflow-x:hidden; overflow-y:auto;}
+/*html,body{width:320px;overflow:hidden;}*/
+*{margin:0;padding:0;line-height:0;font-size:95%;}
+
+#wrapper{border-top:5px solid #D06EA1;text-align:center;}
+#container{margin:0 auto;text-align:left;position:relative;}
+
+/*IMG SIZE SET*/
+header h1 img{width:119px;height:70px;background-image:url("../img/sp/head_logo.png");background-size:119px 70px;}
+#customer img{width:320px;height:85px;background-image:url("../img/sp/head_txt.png");background-size:320px 85px;}
+#fv #fvimage img{width:320px;height:219px;background-image:url("../img/sp/fv_main.png");background-size:320px 219px;}
+#fv #fvtxt img{width:201px;height:70px;background-image:url("../img/sp/fv_txt.png");background-size:201px 70px;}
+#fv nav li img{width:72px;height:31px;background-size:72px 31px;}
+#fv nav li.nbut1 img{background-image:url("../img/sp/fv_but_1.png");}
+#fv nav li.nbut2 img{background-image:url("../img/sp/fv_but_2.png");}
+#fv nav li.nbut3 img{background-image:url("../img/sp/fv_but_3.png");}
+#fv nav li.nbut4 img{background-image:url("../img/sp/fv_but_4.png");}
+
+.contact .butcon1 img{width:320px;height:56px;background-size:320px 56px;background-image:url("../img/sp/but_contact.png");}
+.contact .butcon2 img{width:320px;height:25px;background-size:320px 25px;background-image:url("../img/sp/but_contact2.png");}
+
+#se1 h2 img{width:320px;height:30px;}
+#se1-1 img{width:320px;height:138px;}
+#se1-2 img{width:320px;height:241px;}
+#se1 .stxt img{width:320px;height:75px;}
+#se2 h2 img{width:320px;height:48px;}
+#se2 h3 img{width:320px;height:59px;}
+#se2-2 img{width:320px;height:110px;}
+#se2-3 img{width:320px;height:110px;}
+#se2-4 img{width:320px;height:115px;}
+#se2 .stxt img{width:320px;height:80px;}
+#se3 h2 img{width:320px;height:30px;}
+#se3-1 img{width:320px;height:429px;}
+#se3-2 img{width:320px;height:521px;}
+#se3-3 img{width:320px;height:102px;}
+#se3 .stxt img{width:320px;height:80px;}
+#se4 h2 img{width:320px;height:30px;}
+#se4-1 img{width:320px;height:446px;}
+#se4 .stxt img{width:320px;height:79px;}
+#se5 h2 img{width:320px;height:52px;}
+#se5-1 img{width:320px;height:150px;}
+#se5 .stxt img{width:320px;height:77px;}
+#se6 h2 img{width:320px;height:46px;}
+#se6-1 img{width:320px;height:334px;}
+#se6-link img{width:320px;height:212px;}
+#se6 .stxt img{width:320px;height:78px;}
+#se7 h2 img{width:320px;height:47px;}
+#se7-1 img{width:320px;height:148px;}
+#se7-link img{width:px;height:42px;}
+#se7-2 img{width:320px;height:44px;}
+#se7 .stxt img{width:320px;height:80px;}
+
+footer dt img{width:135px;height:15px;}
+#footer dd img.ico-arr{width:20px;height:18px;}
+#footer dd img.ico-pdf{width:28px;height:11px;}
+footer .pt img{width:88px;height:24px;}
+footer #flogo img{width:162px;height:17px;}
+
+
+/**/
+
+header #customer{position:absolute;top:370px;}
+#fv #fvtxt {position:absolute;top:0;right:0;}
+#fv nav{position:absolute;top:250px;left:10px;}
+#fv nav ul li{list-style-type:none;display:inline;}
+#fv dl{display:none;}
+#fv .contact{margin-top:10px;}
+
+#main{margin-top:100px;}
+#main h2{margin-top:50px;}
+footer{background-image:url("../img/sp/foot_1.png");background-position:0 0;background-size:320px 18px;background-repeat:no-repeat;padding:50px 0;margin-bottom:40px;}
+footer dl dd{margin-bottom:5px;margin-left:10px;}
+footer .pt{position:fixed;right:0;bottom:0;}
+footer #flogo{width:320px;text-align:right;position:absolute;bottom:50px;}
+footer #flogo a{height:17px;display:block;position:absolute;bottom:8px;right:0;}
+footer #fnum{display:block;position:absolute;bottom:0;right:15px;}
+

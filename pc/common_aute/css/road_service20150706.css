@@ -1,0 +1,635 @@
+@charset 'UTF-8';
+/* ---------------------------
+  AUTE road_service
+	@ Parts
+	  - block_roadservice_top
+	  - block_roadservice_case
+	  - road_service_variety
+	  - roadservice_table
+	  - block_roadservice_premium
+	  - basic_service_text
+	  - road_service_icontitle
+	  - block_bycle_smapho road_service
+	  - road_service_area
+	  - block_roadservice_agreement
+	  - road_service_prolog
+--------------------------- */
+/* ---------------------------
+  @ リセット
+--------------------------- */
+ul {
+  list-style: none;
+}
+
+/* ---------------------------
+  @ block_roadservice_top
+--------------------------- */
+.block_roadservice_top {
+  padding: 70px 0 0;
+}
+.block_roadservice_top h2,
+h3.rodeservice_title {
+  color: #605f5d;
+  font-size: 20px;
+  font-weight: bold;
+  display:inline-block;
+  padding:10px;
+}
+.block_roadservice_top h2:before {
+/*
+  content: '';
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  background: url('../../common/img_20150623/pc/roadservice/icon_roadservice.png') no-repeat;
+  background-position: left top;
+  margin-right: 20px;
+  vertical-align: middle;
+ */
+}
+.block_roadservice_top .roadservice_top_inner {
+  letter-spacing: -0.4em;
+  margin-bottom: 40px;
+}
+.block_roadservice_top .roadservice_top_inner .image {
+  width: 220px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.block_roadservice_top .roadservice_top_inner p {
+  letter-spacing: normal;
+  display: inline-block;
+  vertical-align: middle;
+  color: #605f5d;
+  font-size: 16px;
+  font-weight: bold;
+}
+.block_roadservice_top .roadservice_top_inner p em {
+  color: #e47373;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ---------------------------
+  @ block_roadservice_case
+--------------------------- */
+.block_roadservice_case {
+  padding: 40px 0;
+}
+.block_roadservice_case p {
+  width: 80%;
+  min-width:5em;
+  margin:0 auto;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  background: #7f89a9;
+  padding: 15px 0 13px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.block_roadservice_case ul {
+  text-align: center;
+  letter-spacing: -0.4em;
+}
+.block_roadservice_case ul li {
+  width: 350px;
+  display: inline-block;
+  vertical-align: top;
+  letter-spacing: normal;
+  margin: 0 6px;
+  padding-top: 233px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.block_roadservice_case ul li span {
+  display: block;
+  color: #605f5d;
+  font-size: 14px;
+  text-align: left;
+  padding: 10px;
+  border-top: #f2f2f2 1px solid;
+  background: #fff;
+  text-align: center;
+}
+.block_roadservice_case ul li span .in_text {
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+  border-top: none;
+}
+.block_roadservice_case ul li img {
+  display: none;
+}
+.block_roadservice_case ul .accident_cycling {
+  background-image: url('../../common/img_20150623/pc/roadservice/img_c1.png');
+}
+.block_roadservice_case ul .accident_shopping04 {
+  background-image: url('../../common/img_20150623/pc/roadservice/img_c2.png');
+}
+
+/* ---------------------------
+  @ road_service_variety
+--------------------------- */
+.road_service_variety {
+  padding: 10px 0;
+}
+.road_service_variety h3 {
+  color: #605f5d;
+  font-size: 24px;
+  font-weight: bold;
+  display:inline-block;
+  padding:10px;
+}
+.road_service_variety h3:before {
+/*
+  content: '';
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  background: url('../../common/img_20150623/pc/roadservice/icon_service.png') no-repeat;
+  background-position: left top;
+  vertical-align: middle;
+  margin-right: 20px;
+*/
+}
+.road_service_variety p {
+  color: #605f5d;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.road_service_variety p em {
+  color: #e47373;
+  font-size: 20px;
+  font-weight: bold;
+}
+.road_service_variety p span {
+  font-weight: normal;
+}
+
+/* ---------------------------
+  @ road_service_title
+--------------------------- */
+.road_service_title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  width: 980px;
+  margin: 0 auto 55px;
+}
+.road_service_title.premium {
+  background: #2a4287;
+  line-height: 70px;
+  margin-bottom: 55px;
+}
+.road_service_title.basic {
+  background: #7f89a9;
+  border: #2a4287 3px solid;
+  line-height: 64px;
+  margin-top: 70px;
+}
+
+/* ---------------------------
+  @ roadservice_table
+--------------------------- */
+.roadservice_table {
+  padding-bottom: 75px;
+  overflow: hidden;
+}
+.roadservice_table .table_outer {
+  margin: 0 -24px;
+}
+.roadservice_table table {
+  border-collapse: separate;
+  border-spacing: 24px 0;
+}
+.roadservice_table table th {
+  color: #605f5d;
+  font-size: 18px;
+  font-weight: bold;
+}
+.roadservice_table table .cell_name {
+  width: 220px;
+  padding-left: 20px;
+}
+.roadservice_table table .cell_caption {
+  text-align: center;
+}
+.roadservice_table table tr:first-child th {
+  border-bottom-width: 2px;
+  padding-bottom: 15px;
+  vertical-align: bottom;
+}
+.roadservice_table table tr:first-child .cell_blue {
+  color: #2a4287;
+}
+.roadservice_table table tr:first-child .cell_red {
+  color: #e47373;
+}
+.roadservice_table table td {
+  color: #605f5d;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 0 24px;
+  vertical-align: middle;
+}
+.roadservice_table table td strong {
+  font-size: 20px;
+}
+.roadservice_table table td .red_text {
+  color: #e47373;
+}
+.roadservice_table table td small {
+  font-size: 12px;
+  display: block;
+  text-align: left;
+  padding: 0 25px;
+  margin-top: 15px;
+}
+.roadservice_table table .cell_logo_bycle {
+  padding: 35px 0;
+}
+.roadservice_table table dl dt span {
+  font-weight: normal;
+  line-height: 1;
+}
+.roadservice_table table dl dd {
+  font-size: 12px;
+  text-align: left;
+  padding: 0 25px;
+  margin-top: 12px;
+}
+.roadservice_table table .cell_border_green {
+  border-bottom: #e2d172 1px solid;
+}
+.roadservice_table table .cell_border_green.top_bottom {
+  border-top: #e2d172 1px solid;
+}
+.roadservice_table table .cell_border_blue {
+  border-bottom: #7f89a9 1px solid;
+}
+.roadservice_table table .cell_border_blue.top_bottom {
+  border-top: #7f89a9 1px solid;
+}
+.roadservice_table table .cell_border_red {
+  border-bottom: #e47373 1px solid;
+}
+.roadservice_table table .cell_border_red.top_bottom {
+  border-top: #e47373 1px solid;
+}
+.roadservice_table table.basic_service {
+  width: 100%;
+}
+.roadservice_table table.basic_service tr:first-child th {
+  vertical-align: middle;
+  border-bottom-width: 1px;
+  border-top-width: 2px;
+}
+.roadservice_table table.basic_service tr:first-child td {
+  border-top-width: 2px;
+}
+.roadservice_table table.basic_service td ul {
+  letter-spacing: -0.4em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.roadservice_table table.basic_service td ul li {
+  width: 160px;
+  letter-spacing: normal;
+  display: inline-block;
+  margin: 0 20px;
+}
+.roadservice_table table.basic_service td span {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.roadservice_table table.basic_service td small {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+.roadservice_table ul {
+  color: #605f5d;
+  font-weight: bold;
+  margin-top: 30px;
+  line-height: 2;
+}
+.roadservice_table ul em {
+  color: #E47372;
+}
+
+/* ---------------------------
+  @ block_roadservice_premium
+--------------------------- */
+.block_roadservice_premium {
+  padding-bottom: 20px;
+}
+.block_roadservice_premium h4 {
+  color: #2a4287;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.block_roadservice_premium h4:before {
+  content: '';
+  width: 150px;
+  height: 107px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url('../../common/img_20150623/pc/roadservice/text_renewal.png') no-repeat;
+  background-position: left top;
+  margin-right: 10px;
+}
+.block_roadservice_premium h4 .sp_only {
+  display: none;
+}
+.block_roadservice_premium h4 .pc_only {
+  display: inline-block;
+  vertical-align: middle;
+}
+.block_roadservice_premium h4 .pc_only em {
+  font-size: 20px;
+}
+.block_roadservice_premium h4 .pc_only em:before, .block_roadservice_premium h4 .pc_only em:after {
+  content: '';
+  width: 24px;
+  height: 36px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: left top;
+  vertical-align: middle;
+}
+.block_roadservice_premium h4 .pc_only em:before {
+  background-image: url('../../common/img_20150623/pc/roadservice/line1.png');
+  margin-right: 10px;
+}
+.block_roadservice_premium h4 .pc_only em:after {
+  background-image: url('../../common/img_20150623/pc/roadservice/line2.png');
+  margin-left: 10px;
+}
+.block_roadservice_premium h4 .pc_only em small {
+  font-size: 16px;
+}
+.block_roadservice_premium .block_number_bx.roadservice_premium dd {
+  color: #2a4287;
+  font-size: 20px;
+  position: relative;
+  padding-bottom: 260px;
+}
+.block_roadservice_premium .block_number_bx.roadservice_premium dd .sp_only {
+  display: none;
+}
+.block_roadservice_premium .block_number_bx.roadservice_premium dd strong {
+  color: #e47373;
+}
+.block_roadservice_premium .block_number_bx.roadservice_premium dd .pc_only {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.block_roadservice_premium .block_number_bx.roadservice_premium dd span {
+  width: 300px;
+  padding: 0 10px;
+  display: block;
+  position: absolute;
+  top: 260px;
+  left: 0;
+}
+.block_roadservice_premium .block_number_bx.roadservice_premium dd span em {
+  display: inline-block;
+  color: #605f5d;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+.block_roadservice_premium dl {
+  color: #605f5d;
+  margin-bottom: 20px;
+}
+.block_roadservice_premium ul {
+  color: #605f5d;
+  margin-bottom: 10px;
+}
+
+/* ---------------------------
+  @ basic_service_text
+--------------------------- */
+.basic_service_text {
+  padding: 0 0 30px;
+}
+.basic_service_text p {
+  color: #605f5d;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.basic_service_text p small {
+  font-size: 14px;
+  font-weight: normal;
+}
+.basic_service_text p.red_text {
+  color: #e47373;
+}
+
+/* ---------------------------
+  @ road_service_icontitle
+--------------------------- */
+.road_service_icontitle {
+  color: #605f5d;
+  font-size: 24px;
+  font-weight: bold;
+}
+.road_service_icontitle:before {
+  content: '';
+  background-repeat: no-repeat;
+  background-position: left top;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.road_service_icontitle.utilization {
+  width: 980px;
+  margin: 0 auto 40px;
+}
+.road_service_icontitle.utilization:before {
+  width: 55px;
+  height: 55px;
+  background-image: url('../../common/img_20150623/pc/roadservice/icon_use.png');
+}
+.road_service_icontitle.area {
+  margin-bottom: 45px;
+}
+.road_service_icontitle.area:before {
+  width: 33px;
+  height: 54px;
+  background-image: url('../../common/img_20150623/pc/roadservice/icon_area.png');
+}
+
+/* ---------------------------
+  @ block_bycle_smapho road_service
+--------------------------- */
+.block_bycle_smapho.road_service {
+  margin-bottom: 85px;
+}
+.block_bycle_smapho.road_service .body_bycle_smapho {
+  padding-bottom: 125px;
+  position: relative;
+}
+.block_bycle_smapho.road_service .body_bycle_smapho:after {
+//  content: '';
+//  width: 48px;
+//  height: 48px;
+//  display: block;
+//  background: url('../../common/img_20150623/pc/common/icon_circle_arrow.png') no-repeat;
+//  background-position: left top;
+//  position: absolute;
+//  left: 50%;
+//  bottom: 35px;
+//  margin-left: -24px;
+}
+.block_bycle_smapho.road_service .arrival {
+  text-align: center;
+}
+.block_bycle_smapho.road_service .arrival dt {
+  color: #2a4287;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.block_bycle_smapho.road_service .arrival dt:before {
+  //content: '';
+  //width: 86px;
+  //height: 57px;
+  //display: inline-block;
+  //background: url('../../common/img_20150623/pc/roadservice/icon_arrive.png') no-repeat;
+  //background-position: left top;
+  //vertical-align: middle;
+  //margin-right: 15px;
+}
+.block_bycle_smapho.road_service .arrival dd ul {
+  text-align: center;
+  letter-spacing: -0.4em;
+}
+.block_bycle_smapho.road_service .arrival dd ul li {
+  display: inline-block;
+  letter-spacing: normal;
+  margin: 0 2.5px;
+}
+
+/* ---------------------------
+  @ road_service_area
+--------------------------- */
+.road_service_area {
+  width: 900px;
+  margin: 0 auto 150px;
+}
+.road_service_area .map_image {
+  width: 762px;
+  margin: 0 auto;
+}
+.road_service_area .map_image ul {
+  color: #605f5d;
+}
+.road_service_area .map_image ul li {
+  line-height: 2;
+}
+.road_service_area h3 {
+	margin-top:10px;
+	font-size:15pt;
+	font-weight:bold;
+	display:inline-block;
+	padding:10px;
+}
+.road_service_area img.iconmini {
+	width:21px;
+	height:35px;
+	padding:10px;
+}
+/* ---------------------------
+  @ block_roadservice_agreement
+--------------------------- */
+.block_roadservice_agreement {
+  width: 950px;
+  margin: 0 auto 90px;
+}
+.block_roadservice_agreement dl {
+  border: #2a4287 2px solid;
+  text-align: center;
+  margin-bottom: 45px;
+  padding: 25px 0 40px;
+}
+.block_roadservice_agreement dl dt {
+  color: #2a4287;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.block_roadservice_agreement dl dd {
+  color: #605f5d;
+  font-size: 18px;
+  padding: 0 15px;
+}
+.block_roadservice_agreement dl dd span {
+  display: block;
+  margin-top: 5px;
+}
+.block_roadservice_agreement dl dd span .icon_pdf {
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 5px;
+  font-size: 10px;
+  border: #605f5d 1px solid;
+  background: #fff;
+  padding: 0 3px;
+  vertical-align: middle;
+}
+.block_roadservice_agreement dl dd span a {
+  color: #605f5d;
+  font-size: 14px;
+}
+.block_roadservice_agreement dl dd span a:hover {
+  text-decoration: none;
+}
+.block_roadservice_agreement dl ul {
+  text-align: left;
+}
+.block_roadservice_agreement dl ul li {
+  font-size: 14px;
+  padding-left: 1em;
+  text-indent: -1em;
+  margin-top: 25px;
+}
+
+/* ---------------------------
+  @ road_service_prolog
+--------------------------- */
+.road_service_prolog {
+  color: #605f5d;
+  font-size: 13px;
+  margin-bottom: 65px;
+}
+img.iconmini{
+	width:30px;
+	height:30px;
+	padding:10px;
+}
+
+
+ul.roadservice_info li{
+	display:inline-block;
+}

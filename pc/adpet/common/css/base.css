@@ -1,0 +1,445 @@
+﻿@charset "utf-8";
+
+
+/* Table Of Contents
+----------------------------------------
+
+# General Elements
+# body
+# layout
+# header
+# gNav
+# pageBody
+# content
+# sidebar
+# footer
+# clearfix
+# common_aute classes
+
+----------------------------------------*/
+
+
+
+/* # General Elements
+---------------------------------------------------------------------------- */
+
+
+a {
+	color: #4d4d4d;
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #4d4d4d;
+}
+
+a:hover {
+	color: #D36CA1;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #D36CA1;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+/* # body
+---------------------------------------------------------------------------- */
+body {
+	text-align: center;
+	color: #595757;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background: url(../images/common/bg_body.jpg) repeat 0 0;
+}
+
+/* # wrapper
+---------------------------------------------------------------------------- */
+div#wrapper {
+	border-top: 10px solid #e0a58c;
+	padding: 0px 0 0;
+}
+/* # header
+---------------------------------------------------------------------------- */
+
+div#header {
+	position:relative;
+	width:100%;
+	height:60px;
+}
+div.indexHeader {
+	margin-bottom: 0px !important;
+}
+.homeIndex{
+	float:left;
+	vertical-align:bottom;
+}
+
+.indexarrow{
+	vertical-align:middle;
+}
+
+.homeIndex a{
+	color:#BC8863;
+}
+
+#systemMaintenance {
+	margin-top: 10px;
+}
+#systemMaintenance a {
+	overflow: hidden;
+	padding-left: 23px;
+	background: url('../../../common_aute/images2/icon_system.png') left top no-repeat;
+	font-weight: bold;
+	line-height: 15px;
+	color:#BC8863;
+}
+div.buttonLayer {
+	height : 0px;
+}
+
+div#readIndex , .headerContentsRight {
+	float:right;
+	margin-top:2px;
+}
+#itemTabHeader ul{
+	float:right;
+}
+div#itemTabHeader {
+	float:right;
+	text-align:3;
+	width:480px;
+	margin:0 auto;
+	margin-bottom: 10px;
+}
+div#itemTabHeader ul {
+	margin: 0 auto;
+}
+div#itemTabHeader ul li {
+	float: left;
+	margin-right: 6px;
+}
+div#itemTabHeader ul li a {
+	display: block;
+}
+div#itemTabHeader ul li:last-child {
+	margin-right: 0;
+}
+
+.clearfix {display: block;}
+
+/* # contents
+---------------------------------------------------------------------------- */
+
+div#contents{
+	width: 980px;
+	margin: 0 auto 60px;
+	margin-top:10px;
+}
+div.contentsHeader{
+	width: 980px;
+	margin: 0 auto;
+}
+div#contentsFooter {
+	width: 980px;
+	margin: 0 auto 60px;
+	margin-top:10px;
+	position:relative;
+	top:-20px;
+}
+/* # leftWrap
+---------------------------------------------------------------------------- */
+
+div#leftWrap , .leftWrap{
+	float:left;
+	width:224px;
+	text-align:left;
+	margin-bottom:10px;
+}
+div.leftWrap{
+	float:left;
+	width:224px;
+	text-align:left;
+	margin-bottom:10px;
+}
+ul#nav{
+	margin-top:20px;
+}
+ul#nav li{
+	margin-top:5px;
+}
+ul#nav li li{
+	margin-top:0;
+}
+div#menu{
+	background:url(../images/common/left/menu_bg.png) no-repeat;
+	width:204px;
+	margin-top:12px;
+	text-align:center;
+	padding-top:15px;
+}
+div#menu div.menuBox{
+	width:186px;
+	margin:15px auto 0;
+}
+div#menu div.menuBox div.inner{
+	background:url(../images/common/left/body.png) no-repeat bottom;
+	padding-bottom:10px;
+}
+div#menu div.menuBox p.passwdRemind{
+	margin:10px auto 0;
+}
+div#menu div.menuBox p.passwdRemind a{
+	display: inline-block;
+	padding-left: 12px;
+	background: url(../images/common/left/login_arrow.png) no-repeat left center;
+}
+div#menu div.menuBox p.passwdRemind a:link{
+	font-size:90%;
+	color:#2e5bb8;
+}
+div#menu div.menuBox p.passwdRemind a:visited {
+	color:#2e5bb8;
+}
+div#menu div.menuBox p.passwdRemind a:hover{
+	color:#D36CA1;
+}
+div#menu div.menuBox div.pdf{
+	text-align:left;
+	padding:10px 10px 0;
+}
+div#menu div.menuBox div.pdf p{
+	margin-bottom:10px;
+}
+div#menu div.menuBox div.pdf p.lastChild{
+	margin-bottom:0;
+}
+div#menu div.menuBox div.pdf a.pdf{
+	display: inline-block;
+	padding-right: 50px;
+	background: url(../images/common/pdf_icon.png) no-repeat right bottom;
+}
+/*topNav*/
+
+#topNav{
+	margin-top:20px;
+}
+
+/*お知らせ*/
+div#information{
+	background:url(../images/common/left/menu_bg.png) no-repeat;
+	width:204px;
+	margin-top:12px;
+	text-align:center;
+	padding-top:15px;
+}
+div#information div.menuBox{
+	width:186px;
+	margin:0 auto;
+}
+div#information div.menuBox div.inner{
+	background:url(../images/common/left/body.png) no-repeat bottom;
+	padding:10px;
+}
+div#information div.menuBox h3{
+	color:#e0a58c;
+	font-weight:bold;
+	border-bottom:1px solid #e0a58c;
+}
+div#information div.menuBox p{
+	padding:10px 0;
+	text-align:left;
+}
+/* # topicPath
+---------------------------------------------------------------------------- */
+div#mainContent div#topicPath{
+	background:url(../images/common/main_top.png) no-repeat top;
+	padding:5px 25px;
+}
+div#mainContent div#topPageBanner {
+	background:url(../images/common/pet_banner.png) no-repeat 0 -10px;
+	height:378px;
+	background-color:#FFFFFF;
+	text-align:right;
+}
+div#mainContent div#topPageBanner div,
+div#mainContent div#topicPath div{
+	float:left;
+}
+div#mainContent div#topPageBanner div a,
+div#mainContent div#topicPath div a{
+	display: inline-block;
+	padding-right: 20px;
+	background: url(../images/common/topicpath_arrow.png) no-repeat right center;
+}
+div#mainContent div#topPageBanner div a:link,
+div#mainContent div#topicPath div a:link{
+	color: #d36ca1;
+}
+div#mainContent div#topPageBanner div a:visited,
+div#mainContent div#topicPath div a:visited{
+	color: #d36ca1;
+}
+div#mainContent div#topPageBanner div a:hover,
+div#mainContent div#topicPath div a:hover{
+	color: #DB4F5D;
+}
+
+div#mainContent div#topPageBanner img {
+	margin-right:10px;
+	margin-top:90px;
+}
+
+/* # content
+---------------------------------------------------------------------------- */
+
+div#mainContent , div.mainContent{
+	float:right;
+	width:756px;
+}
+
+/* # main
+---------------------------------------------------------------------------- */
+
+div#main{
+	background:#fff;
+	padding:0 25px 10px;
+	text-align:center;
+}
+
+/* # pagetop
+---------------------------------------------------------------------------- */
+.backToTop {
+	z-index: 999;
+	position: fixed;
+	right: 0;
+	margin-left: 20px;
+}
+
+
+/* # footer
+---------------------------------------------------------------------------- */
+div#footer {
+	padding-bottom: 30px;
+	border-top:3px solid #d36ca1;
+}
+div#footer a {
+	text-decoration: none;
+}
+div#fnav{
+	border-bottom:1px solid #9fa0a0;
+	padding:40px 0;
+}
+
+div#footer div.footerInner {
+	max-width: 830px;
+	min-width: 780px;
+	margin: 0 auto;
+	text-align: left;
+}
+div#fnav div.linkBox{
+	float: left;
+	border-left:1px solid #9fa0a0;
+	padding:0 20px;
+}
+div#fnav div.linkBox.lastChild{
+	border-right:1px solid #9fa0a0;
+	border-top:none;
+	border-bottom:none;
+}
+div#fnav div.linkBox dt{
+	font-weight:bold;
+	font-size:115%;
+	padding-bottom:5px;
+}
+
+div#footer div.footerInner div.fnav-btm{
+	margin:30px auto 10px;
+}
+div#footer div.footerInner div.fnav-btm ul {
+	text-align:left;
+	padding:10px 0 40px;
+}
+
+div#footer div.footerInner div.fnav-btm ul li {
+	margin-left:5px;
+	display: -moz-inline-box;
+	display: inline-block;
+	text-align: left;
+}
+
+/* Hides from IE-mac \*/
+* html div#footer div.footerInner div.fnav-btm ul li {
+	display: inline;
+	height: 1%;
+}
+
+*:first-child+html div#footer div.footerInner div.fnav-btm ul li {
+	display: inline;
+	height: 1%;
+}
+/* End hide from IE-mac */
+
+div#footer div.footerInner div.fnav-btm ul li ul li {
+	display: block;
+}
+div#footer div.footerInner div.fnav-btm,
+div#footer div.blank {
+	font-size:90%;
+}
+
+div#footer div.blank img.blankimg{
+	margin-bottom:5px;
+}
+
+div#footer p.flogo {
+	text-align: right;
+}
+
+/*Common*/
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+div#mainContent p.note{
+	text-align:left;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+div.btArea{
+	margin:20px auto 30px;
+}
+
+h2.mainH2{
+	background:url(../images/common/h2_bg.png) no-repeat;
+	width:100%;
+	height:36px;
+	text-align:left;
+	color:#fff;
+	font-weight:bold;
+	font-size:13pt;
+	padding:10px 0px 0px 10px;
+	margin-bottom:20px;
+}
+
+div#mainContent p.bobun{
+	text-align:right;
+	margin-right:10px;
+	margin-top:10px;
+}

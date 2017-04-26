@@ -1,0 +1,268 @@
+@charset "utf-8";
+body{
+	font-family: "メイリオ",Meiryo,"Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3",Osaka,ＭＳ Ｐゴシック",sans-serif;
+}
+.container_new {
+	text-align:center;
+}
+.container_new > div{
+	display:inline-block;
+	width:100%;
+	max-width:458px;
+	margin: 5px;
+}
+.lineup_title{
+	background-color: #6783D0;
+	padding: 5px;
+	max-width: 930px;
+	margin: 0 auto;
+	border-radius: 2px;
+	color:#fff;
+}
+.lineup_sub{
+	padding: 5px;
+	max-width: 930px;
+	margin: 0 auto;
+	border-radius: 2px;
+}
+.hoken_type{
+	border: 2px solid #5B5655;
+	background-color:#5B5655;
+	border-radius: 2px;
+	padding: 5px;
+	color: #fff;
+	margin-right: 5px;
+	position: absolute;
+	bottom: 10px;
+	width: 26%;
+	right: 0px;
+	text-align: center;
+	padding:2px;
+	height:20px;
+}
+.title_mini{
+	font-size:11px;
+}
+.title_small{
+	font-size:13px;
+	letter-spacing: 0.02em;
+}
+.title_big{
+	font-size:15px;
+	font-weight:bold;
+	letter-spacing: 0.02em;
+}
+.title_mega{
+	font-size:19px;
+	font-weight:bold;
+	letter-spacing: 0.02em;
+}
+a:link {
+	text-decoration: none;
+}
+.blue_description{
+	margin: 10px 0;
+	color:#1d2a75;
+	text-align:center;
+	padding: 5px 6px;
+	border-bottom: 3px solid #E95504;
+}
+.blue_description p{
+	width:95%;
+	max-width:40em;
+	margin:0 auto;
+	text-align:left;
+}
+.blue_description.pet{
+	padding: 15px 6px;
+}
+
+.four_point{
+	border-collapse:separate;
+	border-spacing:5px;
+	max-width: 360px;
+	margin:0 auto;
+}
+.four_point td{
+	border-radius:14px;
+	height:4.5em;
+	color:#4b4b4b;
+	border: 2px solid #D3D3D3;
+}
+.back_green{
+	background-color:#34A853;
+}
+.four_point td.line_green{
+	border:2px solid #34A853;
+}
+.back_blue{
+	background-color:#1c96d4;
+}
+.four_point td.line_blue{
+	border:2px solid #1c96d4;
+}
+.back_black{
+	background-color:#666666;
+}
+.four_point td.line_black{
+	border:2px solid #464646;
+}
+.back_sky{
+	background-color:#DAE2E5;
+}
+.four_point td.line_sky{
+	border:2px solid #DAE2E5;
+}
+
+.hokenyou_ttl{
+	max-width: 348px;
+	margin: 10px auto 0px;
+}
+.hokenryou_tbl{
+	border-collapse: separate;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	max-width: 286px;
+	margin: 0 auto;
+	text-align:left;
+}
+.hokenryou_tbl td{
+	padding:5px;
+	font-size:13px;
+	font-weight:bold;
+}
+.border-r{
+	border-right:2px solid #CFDFE5;
+}
+.border-b{
+	border-bottom:2px solid #fff;
+}
+.text-r{
+	text-align:right;
+}
+.margin_l15{
+	margin-left:15px;
+}
+.margin_r40{
+	margin-right:25px;
+}
+.hokenyou_ttl,.hokenryou_tbl{
+	color: #4B4B4B;
+}
+.lineuplogo{
+	height:52px;
+	margin-left:7px;
+}
+.bycle_logo{
+	width:202px;
+}
+.byclebest_logo{
+	width:216px;
+}
+.traffic_logo{
+	width:197px;
+}
+.nichizyou_logo{
+	width:208px;
+}
+.pet_logo{
+	width:249px;
+}
+.kaigai_logo{
+	width:284px;
+}
+.kokunai_logo{
+	width:287px;
+}
+.golf_logo{
+	width:232px;
+}
+.kahen_ttl{
+	width:66%;
+}
+.hoken_type_wrapper{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:100px;
+}
+.kuwashiku_orange_btn{
+	width:120px;
+	height: 35px;
+	margin: 10px auto 0;
+}
+.kuwashiku_orange_btn:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
+.container_new > div.blue_box{
+	border:3px solid #6783D0;
+	border-radius:2px;
+	padding: 10px 0;
+	vertical-align: top;
+	position: relative;
+	background-color: #fff;
+}
+.height492{
+	height:492px;
+}
+.height458{
+	height:458px;
+}
+.height430{
+	height:430px;
+}
+.height360{
+	height:360px;
+}
+
+.orange_btn{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	left:0;
+	text-align: center;
+	padding: 10px 0;
+}
+.indent1{
+	text-indent:-1em;
+	margin-left:1em;
+}
+.container_new > div.lineup_nottice{
+	text-align:left;
+	width:100%;
+	max-width:944px;
+}
+.block_lower_narrow_space {
+	padding: 0px 0px 15px;
+}
+.navy_txt{
+	color:#1D2A75;
+}
+.hokenyou_ttl.koutsu_hoken{
+	margin-top: 78px;
+}
+.font11{
+	font-size:11px;
+}
+.font15{
+	font-size:15px;
+}
+.approvalnumber{
+	max-width:960px;
+}
+.br_sp {
+	display:none;
+}
+a:link.lineup_link{
+	text-decoration:underline;
+	color:#464646;
+}
+a:link.lineup_link:hover{
+	opacity:0.8;
+}
+.back_beige{
+	background-color:#F9E9C7;
+	padding-top:18px;
+	margin-bottom:18px;
+}

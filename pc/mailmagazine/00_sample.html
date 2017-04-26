@@ -1,0 +1,882 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="mail-type" content="magazine">
+    <title>A Responsive Email Template 25 - News Mag for Sonpo -</title>
+    <!--
+
+    レスポンシブHTMLメルマガ用テンプレート 25 News Mag for Sonpo v1.1 r160809r1
+    480px画面対応
+    Gmail display:none fix
+    IE7/11 gmail fix
+
+ -->
+    
+<style type="text/css">
+	@media only screen{
+		html{
+			min-height:100%;
+			background:#f3f3f3;
+		}
+
+}		.showme{
+			display:table !important;
+			width:100% !important;
+			overflow:visible !important;
+			float:none !important;
+			max-height:inherit !important;
+			line-height:auto !important;
+			margin-top:0px !important;
+			visibility:inherit !important;
+		}
+	@media only screen and (max-width:479px){
+		.small-float-center{
+			margin:0 auto!important;
+			float:none!important;
+			text-align:center!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		.small-text-center{
+			text-align:center!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		.small-text-left{
+			text-align:left!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		.small-text-right{
+			text-align:right!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body table.container .hide-for-large{
+			display:block!important;
+			width:auto!important;
+			overflow:visible!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body table.container .hide-for-large{
+			display:table!important;
+			width:100%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body table.container .show-for-large{
+			display:none!important;
+			width:0!important;
+			mso-hide:all!important;
+			overflow:hidden!important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body center{
+			min-width:0!important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .container{
+			width:95%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body .column,table.body .columns{
+			height:auto!important;
+			-moz-box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+			box-sizing:border-box;
+			padding-left:16px!important;
+			padding-right:16px!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body .column .column,table.body .column .columns,table.body .columns .column,table.body .columns .columns{
+			padding-left:0!important;
+			padding-right:0!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body .collapse .column,table.body .collapse .columns{
+			padding-left:0!important;
+			padding-right:0!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		td.small-1,th.small-1{
+			display:inline-block!important;
+			width:8.33333%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		td.small-2,th.small-2{
+			display:inline-block!important;
+			width:16.66667%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		td.small-3,th.small-3{
+			display:inline-block!important;
+			width:25%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		td.small-4,th.small-4{
+			display:inline-block!important;
+			width:33.33333%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		td.small-5,th.small-5{
+			display:inline-block!important;
+			width:41.66667%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		td.small-6,th.small-6{
+			display:inline-block!important;
+			width:50%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		td.small-7,th.small-7{
+			display:inline-block!important;
+			width:58.33333%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		td.small-8,th.small-8{
+			display:inline-block!important;
+			width:66.66667%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		td.small-9,th.small-9{
+			display:inline-block!important;
+			width:75%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		td.small-10,th.small-10{
+			display:inline-block!important;
+			width:83.33333%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		td.small-11,th.small-11{
+			display:inline-block!important;
+			width:91.66667%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		td.small-12,th.small-12{
+			display:inline-block!important;
+			width:100%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		.column td.small-12,.column th.small-12,.columns td.small-12,.columns th.small-12{
+			display:block!important;
+			width:100%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body td.small-offset-1,table.body th.small-offset-1{
+			margin-left:8.33333%!important;
+			Margin-left:8.33333%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body td.small-offset-2,table.body th.small-offset-2{
+			margin-left:16.66667%!important;
+			Margin-left:16.66667%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body td.small-offset-3,table.body th.small-offset-3{
+			margin-left:25%!important;
+			Margin-left:25%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body td.small-offset-4,table.body th.small-offset-4{
+			margin-left:33.33333%!important;
+			Margin-left:33.33333%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body td.small-offset-5,table.body th.small-offset-5{
+			margin-left:41.66667%!important;
+			Margin-left:41.66667%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body td.small-offset-6,table.body th.small-offset-6{
+			margin-left:50%!important;
+			Margin-left:50%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body td.small-offset-7,table.body th.small-offset-7{
+			margin-left:58.33333%!important;
+			Margin-left:58.33333%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body td.small-offset-8,table.body th.small-offset-8{
+			margin-left:66.66667%!important;
+			Margin-left:66.66667%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body td.small-offset-9,table.body th.small-offset-9{
+			margin-left:75%!important;
+			Margin-left:75%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body td.small-offset-10,table.body th.small-offset-10{
+			margin-left:83.33333%!important;
+			Margin-left:83.33333%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body td.small-offset-11,table.body th.small-offset-11{
+			margin-left:91.66667%!important;
+			Margin-left:91.66667%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body table.columns td.expander,table.body table.columns th.expander{
+			display:none!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body .right-text-pad,table.body .text-pad-right{
+			padding-left:10px!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.body .left-text-pad,table.body .text-pad-left{
+			padding-right:10px!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.menu{
+			width:100%!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.menu td,table.menu th{
+			width:auto!important;
+			display:inline-block!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.menu.small-vertical td,table.menu.small-vertical th,table.menu.vertical td,table.menu.vertical th{
+			display:block!important;
+		}
+
+}	@media only screen and (max-width:479px){
+		table.menu[align=center]{
+			width:auto!important;
+		}
+
+}		.accordion{
+			width:80%;
+			margin:10px auto;
+			box-shadow:0px 0px 0px 1px rgba(155, 155, 155, 0.3), 0px 2px 2px rgba(0, 0, 0, 0.1);
+		}
+		.accordion label{
+			font-family:Arial, sans-serif;
+			padding:5px 20px;
+			position:relative;
+			display:block;
+			height:30px;
+			cursor:pointer;
+			color:#777;
+			line-height:33px;
+			font-size:16px;
+			background:#EFEFEF;
+			border:1px solid #CCC;
+			text-align:center;
+		}
+		.accordion label:hover{
+			background:#F3F3F3;
+		}
+		.accordion input+label{
+			-webkit-transition:all 0.3s ease-in-out;
+			-moz-transition:all 0.3s ease-in-out;
+			-o-transition:all 0.3s ease-in-out;
+			-ms-transition:all 0.3s ease-in-out;
+			transition:all 0.3s ease-in-out;
+		}
+		.accordion input:checked+label,.accordion input:checked+label:hover{
+			background:#CDECC5;
+			color:#3d7489;
+			box-shadow:0px 0px 0px 1px rgba(155, 155, 155, 0.3), 0px 2px 2px rgba(0, 0, 0, 0.1);
+		}
+		.accordion input{
+			display:none;
+		}
+		.accordion .article{
+			background:rgb(255, 255, 255);
+			overflow:auto;
+			height:0px;
+			-webkit-transition:all 0.3s ease-in-out;
+			-moz-transition:all 0.3s ease-in-out;
+			-o-transition:all 0.3s ease-in-out;
+			-ms-transition:all 0.3s ease-in-out;
+			transition:all 0.3s ease-in-out;
+		}
+		.accordion .article p{
+			font-style:italic;
+			color:#777;
+			line-height:23px;
+			font-size:14px;
+			padding:20px;
+		}
+		.accordion input:checked .article{
+			-webkit-transition:all 0.5s ease-in-out;
+			-moz-transition:all 0.5s ease-in-out;
+			-o-transition:all 0.5s ease-in-out;
+			-ms-transition:all 0.5s ease-in-out;
+			transition:all 0.5s ease-in-out;
+		}
+		.accordion input:checked .article.ac-small{
+			height:155px;
+		}
+		.accordion input:checked .article.ac-medium{
+			height:195px;
+		}
+		.accordion input:checked .article.ac-large{
+			height:245px;
+		}
+</style></head>
+
+<body style="-moz-box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:0;box-sizing:border-box;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;min-width:100%;padding:0;text-align:left;width:100%!important">
+    <table class="body" style="Margin:0;background:#f3f3f3;border-collapse:collapse;border-spacing:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;height:100%;line-height:19px;margin:0;padding:0;text-align:left;vertical-align:top;width:100%">
+        <tr style="padding:0;text-align:left;vertical-align:top">
+            <td class="center" align="center" valign="top" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:19px;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                <center data-parsed="" style="min-width:580px;width:100%">
+                    <table class="container float-center" style="Margin:0 auto;background:#fefefe;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:580px">
+                        <tbody>
+                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:19px;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                   
+                                <!-- ヘッダー開始 -->
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                                <center data-parsed="" style="min-width:24px;width:100%"><img src="http://153.127.250.149/nextwave_mailchimp/img_src/25/logo_ausonpo.png" width="164" style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-width:30%;outline:0;padding-top:20px;text-align:center;text-decoration:none;" align="center" class="float-center"></center>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                                <p class="text-center" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:36px;padding:0;text-align:center">こんにちは、au損保です。</p>
+                                                                </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                               <!-- ヘッダー終り -->
+                                    
+                                    <hr style="Margin:20px auto;border-bottom:1px solid #cacaca;border-left:0;border-right:0;border-top:0;clear:both;height:0;margin:20px auto;max-width:580px">
+                                                                    
+                               <!-- バナー01開始 -->
+                                  <!-- バナー01キャプション開始 -->
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                                <!-- バナー01 テキスト入力＆文字色変更 　3行まで（1行あたり全角30文字目安）★↓-->
+                                                                <p class="text-center" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:;padding:0;text-align:center">あなたの「旅行へ行くときに欠かせないもの」は？</p>
+                                                                <p class="text-center" style="Margin:0;Margin-bottom:10px;color:#FF1493;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:;padding:0;text-align:center">↓↓グルメカード1万円分が当たるチャンス！今すぐクリック↓↓</p>
+                                                                <p class="text-center" style="Margin:0;Margin-bottom:10px;color:#FF1493;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:;padding:0;text-align:center">↓↓グルメカード1万円分が当たるチャンス！今すぐクリック↓↓</p>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                  <!-- バナー01キャプション終了 -->
+                                    
+                                  <!-- バナー01画像（横長）開始 -->
+                                    <table class="row collapse" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:0;padding-right:0;text-align:left;width:588px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                                <center data-parsed="" style="min-width:532px;width:100%">
+                                                                    <!-- バナー01画像横長 リンク先URL★↓ -->
+                                                                    <a href="http://www.au-sonpo.co.jp/campaign/sns/trip/" align="center" class="float-center" style="Margin:0;color:#0277bd;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                        <!-- バナー画像01横長 画像（横2.5、縦1の比率）★↓ -->
+                                                                        <img src="http://153.127.250.149/nextwave_mailchimp/img_src/25/campaign_sonpo_m.jpg" align="center" class="float-center" width="580" style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;"></a>
+                                                                </center>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                  <!-- バナー01画像（横長）終了 -->
+                               <!-- バナー01終了 -->
+                                    
+                                    <hr style="Margin:20px auto;border-bottom:1px solid #cacaca;border-left:0;border-right:0;border-top:0;clear:both;height:0;margin:20px auto;max-width:580px">
+                                    
+                               <!-- バナー02開始 -->
+                                  <!-- バナー02キャプション開始 -->
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                                 <!-- バナー02 テキスト入力＆文字色変更 　3行まで（1行あたり全角30文字目安）★↓-->
+                                                                <p class="text-center" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:0;padding:0;text-align:center">＼この夏、海外旅行へお出かけになる方へ！／</p>
+                                                                <p class="text-center" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:0;padding:0;text-align:center">＼この夏、海外旅行へお出かけになる方へ！／</p>
+                                                                <p class="text-center" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:0;padding:0;text-align:center">＼この夏、海外旅行へお出かけになる方へ！／</p>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                  <!-- バナー02キャプション終わり -->
+                                    
+                                  <!-- バナー02画像（横長）開始 -->
+                                    <table class="row collapse" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:0;padding-right:0;text-align:left;width:588px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                                <center data-parsed="" style="min-width:532px;width:100%">
+                                                                    <!-- バナー02 画像横長 リンク先URL★↓ -->
+                                                                    <a href="http://www.au-sonpo.co.jp/pc/kaigai/" align="center" class="float-center" style="Margin:0;color:#0277bd;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                        <!-- バナー02画像横長 画像(横2.5、縦1の比率)★↓ -->
+                                                                        <img src="http://153.127.250.149/nextwave_mailchimp/img_src/25/kaigai_travel_sonpo.png" align="center" class="float-center" width="580" style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;"></a>
+                                                                </center>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                  <!-- バナー02画像（横長）終了 -->
+                               <!-- バナー02終了 -->
+                                
+                                    <hr style="Margin:20px auto;border-bottom:1px solid #cacaca;border-left:0;border-right:0;border-top:0;clear:both;height:0;margin:20px auto;max-width:580px">
+                                
+                               <!-- バナー03開始 -->
+                                  <!-- バナー03キャプション開始 -->
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                              <!-- バナー03テキスト入力＆文字色変更 　1行まで（全角85文字目安）★↓-->
+                                                                <p class="text-left" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:0;padding:0;text-align:left">月々370円～加入できる「自転車向け保険Bycle（バイクル）」 夏休み、お子さまが自転車に乗る機会が増えます。相手とぶつかりケガを負わせて1億円もの賠償請求、あなたに支払えますか？
+                                                                </p>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                  <!-- バナー03キャプション終わり -->
+                                  
+                                  <!-- バナー03画像（横長）開始 -->
+                                    <table class="row collapse" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:0;padding-right:0;text-align:left;width:588px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                                <center data-parsed="" style="min-width:532px;width:100%">
+                                                                    <!-- バナー03画像横長 リンク先URL★↓ -->
+                                                                    <a href="http://www.au-sonpo.co.jp/pc/bycle/" align="center" class="float-center" style="Margin:0;color:#0277bd;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                        <!-- バナー03画像横長 画像(横2.5、縦1の比率)★↓ -->
+                                                                        <img src="http://153.127.250.149/nextwave_mailchimp/img_src/25/jitensha_sonpo.png" align="center" class="float-center" width="580" style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;"></a>
+                                                                </center>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                  <!-- バナー03画像（横長）終了 -->
+                               <!-- バナー03終了 -->
+                             
+                                    <hr style="Margin:20px auto;border-bottom:1px solid #cacaca;border-left:0;border-right:0;border-top:0;clear:both;height:0;margin:20px auto;max-width:580px">
+                             
+                               <!-- バナー04開始 -->
+                                  <!-- バナー04画像（横長）開始 -->
+                                    <table class="row collapse" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:0;padding-right:0;text-align:left;width:588px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                                <center data-parsed="" style="min-width:532px;width:100%">
+                                                                   <!-- バナー04 画像横長 画像(横6.1、縦1の比率)★↓ -->
+                                                                    <img src="http://153.127.250.149/nextwave_mailchimp/img_src/25/pet_sonpo.png" align="center" class="float-center" width="580" style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;"></center>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                  <!-- バナー04画像（横長）終了 -->
+                                  
+                                  <!-- バナー04キャプション開始 -->
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                                <!-- バナー04テキスト入力＆文字色変更 　テキスト1行（全角150文字目安）★↓-->
+                                                                <p class="text-left" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:0;padding:0;text-align:left">毎日の生活を楽しくしてくれる可愛いペット。その愛らしい姿はいつも私たちを癒してくれます。「ペット保険」はそんな家族同然の大切なペットの万一の「病気・ケガ」に備え、「健康」を守るために登場しましたが、実際にはどのようなケースで利用でき、保険金が支払われるまでの日数や流れはどのようになっているのでしょうか？</p>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                  <!-- バナー04キャプション終わり -->
+                               <!-- バナー04終了 -->
+                               
+                                    <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <td height="20px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;hyphens:auto;line-height:20px;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                               
+                               <!-- 「続きを見る」Button開始 -->
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-2 large-2 columns first" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:80.67px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                                <th class="small-8 large-8 columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:8px;padding-right:8px;text-align:left;width:370.67px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                                <center data-parsed="" style="min-width:338.67px;width:100%">
+                                                                    <table class="button expanded success float-center" style="Margin:0 0 16px 0;border-collapse:collapse;border-spacing:0;float:none;margin:0 0 16px 0;padding:0;text-align:center;vertical-align:top;width:100%!important">
+                                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                            <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:19px;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                                        <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;background:#EE9A00;border:2px solid #EE9A00;border-collapse:collapse!important;color:#fefefe;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:19px;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                            <center data-parsed="" style="min-width:0;width:100%">
+                                                                                                <!-- 「続きを見る」のリンク先URL★↓ -->
+                                                                                                <a href="http://www.au-sonpo.co.jp/pc/pet/" align="center" class="float-center" style="Margin:0;border:0 solid #EE9A00;border-radius:3px;color:#fefefe;display:inline-block;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.3;margin:0;margin-top:3px;padding:8px 16px 8px 16px;padding-left:0;padding-right:0;text-align:center;text-decoration:none;width:100%">続きを見る</a></center>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                            <td class="expander" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:19px;margin:0;padding:0!important;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word"></td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </center>
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                                <th class="small-2 large-2 columns last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:8px;padding-right:16px;text-align:left;width:80.67px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                               <!--「続きを見る」Button終了 -->
+                               
+                                    <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <td height="20px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;hyphens:auto;line-height:20px;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                               
+                               <!-- バナー05配信元情報開始 -->
+                                  <!-- バナー05配信元情報キャプション1開始 -->
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                               <!-- テキスト★↓-->
+                                                                <p class="text-left" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:bold;line-height:19px;margin:0;margin-bottom:16px;padding:0;text-align:left">■配信元</p>
+                                                                <p class="text-left" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:0;padding:0;text-align:left">スマホで、ソンポ</p>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                  <!-- バナー05配信元情報キャプション1終了 -->
+                                  
+                                  <!-- バナー05配信元情報画像（横長）開始 -->
+                                    <table class="row collapse" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:0;padding-right:0;text-align:left;width:588px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                               <!-- バナー画像横長 リンク先URL★↓ -->
+                                                                <a href="http://www.au-sonpo.co.jp/" align="left" class="float-left" style="Margin:0;color:#0277bd;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                  <!-- バナー画像横長 画像★↓ -->
+                                                                    <img src="http://153.127.250.149/nextwave_mailchimp/img_src/25/logo_corporate_sonpo.png" align="left" width="200" class="float-left" style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:left;margin:0 auto 0 1em;max-width:100%;outline:0;text-align:left;text-decoration:none;width:200px;"></a>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                  <!-- バナー05配信元情報画像（横長）終了 -->
+                                  
+                                  <!-- バナー05配信元情報キャプション2開始 -->
+                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                                <!-- テキスト★↓-->
+                                                                <p class="text-left" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:0;padding:0;text-align:left">◇カスタマーセンター
+                                                                    <br>・TEL（国内のみ）: 0800-700-0600（9:00～18:00受付/通話料無料）
+                                                                    <br>・メール : support-1m@info.au-sonpo.co.jp</p>
+                                                            </th>
+                                                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                        </tr>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                  <!-- バナー05配信元情報キャプション2終了 -->
+                               <!-- バナー05配信元情報終了 -->
+                               
+                               <!--
+                                    <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top">
+                                        <tbody>
+                                            <tr style="padding:0;text-align:left;vertical-align:top">
+                                                <td height="20px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;hyphens:auto;line-height:20px;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                               -->
+                               
+                               
+                               <!-- バナー画像（正方形）開始 -->
+                                    <table class="callout" style="Margin-bottom:16px;border-collapse:collapse;border-spacing:0;margin-bottom:0;padding:0;text-align:left;vertical-align:top">
+                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                            <th class="callout-inner alert" style="Margin:0;background:#B0C4DE;border:none;color:#fefefe;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:10px;text-align:left;width:100%">
+                                                <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                                    <tbody>
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                                                                <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                        <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
+                                                                            <!-- タイトルテキスト★↓-->
+                                                                            <p class="text-center" style="Margin:0;Margin-bottom:10px;color:#FFFFFF;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:10px;margin-top:16px;padding:0;text-align:center">au損保のSNS</p>
+                                                                        </th>
+                                                                        <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                                                    </tr>
+                                                                </table>
+                                                            </th>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                                    <tbody>
+                                                        <tr style="padding:0;text-align:left;vertical-align:top">
+                                                            <th class="small-1 large-3 columns first" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:129px">
+                                                                <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                        <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left"></th>
+                                                                    </tr>
+                                                                </table>
+                                                            </th>
+                                                            <!-- 1ブロック目　開始　-->
+                                                            <th class="small-3 large-2 columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:8px;padding-right:8px;text-align:left;width:80.67px">
+                                                                <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                        <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                                            <center data-parsed="" style="min-width:48.67px;width:100%">
+                                                                                <!-- 1ブロック目　リンク先URL ★↓-->
+                                                                                <a href="https://www.facebook.com/ausonpo" align="center" class="float-center" style="Margin:0;color:#0277bd;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                                <!-- 1ブロック目　画像 ★↓-->
+                                                                                <img src="http://153.127.250.149/nextwave_mailchimp/img_src/25/facebook.png" align="center" width="77" class="float-center" style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;"></a>
+                                                                            </center>
+                                                                        </th>
+                                                                    </tr>
+                                                                </table>
+                                                            </th>
+                                                            <!-- 1ブロック目　終了　-->
+                                                            <!-- 2ブロック目　開始　-->
+                                                            <th class="small-3 large-2 columns" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:8px;padding-right:8px;text-align:left;width:80.67px">
+                                                                <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                        <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                                                                            <center data-parsed="" style="min-width:48.67px;width:100%">
+                                                                                <!-- 2ブロック目　リンク先URL ★↓-->
+                                                                                <a href="https://www.youtube.com/channel/UCabPJY_I0jnOxOckflI5irA" align="center" class="float-center" style="Margin:0;color:#0277bd;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                                <!-- 2ブロック目　画像 ★↓-->
+                                                                                <img src="http://153.127.250.149/nextwave_mailchimp/img_src/25/utube.png" align="center" class="float-center" width="77" style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;"></a>
+                                                                            </center>
+                                                                        </th>
+                                                                    </tr>
+                                                                </table>
+                                                            </th>
+                                                            <!-- 2ブロック目　終了　-->
+                                                            <th class="small-1 large-3 columns last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:8px;padding-right:16px;text-align:left;width:129px">
+                                                                <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                                                    <tr style="padding:0;text-align:left;vertical-align:top">
+                                                                        <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left"></th>
+                                                                    </tr>
+                                                                </table>
+                                                            </th>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </th>
+                                            <th class="expander " style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0 "></th>
+                                        </tr>
+                                    </table>
+                               <!-- バナー画像（正方形）終了 -->
+                               
+                               <!-- フッター開始 -->
+                                    <div class="footer float-center " style="background:#f3f3f3 " align="center ">
+                                        <table class="container " style="Margin:0 auto;background:#f3f3f3;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;padding-bottom:16px;padding-top:16px;text-align:inherit;vertical-align:top;width:580px ">
+                                            <tbody>
+                                                <tr style="padding:0;text-align:left;vertical-align:top ">
+                                                    <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:19px;margin:0;padding:0;padding-bottom:16px;padding-top:16px;text-align:left;vertical-align:top;word-wrap:break-word ">
+                                                        <table class="row collapse " style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100% ">
+                                                            <tbody>
+                                                                <tr style="padding:0;text-align:left;vertical-align:top ">
+                                                                    <th class="small-12 large-12 columns first last " style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:0;padding-left:0;padding-right:0;text-align:left;width:588px ">
+                                                                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100% ">
+                                                                            <tr style="padding:0;text-align:left;vertical-align:top ">
+                                                                                <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left ">
+                                                                                    <p class="text-left " style="Margin:0;Margin-bottom:10px;color:#888;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:19px;margin:0;margin-bottom:10px;padding:0;text-align:left ">
+                                                                                      <!-- フッターテキスト開始★↓ -->
+                                                                                        <br>▼配信停止ご希望の方はこちらから
+                                                                                        <br>
+                                                                                        <a href="http://mpse.jp/kddilbs/c.p?-1661XXXXXXXX " target="_blank ">https://www.au-sonpo.co.jp/customer-rings/</a>
+                                                                                        <br> ※メール配信停止手続き後も、お手続き前に既に配信準備を行っている案内メールが配信される場合がありますのでご了承ください
+                                                                                        <br>
+                                                                                        <br> ※このメールには返信できません
+                                                                                        <br> ※このメールに心当たりのない方は「カスタマーセンター」までご連絡ください
+                                                                                        <br> ※リンク先のサイトを閲覧する場合は別途パケット通信料がかかります
+                                                                                        <br> ※端末によってはリンク先のサイトが閲覧できない場合がございます
+                                                                                        <br>
+                                                                                        <br> M16D310130(1606)
+                                                                                        <br>
+                                                                                        <br>
+                                                                                      <!-- フッターテキスト終了 -->
+                                                                                    </p>
+                                                                                    <p class="text-center " style="Margin:0;Margin-bottom:10px;color:#888;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;line-height:19px;margin:0;margin-bottom:10px;padding:0;text-align:center ">発行：au損害保険株式会社
+                                                                                        <br> Copyright &copy; au insurance Co., Ltd. All Rights Reserved.
+                                                                                    </p>
+                                                                                </th>
+                                                                                <th class="expander " style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0 "></th>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </th>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                               <!-- フッター終了 -->
+                               
+                </td></tr></tbody></table></center>
+                </td>
+                </tr>
+                </table>
+                <!-- prevent Gmail on iOS font size manipulation -->
+                <div style="display:none;white-space:nowrap;font:15px courier;line-height:0 ">&#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;</div>
+</body>
+
+</html>

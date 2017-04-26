@@ -1,0 +1,339 @@
+@charset "utf-8";
+
+/***************** 
+ * 共通部分
+ *****************/
+input[type='radio'] {
+	filter: alpha(opacity=0);
+	-moz-opacity:0;
+	opacity:0;
+	position: absolute;
+}
+ul.ageArea .floatListCenter {
+	margin: 0 auto;
+	float:none;
+	width:570px;
+}
+ul.floatListCenter {
+	list-style: none outside none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+ul.floatListCenter.ageArea {
+	width: 600px;
+	padding-left: 20px;
+}
+
+ul.floatListCenter.ageArea li {
+	margin-right: 2px;
+}
+
+ul.floatListCenter.typeArea {
+	width: 231px;
+	padding: 0 30px;
+}
+
+ul.floatListCenter.weightArea {
+	width: 258px;
+	padding: 0 16px;
+}
+
+ul.floatListCenter.weightArea li {
+	margin-right: 9px;
+}
+
+ul.floatListCenter li {
+	float: left;
+    position: relative;
+}
+
+ul.floatListCenter li.mr0 {
+	margin-right: 0;
+}
+
+/***************** 
+ * ペットの犬種部分
+ *****************/
+ .crobdDogsType, 
+ .crobdCatsType {
+ 	width: 230px;
+	height: 44px;
+	line-height: 44px;
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+ }
+ 
+.animalType {
+ 	width: 300px;
+	height: 44px;
+	line-height: 44px;
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+	background-size:300px 44px;
+}
+.dogType {
+ 	width: 200px;
+	height: 36px;
+	line-height: 36px;
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+	background-size:200px 36px;
+}
+
+.animalType_dog {
+	background:url(../images/top/btn_dog_off.png) no-repeat left top;
+}
+.animalType_dog:hover, 
+.animalType_dog.active {
+	background:url(../images/top/btn_dog_on.png) no-repeat left top;
+}
+.animalType_cat {
+	background:url(../images/top/btn_cat_off.png) no-repeat left top;
+}
+.animalType_cat:hover, 
+.animalType_cat.active {
+	background:url(../images/top/btn_cat_on.png) no-repeat left top;
+}
+
+.dogType1 {
+	background:url(../images/top/btn_t-p_off.png) no-repeat left top;
+}
+.dogType1:hover, 
+.dogType1.active {
+	background:url(../images/top/btn_t-p_on.png) no-repeat left top;
+}
+
+.dogType2 {
+	background:url(../images/top/btn_chifuafua_off.png) no-repeat left top;
+}
+.dogType2:hover, 
+.dogType2.active {
+	background:url(../images/top/btn_chifuafua_on.png) no-repeat left top;
+}
+
+.dogType3 {
+	background:url(../images/top/btn_m-d_off.png) no-repeat left top;
+}
+.dogType3:hover, 
+.dogType3.active {
+	background:url(../images/top/btn_m-d_on.png) no-repeat left top;
+}
+
+.dogType4 {
+	background:url(../images/top/btn_shiba_off.png) no-repeat left top;
+}
+.dogType4:hover, 
+.dogType4.active {
+	background:url(../images/top/btn_shiba_on.png) no-repeat left top;
+}
+
+.dogType5 {
+	background:url(../images/top/btn_y-t_off.png) no-repeat left top;
+}
+.dogType5:hover, 
+.dogType5.active {
+	background:url(../images/top/btn_y-t_on.png) no-repeat left top;
+}
+.dogType6 {
+	background:url(../images/top/btn_etcdogs_off.png) no-repeat left top;
+}
+.dogType6:hover, 
+.dogType6.active {
+	background:url(../images/top/btn_etcdogs_on.png) no-repeat left top;
+}
+
+
+.dogsType1:hover, 
+.dogsType1.active {
+	background:url(../images/top/btn_dog_on.png) no-repeat left top;
+}
+
+
+
+.dogsType1 {
+	background:url(../images/plan/bt_dogstype_select_off.png) no-repeat left top;
+}
+.dogsType1:hover, 
+.dogsType1.active {
+	background:url(../images/plan/bt_dogstype_select_on.png) no-repeat left top;
+}
+
+.catsType1 {
+	background:url(../images/plan/bt_catstype_select_off.png) no-repeat left top;
+}
+.catsType1:hover, 
+.catsType1.active {
+	background:url(../images/plan/bt_catstype_select_on.png) no-repeat left top;
+}
+
+.catsType2 {
+	background:url(../images/plan/bt_mixed_off.png) no-repeat left top;
+}
+.catsType2:hover, 
+.catsType2.active {
+	background:url(../images/plan/bt_mixed_on.png) no-repeat left top;
+}
+
+/***************** 
+ * ペットの体重部分
+ *****************/
+.crobdWeight {
+	width: 80px;
+	height: 44px;
+	line-height: 44px;
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.weight1 {
+	background:url(../images/plan/bt_weight01_off.png) no-repeat left top;
+}
+.weight1:hover, 
+.weight1.active {
+	background:url(../images/plan/bt_weight01_on.png) no-repeat left top;
+}
+
+.weight2 {
+	background:url(../images/plan/bt_weight02_off.png) no-repeat left top;
+}
+.weight2:hover, 
+.weight2.active {
+	background:url(../images/plan/bt_weight02_on.png) no-repeat left top;
+}
+
+.weight3 {
+	background:url(../images/plan/bt_weight03_off.png) no-repeat left top;
+}
+.weight3:hover, 
+.weight3.active {
+	background:url(../images/plan/bt_weight03_on.png) no-repeat left top;
+}
+
+/***************** 
+ * ペットの年齢部分
+ *****************/
+
+div.shisanBox{
+	padding: 0px 10px 0px 10px;
+}
+
+ div#ageSelect div.inner {
+ 	height: 44px;
+ }
+
+ .crobdAge {
+	width: 50px;
+	height: 44px;
+	line-height: 44px;
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.age0 {
+	background:url(../images/plan/age00_off.png) no-repeat left top;
+}
+.age0:hover, 
+.age0.active {
+	background:url(../images/plan/age00_on.png) no-repeat left top;
+}
+
+.age1 {
+	background:url(../images/plan/age01_off.png) no-repeat left top;
+}
+.age1:hover, 
+.age1.active {
+	background:url(../images/plan/age01_on.png) no-repeat left top;
+}
+
+.age2 {
+	background:url(../images/plan/age02_off.png) no-repeat left top;
+}
+.age2:hover, 
+.age2.active {
+	background:url(../images/plan/age02_on.png) no-repeat left top;
+}
+
+.age3 {
+	background:url(../images/plan/age03_off.png) no-repeat left top;
+}
+.age3:hover, 
+.age3.active {
+	background:url(../images/plan/age03_on.png) no-repeat left top;
+}
+
+.age4 {
+	background:url(../images/plan/age04_off.png) no-repeat left top;
+}
+.age4:hover, 
+.age4.active {
+	background:url(../images/plan/age04_on.png) no-repeat left top;
+}
+
+.age5 {
+	background:url(../images/plan/age05_off.png) no-repeat left top;
+}
+.age5:hover, 
+.age5.active {
+	background:url(../images/plan/age05_on.png) no-repeat left top;
+}
+
+.age6 {
+	background:url(../images/plan/age06_off.png) no-repeat left top;
+}
+.age6:hover, 
+.age6.active {
+	background:url(../images/plan/age06_on.png) no-repeat left top;
+}
+
+.age7 {
+	background:url(../images/plan/age07_off.png) no-repeat left top;
+}
+.age7:hover, 
+.age7.active {
+	background:url(../images/plan/age07_on.png) no-repeat left top;
+}
+
+.age8 {
+	background:url(../images/plan/age08_off.png) no-repeat left top;
+}
+.age8:hover, 
+.age8.active {
+	background:url(../images/plan/age08_on.png) no-repeat left top;
+}
+
+.age9 {
+	background:url(../images/plan/age09_off.png) no-repeat left top;
+}
+.age9:hover, 
+.age9.active {
+	background:url(../images/plan/age09_on.png) no-repeat left top;
+}
+
+.age10 {
+	background:url(../images/plan/age10_off.png) no-repeat left top;
+}
+.age10:hover, 
+.age10.active {
+	background:url(../images/plan/age10_on.png) no-repeat left top;
+}
+div#errPopLayer {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	background-color: #ffffff;
+	opacity: 0;
+	/* this works in IE6, IE7, and IE8 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); 
+	/* this works in IE8 only */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+}

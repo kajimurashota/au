@@ -1,0 +1,115 @@
+
+#hosyo_naiyo ul.ate_pet_00 {			/*インデント*/
+	margin-left: 1.0em;	
+}
+
+#hosyo_naiyo ul.ate_pet_00 li {			/*インデント*/
+	list-style:none;
+	text-indent: -0.0em;
+	font-size:20px;
+}
+
+
+#hosyo_naiyo #content_01 .tx_area_pet1 {
+	padding: 0;
+	/*border: 5px solid #6699cc;*/
+	border-radius: 6px 6px 6px 6px;
+	margin: 0px 0px 10px 0px;
+}
+#hosyo_naiyo #content_01 .tx_area_pet1 .cont_wrap {
+    padding: 0;
+}
+#hosyo_naiyo #content_01 .tx_area_pet1 .cont_wrap p {
+    text-indent: 0;
+}
+#hosyo_naiyo #content_01_01 .tx_area_pet2,
+#hosyo_naiyo #content_01 .tx_area_pet2 {
+	padding: 0;
+	/*border: 5px solid #0000F0;*/
+	//border-radius: 6px 6px 6px 6px;
+	margin: 0px 0px 10px 0px;
+}
+#hosyo_naiyo #content_01_01 .tx_area_pet2 .cont_wrap,
+#hosyo_naiyo #content_01 .tx_area_pet2 .cont_wrap {
+	margin: 5px;
+	padding-left: 10px;
+	//padding-right: 10px;
+	width: 95%;
+}
+#hosyo_naiyo #content_01_01 .tx_area_pet2 .cont_wrap p,
+#hosyo_naiyo #content_01 .tx_area_pet2 .cont_wrap p {
+	margin: 0 0 0 0;
+	padding: 0 20px 0 0;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_pet {
+	/*width: 270px;*/
+	margin: 0 auto 5px;
+	line-height: 1.5em;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_pet td.tbl_01 {
+	width: 108px;
+	border: 1px solid #aaa;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_pet td.tbl_02 {
+	width: 14px;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_pet td.tbl_03 {
+	width: 78px;
+	border: 1px solid #aaa;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_pet td.tbl_04 {
+	width: 14px;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.hosho_pet td.tbl_05 {
+	width: 114px;
+	border: 1px solid #aaa;
+	text-align: center;
+	padding: 5px 3px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table {
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table th,
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table td {
+	padding: 1px 5px 1px 5px;
+}
+
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.pet_not_hoken {
+	border: 2px solid #000;
+	width:100%;
+}
+#hosyo_naiyo #content_02 .tx_area .cont_wrap table.intxt tr td p{
+	margin-left:1em;
+	text-indent:-1em;
+
+}
+
+#hosyo_naiyo .border2solid {
+	border: 2px solid #000;
+}
+#hosyo_naiyo .borderbm2solid {
+	border-bottom: 2px solid #000;
+}
+#hosyo_naiyo .valiginbm {
+	vertical-align: bottom;
+}
+#hosyo_naiyo .txtnowrap {
+	white-space:nowrap;
+}
+

@@ -1,0 +1,60 @@
+
+h1{
+	width:980px;
+	margin:0 auto;
+	font-size:10px;
+	color:#858585;
+	padding-top:5px;
+}
+
+
+
+/**/
+#contents_wrapper{
+	
+	margin-top:100px;
+	
+	
+	}
+
+
+.pankuzu{
+	max-width: 980px;
+	margin: 0px auto;
+	padding-left:10px;
+	padding-right:10px;	
+	display:block;
+	padding-top:5px;
+}
+.bread_crumb{
+	margin-top:10px;
+}
+#page_contents{
+	color:#000000;
+}
+#page_contents .main_sp{
+	display:none;
+}
+#page_contents .maintitle_bg{
+	background:url(../../common/img_20160128/pc/bycle/mainimg_bg.jpg) center top no-repeat;
+
+}
+#page_contents .maintitle{
+	max-width: 980px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	position:static;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+#page_contents .maintitle h2{
+	width:61%;
+	margin-bottom:28px;
+
+	z-index:10;
+}
+
+
+
+

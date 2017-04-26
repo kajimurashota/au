@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*MAIN*/
+body{padding-bottom:75px;}
+#fvimage{margin-bottom:25px;}
+dl#cm dt img{margin-top:5px;margin-left:10px;}
+dl#cm dd img{margin-left:10px;}
+.contact{margin-top:-10px;margin-left:75px;margin-bottom:60px;}
+#se1-1{margin-left:75px;}
+#se3-1,
+#se3-2{margin-left:0;}
+#footer{height:75px;padding:0;}
+dl#ftxt,#flogo{margin-left:75px;margin-bottom:100px;}
+#flogo{margin-right:75px;}
+

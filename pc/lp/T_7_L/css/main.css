@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/*禁則処理*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, div, span{
+    word-break:break-word;
+}
+#wrap {
+	min-width:1080px;
+	}
+#container_bg {
+	font-family: 'Kozuka Gothic Pro', kozuka-gothic-pr6n, "游ゴシック体", 'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, "メイリオ", 'MS PGothic', 'ＭＳ Ｐゴシック', sans-serif;
+	font-size: 17px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: #616161;
+	line-height: 30px;
+	min-width: 1080px;
+	font-weight: 200;
+}
+.breadcrumb{
+	margin:10px auto 15px;
+	height:15px;
+	width: 1080px;
+}
+.breadcrumb li{
+	float:left;
+	color:#000;
+	font-weight:bold;
+}
+.breadcrumb li a{
+	padding-right:20px;
+	margin-right:16px;
+	color:#19488e;
+	background:url("http://snow.gnavi.co.jp/img/2015/icon_01.gif") no-repeat right center;
+}
+#container {
+	clear: both;
+	width: 100%;
+}
+a:hover {
+	text-decoration: none;
+}
+#container .button a:hover{
+     background-color: #d9d9d9;
+}
+
+#Contents{
+	width:1080px!important;
+}
+#Contents #ausonpo{
+	background:url("../images/bg.gif") ;
+	padding: 0 0 40px;
+}
+#Contents #ausonpo > div{
+	width:990px;
+	margin:0 auto;
+	background:#c2e1f5;
+	text-align: center;
+	padding: 40px 0 0;
+}
+#Contents #ausonpo .pr{
+	text-align: right;
+	padding:5px 10px 20px 0;
+}
+#Contents #ausonpo .text{
+	text-align: left;
+	margin:0px 0px 20px 92px;
+	line-height: 1.4;
+	font-size:20px;
+}
+#Contents #ausonpo .text strong{
+	color:#ff5a00;
+	font-size:30px;
+}
+#Contents #ausonpo .text span{
+	font-size:14px;
+}
+#Contents #ausonpo #btn_detail{
+	margin:0px 0px 40px;
+}
+#Contents #ausonpo ul{
+	text-align:left;
+	margin:0 0 30px 190px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+#Contents #ausonpo ul li{
+	text-indent:-1em;
+	margin:0 0 0 1em;
+}
+#footer {
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: #FFF;
+}
+
+/***2015-12-22追記***/
+#footer_container {
+	padding: 15px 0 0;
+}
+.au_logo {
+	max-width: 139px;
+	height: 27px;
+	width: 100%;
+	padding: 0px 5px;
+}
+.header_img{
+	margin:10px auto 15px;
+	height:15px;
+	width: 1080px;
+}
+
+@media screen and (max-width:640px) { 
+	#Contents {
+		padding-bottom: 0px;
+	}
+	.au_logo {
+		max-width: 100px;
+		height: 19px;
+		margin-top: 4px;
+	}
+	.spOnly {
+		display: none;
+	}
+	#footer{
+		padding:0;
+	}
+	#footer_container {
+		width: 100%;
+	}
+	.right.snow{
+	}
+}

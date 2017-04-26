@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr" xmlns:og="http://ogp.me/ns#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="format-detection" content="telephone=no">
+<title>自転車保険【au損保 あうて「ケガの保険 Bycle」】2015年10月1日始期以降</title>
+<meta name="description" content="自転車保険なら「あうて ケガの保険 Bycle」。月々370円～の保険料で交通事故全般を補償。自転車搭乗中等の事故は、ケガの保険金が2倍！個人賠償責任補償は示談代行サービス付！自転車ロードサービスもある自転車保険！" />
+<meta name="keywords" content="自転車保険,自転車,自転車事故,Bycle,バイクル,示談代行,自転車ロードサービス,あうて,au損保,個人賠償責任補償" />
+<meta property="og:title" content="自転車保険【au損保 あうて「ケガの保険 Bycle」】2015年10月1日始期以降" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="../bycle/index.html" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:image" content="../common/img/og_bycle.png" />
+<meta property="og:site_name" content="あうて「ケガの保険 Bycle（バイクル）」" />
+<meta property="og:description" content="自転車保険なら「あうて ケガの保険 Bycle」。月々370円～の保険料で交通事故全般を補償。自転車搭乗中等の事故は、ケガの保険金が2倍！個人賠償責任補償は示談代行サービス付！自転車ロードサービスもある自転車保険！" />
+
+
+
+
+
+
+<link type="text/css" href="../common_aute/css/import.css" rel="stylesheet" />
+<link type="text/css" href="../common_aute/css/style.css" rel="stylesheet" />
+<link type="text/css" href="../common_aute/css/style20150601.css" rel="stylesheet" />
+<script type="text/javascript" src="../common/js/campcd.js"></script>
+<script type="text/javascript" src="../common_aute/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="../common/js/checkCookie.js"></script>
+<script type="text/javascript" src="../common_aute/js/jquery.aute.extend.js"></script>
+<script type="text/javascript" src="../common/js/switchview.js"></script>
+<script type="text/javascript" src="../common/js/scrollshift.js"></script>
+<script type="text/javascript" src="../common/js/header.js"></script>
+<script type="text/javascript">
+$.SwitchView();
+</script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../common_aute/js/PIE_IE678_20150706.js"></script>
+<![endif]-->
+
+<!--[webfonts]-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> 
+
+<!--[dwcss]-->
+<link type="text/css" href="../common_aute/css/layout20151217.css" rel="stylesheet" />
+<link type="text/css" href="../common_aute/css/base20150706.css" rel="stylesheet" />
+<link type="text/css" href="../common_aute/css/parts20150706.css" rel="stylesheet" />
+<!--[dwcss-partial]--> 
+<link type="text/css" href="../common_aute/css/page20150706.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/header.css" rel="stylesheet" />
+<script type="text/javascript">
+if($SwitchView.isSP()){
+	document.write('<link type="text/css" href="../common_aute/css/style20150325.css" rel="stylesheet" />');
+	document.write('<link type="text/css" href="../common_aute/css/style20150601sp.css" rel="stylesheet" />');
+	document.write('<link type="text/css" href="../common_aute/css/layout_sp20151217.css" rel="stylesheet" />');
+	document.write('<link type="text/css" href="../common_aute/css/base_sp20150706.css" rel="stylesheet" />');
+	document.write('<link type="text/css" href="../common_aute/css/parts_sp20150706.css" rel="stylesheet" />');
+	document.write('<link type="text/css" href="../common_aute/css/page_sp20150706.css" rel="stylesheet" />');
+	document.write('<script type="text/javascript" src="../common_aute/js/script_bicle.js"><\/script>');
+	document.write('<script type="text/javascript" src="../common_aute/js/script_sp.js"><\/script>');
+	document.write('<script type="text/javascript" src="../common_aute/js/script_plusbtn_20151217.js"><\/script>');
+}else{
+	document.write('<script type="text/javascript" src="../common_aute/js/yuga.js"><\/script>');
+}
+$(function(){
+	$("#header_tab_1").anchor($("#page_contents"));
+	$("#header_tab_2").anchor($("#accident"));
+	$("#header_tab_3").anchor($("#page_layer_3"));
+
+	$('#pc_lineup').click(function(){
+		$("#floatingNavi_pc").css('top', $('header').height()).fadeIn('slow');
+		//オーバーレイを表示
+		$overlay.trigger('showOverlay');
+	});
+	$('.hideNavi').click(function(){
+		$("#floatingNavi_pc").fadeOut('fast');
+		$("#bycle_byclebest").fadeOut('fast');
+		//オーバーレイを非表示
+		$overlay.trigger('closeOverlay');
+	});
+	$('#apply_btn').click(function(){
+		$("#bycle_byclebest").css('top', $('header').height()).fadeIn('slow');
+		//オーバーレイを表示
+		$overlay.trigger('showOverlay');
+	});
+	// オーバーレイ ===========================================================
+	var $overlay = $('<div id="disableDoublePost-overlay-pc" style="display:none;"></div>').appendTo('body');
+	$overlay.css({
+		opacity : '0.6'
+	})
+	// 高さ調節 ---------------------------------
+	.on('resizeHeight', function(){
+		$(this).css('height', $(document).height());
+	})
+	// 表示 -------------------------------------
+	.on('showOverlay', function(){
+		$(this).fadeIn('fast');
+		$overlay.trigger('resizeHeight');
+		$('#wrapper').addClass('noTapHighlightArea');
+	})
+	// 非表示 -----------------------------------
+	.on('closeOverlay', function(){
+		$(this).hide();
+		$('#wrapper').removeClass('noTapHighlightArea');
+	})
+	.click(function(){
+		$("#floatingNavi_pc").fadeOut('fast');
+		$("#bycle_byclebest").fadeOut('fast');
+		//オーバーレイを非表示
+		$overlay.trigger('closeOverlay');
+	});
+});
+
+</script>
+<script type="text/javascript">
+var win2
+function openwin2(pop,winname){
+	var avW = 700;
+	var avH = 650;
+	win2 = open(pop,'popup',"toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,top=0,left=0,width=" + avW + ",height=" + avH + "");
+	win2.opener = self;
+	win2.focus();
+}
+// 親ウインドウが閉じる際に子ウインドウも閉じる
+onunload = function() {
+	if(!win2) return false; 
+	win2.close();
+}
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="../common_aute/images3/favicon/favicon.ico" />
+<script src="../common_aute/js/resource_bycle.js"  type="text/javascript"></script>
+<script src="../common_aute/js/resource_bycle_sp.js"  type="text/javascript"></script>
+<style type="text/css">
+body{
+	font-family: "メイリオ", sans-serif;
+}
+</style>
+</head>
+<body onload="javascript:sbSetCAMPCookie();javascript:loadRiyouQrcode();javascript:checkUserAgent();javascript:checkCookie();" id="cateogryItem" class="itemBicycle">
+<div id="page-top">
+	<div id="header_new" class="header_new pc_display">
+		<div>
+			<h1><a href="../" class="trans"><img src="../common/img_20150623/pc/common/au_logo.png" class="au_logo"></a></h1>
+		</div>
+		<div class="head_middle">
+			<ul class="head_top">
+				<li><a href="http://faq.au-sonpo.co.jp">よくあるご質問<img src="../common/img_20150623/pc/common/orange_sankaku_r.png" class="orange_triangle" /></a></li>
+				<li><a href="../otoiawase">各種お問い合わせ<img src="../common/img_20150623/pc/common/orange_sankaku_r.png" class="orange_triangle" /></a></li>
+				<li><a href="../otoiawase/#accident">事故のご連絡<img src="../common/img_20150623/pc/common/orange_sankaku_r.png" class="orange_triangle" /></a></li>
+				<li><a href="../sitemap/">サイトマップ<img src="../common/img_20150623/pc/common/orange_sankaku_r.png" class="orange_triangle" /></a></li>
+			</ul>
+			<ul class="head_gnav">
+				<li><a href="../moushikomi/"><img src="../common/img_20150623/pc/common/btn_apply.png" alt="お申込み方法" class="header_btn1" /></a></li>
+				<li><a href="../keiyakusya/"><img src="../common/img_20150623/pc/common/btn_customer.png" alt="ご契約者の方"class="header_btn2" /></a></li>
+				<li><a href="../keizoku_tetsuzuki/"><img src="../common/img_20150623/pc/common/btn_keizoku.png" alt="ご契約のお手続きについて" class="header_btn3" /></a></li>
+				<li id="pc_lineup"><a href="JavaScript:void(0);"><img src="../common/img_20150623/pc/common/btn_lineup.png" alt="商品ラインナップ" class="header_btn4"/></a></li>
+			</ul>
+		</div>
+		<div style="clear:both"></div>
+		<div class="login_btn">
+			<h1><a href="https://www.au-sonpo.co.jp/pca/popup_myau"><img src="../common/img_20150623/sp/common/icon_login.png" class="login_green_btn"></a></h1>
+		</div>
+		<!--[head_utility]--> 
+	</div>
+	<div class="pc_nav_menu" id="floatingNavi_pc" style="display:none;">
+		<ul>
+			<li><div class="btn_close"><div class="close_position"><a href="JavaScript:void(0);" class="hideNavi"></a></div></div></li>
+			<li class="list_toggle">
+			<li class="back_black"><a href="../bycle/" class="text_white">自転車向け保険&nbsp;&nbsp;Bycle・Bycle&nbsp;Best<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../koutsuujiko/"class="text_white">ケガの保険 交通事故<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../sports/"class="text_white">ケガの保険 日常の事故<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../pet/"class="text_white">ペットの保険<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../kaigai/"class="text_white">海外旅行の保険<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../kokunai/"class="text_white">国内旅行の保険<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../golf/"class="text_white">ゴルフの保険<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../lineup/"class="text_white">au損保の商品一覧<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+		</ul>
+	</div>
+	<!--[header_new]-->
+	
+	<div id="sp_header_new" class="sp_header_new sp_display">
+		<div id="sp_header_top" class="sp_header_top">
+			<h1><a href="../" class="trans"><img src="../common/img_20150623/pc/common/au_logo.png" class="au_logo"></a></h1>
+			<ul class="sp_gnav">
+				<li class="login_btn"><a href="https://www.au-sonpo.co.jp/pca/popup_myau" style="border:none;"><img src="../common/img_20150623/sp/common/icon_login_sp.png" class="icon_login_sp" /></a></li>
+				<li class="btn_menu"><a href="JavaScript:void(0);" class="showNavi">MENU</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--[sp_header]-->
+	<div class="sp_nav_menu" id="floatingNavi" style="display:none;">
+		<ul>
+			<li><div class="btn_close"><div class="close_position"><a href="JavaScript:void(0);" class="hideNavi"></a></div></div></li>
+			<li class="back_black"><a href="../">au損害保険トップ<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="list_toggle back_black">
+				<a href="JavaScript:void(0);" id="menu_toggle_open_sp" class="menu_toggle_open_sp">商品ラインナップ<img id="plus" class="pm_btn" src="../common/img_20150623/sp/common/plus_btn.png"><img id="minus" class="pm_btn" style="display:none;" src="../common/img_20150623/sp/common/minus_btn.png"></a>
+				<ul id="sp_menu_list" class="sp_menu_list">
+				<li class="back_black"><a href="../bycle/">自転車向け保険&nbsp;&nbsp;&nbsp;&nbsp;Bycle・Bycle&nbsp;Best<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+				<li class="back_black"><a href="../koutsuujiko/">ケガの保険 交通事故<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+				<li class="back_black"><a href="../sports/">ケガの保険 日常の事故<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+				<li class="back_black"><a href="../pet/">ペットの保険<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+				<li class="back_black"><a href="../kaigai/">海外旅行の保険<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+				<li class="back_black"><a href="../kokunai/">国内旅行の保険<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+				<li class="back_black"><a href="../golf/">ゴルフの保険<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+				<li class="back_black"><a href="../lineup/">au損保の商品一覧<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+				</ul>
+			</li>
+			<li class="back_black"><a href="http://faq.au-sonpo.co.jp">よくあるご質問<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../otoiawase/">各種お問い合わせ<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../otoiawase/#accident">事故のご連絡<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../moushikomi/">お申込み方法<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../keiyakusya/">ご契約者の方<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../keizoku_tetsuzuki/">ご継続手続きについて<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="JavaScript:void(0);" onclick="javascript:window.open('.././common/popup/PU_C_32.html','','width=700, height=650, menubar=no, toolbar=no, scrollbars=yes'); return false;">会社概要<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+			<li class="back_black"><a href="../sitemap/">サイトマップ<div class="triangle_r_header"><img src="../common/img_20150623/pc/common/white_sankaku_r.png" class="white_sankaku_r" /></div></a></li>
+		</ul>
+	</div>
+	<!--[sp_nav_menu]--> 
+	
+	<div id="page_contents" class="lower_main_cont">
+		<div class="container_new">
+			<div id="page_layer_1" style="height:500px;padding:50px;background-color:#ccc;;">dummy1</div>
+			<div id="accident" style="height:500px;padding:50px;background-color:#ddd;;">dummy2</div>
+			<div id="page_layer_3" style="height:500px;padding:50px;background-color:#ccc;;">dummy3</div>
+		</div>
+	</div>
+	
+	<!--[lower_main_cont]--> 
+	
+	<div class="footer_new_wide" id="footer">
+		<div class="footer_new">
+			<div class="foot_nav">
+				<dl>
+					<dt><p class="small_square">■</p>商品ラインナップ</dt>
+					<dd class="bycle_nidan"><a href="../bycle/" /><div class="bycle_ttl">自転車向け保険</div><div class="bycle_dan">&nbsp;&nbsp;&nbsp;&nbsp;Bycle・Bycle&nbsp;Best</div><div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="../koutsuujiko/">ケガの保険&nbsp;交通事故<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="../sports/">ケガの保険&nbsp;日常の事故<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="../pet/">ペットの保険<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="../kaigai/">海外旅行の保険<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="../kokunai/">国内旅行の保険<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="../golf/">ゴルフの保険<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					</dl>
+				<dl>
+					<dt><p class="small_square">■</p>サイトについて</dt>
+					<dd><a href="../sitemap/">サイトマップ<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="JavaScript:void(0);" onclick="openwin2('../common/popup/PU_C_5.html','myau');" class="icon_file" id="puc_5">メールフィルター設定<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="JavaScript:void(0);" onclick="openwin2('../common/popup/PU_C_9.html','myau');" class="icon_file" id="sit_policy">サイト利用規約<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+				</dl>
+				<dl>
+					<dt><p class="small_square">■</p>方針</dt>
+					<dd><a href="JavaScript:void(0);" onclick="openwin2('../common/popup/PU_C_7.html','myau');" class="icon_file" id="pri_policy">プライバシーポリシー<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="JavaScript:void(0);" onclick="openwin2('../common/popup/PU_C_8.html','myau');" class="icon_file" id="kan_policy">勧誘方針<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="JavaScript:void(0);" onclick="openwin2('../common/popup/PU_C_14.html','myau');" class="icon_file" id="cust_voice">お客さまの声<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="JavaScript:void(0);" onclick="openwin2('../common/popup/PU_C_11.html','myau');" class="icon_file" id="rie_policy">利益相反管理方針<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="JavaScript:void(0);" onclick="openwin2('../common/popup/PU_C_12.html','myau');" class="icon_file" id="han_policy">反社会的勢力に対する基本方針<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="JavaScript:void(0);" onclick="openwin2('../common/popup/PU_C_17.html','myau');" class="icon_file" id="adr_center">そんぽADRセンター<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+				</dl>
+				<dl>
+					<dt><p class="small_square">■</p>外部リンク</dt>
+					<dd><a href="http://www.sonpo.or.jp" target="_blank" rel="nofollow">日本損害保険協会<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+					<dd><a href="http://www.sonpohogo.or.jp/" target="_blank" rel="nofollow">損害保険契約者保護機構<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+				</dl>
+				<dl>
+					<dt><p class="small_square">■</p>企業情報</dt>
+					<dd><a href="http://corp.au-sonpo.co.jp" target="_blank">会社情報<div class="triangle_r"><img src="../common/img_20150623/pc/common/black_sankaku_r.png" class="black_sankaku_r" /></div></a></dd>
+				</dl>
+			</div>
+			<!--[foot_nav]-->
+			<div class="foot_lower">
+				<div class="foot_logo_box">
+					<div class="logo_box_l">
+						<div class="foot_logo">
+							<a href="../" class="trans"><img src="../common/img_20150623/sp/common/logo_footer.png" alt="au損保保険株式会社" width="201px" height="17px" style="margin-top:10px;" /></a>
+						</div>
+						<p class="copy">Copyright &copy; au insurance Co., Ltd. All Rights Reserved.</p>
+					</div>
+						<div class="btn_totop">
+							<a href="#page-top" class="trans"><img src="../common/img_20150623/pc/common/btn_totop.png" alt="PAGE TOP" width="61" height="40"></a>
+						</div>
+				</div>
+				<ul class="foot_btns">
+					<li><a href="https://www.youtube.com/channel/UCabPJY_I0jnOxOckflI5irA" target="_blank" class="trans"><img src="../common/img_20150623/sp/common/icon_youtube.png" alt="youtube" style="width:40px;height:40px;" /></a></li>
+					<li><a href="https://www.facebook.com/ausonpo" target="_blank" class="trans"><img src="../common/img_20150623/sp/common/icon_fb.png" alt="フェイスブックページ" style="width:40px;height:40px;" /></a></li>
+				</ul>
+			</div>
+			<div class="foot_lower_sp">
+				<div class="foot_lower_sp_box">
+				<a href="../" class="trans"><img src="../common/img_20150623/sp/common/logo_footer.png" alt="au損保保険株式会社" width="150px;" height="12px;" style="margin-top:26px;"></a>
+				<ul class="foot_btns">
+					<li><a href="https://www.youtube.com/channel/UCabPJY_I0jnOxOckflI5irA" target="_blank" class="trans"><img src="../common/img_20150623/sp/common/icon_youtube.png" alt="youtube" style="width:40px;height:40px;" /></a></li>
+					<li><a href="https://www.facebook.com/ausonpo" target="_blank" class="trans"><img src="../common/img_20150623/sp/common/icon_fb.png" alt="フェイスブックページ" style="width:40px;height:40px;" /></a></li>
+					<li><div class="btn_totop"><a href="#page-top" class="trans"><img src="../common/img_20150623/pc/common/btn_totop.png" alt="PAGE TOP" /></a></div></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+		<!--[footer_new]--> 
+	</div>
+	<!--[footer_new_wide]-->
+	<div id="header_tab_wrapper">
+		<div id="header_tab">
+			<div id="apply_btn">
+				<a href="JavaScript:void(0);"><img src="../common/img/header_menu/apply_btn.png"  alt="お申込みはこちら"></a>
+			</div>
+			<table>
+				<tbody>
+					<tr>
+						<td class="table_process select" id="header_tab_1">補償内容</td>
+						<td class="menu_line">|</td>
+						<td class="table_process" id="header_tab_2">自転車ロード<br>サービス</td>
+						<td class="menu_line">|</td>
+						<td class="table_process" id="header_tab_3">コース<br />保険料</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<!--[footer_new_wide]-->
+	
+</div>
+<!--[#page-top]-->
+
+</body>
+</html>

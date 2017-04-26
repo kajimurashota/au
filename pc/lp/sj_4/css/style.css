@@ -1,0 +1,1069 @@
+@charset "utf-8";
+
+/* =========================================================
+ * 全体の設定
+ * ====================================================== */
+/*------------------------------
+------------------------------*/
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+body {
+	text-align: center;
+	background: #F6EFDF url(../images/bg_body.jpg) left top repeat;
+	color: #595757;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	-webkit-text-size-adjust: 100%;
+}
+img {
+	width: 100%;
+}
+
+/* =========================================================
+ *
+ * ====================================================== */
+#top {
+	text-align: left;
+}
+#top a {
+	margin-left: 10px;
+}
+#top img {
+	width: 10.3%;
+}
+
+#wrapper{
+	width:990px;
+	margin: 65px auto;
+	background: #fff;
+	border-radius: 8px;
+}
+
+/*------------------------------
+------------------------------*/
+#header {
+	margin: 15px 10px 0;
+}
+
+
+/*------------------------------
+自転車向け保険のプランでお悩みの方
+------------------------------*/
+#worries {
+	margin-top: 30px;
+}
+#worries h2 {
+	margin: 0 1%;
+}
+
+#worriesContents {
+	margin: 40px 20px 0;
+}
+
+#worriesLeft, #worriesRight {
+	width: 50%;
+}
+#worriesLeft {
+	float: left;
+	border-right: #000 dotted 1px;
+}
+#worriesRight {
+	float: right;
+}
+
+#worriesContents img {
+	width: 37.89%;
+}
+#worriesLeft img {
+	float: left;
+	margin-right: 10px;
+}
+#worriesRight img {
+	float: right;
+	margin-left: 10px;
+}
+
+div.worriesinner {
+	margin-top: 18px;
+}
+div.worriesinner:first-child {
+	margin-top: 0;
+}
+#worriesLeft div.worriesinner {
+	padding-right: 4.2%;
+}
+#worriesRight div.worriesinner {
+	padding-left: 4.2%;
+}
+div.worriesinner > h3 {
+	color: #a4793b;
+	border-bottom: #a4793b solid 1px;
+}
+div.worriesinner > div {
+	margin-top: 10px;
+}
+#worriesContents p {
+	text-align: left;
+	line-height: 140%;
+}
+
+
+/*------------------------------
+補償内容の違い
+------------------------------*/
+#compensation {
+	margin-top: 10px;
+}
+
+#compensationTable {
+	margin: 30px 20px 0;
+}
+#compensationTableBody {
+	border-top: none;
+	border-bottom: #5d616b solid 1px;
+	border-left: #5d616b solid 1px;
+	border-right: #5d616b solid 1px;
+}
+
+/* ---------- 行 ---------- */
+div.row {
+	border-bottom: #666666 dotted 1px;
+}
+div.row:before, div.row:after {
+	content:"";
+	display:table
+}
+div.row:after { clear:both }
+div.row { zoom:1 } /* For IE 6/7 */
+
+/*不要な行の点線を消す*/
+#compensationTablePc.row, #compensationTerm.row {
+	border-bottom: none;
+}
+
+/*左カラム*/
+div.leftCol {
+	float: left;
+	width: 474px;
+}
+
+/*カラムの見出し*/
+.colheading {
+	margin: 10px 20px 0;
+	color: #a4793b;
+	font-size: 110%;
+	text-align: left;
+	line-height: 120%;
+}
+.colheading span {
+	display: block;
+	margin-bottom: 5px;
+}
+/*イラスト*/
+div.leftCol .leftColimages img {
+	width: 25%;
+	margin: 5px;
+}
+
+
+/* ---------- 右カラム ---------- */
+div.rightCol {
+	float: right;
+	width: 474px;
+	background: #dfe3ed;
+}
+div.rightCol div:before, div.rightCol div:after {
+	content:"";
+	display:table
+}
+div.rightCol div:after { clear:both }
+div.rightCol div { zoom:1 } /* For IE 6/7 */
+
+/*PC時には非表示にする見出し*/
+div.rightColHead {
+	display: none;
+}
+/*項目ごとの内容*/
+div.rightCol span {
+	float: left;
+	display: block;
+	width: 50%;
+}
+span.trafficOption, span.bycleOption {
+	border-left: #666666 dotted 1px;
+}
+
+
+/* ---------- PC時に表示されるヘッダーのサイズ調整 ---------- */
+#compensationTablePc div.leftCol {
+	width: 475px;
+}
+
+#compensationTablePc div.rightCol {
+	display: table;
+}
+#compensationTablePc div.rightCol {
+	width: 475px;
+}
+#compensationTablePc div.rightCol span {
+	display: table-cell;
+	width: 50%;
+	border: #000 solid 1px;
+	border-bottom: #000 solid 9px;
+}
+#compensationTablePc div.rightCol span.trafficHeadPc {
+	background-color: #f8e9f1;
+	border-color: #d36ca1;
+}
+#compensationTablePc div.rightCol span.bycleHeadPc {
+	background-color: #dfe3ed;
+	border-color: #2a4287;
+}
+#compensationTablePc div.rightCol img {
+	width: 99%;
+}
+
+
+/* ---------- 対象の障害 ---------- */
+/*PC時、左側、項目全体のタイトル*/
+div.firstCol {
+	float: left;
+	display: table;
+	width: 190px;
+	height: 436px;
+	border-right: #666666 dotted 1px;
+	vertical-align: middle;
+}
+div.firstCol p {
+	display: table-cell;
+	padding: 0 20px;
+	color: #a4793b;
+	font-size: 110%;
+	line-height: 120%;
+	vertical-align: middle;
+}
+div.firstCol p span {
+	display: block;
+	margin-top: 5px;
+	font-size: 90%;
+}
+
+/*項目*/
+#accidentCol {
+	float: right;
+	width: 757px;
+}
+
+
+/*項目ごとのラッパー*/
+div.secondCol:before, div.secondCol:after, div.thirdCol:before, div.thirdCol:after {
+	content:"";
+	display:table
+}
+div.secondCol:after, div.thirdCol:after { clear:both }
+div.secondCol, div.thirdCol { zoom:1 } /* For IE 6/7 */
+
+/*交通事故*/
+div.secondCol {
+	border-bottom: #666666 dotted 1px;
+}
+
+/*項目の見出し*/
+div.captionCol {
+	float: left;
+	width: 283px;
+}
+div.captionCol img {
+	width: 42%;
+	margin: 5px;
+}
+
+/*項目の値*/
+div.optionCol {
+	float: right;
+	width: 474px;
+	background: #dfe3ed;
+}
+div.optionCol span {
+	float: left;
+	width: 50%;
+}
+
+/*搬送距離*/
+#distance div.leftCol {
+	display: table;
+	height: 105px;
+}
+#distance div.colheading {
+	display: table-cell;
+	padding-left: 20px;
+	background: url(../images/compensation_img08.png) 90% center no-repeat;
+	background-size: 20%;
+	vertical-align: middle;
+}
+
+#distance div.leftColimages img {
+	width: 18%;
+}
+/*示談*/
+#privateSettlement em {
+	font-size: 85%;
+}
+#privateSettlement div.leftColimages img {
+	width: 18%;
+}
+
+/*保険期間*/
+#compensationTerm div.leftCol {
+	display: table;
+	height: 109px;
+}
+#compensationTerm div.colheading {
+	display: table-cell;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+#compensationTerm div.colheading span {
+	margin-bottom: 0;
+}
+
+
+/*------------------------------
+保険金額と保険料
+------------------------------*/
+#cost {
+	margin-top: 30px;
+}
+
+/*本人向けと家族向け*/
+div.costList {
+	margin: 36px 19px 0;
+}
+div.costList:before, div.costList:after {
+	content:"";
+	display:table
+}
+div.costList:after { clear:both }
+div.costList { zoom:1 } /* For IE 6/7 */
+
+div.costList h3 {
+	font-size: 180%;
+	text-align: left;
+}
+div.costList h3 span {
+	font-size: 50%;
+}
+
+div.costListInner {
+	margin-top: 10px;
+}
+
+div.costList dt {
+	display: none;
+}
+div.costList dt, div.costList dd {
+	float: left;
+}
+
+div.costList dt.costPcHeading {
+	display: block;
+	width: 27.444479%;
+}
+div.costList dd {
+	width: 24.18506%;
+}
+
+/*注意書き*/
+#costFeature {
+	margin: 30px 20px 0;
+	text-align: left;
+}
+#costFeature img {
+	width: 72.42%;
+}
+
+/*補償内容と金額*/
+#coverageOption {
+	margin: 10px 19px 0;
+}
+#coverageOption:before, #coverageOption:after {
+	content:"";
+	display:table
+}
+#coverageOption:after { clear:both }
+#coverageOption { zoom:1 } /* For IE 6/7 */
+
+/*補償内容と金額のテーブル*/
+.costTableSecond {
+	float: left;
+	border-top: #666 solid 1px;
+	border-left: #666 solid 1px;
+}
+.costTableSecond th, .costTableSecond td{
+	border-bottom: #666 solid 1px;
+	border-right: #666 solid 1px;
+}
+.costTableSecond thead th {
+	border-bottom:  #666 solid 3px;
+}
+.costTableSecond thead th.coverageCourse {
+	border-bottom:  #666 solid 1px;
+}
+
+.costTableSecond th.coverageTitle, .costTableSecond th.coverageCourse {
+	width: 237px;
+}
+.costTableSecond tbody th, .costTableSecond tbody td {
+	height: 76px;
+}
+.costTableSecond tbody th {
+	background-color: #f2f2f2;
+}
+
+.costTableSecond tbody td {
+	width: 118px;
+}
+
+/*Bronze*/
+#costBronze thead th, #costBronze tbody td {
+	background-color: #fff;
+}
+/*Silver*/
+#costSilver thead th, #costSilver tbody td {
+	background-color: #ebebeb;
+}
+/*Gold*/
+#costGold thead th, #costGold tbody td {
+	background-color: #fbf7dd;
+}
+/*PCで表示しないもの*/
+#costSilver.costTableSecond th.coverageTitle, #costSilver.costTableSecond tbody th, #costGold.costTableSecond th.coverageTitle, #costGold.costTableSecond tbody th {
+	display: none;
+}
+#costSilver.costTableSecond, #costGold.costTableSecond {
+	border-left: none;
+}
+/*end　補償内容と金額のテーブル*/
+
+/*注意書き*/
+#costNotes {
+	margin: 10px 20px 0;
+	color: #797979;
+	font-size: 90%;
+}
+#costNotes ul {
+	text-align: left;
+	line-height: 120%;
+}
+#costNotes li {
+	margin-top: 5px;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+#costNotes li:first-child {
+	margin-top: 0;
+}
+
+/*リンクボタンなど*/
+div.costLinkWrap {
+	margin-top: 20px;
+}
+div.costLinkWrap ul {
+	margin: 0 20px;
+}
+div.costLinkWrap li {
+	width: 50%;
+}
+li.entryTraffic {
+	float: left;
+	padding-right: 5px;
+}
+li.entryBycle {
+	float: right;
+	padding-left: 5px;
+}
+div.costLinkWrap p {
+	margin: 16px 40px 0;
+	text-align: left;
+}
+div.costLinkWrap p img {
+	width: 1em;
+}
+
+
+/*------------------------------
+お客様の声
+------------------------------*/
+#voice {
+	margin-top: 18px;
+}
+#voiceInner {
+	margin-top: 20px;
+}
+#voiceTraffic, #voiceBycle {
+	float: left;
+	width: 50%;
+	font-size: 95%;
+	text-align: left;
+	line-height: 120%;
+}
+
+#voiceTraffic {
+	background: #f6e2ec;
+}
+#voiceTraffic ul {
+	margin: 20px 10px 0;
+	padding-bottom: 30px;
+}
+
+#voiceBycle {
+	background: #d4d9e7;
+}
+#voiceBycle ul {
+	margin: 20px 10px 0;
+	padding-bottom: 30px;
+}
+
+ul.voiceList li {
+	margin-top: 30px;
+}
+ul.voiceList li:first-child {
+	margin-top: 0;
+}
+
+ul.voiceList li:before, ul.voiceList li:after {
+	content:"";
+	display:table
+}
+ul.voiceList li:after { clear:both }
+ul.voiceList li { zoom:1 } /* For IE 6/7 */
+
+/*タイプ*/
+div.voiceType {
+	float: left;
+	width: 25%;
+}
+div.voiceType dl {
+	margin-top: 8px;
+}
+div.voiceType dt {
+	margin-top: 10px;
+	text-indent: -0.5em;
+}
+div.voiceType dt:first-child {
+	margin-top: 0;
+}
+div.voiceType dd {
+	margin-top: 2px;
+}
+
+/*コメント欄*/
+div.voiceComment {
+	float: right;
+	width: 72%;
+}
+div.voiceComment p {
+	font-size: 140%;
+	font-weight: bold;
+}
+div.voiceComment dl {
+	margin-top: 20px;
+}
+div.voiceComment dt {
+	margin-top: 25px;
+	text-indent: -0.5em;
+}
+div.voiceComment dt:first-child {
+	margin-top: 0;
+}
+div.voiceComment dd {
+	margin-top: 6px;
+}
+
+
+/*------------------------------
+フッター
+------------------------------*/
+#footer {
+	padding-bottom: 25px;
+}
+
+/*フッター左*/
+#footerLeft {
+	float: left;
+	width: 50%;
+}
+#footerLeft dl {
+	margin: 15px 40px 0;
+}
+#footerLeft dt {
+	font-weight: bold;
+	text-align: left;
+}
+#footerLeft dd {
+	margin-top: 4px;
+	text-align: left;
+}
+
+#footerLeft p {
+	margin: 16px 40px 0;
+	text-align: left;
+}
+#footerLeft p img, #footerLeft dl img {
+	width: 1em;
+}
+
+div.footerHomeBtn {
+	margin: 15px 40px 0;
+	text-align: left;
+}
+div.footerHomeBtn img {
+	width: 33.9%
+}
+
+/*フッター右*/
+#footerRight {
+	float: right;
+	width: 50%;
+}
+#footerRight p {
+	margin: 15px 40px 0;
+	font-size: 80%;
+	text-align: right;
+}
+div.copyright {
+	margin: 80px 20px 0;
+	text-align: right;
+}
+div.copyright img {
+	width: 50%;
+}
+
+a.backToTop {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 28px;
+}
+a.backToTopSp {
+	display: none;
+}
+
+/* =========================================================
+ *
+ * ====================================================== */
+a.pdfLink {
+	background: url('../images/icon_pdf.png') 0 3px no-repeat;
+	text-align: left;
+	padding-left:20px;
+
+}
+
+
+
+/* =========================================================
+ * レスポンシブ切り替え
+ * ====================================================== */
+@media only screen and (max-width: 480px) {
+/*-------------------------------------------------------------*/
+/* Media Queries
+/*-------------------------------------------------------------*/
+
+/*------------------------------
+全般
+------------------------------*/
+#top a {
+	margin-left: 10px;
+}
+#top img {
+	width: 25%;
+}
+#wrapper{
+	width: auto;
+	margin:0;
+	text-align: left;
+	border-radius: 0;
+}
+/*------------------------------
+自転車向け保険のプランでお悩みの方
+------------------------------*/
+#worriesLeft, #worriesRight {
+	width: 100%;
+}
+#worriesLeft {
+	float: none;
+	border-right: none;
+}
+#worriesRight {
+	margin-top: 18px;
+	float: none;
+}
+#worriesLeft div.worriesinner {
+	padding-right: 0%;
+}
+#worriesRight div.worriesinner {
+	padding-left: 0%;
+}
+
+
+/*------------------------------
+補償内容の違い
+------------------------------*/
+#compensationTable {
+	margin: 30px 2.02% 0;
+}
+div.row {
+	border-bottom: #666666 solid 1px;
+}
+/* ---------- 左カラム ---------- */
+div.leftCol {
+	float: none;
+	width: 100%;
+	padding-bottom: 10px;
+}
+#compensationTablePc div.leftCol {
+	padding-bottom: 0;
+}
+
+div.leftColimages {
+	text-align: center;
+}
+/* ---------- 右カラム ---------- */
+div.rightCol {
+	float: none;
+	width: 100%;
+	background: #dfe3ed;
+}
+
+
+/*補償内容*/
+#compensationTablePc .rightCol {
+	display: none;
+}
+/*PC時に表示されるヘッダーのサイズ調整*/
+#compensationTablePc div.leftCol {
+	width: 100%
+}
+#compensationTablePc div.rightCol {
+	display: none;
+}
+
+div.rightColHead {
+	display: block;
+}
+div.rightColHead:before, div.rightColHead:after {
+	content:"";
+	display:table
+}
+div.rightColHead:after { clear:both }
+div.rightColHead { zoom:1 } /* For IE 6/7 */
+
+
+div.rightCol div {
+	display: table;
+	width: 100%;
+}
+div.rightCol span {
+	display: table-cell;
+}
+div.rightCol .rightColHead span {
+	width: 50%;
+	border: #000 solid 1px;
+	border-bottom: #000 solid 8px;
+}
+div.rightCol .rightColHead span:nth-of-type(1) {
+	background-color: #f8e9f1;
+	border-color: #d36ca1;
+	border-left: none;
+}
+div.rightCol .rightColHead span:nth-of-type(2) {
+	background-color: #dfe3ed;
+	border-color: #2a4287;
+	border-right: none;
+}
+div.rightCol .rightColHead span img {
+	width: 100%;
+}
+
+div.rightColHead img {
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+span.trafficOption {
+	border-left: none;
+}
+
+/* ---------- 対象の障害 ---------- */
+div.firstCol {
+	float: none;
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 5px 0;
+	background-color: #f2f2f2;
+	border-bottom: #666 solid 1px;
+	border-right: none;
+	vertical-align: middle;
+}
+
+#accidentCol {
+	float: none;
+	width: 100%;
+}
+
+
+div.captionCol {
+	float: none;
+	width: 100%;
+}
+div.optionCol {
+	float: none;
+	width: 100%;
+}
+div.optionCol span {
+	display: block;
+	background: #dfe3ed;
+}
+
+
+div.optionCol div {
+	display: table;
+	width: 100%;
+}
+div.optionCol span {
+	display: table-cell;
+}
+div.optionCol .rightColHead span {
+	width: 50%;
+	border: #000 solid 1px;
+	border-bottom: #000 solid 8px;
+}
+div.optionCol .rightColHead span:nth-of-type(1) {
+	background-color: #f8e9f1;
+	border-color: #d36ca1;
+	border-left: none;
+}
+div.optionCol .rightColHead span:nth-of-type(2) {
+	background-color: #dfe3ed;
+	border-color: #2a4287;
+	border-right: none;
+}
+div.optionCol .rightColHead span img {
+	width: 100%;
+}
+
+/*搬送距離*/
+#distance div.colheading {
+	background: url(../images/compensation_img08.png) center 80% no-repeat;
+	background-size: 10%;
+}
+/*示談*/
+#privateSettlement div.leftColimages img {
+	width: 25%;
+}
+#compensationTerm div.leftCol {
+	height: 5em;
+	padding-bottom: 0;
+}
+
+/*------------------------------
+保険金額と保険料
+------------------------------*/
+div.costList dt, div.costList dt.costPcHeading {
+	clear: both;
+	display: block;
+	width: 53.15682%;
+	margin-top: 20px;
+}
+div.costList dd {
+	width: 46.8%;
+	margin-top: 20px;
+}
+div.costList dt.costPcHeading, div.costList dt.costPcHeading + dd {
+	margin-top: 0;
+}
+
+/*注意書き*/
+#costFeature img {
+	width: 90%;
+}
+
+/*補償内容と金額のテーブル*/
+.costTableSecond {
+	float: none;
+	margin-top: 30px;
+	border-top: #666 solid 1px;
+	border-left: #666 solid 1px;
+}
+.costTableSecond th.coverageTitle, .costTableSecond th.coverageCourse {
+	width: 50%;
+}
+.costTableSecond tbody th, .costTableSecond tbody td {
+	height: auto;
+}
+.costTableSecond tbody td {
+	width: auto;
+}
+
+/*Bronze*/
+#costBronze.costTableSecond {
+	margin-top: 0;
+}
+
+/*SPで表示*/
+#costSilver.costTableSecond th.coverageTitle, #costSilver.costTableSecond tbody th, #costGold.costTableSecond th.coverageTitle, #costGold.costTableSecond tbody th {
+	display: table-cell;
+}
+#costSilver.costTableSecond, #costGold.costTableSecond {
+	border-left: #666 solid 1px;
+}
+/*end　補償内容と金額のテーブル*/
+
+
+
+
+/*注意書き*/
+#costNotes {
+	font-size: 80%;
+}
+
+
+/*リンクボタンなど*/
+div.costLinkWrap li {
+	width: 100%;
+}
+li.entryTraffic {
+	float: none;
+	padding-right: 0;
+}
+li.entryBycle {
+	float: none;
+	margin-top: 10px;
+	padding-left: 0;
+}
+div.costLinkWrap p {
+	margin: 16px 20px 0;
+}
+
+/*------------------------------
+お客様の声
+------------------------------*/
+#voiceInner {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#voiceTraffic, #voiceBycle {
+	float: none;
+	width: 100%;
+	font-size: 80%;
+	font-weight: bold;
+	text-align: left;
+	line-height: 120%;
+}
+#voiceBycle {
+	margin-top: 20px;
+}
+#voiceTraffic ul, #voiceBycle ul {
+	padding-bottom: 10px;
+}
+
+/*タイプ*/
+div.voiceType {
+	float: left;
+	width: 35%;
+	font-size: 90%;
+}
+/*コメント欄*/
+div.voiceComment {
+	width: 62%;
+}
+div.voiceComment p {
+	font-size: 120%;
+}
+
+
+/*------------------------------
+フッター
+------------------------------*/
+#footer {
+	padding-bottom: 35px;
+}
+/*フッター左（上段）*/
+#footerLeft {
+	float: none;
+	width: 100%;
+}
+
+#footerLeft dl {
+	margin: 15px 20px 0;
+}
+#footerLeft p {
+	margin: 16px 20px 0;
+}
+
+div.footerHomeBtn {
+	margin: 15px 20px 0;
+}
+div.footerHomeBtn img {
+	width: 45%
+}
+
+/*フッター右（下段）*/
+#footerRight {
+	float: none;
+	width: 100%;
+}
+#footerRight p {
+	margin: 15px 10px 0;
+	text-align: right;
+}
+div.copyright {
+	margin: 10px 10px 0;
+	text-align: right;
+}
+div.copyright img {
+	width: 60%;
+}
+
+
+a.backToTop {
+	display: none;
+}
+
+a.backToTopSp {
+	display: block;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: auto;
+	padding: 5px;
+	background: #c76798;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.8;
+}
+a.backToTopSp:before {
+	content: ">";
+	display: inline-block;
+	margin-right: 2px;
+	font-weight: bold;
+	-webkit-transform: rotate(-90deg);
+	   -moz-transform: rotate(-90deg);
+	    -ms-transform: rotate(-90deg);
+	     -o-transform: rotate(-90deg);
+	        transform: rotate(-90deg);
+
+}
+
+/*-------------------------------------------------------------*/
+/* End Media Queries
+/*-------------------------------------------------------------*/
+}

@@ -1,0 +1,57 @@
+/* smart phone */
+
+.contain {
+    display: inline-block;
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    //margin: 5px;
+    width: 280px;
+    height: 100px;
+    //border: 1px solid #ccc;
+    background-size: contain;
+}
+
+.contain2 {
+    //border: 1px solid #d9d9d9;
+	display: block;
+	//margin-left: auto;
+	//margin-right: auto;
+    width: 290px;
+    height: 200px;
+    //border: 1px solid #fafafa;
+    //border: 1px solid #f9f9f9;
+    //border: 1px solid #990000;	/* ê‘ */
+    text-align: center;
+    vertical-align: middle ;
+}
+
+.contain2 ul {
+	text-align:left;
+	font-size:10pt;
+}
+
+.contain2 img {
+	//width: 280px;
+}
+
+
+#content_01 .tx_area_pet1 .cont_wrap {
+	margin: 5px;
+	padding: 10px;
+	margin-left: 1.0em;
+	width: 90%;
+}
+#content_01 .tx_area_pet1 .cont_wrap p {
+	font-size: 14px;
+	color: #3e3fb0;
+	text-indent: -0.5em;
+}
+
+#content_02 .tx_area .cont_wrap table.pet_not_hoken table.intxt td {
+	text-indent: -0.5em;
+}
+#content_02 .tx_area .cont_wrap table.pet_not_hoken table.intxt tr p{
+	margin-left: 0.5em;
+	//padding: 5px 0px 0px 0px;
+}

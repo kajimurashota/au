@@ -1,0 +1,253 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+ol, ul { list-style: none; }
+a:hover img.hoverImg { filter: alpha(opacity=70); opacity: 0.7; -moz-opacity: 0.7; }
+a img { border-style: none; }
+.clearfix:after { content: "."; display: block; height: 0; font-size: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+/* Hides from IE Mac */
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+.fs12 { font-size: 12px; }
+.fs14 { font-size: 14px; }
+.fs16 { font-size: 16px; }
+.fs18 { font-size: 18px; }
+.fs20 { font-size: 20px; }
+.fs24 { font-size: 24px; }
+.fs30 { font-size: 30px; }
+.orange { color: #eb5505; }
+.orange2 { color: #eb5505; }
+.gray { color: #858585; }
+.gray2 { color: #595858; }
+.bold { font-weight: bold; }
+.border-bottom { border-bottom: 2px solid #EA541C; }
+.mt10 { margin-top: 10px; }
+.mb10 { margin-bottom: 10px; }
+.text_center { text-align: center; }
+body { background-color: #FFFFFF!important; }
+h1 { width: 980px; margin: 0 auto; font-size: 10px; color: #858585; padding-top: 5px; }
+/**/
+#contents_wrapper { margin-top: 100px; }
+.pankuzu { max-width: 980px; margin: 0px auto; padding-left: 10px; padding-right: 10px; display: block; padding-top: 5px; }
+.bread_crumb { margin-top: 10px; }
+#page_contents { color: #000000; }
+/*メガメニュー追記*/
+
+
+
+.menu { position: relative; width: 100%; margin: 0 auto; }
+.menu > li { float: left; }
+.menu > li a { display: block; color: #fff; }
+.menu > li a:hover { color: #999; }
+ul.menu__second-level { visibility: hidden; opacity: 0; z-index: 100; max-width: 980px; }
+ul.menu__third-level { visibility: hidden; opacity: 0; }
+ul.menu__fourth-level { visibility: hidden; opacity: 0; }
+.menu > li:hover { -webkit-transition: all .5s; transition: all .5s; }
+.menu__third-level li { border-top: 1px solid #111; }
+.menu__second-level li a:hover { background: #111; }
+.menu__third-level li a:hover { background: #2a1f1f; }
+.menu__fourth-level li a:hover { background: #1d0f0f; }
+/* 下矢印 */
+.init-bottom:after { content: ''; display: inline-block; width: 6px; height: 6px; margin: 0 0 0 15px; border-right: 1px solid #fff; border-bottom: 1px solid #fff; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
+/* floatクリア */
+.menu:before, .menu:after { content: " "; display: table; }
+.menu:after { clear: both; }
+.menu {  *zoom: 1;
+}
+li.menu__mega { }
+li.menu__mega ul.menu__second-level { position: absolute; top: 77px; left: 0px; box-sizing: border-box; width: 100%; -webkit-transition: all .2s ease; transition: all .2s ease; z-index: 120; padding-top: 30px; margin: 0 -200%; padding-left: 200%; padding-right: 200%; background: url(../../common/img_20150623/pc/common/megamenu_bg.png) 0 27px repeat-x; }
+li.menu__mega ul.menu__second-level .sankaku { float: left; display: block; margin-top: -2.5%; margin-left: 30%; }
+li.menu__mega ul.menu__second-level #mega_contents { width: 980px; background: #ec5500; margin-left: -120px; padding: 2.5% 0 0 0; }
+li.menu__mega:hover ul.menu__second-level { top: 77px; visibility: visible; opacity: 1; }
+li.menu__mega ul.menu__second-level #mega_contents ul { padding-top: 2.5%; clear: both; }
+li.menu__mega ul.menu__second-level #mega_contents li.large { width: 42%; float: left; padding-right: 2%; }
+li.menu__mega ul.menu__second-level #mega_contents li { width: 14%; float: left; padding: 0; border: 0; }
+li.menu__mega ul.menu__second-level #mega_contents li a { padding: 0; display: block; border: 0; }
+li.menu__mega ul.menu__second-level #mega_contents .list_btn { width: 100%; clear: both; text-align: right; }
+li.menu__mega ul.menu__second-level #mega_contents .list_btn img { width: 12%; }
+/******* 保険金をお支払いできない場合　********/
+
+#insurance .maintitle_wrap { padding-bottom: 0px; padding-top: 0px; background: none!important; background-color: #eb5505!important; width: 100%; margin-top: 10px; margin-bottom: 50px; }
+#insurance .maintitle { max-width: 980px; margin: 0px auto; padding-top: 22px; padding-bottom: 22px; padding-left: 10px; padding-right: 10px; }
+#insurance .maintitle h2 { margin: 0px; }
+#insurance .top_title2 { font-size: 34px; text-align: center; font-weight: bold; color: #E6551E; padding-top: 10px; padding-bottom: 30px; }
+#insurance .top_title2 img { vertical-align: middle; margin-bottom: 5px; }
+#insurance .example { width: auto; max-width: 980px; margin: 0 auto; padding-left: 10px; padding-right: 10px; }
+#insurance .example ul { width: 100%; }
+#insurance .example li { width: 25%; float: left; border: solid 4px #EB541C; border-right: none; box-sizing: border-box; padding-top: 20px; padding-bottom: 10px; }
+#insurance .example li:nth-child(4n) { border-right: solid 4px #EB541C; }
+#insurance .example li .img { text-align: center; margin-bottom: 15px; width: 50%; margin: 0 auto 15px auto; }
+#insurance .example li .text { text-align: center; font-size: 16px; line-height: 1.3; }
+#insurance .example li .pt { padding-top: 10px; margin-bottom: 11px; }
+#insurance .table { max-width: 980px; margin: 0 auto; padding-left: 10px; padding-right: 10px; clear: both; padding-top: 50px; }
+#insurance .table .box { display: none; }
+#insurance .table table { width: 100%; border: solid 3px #E6551E; }
+#insurance .table table td { border: solid 1px #E6551E; padding: 1em 1.5em 0.5em 1.5em; font-size: 14px; }
+#insurance .table table td.left { background-color: #FDF5ED; font-weight: bold; width: 29%; }
+#insurance .table table ul { margin-left: 1em; }
+#insurance .table table ul li { text-indent: -1em; margin-bottom: 0.5em; }
+#insurance .btn { text-align: center; clear: both; padding-top: 40px; padding-bottom: 70px; }
+#insurance .btn a { text-align: center; background-color: #000; border-radius: 5px; padding: 0.5em 1em 0.5em 4em; color: #FFFFFF; font-size: 16px; display: inline-block; text-decoration: none; font-weight: bold; }
+#insurance .btn a:hover { filter: alpha(opacity=70); opacity: 0.7; -moz-opacity: 0.7; }
+/******* 健康状態の告知について　********/
+
+#kokuchi .maintitle_wrap { padding-bottom: 0px; padding-top: 0px; background: none!important; background-color: #eb5505!important; width: 100%; margin-top: 10px; margin-bottom: 50px; }
+#kokuchi .contents_inner { max-width: 980px; margin: 0px auto; padding-left: 10px; padding-right: 10px; padding-top: 0; padding-bottom: 0; }
+#kokuchi .maintitle { max-width: 980px; margin: 0px auto; padding-top: 22px; padding-bottom: 22px; padding-left: 10px; padding-right: 10px; }
+#kokuchi .maintitle h2 { margin: 0px; }
+#kokuchi .contents_inner .top_title2 { font-size: 34px; text-align: center; font-weight: bold; color: #E6551E; padding-top: 10px; padding-bottom: 30px; }
+#kokuchi .contents_inner .top_title2 img { vertical-align: middle; margin-top: 5px; margin-bottom: 10px; }
+#kokuchi .contents_inner .center { max-width: 980px; margin: 0 auto; padding-left: 10px; padding-right: 10px; background: url(../../common/img_20160128/pc/pet/kokuchi/bg01.gif) 0 0 repeat; padding: 0.5%; padding-top: 5px; padding-bottom: 5px; }
+#kokuchi .contents_inner .center .inner { background-color: #FFF8F3; padding-top: 20px; padding-bottom: 20px; }
+#kokuchi .contents_inner .center .text1 { float: left; font-size: 14px; width: 20%; text-align: right; margin-right: 1%; margin-top: 18px; font-weight: bold; }
+#kokuchi .contents_inner .center .tel { float: left; width: 36%; margin-right: 2%; }
+#kokuchi .contents_inner .center .text2 { float: left; font-size: 14px; width: 41%; margin-top: 30px; font-weight: bold; }
+#kokuchi .contents_inner .title { border-left: 12px solid #E7551C; font-size: 18px; font-weight: bold; padding-left: 20px; margin-top: 50px; margin-bottom: 24px; padding-top: 5px; padding-bottom: 5px; }
+#kokuchi .contents_inner ul { margin-left: 1em; padding-left: 32px; }
+#kokuchi .contents_inner li { text-indent: -1em; font-size: 16px; line-height: 1.6; margin: 20px 0; }
+#kokuchi .contents_inner li .notice { font-size: 14px; }
+#kokuchi .contents_inner li .notice a { color: #eb5505; }
+#kokuchi .contents_inner li .notice a:hover { text-decoration: none; }
+#kokuchi .contents_inner li .border_bottom { font-weight: bold; text-decoration: underline; }
+#kokuchi .btn { text-align: center; clear: both; padding-top: 40px; padding-bottom: 70px; }
+#kokuchi .btn a { text-align: center; background-color: #000; border-radius: 5px; padding: 0.5em 1em 0.5em 4em; color: #FFFFFF; font-size: 16px; display: inline-block; text-decoration: none; font-weight: bold; }
+#kokuchi .btn a:hover { filter: alpha(opacity=70); opacity: 0.7; -moz-opacity: 0.7; }
+/******* 保険開始日と待期期間　********/
+
+#kaishibi .maintitle_wrap { padding-bottom: 0px; padding-top: 0px; background: none!important; background-color: #eb5505!important; width: 100%; margin-top: 10px; margin-bottom: 50px; }
+#kaishibi .contents_inner { max-width: 980px; margin: 0px auto; padding-left: 10px; padding-right: 10px; padding-top: 0; padding-bottom: 0; }
+#kaishibi .maintitle { max-width: 980px; margin: 0px auto; padding-top: 22px; padding-bottom: 22px; padding-left: 10px; padding-right: 10px; }
+#kaishibi .maintitle h2 { margin: 0px; }
+#kaishibi .contents_inner .top_title2 { font-size: 34px; text-align: center; font-weight: bold; color: #E6551E; padding-top: 10px; padding-bottom: 30px; }
+#kaishibi .contents_inner .top_title2 img { vertical-align: middle; margin-bottom: 10px; }
+#kaishibi .title2 { max-width: 980px; margin: 0px auto; padding-left: 10px; padding-right: 10px; }
+#kaishibi .title2 p { background: url(../../common/img_20160128/pc/bycle/title_bg3.png) 0 0 no-repeat; background-size: contain; text-align: center; display: table-cell; height: 3em; font-size: 27px; font-weight: bold; vertical-align: middle; max-width: 50em; width: 980px; }
+#kaishibi .text1 { font-size: 16px; text-align: center; margin-bottom: 30px; margin-top: 30px; }
+#kaishibi .img01 { width: 89%; margin: 0 auto; margin-bottom: 65px; }
+#kaishibi .img01 .sp { display: none; }
+#kaishibi .text2 { font-size: 16px; text-align: center; margin-bottom: 15px; margin-top: 30px; }
+#kaishibi .notice { text-align: center; font-size: 14px; color: #E66641; }
+#kaishibi .img02 { width: 89%; margin: 0 auto; margin-bottom: 65px; margin-top: 30px; }
+#kaishibi .img02 .sp { display: none; }
+#kaishibi .btn { text-align: center; clear: both; padding-top: 40px; padding-bottom: 70px; }
+#kaishibi .btn a { text-align: center; background-color: #000; border-radius: 5px; padding: 0.5em 1em 0.5em 4em; color: #FFFFFF; font-size: 16px; display: inline-block; text-decoration: none; font-weight: bold; }
+#kaishibi .btn a:hover { filter: alpha(opacity=70); opacity: 0.7; -moz-opacity: 0.7; }
+/******* 保険開始日と待期期間　********/
+
+#payment .maintitle_wrap { padding-bottom: 0px; padding-top: 0px; background: none!important; background-color: #eb5505!important; width: 100%; margin-top: 10px; margin-bottom: 50px; }
+#payment .contents_inner { max-width: 980px; margin: 0px auto; padding-left: 10px; padding-right: 10px; padding-top: 0; padding-bottom: 0; }
+#payment .maintitle { max-width: 980px; margin: 0px auto; padding-top: 22px; padding-bottom: 22px; padding-left: 10px; padding-right: 10px; }
+#payment .maintitle h2 { margin: 0px; }
+#payment .contents_inner .top_title2 { font-size: 34px; text-align: center; font-weight: bold; color: #E6551E; padding-top: 10px; padding-bottom: 30px; }
+#payment .contents_inner .top_title2 img { margin-bottom: 5px; vertical-align: middle; }
+#payment .title2 { max-width: 980px; margin: 0px auto; padding-left: 10px; padding-right: 10px; margin-bottom: 42px; clear: both; }
+#payment .title2 p { background: url(../../common/img_20160128/pc/bycle/title_bg3.png) 0 0 no-repeat; background-size: contain; text-align: center; display: table-cell; height: 3em; font-size: 27px; font-weight: bold; vertical-align: middle; max-width: 50em; width: 980px; }
+#payment .step { background-color: #FDF5ED; padding-bottom: 30px; }
+#payment .step .title { background: url(../../common/img_20160128/pc/pet/payment/title_bg.gif) 0 0 no-repeat; background-size: cover; height: 65px; text-align: center; color: #FFF; font-size: 20px; position: relative; padding-top: 6px; }
+#payment .step .title p.text { font-weight: bold; width: 65%; margin: 0 auto; text-align: center; float: left; padding-top: 7px; }
+#payment .step .title .left { width: 17%; text-align: cetner; float: left; color: #eb5505; }
+#payment .step .title .left span { font-size: 26px; }
+#payment .step .img { width: 21%; float: left; margin-left: 6%; margin-right: 5%; padding-top: 5%; }
+#payment .step .nth1 { width: 21.5%; float: left; margin-left: 5%; margin-right: 5.5%; padding-top: 5%; }
+#payment .step .nth3 { width: 21%; float: left; margin-left: 6.5%; margin-right: 4.5%; padding-top: 5%; }
+#payment .step .nth4 { width: 21%; float: left; margin-left: 6%; margin-right: 5%; padding-top: 1%; }
+#payment .step .right { font-size: 16px; margin-top: 20px; width: 63%; float: left; }
+#payment .step .right p { margin-bottom: 10px; }
+#payment .step .right p span.number { font-size: 18px; font-weight: bold; }
+#payment .step .right .contact { margin-bottom: 20px; }
+#payment .step .right .contact a { text-align: center; background-color: #F48C26; border-radius: 5px; padding: 0.5em 2em 0.5em 2em; color: #FFFFFF; font-size: 16px; display: inline-block; text-decoration: none; font-weight: bold; }
+#payment .step .right .contact a:hover { filter: alpha(opacity=70); opacity: 0.7; -moz-opacity: 0.7; }
+#payment .step .right .contact img { margin-bottom: 3px; }
+#payment .arrow { width: 12%; margin: 0 auto; margin-top: 10px; margin-bottom: 22px; }
+#payment .step .right ul { margin-left: 2.5em; }
+#payment .step .right li { text-indent: -2.5em; margin-bottom: 10px; }
+#payment .title2_2 { max-width: 980px; margin: 0px auto; padding-left: 10px; padding-right: 10px; margin-bottom: 15px; margin-top: 100px; clear: both; }
+#payment .file { background-color: #F9F8F8; padding-top: 33px; padding-bottom: 33px; font-size: 16px; position: relative; }
+#payment .file .arrow2 { position: absolute; width: 10%; top: 289px; left: 43%; }
+#payment .file .left { width: 40%; background: url(../../common/img_20160128/pc/pet/payment/border.gif) right 0 repeat-y; float: left; padding-left: 5%; padding-right: 5%; }
+#payment .file .left .img { margin-bottom: 10px; }
+#payment .file ul.notice1 { margin-left: 1.7em; margin-top: 10px; margin-bottom: 10px; }
+#payment .file ul.notice1 li { text-indent: -1.7em; }
+#payment .file ul.notice2 { margin-left: 1em; /*margin-top:10px;*/
+margin-top: 25px; margin-bottom: 10px; }
+#payment .file ul.notice2 li { text-indent: -1em; }
+#payment .file .pdf { text-align: center; margin-bottom: 30px; }
+#payment .file .right .pdf { margin-top: 25px; }
+#payment .file .pdf a { color: #eb5505; }
+#payment .file .pdf img { max-width: 31px; margin-right: 1em; }
+#payment .file .right { width: 40%; float: left; padding-left: 5%; padding-right: 5%; }
+#payment .file .right .img { margin-bottom: 20px; }
+#payment .file .right .text1 { margin-top: 10px; margin-bottom: 10px; }
+#payment .address { border: solid 3px #F3CABA; background-color: #FDF5ED; box-sizing: border-box; text-align: center; padding-top: 20px; padding-bottom: 20px; font-size: 16px; }
+#payment .address .title { font-size: 18px; margin-bottom: 15px; font-weight: bold; }
+#payment .bottom ul { margin-left: 1em; margin-top: 15px; }
+#payment .bottom li { text-indent: -1em; font-size: 12px; }
+#payment .btn { text-align: center; clear: both; padding-top: 50px; padding-bottom: 70px; }
+#payment .btn a { text-align: center; background-color: #000; border-radius: 5px; padding: 0.5em 1em 0.5em 4em; color: #FFFFFF; font-size: 16px; display: inline-block; text-decoration: none; font-weight: bold; }
+#payment .btn a:hover { filter: alpha(opacity=70); opacity: 0.7; -moz-opacity: 0.7; }
+/******* ペットの特徴・事例　********/
+
+#pet_type .maintitle_wrap { padding-bottom: 0px; padding-top: 0px; background: none!important; background-color: #eb5505!important; width: 100%; margin-top: 10px; margin-bottom: 0px; }
+#pet_type .contents_inner { max-width: 980px; margin: 0px auto; padding-left: 10px; padding-right: 10px; }
+#pet_type .maintitle { max-width: 980px; margin: 0px auto; padding-top: 22px; padding-bottom: 22px; padding-left: 10px; padding-right: 10px; }
+#pet_type .maintitle h2 { margin: 0px; }
+#pet_type .top_title { background: url(../../common/img_20160128/pc/pet/toypoodle/maintitle_bg.gif) 0 0; }
+#pet_type .top_title p { font-size: 34px; text-align: center; font-weight: bold; color: #E6551E; padding-top: 40px; padding-bottom: 40px; }
+#pet_type .top_title img { max-width: 21px; margin-bottom: 5px; vertical-align: middle; }
+#pet_type .title2 { max-width: 980px; margin: 0px auto; padding-left: 10px; padding-right: 10px; margin-bottom: 32px; clear: both; }
+#pet_type .title2 p { background: url(../../common/img_20160128/pc/bycle/title_bg3.png) 0 0 no-repeat; background-size: contain; text-align: center; display: table-cell; height: 3em; font-size: 27px; font-weight: bold; vertical-align: middle; max-width: 50em; width: 980px; }
+#pet_type .main_wrap { background-color: #FDF5ED; padding-top: 32px; padding-bottom: 34px; margin-bottom: 45px; }
+#pet_type .main { max-width: 980px; margin: 0 auto; padding-left: 10px; padding-right: 10px; font-size: 16px; }
+#pet_type .main .mainimg_sp { display: none; }
+#pet_type .main .left { float: left; width: 29%; margin-right: 2%; }
+#pet_type .main .mainimg_pc { float: left; width: 36%; }
+#pet_type .main .right { float: right; width: 31%; }
+#pet_type .main .title { font-size: 20px; font-weight: bold; border-left: 12px solid; padding-left: 1em; padding-top: 3px; padding-bottom: 3px; margin-bottom: 15px; }
+#pet_type .main .text { margin-bottom: 30px; }
+#pet_type .contents_inner .text01 { text-align: center; font-size: 20px; }
+#pet_type .contents_inner .text01 span { font-size: 26px; }
+#pet_type .contents_inner .table { width: 52%; position: relative; }
+#pet_type .contents_inner .table_bottom { display: none; }
+#pet_type .contents_inner .table .img01 { position: absolute; width: 45%; right: -38%; top: 1%; }
+#pet_type .contents_inner .table .img02 { position: absolute; width: 91%; right: -85%; bottom: 0px; }
+#pet_type .contents_inner .table { border: solid 1px #FBDFD0; background-color: #F6F5EE; padding-top: 30px; padding-bottom: 30px; box-shadow: 0px 0px 3px rgba(0,0,0,0.3); margin-top: 40px; }
+#pet_type .contents_inner .table .title { font-size: 18px; text-align: center; font-weight: bold; margin-bottom: 10px; }
+#pet_type .contents_inner .table table { width: 85%; margin: 0 auto; border-bottom: 1px solid #E4E3E2; }
+#pet_type .contents_inner .table table th { border-top: 1px solid #E4E3E2; border-right: 1px solid #E4E3E2; border-bottom: 1px solid #E4E3E2; font-size: 14px; text-align: center; font-weight: normal; padding: 1em; }
+#pet_type .contents_inner .table table th.right { border-right: none; }
+#pet_type .contents_inner .table table td { border-right: 1px solid #E4E3E2; font-size: 14px; padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 1em; padding-right: 1em; }
+#pet_type .contents_inner .table table td.right { border-right: none; text-align: right; }
+#pet_type .contents_inner .table table td.price { background-color: #E7551C; color: #FFF; font-size: 27px; font-weight: bold; padding-top: 0.3em; padding-bottom: 0.2em; }
+#pet_type .contents_inner .table table td.price span { font-size: 19px; font-weight: normal; }
+#pet_type .contents_inner .table table td.bottom { border-top: 1px solid #E4E3E2; }
+#pet_type .contents_inner .table .notice { width: 85%; margin: 0 auto; margin-top: 10px; }
+#pet_type .contents_inner .table .notice ul { margin-left: 1em; }
+#pet_type .contents_inner .table .notice li { text-indent: -1em; font-size: 12px; }
+#pet_type .contents_inner .sp_arrow { display: none; }
+#pet_type .contents_inner .price2 { width: 35%; margin: 0 auto; margin-top: 50px; }
+#pet_type .contents_inner .arrow_shita { margin: 0 auto; background: url(../../common/img_20160128/pc/pet/toypoodle/arrow_shita_bg.png) 0 0 repeat-x; text-align: center; padding: 0 500%; margin: 0 -500%; margin-top: 50px; margin-bottom: 25px; width: 100%; }
+#pet_type .contents_inner .arrow_shita img { width: 20%; margin: 0 auto; }
+#pet_type .contents_inner .graph .title { font-size: 24px; text-align: center; font-weight: bold; }
+#pet_type .contents_inner .graph .notice1 { text-align: right; font-size: 12px; margin-bottom: 50px; }
+#pet_type .contents_inner .graph .leftbox { width: 47%; float: left; }
+#pet_type ul.bottom { margin-left: 1em; margin-bottom: 40px; }
+#pet_type ul.bottom li { text-indent: -1em!important; font-size: 16px; }
+#pet_type .btn { text-align: center; clear: both; padding-top: 40px; padding-bottom: 40px; }
+#pet_type .btn a { text-align: center; background-color: #000; border-radius: 5px; padding: 0.5em 1em 0.5em 4em; color: #FFFFFF; font-size: 16px; display: inline-block; text-decoration: none; font-weight: bold; }
+#pet_type .btn a:hover { filter: alpha(opacity=70); opacity: 0.7; -moz-opacity: 0.7; }
+
+
+
+.contents_inner { max-width: 980px; margin: 0 auto; padding-left: 10px; padding-right: 10px; }
+.lead { font-size: 24px; text-align: center; font-weight: bold; padding: 10px 0px 40px; color: #eb5400; }
+.box { box-sizing: border-box; border: solid 5px #eb5505; clear: both; margin-bottom: 30px; }
+.box .title { background: url(../../common/img_20160128/pc/pet/voice/title_bg.jpg) 0 0; padding: 15px 3% 20px; margin: 0 auto; }
+.box .title .img { float: left; margin: 10px; }
+.box .title p.text { width: 92%; font-size: 20px; color: #FFF; padding-top: 3px; float: left; }
+.box .title p.text span { font-size: 14px; color: #FFF; padding-top: 3px; float: right; }
+.box div.img { float: left; width: 19%; text-align: right; padding: 30px 20px; }
+.box div.right { float: right; width: 75%; padding: 30px 0px; }
+.box div.right .tel span { font-size: 14px; }
+.box div.right .notice { }
+.box div.right .notice ul { float: left; margin-left: 1em; margin-top: 10px; }
+.box div.right .notice li { font-size: 14px; padding-right: 30px; margin-bottom: 25px; }

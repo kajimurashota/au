@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* PC CSS Document */
+@import url("base.css");
+@import url("colorbox.css");
+
+#wrapper{}
+
+/*IMG SIZE SET*/
+h1 img{width:238px;height:115px;background-image:url("../img/pc/head_logo.png");}
+#customer img{width:273px;height:115px;background-image:url("../img/pc/head_txt.png");}
+#fvimage img{width:680px;height:420px;background-image:url("../img/pc/fv_main.png");}
+#fvtxt img{width:273px;height:134px;background-image:url("../img/pc/fv_txt.png");}
+#nav li img{width:133px;height:46px;}
+#nav li  a:hover{background-position:0 -60px;}
+#nav li.nbut1 a{background-image:url("../img/pc/fv_but_1.png");}
+#nav li.nbut2 a{background-image:url("../img/pc/fv_but_2.png");}
+#nav li.nbut3 a{background-image:url("../img/pc/fv_but_3.png");}
+#nav li.nbut4 a{background-image:url("../img/pc/fv_but_4.png");}
+dl#cm dt img{width:272px;height:22px;background-image:url("../img/pc/fv_sttl.png");}
+
+#se1 h2 img{width:844px;height:36px;}
+#se1-1 img{width:439px;height:329px;}
+#se1-2 img{width:405px;height:329px;}
+#se1 .stxt img{width:844px;height:132px;}
+#se2 h2 img{width:844px;height:36px;}
+#se2 h3 img{width:844px;height:80px;}
+#se2-2 img{width:844px;height:80px;}
+#se2-3 img{width:844px;height:80px;}
+#se2-4 img{width:844px;height:110px;}
+#se2 .stxt img{width:844px;height:133px;}
+#se3 h2 img{width:844px;height:36px;}
+#se3-1 img{width:908px;height:441px;}
+#se3-2 img{width:908px;height:717px;}
+#se3-3 img{width:844px;height:88px;}
+#se3 .stxt img{width:844px;height:133px;}
+#se4 h2 img{width:844px;height:36px;}
+#se4-1 img{width:844px;height:700px;}
+#se4 .stxt img{width:844px;height:133px;}
+#se5 h2 img{width:844px;height:36px;}
+#se5-1 img{width:844px;height:261px;}
+#se5 .stxt img{width:844px;height:133px;}
+#se6 h2 img{width:844px;height:36px;}
+#se6-1 img{width:844px;height:450px;}
+#se6-link img{width:626px;height:630px;}
+#se6 .stxt img{width:844px;height:133px;}
+#se7 h2 img{width:844px;height:36px;}
+#se7-1 img{width:844px;height:280px;}
+#se7-link img{width:182px;height:143px;}
+#se7-2 img{width:844px;height:71px;}
+#se7 .stxt img{width:844px;height:133px;}
+
+#footer dt img{width:160px;height:24px;}
+#footer dd img.ico-arr{width:14px;height:13px;}
+#footer dd img.ico-pdf{width:39px;height:16px;}
+#footer .pt img{width:88px;height:24px;}
+#footer #flogo img{width:186px;height:34px;}
+
+/*ALL*/
+
+a{color:#3F6798;}
+a:hover{color:#3399CC;}
+
+
+.but a{position: relative;display: block;overflow: hidden;}
+.but a img{position: absolute;left: 0;top: 0;}
+.but a:hover img{}
+
+.contact{position:relative;clear:both;text-align:center;}
+.butcon1{width:727px;margin:0 auto;}
+.butcon2{width:230px;margin:0 auto;}
+.butcon1 a{height:80px;}
+.butcon1 a:hover img{margin-top:-100px;}
+.butcon2 a{height:40px;}
+.butcon2 a:hover img{margin-top:-40px;}
+
+/**/
+body{background-image:url("../img/pc/bg_body.jpg");border-top:5px solid #D06EA1;}
+#wrapper{text-align:center;}
+#container{background-color:#fff;margin:-5px auto 0 auto;width:990px;text-align:left;min-height:100em;border-top:5px solid #D06EA1;}
+
+header{height:115px;}
+h1{float:left;width:700px;}
+#customer{froat:right;}
+
+#fvimage{height:420px;float:left;margin-right:10px;}
+#fvtxt{margin:0;}
+#nav ul{margin:7px 0 0 0}
+#nav li{list-style-type:none;position:relative;float:left;margin-left:9px;margin-bottom:5px;}
+#nav li.but a{width:132px;height:50px;}
+#nav li.but a:hover img{margin-top:-60px;}
+
+#fv dl{text-align:right;margin-right:18px;}
+#fv dd{}
+#fv .contact{clear:both;width:990px;padding-top:20px;}
+
+#main{text-align:center;}
+#main section{width:844px;margin:70px auto;text-align:left;}
+#main section .stxt{margin:0;}
+#main section .stxt img{}
+#main .contact{width:844px;}
+
+#se1-1{float:left;}
+#se1-2{float:right;}
+#se3 p{margin-bottom:0;}
+#se3-1{width:908px;margin-left:-64px;}
+#se3-2{width:908px;margin-left:-64px;}
+#se3-2 area{border:1px solid red;}
+#se6-link{text-align:center;}
+#se6-link p{width:626px;margin:0 auto;}
+#se6-link a{width:626px;height:298px;}
+#se6-link a:hover img{margin-top:-310px;}
+#se7-link{text-align:center;}
+#se7-link a{width:181px;height:51px;margin:0 auto;}
+#se7-link a:hover img{margin-top:-70px;}
+
+#footer{background-image:url("../img/pc/foot_1.png");background-position:0 0;background-repeat:no-repeat;padding:75px;}
+dl#ftxt dd{margin-bottom:10px;}
+#flogo{float:right;}
+.pt{position:fixed;right:0;bottom:0;}

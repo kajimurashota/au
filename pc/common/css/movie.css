@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* -------------------------------------------------- */
+/*     　　     　   　　基本CSS                       */
+/* -------------------------------------------------- */
+/* 目次----------------------------------------------
+■ムービー枠
+
+----------------------------------------------------- */
+
+/*　------ ムービー枠 ------　*/
+
+#movie_contents {
+width:950px;
+clear:both;
+}
+
+#movie_layout {
+width:900px;
+margin:0px auto;
+}
+
+#movie_under {
+width:820px;
+margin:0px auto;
+}
+
+.movie_under_l {
+width:420px;
+float:left;
+}
+
+.movie_under_r {
+padding-left:10px;
+float:left;
+}
+
+#movie_attention {
+width:950px;
+margin:0px auto;
+border:1px
+font-size:14px;
+}
+
+/* 110722 */
+#movie_under_box {
+	border: 1px dotted #333;
+	font-size: 1.4em;
+	line-height: 1.5;
+	padding: 20px;
+	margin: 0 30px 20px;
+}
+
+.movie_under_desc {
+	padding: 0 0 0 1em;
+}

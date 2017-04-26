@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr" xmlns:og="http://ogp.me/ns#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="format-detection" content="telephone=no">
+<title>Bycle Best 保険料一覧</title>
+<script type="text/javascript" src="../common/js/campcd.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="../common/js/checkCookie.js"></script>
+<script type="text/javascript" src="../common/js/jquery.aute.extend.js"></script>
+<script type="text/javascript" src="../common/js/switchview.js"></script>
+<script type="text/javascript" src="../common/js/scrollshift.js"></script>
+<script type="text/javascript" src="../common/js/slider.js"></script>
+<script type="text/javascript" src="../common/js/header.js"></script>
+<script type="text/javascript" src="../common/js/back_top.js"></script>
+<script type="text/javascript" src="../common/js/rollover.js"></script>
+<script type="text/javascript" src="../common/js/header-footer_include.js"></script>
+<script type="text/javascript">
+$.SwitchView();
+</script>
+
+<!--[dwscript]-->
+<script type="text/javascript" src="../common_aute/js/stickyfloat.min20150706.js"></script>
+<script type="text/javascript" src="../common_aute/js/jquery.autoHeight20150706.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../common_aute/js/PIE_IE678_20150706.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../common_aute/js/script20150706.js"></script>
+
+<!--[webfonts]-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<!--[CSS]-->
+<link type="text/css" href="../common/css/reset.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/module.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/base.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/layout.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/parts.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/page.css" rel="stylesheet" />
+<link type="text/css" href="../common/css/byclebest.css" rel="stylesheet" />
+
+<!--スマホ・PC 切り替え-->
+<script type="text/javascript" src="../common/js/sp_switch.js"></script>
+<script>
+    //読み込みCSS 設定
+    var sp_css_1 = "../common/css/style.css";
+    var sp_css_2 = "../common/css/layout_sp.css";
+    var sp_css_3 = "../common/css/base_sp.css";
+    var sp_css_4 = "../common/css/parts_sp.css";
+    var sp_css_5 = "../common/css/page_sp.css";
+    var sp_css_6 = "../common/css/byclebest_sp.css";
+
+    //SPに変更
+    function change_script_sp(){
+        if(mode == "PC"){
+            //JS
+            $.getScript("../common_aute/js/script_sp.js");
+            //CSS
+            $("#sp_css_1").attr("href",sp_css_1);
+            $("#sp_css_2").attr("href",sp_css_2);
+            $("#sp_css_3").attr("href",sp_css_3);
+            $("#sp_css_4").attr("href",sp_css_4);
+            $("#sp_css_5").attr("href",sp_css_5);
+            $("#sp_css_6").attr("href",sp_css_6);
+            mode = "SP";
+        }
+    }
+    //PCに変更
+    function change_script_pc(){
+        if(mode == "SP"){
+            //JS
+            $.getScript("../common_aute/js/kairyo.js");
+            $.getScript("../common_aute/js/yuga.js");
+            //CSS
+            $("#sp_css_1").attr("href","");
+            $("#sp_css_2").attr("href","");
+            $("#sp_css_3").attr("href","");
+            $("#sp_css_4").attr("href","");
+            $("#sp_css_5").attr("href","");
+            $("#sp_css_6").attr("href","");
+            mode = "PC";
+        }
+    }
+</script>
+<!--CSS スマホ用（JSで読み込み・初期値はNULL）　-->
+<link id="sp_css_1" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_2" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_3" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_4" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_5" type="text/css" href="" rel="stylesheet" />
+<link id="sp_css_6" type="text/css" href="" rel="stylesheet" />
+<link rel="shortcut icon" type="image/x-icon" href="/pc/common/img/share/favicon/favicon.ico" />
+
+
+
+
+
+
+</head>
+
+<body>
+
+	<div id="contents_wrapper" style="margin-top:30px;">
+		<div id="page_contents">
+
+        <div id="price" class="table_bg" style="background:none;">
+        	<div class="table">
+              <div class="title"><p>Bycle Best 保険料一覧</p></div>
+                <div class="text03 clearfix">
+<span class="fs18 bold">各タイプ・コースごとの保険料は、保険期間、払込方法により下表のとおりです。</span>
+  <br />
+<p><span class="orange"> 2年契約なら</span>、1年契約（一時払）と比べて保険料が<span class="orange large">約10％</span>お得！</span></p>
+
+  <span class="notice">注）保険料改定がなかった場合</span></div>
+  
+              <table class="table2" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td colspan="2" align="center" class="bg01">保険期間<br />
+                        (払込方法)</td>
+                      <td class="brown">ブロンズコース</td>
+                      <td class="silver">シルバーコース</td>
+                      <td class="gold">ゴールドコース</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" align="left" valign="middle" class="vertical"><p>本人タイプ</p></td>
+                      <td align="left" valign="middle" class="left">保険期間 1年<br />
+                        (月払）</td>
+                      <td valign="middle" class="bg_brown">880円</td>
+                      <td class="bg_silver">1,500円</td>
+                      <td class="bg_gold">2,140円</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="middle" class="left">保険期間 1年<br />
+                        (一時払）</td>
+                      <td class="bg_brown">9,660円</td>
+                      <td class="bg_silver">16,470円</td>
+                      <td class="bg_gold">23,350円</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="middle" class="left">保険期間 2年<br />
+                        (一時払）※</td>
+                      <td class="bg_brown">17,430円</td>
+                      <td class="bg_silver">29,710円</td>
+                      <td class="bg_gold">42,060円</td>
+                    </tr>
+                    
+                    <tr>
+                      <td rowspan="3" align="left" valign="middle" class="vertical"><p>家族タイプ</p></td>
+                      <td align="left" valign="middle" class="left">保険期間 1年<br />
+                        (月払）</td>
+                      <td valign="middle" class="bg_brown">3,000円</td>
+                      <td class="bg_silver">5,320円</td>
+                      <td class="bg_gold">6,850円</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="middle" class="left">保険期間 1年<br />
+                        (一時払）</td>
+                      <td class="bg_brown">32,710円</td>
+                      <td class="bg_silver">58,200円</td>
+                      <td class="bg_gold">74,920円</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="middle" class="left">保険期間 2年<br />
+                        (一時払）※</td>
+                      <td class="bg_brown">58,950円</td>
+                      <td class="bg_silver">104,850円</td>
+                      <td class="bg_gold">134,950円</td>
+                    </tr>
+                    
+                    <tr>
+                      <td rowspan="3" align="left" valign="middle" class="vertical"><p>本人<br />・親族タイプ</p></td>
+                      <td align="left" valign="middle" class="left">保険期間 1年<br />
+                        (月払）</td>
+                      <td valign="middle" class="bg_brown">2,380円</td>
+                      <td class="bg_silver">4,170円</td>
+                      <td class="bg_gold">5,400円</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="middle" class="left">保険期間 1年<br />
+                        (一時払）</td>
+                      <td class="bg_brown">25,960円</td>
+                      <td class="bg_silver">45,590円</td>
+                      <td class="bg_gold">59,050円</td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="middle" class="left">保険期間 2年<br />
+                        (一時払）※</td>
+                      <td class="bg_brown">46,770円</td>
+                      <td class="bg_silver">82,120円</td>
+                      <td class="bg_gold">106,350円</td>
+                    </tr>
+                    
+              </table>
+                
+                <p class="fs12 gray mt10">※2年契約は一時払のみになります。</p><br /><br /><br /><br /><br />
+	<!-- フロートエリア対応-->
+	<div id="floteArea"> <a href="javascript:void(0);" onClick="window.close(); return false;">
+		<div class="close_float" style="height: 50.5px; padding: 0px;"><p style="padding-top: 15px; line-height: 22.5px; font-weight: bold; text-align: center; font-size: 24px;">×&nbsp;閉じる</p></div>
+	</a> </div>
+	<!-- フロートエリア対応 -->
+          </div><!--/table-->
+        </div><!--/table_bg-->
+        
+        </div>
+        </div>
+
+</body>
+</html>
