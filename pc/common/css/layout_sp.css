@@ -557,149 +557,60 @@ display:block;
   height:55px;
   box-sizing:border-box;
  }
-.bycle .apply_btn {
+.apply_btn {
     padding-top: 0;
     padding-bottom: 0;
-    height: 55px;
-    background-color: #ea5504;
+    height: 80px!important;
+	background-color:rgba(104,103,104,0.8)!important;
 	color:#FFF;
 }
-.bycle .apply_btn a{
+.apply_btn a{
 	color:#FFF!important;
+	border:solid 3px #b0ecb7;
+	border-radius:10px;
+	width:90%;
+	margin:0 auto;
+	display:block;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #4dd85e), color-stop(1.00, #0bb31f));
+background: -webkit-linear-gradient(#4dd85e, #0bb31f);
+background: -moz-linear-gradient(#4dd85e, #0bb31f);
+background: -o-linear-gradient(#4dd85e, #0bb31f);
+background: -ms-linear-gradient(#4dd85e, #0bb31f);
+background: linear-gradient(#4dd85e, #0bb31f);
+	margin-top:10px;
+	padding-bottom:5px!important;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.4); 
 }
 
-.byclebest .apply_btn {
-    padding-top: 0;
-    padding-bottom: 0;
-    height: 59px;
-    background-color: #294284;
-	color:#FFF;
-}
-.byclebest .apply_btn a{
-	color:#FFF!important;
-}
+
 .apply_btn a > div {
-    height: 34px;
+    height: 48px!important;
     margin: 0;
     padding-bottom: 0;
-    padding-top: 13px;
+    padding-top: 0px!important;
+	padding-bottom:0px!important;
+	display:table-cell!important;
+	vertical-align:middle!important;
     padding-left: 0;
+	text-align:center;
+	width:100em;
+	line-height:1.2;
+	padding-right:1.5em;
 }
-.byclebest .apply_btn a > div {
-    height: 31px;
-    margin: 0;
-    padding-bottom: 0;
-    padding-top: 6px;
-    padding-left: 0;
-}
-.sports .apply_btn a > div {
-    height: 31px;
-    margin: 0;
-    padding-bottom: 0;
-    padding-top: 6px;
-    padding-left: 0;
-}
-.koutsuujiko .apply_btn a > div {
-    height: 31px;
-    margin: 0;
-    padding-bottom: 0;
-    padding-top: 6px;
-    padding-left: 0;
+.itemBicycle-s .apply_btn{
+    height: 90px!important;
 }
 .pet .apply_btn a{
 	color:#FFF!important;
 }
-.pet .apply_btn a > div {
-    height: 31px;
-    margin: 0;
-    padding-bottom: 0;
-    padding-top: 6px;
-    padding-left: 0;
-}
-.pet_nashi .apply_btn a > div {
-    height: 31px;
-    margin: 0;
-    padding-bottom: 0;
-    padding-top: 6px;
-    padding-left: 0;
-}
-.bycle-s .apply_btn a > div {
-    height: 31px;
-    margin: 0;
-    padding-bottom: 0;
-    padding-top: 0px;
-    padding-left: 0;
-	text-indent:-0.5em;
-}
 .apply_btn a > div:after {
 	content:"〉";
 	position:absolute;
-	right:10px;
-	top:16px;
+	right:20px;
+	top:29px;
 }
-.bycle-s .apply_btn a > div:after {
-	content:"〉";
-	position:absolute;
-	right:15px;
-	top:40px;
-}
-.golf .apply_btn {
-    padding-top: 3px;
-    padding-bottom: 0;
-    height: 55px;
-    background-color: #42ac19;
-}
-.kokunai .apply_btn {
-    padding-top: 3px;
-    padding-bottom: 0;
-    height: 55px;
-    background-color: #42ac19;
-}
-.sports .apply_btn {
-    padding-top: 0;
-    padding-bottom: 0;
-    height: 55px;
-    background-color: #42ac19;
-}
-.koutsuujiko .apply_btn {
-    padding-top: 0;
-    padding-bottom: 0;
-    height: 55px;
-    background-color: #42ac19;
-}
-.kaigai .apply_btn {
-    padding-top: 3px;
-    padding-bottom: 0;
-    height: 59px;
-    background-color: #42ac19;
-}
-.pet .apply_btn {
-    padding-top: 0;
-    padding-bottom: 0;
-    height: 55px;
-    background-color: #ea5504;
-}
-.pet_nashi .apply_btn {
-    padding-top: 0;
-    padding-bottom: 0;
-    height: 55px;
-    background-color: #51add6;
-}
-.bycle-s .apply_btn {
-    padding-top: 0;
-    padding-bottom: 0;
-    height: 100px;
-    background-color: #f5d91b;
-	text-align:left;
-	padding:10px;
-	padding-top:5px;
-	padding-left:20px;
-  border:solid 2px #000;
-}
-
-.bycle-s .apply_btn a{
-	color:#000;
-	font-size:18px!important;
+.itemBicycle-s .apply_btn a > div:after {
+	top:35px;
 }
 .apply_btn a{
     font-size: 15px!important;
@@ -806,7 +717,7 @@ display:block;
 	filter:alpha(opacity=100);
   }
   .applybtn_ari .scroll{
-             bottom: 55px;
+             bottom: 87px;
   }
   .itemBicycle-s.applybtn_ari .scroll{
 	  bottom:100px;
@@ -824,9 +735,9 @@ display:block;
 	filter:alpha(opacity=100);
   }
   .applybtn_ari .fixed{
-             bottom: 132px;
+             bottom: 164px;
   }
   .itemBicycle-s.applybtn_ari .fixed{
-             bottom: 177px;
+             bottom: 174px;
   }
   
