@@ -584,10 +584,10 @@ background: linear-gradient(#4dd85e, #0bb31f);
 
 
 .apply_btn a > div {
-    height: 48px!important;
+    height: 44px!important;
     margin: 0;
     padding-bottom: 0;
-    padding-top: 0px!important;
+    padding-top: 4px!important;
 	padding-bottom:0px!important;
 	display:table-cell!important;
 	vertical-align:middle!important;
@@ -600,6 +600,9 @@ background: linear-gradient(#4dd85e, #0bb31f);
 .itemBicycle-s .apply_btn{
     height: 90px!important;
 }
+.itemBicycle-s .apply_btn a > div{
+    padding-top: 0px!important;
+}
 .pet .apply_btn a{
 	color:#FFF!important;
 }
@@ -607,7 +610,7 @@ background: linear-gradient(#4dd85e, #0bb31f);
 	content:"〉";
 	position:absolute;
 	right:20px;
-	top:29px;
+	top:31px;
 }
 .itemBicycle-s .apply_btn a > div:after {
 	top:35px;
